@@ -12,12 +12,12 @@
       <a href="{{ .Permalink }}">{{ .Title }}</a>
       <span class="breadcrumb__sep" aria-hidden="true">›</span>
       {{ end }}
-      <span aria-current="page">{{ .Title | truncate 50 }}</span>
+      <span aria-current="page">{{ .Title | replaceRE `\s*\|.*$` "" | truncate 50 }}</span>
     </nav>
     <div class="page-hero__inner">
       <div class="page-hero__text">
         <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Industrieofen{{ else }}Industrial Furnace{{ end }}</p>
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
         <div class="page-hero__meta">
           {{ with $p.specs.temp_range }}
           <span class="spec-pill"><strong>{{ if eq $lang "de" }}Temperatur{{ else }}Temp.{{ end }}</strong> {{ . }}</span>
@@ -116,7 +116,7 @@
         <div class="sidebar-card" style="background:var(--col-graphite);color:#fff;border-color:var(--col-graphite)">
           <h3 style="color:#fff;">{{ if eq $lang "de" }}Ofen konfigurieren{{ else }}Configure Furnace{{ end }}</h3>
           <p style="color:rgba(255,255,255,.65);">{{ if eq $lang "de" }}Beschreiben Sie Ihre Anforderungen – wir bauen Ihren Ofen nach Maß.{{ else }}Describe your requirements – we build your furnace to measure.{{ end }}</p>
-          <a href="{{ if eq $lang "de" }}/de/industrieoefen/ofenprojekt/{{ else }}/en/industrial-furnaces/your-furnace-project/{{ end }}" class="btn btn--primary" style="width:100%;justify-content:center;">
+          <a href="{{ if eq $lang "de" }}/industrieoefen/ofenprojekt/{{ else }}/en/industrial-furnaces/your-furnace-project/{{ end }}" class="btn btn--primary" style="width:100%;justify-content:center;">
             {{ if eq $lang "de" }}Ofenprojekt starten{{ else }}Start Project{{ end }}
           </a>
         </div>

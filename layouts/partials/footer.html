@@ -24,13 +24,13 @@
           <h3>{{ if eq $lang "de" }}Produkte{{ else }}Products{{ end }}</h3>
           <ul>
             {{ if eq $lang "de" }}
-            <li><a href="/de/industrieoefen/">Industrieöfen</a></li>
-            <li><a href="/de/industrieoefen/herdwagenoefen-iwo/">Herdwagenöfen IWO</a></li>
-            <li><a href="/de/industrieoefen/kammeroefen-ico/">Kammeröfen ICO</a></li>
-            <li><a href="/de/industrieoefen/rohroefen-th1/">Rohröfen TH1</a></li>
-            <li><a href="/de/umweltsimulation/">Klimaprüfkammern</a></li>
-            <li><a href="/de/trocknungssysteme/">Trocknungssysteme</a></li>
-            <li><a href="/de/pyrolyseoefen/">Pyrolyseöfen</a></li>
+            <li><a href="/industrieoefen/">Industrieöfen</a></li>
+            <li><a href="/industrieoefen/herdwagenoefen-iwo/">Herdwagenöfen IWO</a></li>
+            <li><a href="/industrieoefen/kammeroefen-ico/">Kammeröfen ICO</a></li>
+            <li><a href="/industrieoefen/rohroefen-th1/">Rohröfen TH1</a></li>
+            <li><a href="/umweltsimulation/">Klimaprüfkammern</a></li>
+            <li><a href="/trocknungssysteme/">Trocknungssysteme</a></li>
+            <li><a href="/pyrolyseoefen/">Pyrolyseöfen</a></li>
             {{ else }}
             <li><a href="/en/industrial-furnaces/">Industrial Furnaces</a></li>
             <li><a href="/en/industrial-furnaces/bogie-hearth-iwo/">Bogie Hearth IWO</a></li>
@@ -47,12 +47,12 @@
           <h3>{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</h3>
           <ul>
             {{ if eq $lang "de" }}
-            <li><a href="/de/services/">Serviceleistungen</a></li>
-            <li><a href="/de/services/wartung/">Wartung & DGUV-3</a></li>
-            <li><a href="/de/services/modernisierung/">Modernisierung</a></li>
-            <li><a href="/de/industrieoefen/ofenprojekt/">Ofenprojekt starten</a></li>
-            <li><a href="/de/kontakt/ueber-uns/">Über uns</a></li>
-            <li><a href="/de/kontakt/">Kontakt</a></li>
+            <li><a href="/services/">Serviceleistungen</a></li>
+            <li><a href="/services/wartung/">Wartung & DGUV-3</a></li>
+            <li><a href="/services/modernisierung/">Modernisierung</a></li>
+            <li><a href="/industrieoefen/ofenprojekt/">Ofenprojekt starten</a></li>
+            <li><a href="/kontakt/ueber-uns/">Über uns</a></li>
+            <li><a href="/kontakt/">Kontakt</a></li>
             {{ else }}
             <li><a href="/en/services/">All Services</a></li>
             <li><a href="/en/services/maintenance/">Maintenance & DGUV-3</a></li>
@@ -72,7 +72,7 @@
             <p><a href="tel:+4915233626998">+49 1523 3626998</a></p>
             <p><a href="mailto:info@nth-therm.com">info@nth-therm.com</a></p>
           </address>
-          <a href="{{ if eq $lang "de" }}/de/kontakt/{{ else }}/en/contact/{{ end }}" class="btn btn--outline btn--sm">
+          <a href="{{ if eq $lang "de" }}/kontakt/{{ else }}/en/contact/{{ end }}" class="btn btn--outline btn--sm">
             {{ if eq $lang "de" }}Jetzt anfragen{{ else }}Get in Touch{{ end }}
           </a>
         </div>
@@ -85,8 +85,8 @@
     <div class="container">
       <p class="copyright">© {{ now.Year }} NTH Therm GmbH. {{ if eq $lang "de" }}Alle Rechte vorbehalten.{{ else }}All rights reserved.{{ end }}</p>
       <nav aria-label="{{ if eq $lang "de" }}Rechtliche Links{{ else }}Legal Links{{ end }}">
-        <a href="{{ if eq $lang "de" }}/de/impressum/{{ else }}/en/imprint/{{ end }}">{{ if eq $lang "de" }}Impressum{{ else }}Imprint{{ end }}</a>
-        <a href="{{ if eq $lang "de" }}/de/datenschutz/{{ else }}/en/privacy/{{ end }}">{{ if eq $lang "de" }}Datenschutz{{ else }}Privacy{{ end }}</a>
+        <a href="{{ if eq $lang "de" }}/impressum/{{ else }}/en/imprint/{{ end }}">{{ if eq $lang "de" }}Impressum{{ else }}Imprint{{ end }}</a>
+        <a href="{{ if eq $lang "de" }}/datenschutz/{{ else }}/en/privacy/{{ end }}">{{ if eq $lang "de" }}Datenschutz{{ else }}Privacy{{ end }}</a>
       </nav>
     </div>
   </div>

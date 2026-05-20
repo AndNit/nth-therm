@@ -6,7 +6,7 @@
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
       <span class="breadcrumb__sep">›</span>
-      <a href="{{ if eq $lang "de" }}/de/services/{{ else }}/en/services/{{ end }}">{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</a>
+      <a href="{{ if eq $lang "de" }}/services/{{ else }}/en/services/{{ end }}">{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</a>
       <span class="breadcrumb__sep">›</span>
       <span>{{ .Title | truncate 40 }}</span>
     </nav>

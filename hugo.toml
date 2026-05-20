@@ -1,5 +1,7 @@
 baseURL = "https://nth-therm.com/"
 title = "NTH Therm – Industrieöfen nach Maß | Made in Germany"
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 enableGitInfo = false
 summaryLength = 70

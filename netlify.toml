@@ -6,14 +6,7 @@
   HUGO_VERSION = "0.126.0"
   HUGO_ENV     = "production"
 
-# Redirects
-[[redirects]]
-  from = "/"
-  to   = "/de/"
-  status = 302
-  force = false
-  conditions = {Language = ["de"]}
-
+# Language redirect: EN browsers go to /en/
 [[redirects]]
   from = "/"
   to   = "/en/"
@@ -21,10 +14,17 @@
   force = false
   conditions = {Language = ["en"]}
 
+# Legacy /de/ prefix → root DE URLs
+[[redirects]]
+  from = "/de/*"
+  to   = "/:splat"
+  status = 301
+  force = false
+
 # Redirect old Joomla URLs → new clean URLs
 [[redirects]]
   from = "/trocknungssysteme/drymatic-ii"
-  to   = "/de/trocknungssysteme/drymatic-ii/"
+  to   = "/trocknungssysteme/drymatic-ii/"
   status = 301
 
 [[redirects]]
@@ -40,11 +40,6 @@
 [[redirects]]
   from = "/en/pyrolyseoefen"
   to   = "/en/pyrolysis-furnaces/"
-  status = 301
-
-[[redirects]]
-  from = "/kontakt"
-  to   = "/de/kontakt/"
   status = 301
 
 [[redirects]]
