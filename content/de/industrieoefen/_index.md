@@ -9,9 +9,10 @@ weight: 10
 intro: "Von der Einzelanlage bis zur vollautomatischen Serienfertigung – wir fertigen den passenden Industrieofen für Ihre Anwendung. Alle Öfen werden in Europa konstruiert und nach Maß gebaut."
 cta_banner:
   headline: "Kennen Sie Ihre Anforderungen noch nicht genau?"
-  text: "Kein Problem. Unser Konfigurator hilft Ihnen in 5 Minuten, die richtige Lösung zu finden."
+  text: "Kein Problem. Unser Konfigurator führt Sie in 6 Schritten zum individuellen Angebot."
   cta: "Ofenprojekt starten"
   url: "/industrieoefen/ofenprojekt/"
+  image: "/images/ofenprojekt.jpg"
 ---
 
 ## Industrieöfen für jeden Anwendungsfall

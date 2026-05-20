@@ -116,7 +116,7 @@ strong { font-weight: 600; }
 }
 .site-header__logo { flex-shrink: 0; }
 .site-header__logo svg text { fill: var(--col-graphite); }
-.site-header__logo-img { height: 44px; width: auto; display: block; }
+.site-header__logo-img { height: 32px; width: auto; display: block; }
 
 /* ── Primary Nav ────────────────────────────────────────── */
 .primary-nav { margin-left: auto; }
@@ -336,6 +336,80 @@ strong { font-weight: 600; }
 }
 .cta-banner h2 { color: var(--col-white); margin-bottom: .25em; font-size: clamp(1.4rem, 3vw, 2rem); }
 .cta-banner p { color: rgba(255,255,255,.85); margin-bottom: 0; max-width: 50ch; }
+
+.cta-banner--featured {
+  padding: 0; align-items: stretch; flex-wrap: nowrap; overflow: hidden;
+}
+.cta-banner__img { flex: 0 0 300px; overflow: hidden; }
+.cta-banner__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cta-banner__body {
+  flex: 1; padding: var(--space-xl);
+  display: flex; flex-direction: column; justify-content: center; gap: var(--space-md);
+}
+.cta-banner--featured h2 { margin-bottom: 0; }
+.cta-banner--featured .btn { align-self: flex-start; }
+
+/* ── Wizard (multi-step form) ───────────────────────────── */
+.wizard-progress {
+  display: flex; margin-bottom: 2.5rem;
+  position: relative;
+}
+.wizard-progress::before {
+  content: ''; position: absolute;
+  top: 15px; left: 0; right: 0; height: 2px;
+  background: var(--col-border); z-index: 0;
+}
+.wizard-step { flex: 1; text-align: center; position: relative; z-index: 1; }
+.wizard-step__dot {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--col-border); color: var(--col-mid);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto .45em;
+  font-family: var(--font-display); font-size: .85rem; font-weight: 700;
+  transition: background var(--transition), color var(--transition), box-shadow var(--transition);
+}
+.wizard-step__label {
+  font-family: var(--font-display); font-size: .7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .08em; color: var(--col-silver);
+  transition: color var(--transition);
+}
+.wizard-step.active .wizard-step__dot {
+  background: var(--col-red); color: var(--col-white);
+  box-shadow: 0 0 0 4px rgba(230,48,18,.15);
+}
+.wizard-step.active .wizard-step__label { color: var(--col-red); }
+.wizard-step.done .wizard-step__dot { background: var(--col-graphite); color: var(--col-white); }
+.wizard-step.done .wizard-step__label { color: var(--col-graphite); }
+.wizard-panel { display: none; }
+.wizard-panel.active { display: block; }
+.wizard-panel__header { margin-bottom: 1.75rem; }
+.wizard-panel__step {
+  font-family: var(--font-display); font-size: .75rem; font-weight: 700;
+  letter-spacing: .15em; text-transform: uppercase; color: var(--col-red);
+  margin-bottom: .3em;
+}
+.wizard-panel__title { font-size: clamp(1.2rem, 2.5vw, 1.5rem); margin-bottom: .4em; }
+.wizard-panel__desc { color: var(--col-mid); font-size: .95rem; }
+.wizard-nav {
+  display: flex; gap: var(--space-sm); margin-top: var(--space-lg);
+  padding-top: var(--space-md); border-top: 1px solid var(--col-border);
+}
+.radio-group { display: flex; flex-wrap: wrap; gap: .6em; margin-top: .5em; }
+.radio-label {
+  display: flex; align-items: center; gap: .4em;
+  padding: .4em .85em;
+  border: 1px solid var(--col-border); border-radius: var(--radius);
+  cursor: pointer; font-size: .9rem;
+  transition: border-color var(--transition), background var(--transition);
+  text-transform: none; letter-spacing: 0; font-family: var(--font-body);
+}
+.radio-label:hover { border-color: var(--col-red); }
+.radio-label:has(input:checked) {
+  border-color: var(--col-red); background: rgba(230,48,18,.06); color: var(--col-red);
+}
+.radio-label input[type="radio"] { position: absolute; opacity: 0; pointer-events: none; }
+.field-error { border-color: var(--col-red) !important; box-shadow: 0 0 0 2px rgba(230,48,18,.15); }
+.form-grid--3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); }
 
 /* ── FAQ Accordion ──────────────────────────────────────── */
 .faq-list { max-width: 760px; margin-inline: auto; }
@@ -573,10 +647,14 @@ strong { font-weight: 600; }
   .primary-nav__list > li > a { padding: 1em .5em; border-bottom: 1px solid var(--col-border); }
   .dropdown { display: block; position: static; box-shadow: none; border: none; padding-left: var(--space-md); border-top: none; }
   .lang-switch { margin-left: .5em; }
-  .form-grid--2col { grid-template-columns: 1fr; }
+  .form-grid--2col, .form-grid--3col { grid-template-columns: 1fr; }
+  .wizard-step__label { display: none; }
   .footer-grid { grid-template-columns: 1fr; gap: var(--space-lg); }
   .hero__actions { flex-direction: column; }
   .cta-banner { text-align: center; justify-content: center; }
+  .cta-banner--featured { flex-direction: column; flex-wrap: nowrap; }
+  .cta-banner__img { flex: none; height: 220px; width: 100%; }
+  .cta-banner--featured .btn { align-self: center; }
 }
 
 @media (max-width: 480px) {

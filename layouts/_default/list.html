@@ -12,6 +12,18 @@
 
     {{ if .Params.cta_banner }}
     {{ $cb := .Params.cta_banner }}
+    {{ if $cb.image }}
+    <div class="cta-banner cta-banner--featured" style="margin-bottom:3rem;">
+      <div class="cta-banner__img">
+        <img src="{{ $cb.image | relURL }}" alt="{{ $cb.headline }}" loading="lazy">
+      </div>
+      <div class="cta-banner__body">
+        <h2>{{ $cb.headline }}</h2>
+        {{ with $cb.text }}<p>{{ . }}</p>{{ end }}
+        <a href="{{ $cb.url | relURL }}" class="btn btn--primary btn--lg">{{ $cb.cta }}</a>
+      </div>
+    </div>
+    {{ else }}
     <div class="cta-banner" style="margin-bottom:3rem;">
       <div>
         <h2>{{ $cb.headline }}</h2>
@@ -20,9 +32,10 @@
       <a href="{{ $cb.url | relURL }}" class="btn btn--secondary btn--lg">{{ $cb.cta }}</a>
     </div>
     {{ end }}
+    {{ end }}
 
     <div class="product-grid">
-      {{ range .Pages }}
+      {{ range where .Pages "Params.layout" "ne" "project-form" }}
       <a href="{{ .Permalink }}" class="product-card">
         <div class="product-card__img">
           {{ if .Params.image }}
