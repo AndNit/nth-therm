@@ -576,7 +576,8 @@ strong { font-weight: 600; }
 .footer-col ul li { margin-bottom: .6em; }
 .footer-col ul li a { font-size: .9rem; color: rgba(255,255,255,.55); transition: color var(--transition); }
 .footer-col ul li a:hover { color: var(--col-white); }
-.footer-col--brand .footer-logo { margin-bottom: var(--space-md); }
+.footer-col--brand .footer-logo { display: inline-block; margin-bottom: var(--space-md); }
+.footer-col--brand .footer-logo img { height: 40px; width: auto; display: block; }
 .footer-tagline { font-size: .9rem; color: rgba(255,255,255,.5); margin-bottom: var(--space-md); }
 .trust-badges { display: flex; flex-wrap: wrap; gap: .5em; }
 .badge {

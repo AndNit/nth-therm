@@ -5,12 +5,8 @@
       <div class="footer-grid">
 
         <div class="footer-col footer-col--brand">
-          <a href="{{ .Site.BaseURL }}" class="footer-logo" aria-label="NTH Therm">
-            <svg width="140" height="34" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <rect width="6" height="40" fill="#E63012"/>
-              <text x="14" y="26" font-family="'Barlow Condensed', sans-serif" font-weight="800" font-size="22" fill="#fff">NTH THERM</text>
-              <text x="14" y="38" font-family="'Barlow', sans-serif" font-weight="400" font-size="9" fill="#aaa" letter-spacing="2">INDUSTRIEÖFEN · MADE IN GERMANY</text>
-            </svg>
+          <a href="{{ .Site.Home.RelPermalink }}" class="footer-logo" aria-label="NTH Therm – Zur Startseite">
+            <img src="{{ "images/nth-therm-logo.png" | relURL }}" alt="NTH Therm" width="140" height="66" loading="lazy">
           </a>
           <p class="footer-tagline">{{ if eq $lang "de" }}Maßgefertigte Industrieöfen. Präzise. Zuverlässig. Made in Germany.{{ else }}Custom industrial furnaces. Precise. Reliable. Made in Germany.{{ end }}</p>
           <div class="trust-badges">
