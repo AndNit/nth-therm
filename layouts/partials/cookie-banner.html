@@ -1,0 +1,22 @@
+{{ $lang := .Site.Language.Lang }}
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="{{ if eq $lang "de" }}Cookie-Einstellungen{{ else }}Cookie Settings{{ end }}" aria-modal="false">
+  <div class="cookie-banner__inner">
+    <p class="cookie-banner__text">
+      {{ if eq $lang "de" }}
+        Wir nutzen Cookies, Google Fonts und YouTube-Videos auf unserer Website. Einige sind essenziell; andere helfen uns, die Seite zu verbessern.
+        <a href="/de/datenschutz/" style="color:var(--col-red);">Mehr erfahren</a>
+      {{ else }}
+        We use cookies, Google Fonts and YouTube videos. Some are essential; others help us improve the site.
+        <a href="/en/privacy/" style="color:var(--col-red);">Learn more</a>
+      {{ end }}
+    </p>
+    <div class="cookie-banner__actions">
+      <button class="btn btn--outline-white btn--sm" id="cookie-decline">
+        {{ if eq $lang "de" }}Nur notwendige{{ else }}Essential only{{ end }}
+      </button>
+      <button class="btn btn--primary btn--sm" id="cookie-accept">
+        {{ if eq $lang "de" }}Alle akzeptieren{{ else }}Accept all{{ end }}
+      </button>
+    </div>
+  </div>
+</div>

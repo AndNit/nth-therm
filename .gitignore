@@ -1,0 +1,13 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo stats (generated on build)
+hugo_stats.json
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Node (if ever used)
+node_modules/

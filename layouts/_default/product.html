@@ -1,0 +1,129 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+
+{{/* ── PAGE HERO ────────────────────────────────────────── */}}
+<div class="page-hero {{ if $p.image }}page-hero--has-image{{ end }}">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <span class="breadcrumb__sep" aria-hidden="true">›</span>
+      {{ with .Parent }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="breadcrumb__sep" aria-hidden="true">›</span>
+      {{ end }}
+      <span aria-current="page">{{ .Title | truncate 50 }}</span>
+    </nav>
+    <div class="page-hero__inner">
+      <div class="page-hero__text">
+        <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Industrieofen{{ else }}Industrial Furnace{{ end }}</p>
+        <h1>{{ .Title }}</h1>
+        <div class="page-hero__meta">
+          {{ with $p.specs.temp_range }}
+          <span class="spec-pill"><strong>{{ if eq $lang "de" }}Temperatur{{ else }}Temp.{{ end }}</strong> {{ . }}</span>
+          {{ end }}
+          {{ with $p.specs.uniformity }}
+          <span class="spec-pill"><strong>{{ if eq $lang "de" }}Gleichmäßigkeit{{ else }}Uniformity{{ end }}</strong> {{ . }}</span>
+          {{ end }}
+          {{ with $p.specs.control }}
+          <span class="spec-pill"><strong>{{ if eq $lang "de" }}Steuerung{{ else }}Control{{ end }}</strong> {{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ with $p.image }}
+      <div class="page-hero__image">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{/* ── MAIN CONTENT ─────────────────────────────────────── */}}
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+
+      {{/* ── Article body ── */}}
+      <div class="prose">
+        {{ .Content }}
+
+        {{/* Specs table from front matter */}}
+        {{ if $p.specs }}
+        <h2>{{ if eq $lang "de" }}Technische Daten{{ else }}Technical Specifications{{ end }}</h2>
+        <table class="specs-table">
+          {{ with $p.specs.temp_range }}<tr><td>{{ if eq $lang "de" }}Temperaturbereich{{ else }}Temperature Range{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.uniformity }}<tr><td>{{ if eq $lang "de" }}Gleichmäßigkeit{{ else }}Uniformity{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.atmosphere }}<tr><td>{{ if eq $lang "de" }}Atmosphäre{{ else }}Atmosphere{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.loading }}<tr><td>{{ if eq $lang "de" }}Beschickung{{ else }}Loading{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.control }}<tr><td>{{ if eq $lang "de" }}Steuerung{{ else }}Control{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.vacuum }}<tr><td>Vakuum</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.circulation }}<tr><td>{{ if eq $lang "de" }}Luftzirkulation{{ else }}Air Circulation{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+          {{ with $p.specs.conveyor }}<tr><td>{{ if eq $lang "de" }}Förderband{{ else }}Conveyor{{ end }}</td><td>{{ . }}</td></tr>{{ end }}
+        </table>
+        {{ end }}
+
+        {{/* Applications */}}
+        {{ if $p.applications }}
+        <h2>{{ if eq $lang "de" }}Anwendungen{{ else }}Applications{{ end }}</h2>
+        <ul>
+          {{ range $p.applications }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+
+        {{/* FAQs */}}
+        {{ if $p.faqs }}
+        <h2>{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+        <div class="faq-list">
+          {{ range $p.faqs }}
+          <details class="faq-item">
+            <summary>{{ .q }}</summary>
+            <div class="faq-item__answer"><p>{{ .a }}</p></div>
+          </details>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+
+      {{/* ── Sidebar ── */}}
+      <aside class="sidebar">
+
+        {{/* CTA card */}}
+        {{ if $p.cta }}
+        <div class="sidebar-card" style="border-top-color:var(--col-red)">
+          <h3>{{ $p.cta.headline }}</h3>
+          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
+          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary">{{ $p.cta.button }}</a>
+          <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
+            {{ if eq $lang "de" }}Kostenlos · Unverbindlich · Antwort in 48 Std.{{ else }}Free · No obligation · Reply within 48 hrs.{{ end }}
+          </p>
+        </div>
+        {{ end }}
+
+        {{/* Quick contact card */}}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Direkte Beratung{{ else }}Direct Advice{{ end }}</h3>
+          <p>{{ if eq $lang "de" }}Sprechen Sie direkt mit unseren Ingenieuren.{{ else }}Speak directly with our engineers.{{ end }}</p>
+          <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;">
+            +49 7272 9310989
+          </a>
+          <a href="mailto:info@nth-therm.com" class="btn btn--outline btn--sm mt-sm" style="width:100%;justify-content:center;">
+            info@nth-therm.com
+          </a>
+        </div>
+
+        {{/* Configurator link */}}
+        <div class="sidebar-card" style="background:var(--col-graphite);color:#fff;border-color:var(--col-graphite)">
+          <h3 style="color:#fff;">{{ if eq $lang "de" }}Ofen konfigurieren{{ else }}Configure Furnace{{ end }}</h3>
+          <p style="color:rgba(255,255,255,.65);">{{ if eq $lang "de" }}Beschreiben Sie Ihre Anforderungen – wir bauen Ihren Ofen nach Maß.{{ else }}Describe your requirements – we build your furnace to measure.{{ end }}</p>
+          <a href="{{ if eq $lang "de" }}/de/industrieoefen/ofenprojekt/{{ else }}/en/industrial-furnaces/your-furnace-project/{{ end }}" class="btn btn--primary" style="width:100%;justify-content:center;">
+            {{ if eq $lang "de" }}Ofenprojekt starten{{ else }}Start Project{{ end }}
+          </a>
+        </div>
+
+      </aside>
+    </div>
+  </div>
+</section>
+
+{{ end }}

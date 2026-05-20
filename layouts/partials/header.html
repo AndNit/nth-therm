@@ -1,0 +1,96 @@
+{{ $lang := .Site.Language.Lang }}
+<header class="site-header" id="site-header">
+  <div class="container">
+
+    <a href="{{ .Site.BaseURL }}" class="site-header__logo" aria-label="NTH Therm – Zur Startseite">
+      <img src="{{ "images/nth-therm-logo.png" | relURL }}" alt="NTH Therm" width="192" height="90" class="site-header__logo-img">
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Hauptnavigation">
+      <ul class="primary-nav__list">
+
+        {{/* Industrieöfen with dropdown */}}
+        <li class="has-dropdown">
+          <a href="{{ if eq $lang "de" }}/de/industrieoefen/{{ else }}/en/industrial-furnaces/{{ end }}" class="{{ if hasPrefix .RelPermalink "/de/industrieoefen" }}is-active{{ else if hasPrefix .RelPermalink "/en/industrial-furnaces" }}is-active{{ end }}">
+            {{ if eq $lang "de" }}Industrieöfen{{ else }}Industrial Furnaces{{ end }}
+          </a>
+          <ul class="dropdown">
+            {{ if eq $lang "de" }}
+            <li><a href="/de/industrieoefen/herdwagenoefen-iwo/">Herdwagenöfen IWO</a></li>
+            <li><a href="/de/industrieoefen/herdwagenoefen-iwf/">Herdwagenöfen IWF (schwere Lasten)</a></li>
+            <li><a href="/de/industrieoefen/kammeroefen-ico/">Kammeröfen ICO (Umluft)</a></li>
+            <li><a href="/de/industrieoefen/kammeroefen-icf/">Kammeröfen ICF (bis 1300 °C)</a></li>
+            <li><a href="/de/industrieoefen/karburierungsoefen/">Karburierungsöfen</a></li>
+            <li><a href="/de/industrieoefen/haubenoefen/">Haubenöfen</a></li>
+            <li><a href="/de/industrieoefen/abschreckoefen/">Abschreck- & Härteöfen</a></li>
+            <li><a href="/de/industrieoefen/multifunktionskammerofen-irf/">Multifunktionsofen IRF</a></li>
+            <li><a href="/de/industrieoefen/laboroefen-ibf/">Laboröfen IBF</a></li>
+            <li><a href="/de/industrieoefen/rohroefen-th1/">Rohröfen TH1</a></li>
+            <li><a href="/de/industrieoefen/durchlaufoefen/">Durchlauföfen</a></li>
+            <li class="dropdown__cta"><a href="/de/industrieoefen/ofenprojekt/">➜ Ofenprojekt starten</a></li>
+            {{ else }}
+            <li><a href="/en/industrial-furnaces/bogie-hearth-iwo/">Bogie Hearth IWO</a></li>
+            <li><a href="/en/industrial-furnaces/bogie-hearth-iwf/">Bogie Hearth IWF (heavy loads)</a></li>
+            <li><a href="/en/industrial-furnaces/chamber-furnaces-ico/">Chamber Furnaces ICO (forced air)</a></li>
+            <li><a href="/en/industrial-furnaces/chamber-furnaces-icf/">Chamber Furnaces ICF (to 1300 °C)</a></li>
+            <li><a href="/en/industrial-furnaces/carburizing-furnaces/">Carburizing Furnaces</a></li>
+            <li><a href="/en/industrial-furnaces/bell-type-furnaces/">Bell-Type Furnaces</a></li>
+            <li><a href="/en/industrial-furnaces/quenching-furnaces/">Quenching Furnaces</a></li>
+            <li><a href="/en/industrial-furnaces/multi-door-furnace-irf/">Multi-Door Furnace IRF</a></li>
+            <li><a href="/en/industrial-furnaces/table-top-furnaces-ibf/">Table-Top Furnaces IBF</a></li>
+            <li><a href="/en/industrial-furnaces/tube-furnaces-th1/">Tube Furnaces TH1</a></li>
+            <li><a href="/en/industrial-furnaces/conveyor-furnaces/">Conveyor Furnaces</a></li>
+            <li class="dropdown__cta"><a href="/en/industrial-furnaces/your-furnace-project/">➜ Start Furnace Project</a></li>
+            {{ end }}
+          </ul>
+        </li>
+
+        <li><a href="{{ if eq $lang "de" }}/de/umweltsimulation/{{ else }}/en/climatic-chambers/{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/de/umweltsimulation") (hasPrefix .RelPermalink "/en/climatic-chambers") }}is-active{{ end }}">
+          {{ if eq $lang "de" }}Umweltsimulation{{ else }}Climatic Chambers{{ end }}
+        </a></li>
+
+        <li><a href="{{ if eq $lang "de" }}/de/trocknungssysteme/{{ else }}/en/heat-drying-systems/{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/de/trocknungssysteme") (hasPrefix .RelPermalink "/en/heat-drying-systems") }}is-active{{ end }}">
+          {{ if eq $lang "de" }}Trocknungssysteme{{ else }}Drying Systems{{ end }}
+        </a></li>
+
+        <li><a href="{{ if eq $lang "de" }}/de/pyrolyseoefen/{{ else }}/en/pyrolysis-furnaces/{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/de/pyrolyseoefen") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") }}is-active{{ end }}">
+          {{ if eq $lang "de" }}Pyrolyseöfen{{ else }}Pyrolysis Furnaces{{ end }}
+        </a></li>
+
+        <li class="has-dropdown">
+          <a href="{{ if eq $lang "de" }}/de/services/{{ else }}/en/services/{{ end }}" class="{{ if hasPrefix .RelPermalink "/de/services" }}is-active{{ else if hasPrefix .RelPermalink "/en/services" }}is-active{{ end }}">
+            {{ if eq $lang "de" }}Service{{ else }}Services{{ end }}
+          </a>
+          <ul class="dropdown">
+            {{ if eq $lang "de" }}
+            <li><a href="/de/services/wartung/">Wartung & DGUV-3-Prüfung</a></li>
+            <li><a href="/de/services/modernisierung/">Aufarbeitung & Modernisierung</a></li>
+            {{ else }}
+            <li><a href="/en/services/maintenance/">Maintenance & DGUV-3 Inspection</a></li>
+            <li><a href="/en/services/refurbishment/">Refurbishment & Modernisation</a></li>
+            {{ end }}
+          </ul>
+        </li>
+
+        <li><a href="{{ if eq $lang "de" }}/de/kontakt/{{ else }}/en/contact/{{ end }}" class="nav-cta {{ if or (hasPrefix .RelPermalink "/de/kontakt") (hasPrefix .RelPermalink "/en/contact") }}is-active{{ end }}">
+          {{ if eq $lang "de" }}Kontakt{{ else }}Contact{{ end }}
+        </a></li>
+
+      </ul>
+    </nav>
+
+    {{/* Language switcher */}}
+    <div class="lang-switch">
+      {{ range .Translations }}
+      <a href="{{ .Permalink }}" class="lang-switch__link" hreflang="{{ .Site.Language.Lang }}" aria-label="Switch to {{ .Site.Language.LanguageName }}">
+        {{ upper .Site.Language.Lang }}
+      </a>
+      {{ end }}
+    </div>
+
+  </div>
+</header>

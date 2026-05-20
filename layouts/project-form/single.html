@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Kostenlos · Unverbindlich · 48h Antwort{{ else }}Free · No obligation · 48h reply{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+      <div>
+        <div class="prose" style="margin-bottom:3rem;">{{ .Content }}</div>
+        <div class="sidebar-card" style="max-width:640px;border-top-color:var(--col-red)">
+          <h2 style="margin-bottom:1.5rem;">{{ if eq $lang "de" }}Ihre Anfrage{{ else }}Your Enquiry{{ end }}</h2>
+          {{ partial "contact-form.html" . }}
+        </div>
+      </div>
+      <aside class="sidebar">
+        <div class="sidebar-card" style="background:var(--col-graphite);color:#fff;border-color:var(--col-graphite)">
+          <h3 style="color:#fff;">{{ if eq $lang "de" }}Lieber anrufen?{{ else }}Prefer to call?{{ end }}</h3>
+          <p style="color:rgba(255,255,255,.65);margin-bottom:1rem;">{{ if eq $lang "de" }}Unser Team berät Sie sofort.{{ else }}Our team will advise you straight away.{{ end }}</p>
+          <a href="tel:+4972729310989" class="btn btn--primary" style="width:100%;justify-content:center;">+49 7272 9310989</a>
+        </div>
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Das erwartet Sie{{ else }}What to expect{{ end }}</h3>
+          <ul style="font-size:.9rem;color:var(--col-mid);padding-left:1.2em;list-style:disc;">
+            <li>{{ if eq $lang "de" }}Antwort in 24–48 Stunden{{ else }}Reply within 24–48 hours{{ end }}</li>
+            <li>{{ if eq $lang "de" }}Unverbindliches Angebot{{ else }}Non-binding quotation{{ end }}</li>
+            <li>{{ if eq $lang "de" }}Persönliche Beratung{{ else }}Personal consultation{{ end }}</li>
+            <li>{{ if eq $lang "de" }}CAD auf Anfrage{{ else }}CAD drawing on request{{ end }}</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}

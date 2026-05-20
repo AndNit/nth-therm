@@ -1,0 +1,86 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $endpoint := .Site.Params.formspreeEndpoint }}
+<form class="contact-form" action="{{ $endpoint }}" method="POST" id="contact-form" novalidate>
+  <input type="hidden" name="_language" value="{{ $lang }}">
+  <input type="hidden" name="_subject" value="{{ if eq $lang "de" }}Anfrage von nth-therm.com{{ else }}Enquiry from nth-therm.com{{ end }}">
+  <input type="hidden" name="_next" value="{{ .Permalink }}?sent=1">
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+  <div class="form-grid form-grid--2col">
+    <div class="form-field">
+      <label for="f-company">{{ if eq $lang "de" }}Unternehmen{{ else }}Company{{ end }}</label>
+      <input type="text" id="f-company" name="company" placeholder="{{ if eq $lang "de" }}Muster GmbH{{ else }}Acme Ltd{{ end }}">
+    </div>
+    <div class="form-field">
+      <label for="f-name">{{ if eq $lang "de" }}Ihr Name *{{ else }}Your Name *{{ end }}</label>
+      <input type="text" id="f-name" name="name" required placeholder="{{ if eq $lang "de" }}Max Mustermann{{ else }}John Smith{{ end }}">
+    </div>
+    <div class="form-field">
+      <label for="f-email">{{ if eq $lang "de" }}E-Mail *{{ else }}Email *{{ end }}</label>
+      <input type="email" id="f-email" name="email" required placeholder="name@firma.de">
+    </div>
+    <div class="form-field">
+      <label for="f-phone">{{ if eq $lang "de" }}Telefon{{ else }}Phone{{ end }}</label>
+      <input type="tel" id="f-phone" name="phone" placeholder="+49 ...">
+    </div>
+  </div>
+
+  <div class="form-field" style="margin-top:1rem;">
+    <label for="f-interest">{{ if eq $lang "de" }}Interessensgebiet{{ else }}Area of Interest{{ end }}</label>
+    <select id="f-interest" name="interest">
+      <option value="">{{ if eq $lang "de" }}Bitte wählen...{{ else }}Please select...{{ end }}</option>
+      {{ if eq $lang "de" }}
+      <option>Industrieöfen – Herdwagenöfen</option>
+      <option>Industrieöfen – Kammeröfen</option>
+      <option>Industrieöfen – Rohröfen / Laboröfen</option>
+      <option>Industrieöfen – Sonstiges</option>
+      <option>Klimaprüfkammern (ATT/ACS)</option>
+      <option>Trocknungssysteme (Drymatic)</option>
+      <option>Pyrolyseöfen</option>
+      <option>Service & Wartung</option>
+      <option>Modernisierung bestehender Anlage</option>
+      <option>Sonstiges</option>
+      {{ else }}
+      <option>Industrial Furnaces – Bogie Hearth</option>
+      <option>Industrial Furnaces – Chamber Furnaces</option>
+      <option>Industrial Furnaces – Tube / Lab Furnaces</option>
+      <option>Industrial Furnaces – Other</option>
+      <option>Climatic Test Chambers (ATT/ACS)</option>
+      <option>Heat Drying Systems (Drymatic)</option>
+      <option>Pyrolysis Furnaces</option>
+      <option>Service & Maintenance</option>
+      <option>Modernisation of Existing System</option>
+      <option>Other</option>
+      {{ end }}
+    </select>
+  </div>
+
+  <div class="form-field" style="margin-top:1rem;">
+    <label for="f-message">{{ if eq $lang "de" }}Ihre Nachricht *{{ else }}Your Message *{{ end }}</label>
+    <textarea id="f-message" name="message" required placeholder="{{ if eq $lang "de" }}Beschreiben Sie kurz Ihre Anforderungen: Ofentyp, Temperatur, Chargengröße, Lieferwunsch...{{ else }}Please describe your requirements briefly: furnace type, temperature, batch size, delivery...{{ end }}"></textarea>
+  </div>
+
+  <div class="form-field form-field--checkbox" style="margin-top:1rem;">
+    <input type="checkbox" id="f-privacy" name="privacy" required>
+    <label for="f-privacy" style="font-family:var(--font-body);text-transform:none;letter-spacing:0;font-size:.88rem;font-weight:400;color:var(--col-mid);">
+      {{ if eq $lang "de" }}
+        Ich habe die <a href="/de/datenschutz/" target="_blank" style="color:var(--col-red);">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
+      {{ else }}
+        I have read the <a href="/en/privacy/" target="_blank" style="color:var(--col-red);">Privacy Policy</a> and agree to the processing of my data.
+      {{ end }}
+    </label>
+  </div>
+
+  <div class="form-submit">
+    <button type="submit" class="btn btn--primary btn--lg" id="form-submit-btn">
+      {{ if eq $lang "de" }}Anfrage absenden{{ else }}Submit Enquiry{{ end }}
+    </button>
+  </div>
+
+  <div id="form-success" style="display:none;margin-top:1rem;padding:1rem;background:#e8f5e9;border-left:4px solid #4caf50;border-radius:4px;">
+    {{ if eq $lang "de" }}✓ Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.{{ else }}✓ Thank you! We will get back to you within 24 hours.{{ end }}
+  </div>
+  <div id="form-error" style="display:none;margin-top:1rem;padding:1rem;background:#fce4ec;border-left:4px solid var(--col-red);border-radius:4px;">
+    {{ if eq $lang "de" }}⚠ Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.{{ else }}⚠ Something went wrong. Please try again or contact us directly.{{ end }}
+  </div>
+</form>

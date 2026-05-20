@@ -1,0 +1,210 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: static/images
+public_folder: /images
+
+locale: de
+
+# ── COLLECTIONS ────────────────────────────────────────────────
+
+collections:
+
+  # ── German Products ─────────────────────────────────────────
+  - name: "de-industrieoefen"
+    label: "🇩🇪 Industrieöfen (DE)"
+    folder: "content/de/industrieoefen"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Meta-Beschreibung", name: "description", widget: "string", hint: "155–160 Zeichen für SEO"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "translationKey", name: "translationKey", widget: "string", hint: "Muss mit EN-Pendant übereinstimmen"}
+      - label: "Schema"
+        name: "schema"
+        widget: "object"
+        fields:
+          - {label: "Typ", name: "type", widget: "select", options: ["Product","Service","WebPage"]}
+          - {label: "Name", name: "name", widget: "string", required: false}
+      - label: "Technische Daten"
+        name: "specs"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Temperaturbereich", name: "temp_range", widget: "string", required: false}
+          - {label: "Gleichmäßigkeit", name: "uniformity", widget: "string", required: false}
+          - {label: "Atmosphäre", name: "atmosphere", widget: "string", required: false}
+          - {label: "Beschickung", name: "loading", widget: "string", required: false}
+          - {label: "Steuerung", name: "control", widget: "string", required: false}
+          - {label: "Vakuum", name: "vacuum", widget: "string", required: false}
+      - label: "Anwendungen"
+        name: "applications"
+        widget: "list"
+        required: false
+        field: {label: "Anwendung", name: "item", widget: "string"}
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Frage", name: "q", widget: "string"}
+          - {label: "Antwort", name: "a", widget: "text"}
+      - label: "CTA"
+        name: "cta"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Überschrift", name: "headline", widget: "string"}
+          - {label: "Text", name: "text", widget: "string", required: false}
+          - {label: "Button-Text", name: "button", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+      - {label: "Inhalt", name: "body", widget: "markdown"}
+
+  # ── English Products ─────────────────────────────────────────
+  - name: "en-industrial-furnaces"
+    label: "🇬🇧 Industrial Furnaces (EN)"
+    folder: "content/en/industrial-furnaces"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string", hint: "155–160 characters for SEO"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "translationKey", name: "translationKey", widget: "string", hint: "Must match DE counterpart"}
+      - label: "Schema"
+        name: "schema"
+        widget: "object"
+        fields:
+          - {label: "Type", name: "type", widget: "select", options: ["Product","Service","WebPage"]}
+          - {label: "Name", name: "name", widget: "string", required: false}
+      - label: "Technical Specifications"
+        name: "specs"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Temperature Range", name: "temp_range", widget: "string", required: false}
+          - {label: "Uniformity", name: "uniformity", widget: "string", required: false}
+          - {label: "Atmosphere", name: "atmosphere", widget: "string", required: false}
+          - {label: "Loading", name: "loading", widget: "string", required: false}
+          - {label: "Control", name: "control", widget: "string", required: false}
+          - {label: "Vacuum", name: "vacuum", widget: "string", required: false}
+      - label: "Applications"
+        name: "applications"
+        widget: "list"
+        required: false
+        field: {label: "Application", name: "item", widget: "string"}
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Question", name: "q", widget: "string"}
+          - {label: "Answer", name: "a", widget: "text"}
+      - label: "CTA"
+        name: "cta"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Headline", name: "headline", widget: "string"}
+          - {label: "Text", name: "text", widget: "string", required: false}
+          - {label: "Button Text", name: "button", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # ── German Services ──────────────────────────────────────────
+  - name: "de-services"
+    label: "🇩🇪 Services (DE)"
+    folder: "content/de/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Meta-Beschreibung", name: "description", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "translationKey", name: "translationKey", widget: "string"}
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Frage", name: "q", widget: "string"}
+          - {label: "Antwort", name: "a", widget: "text"}
+      - label: "CTA"
+        name: "cta"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Überschrift", name: "headline", widget: "string"}
+          - {label: "Text", name: "text", widget: "string", required: false}
+          - {label: "Button-Text", name: "button", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+      - {label: "Inhalt", name: "body", widget: "markdown"}
+
+  # ── English Services ─────────────────────────────────────────
+  - name: "en-services"
+    label: "🇬🇧 Services (EN)"
+    folder: "content/en/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "translationKey", name: "translationKey", widget: "string"}
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Question", name: "q", widget: "string"}
+          - {label: "Answer", name: "a", widget: "text"}
+      - label: "CTA"
+        name: "cta"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Headline", name: "headline", widget: "string"}
+          - {label: "Text", name: "text", widget: "string", required: false}
+          - {label: "Button Text", name: "button", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # ── Pages: Drying Systems ───────────────────────────────────
+  - name: "de-trocknungssysteme"
+    label: "🇩🇪 Trocknungssysteme (DE)"
+    folder: "content/de/trocknungssysteme"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Meta-Beschreibung", name: "description", widget: "string"}
+      - {label: "translationKey", name: "translationKey", widget: "string"}
+      - {label: "Inhalt", name: "body", widget: "markdown"}
+
+  - name: "en-heat-drying-systems"
+    label: "🇬🇧 Heat Drying Systems (EN)"
+    folder: "content/en/heat-drying-systems"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string"}
+      - {label: "translationKey", name: "translationKey", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # ── Global Settings ──────────────────────────────────────────
+  - name: "settings"
+    label: "⚙ Site Settings"
+    files:
+      - label: "Company Settings (hugo.toml params)"
+        name: "params"
+        file: "data/settings.json"
+        fields:
+          - {label: "Company Name", name: "companyName", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Mobile", name: "mobile", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Address", name: "address", widget: "string"}
+          - {label: "Formspree Endpoint", name: "formspreeEndpoint", widget: "string", hint: "https://formspree.io/f/YOUR_ID"}

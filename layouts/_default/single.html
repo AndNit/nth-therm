@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <span class="breadcrumb__sep" aria-hidden="true">›</span>
+      {{ with .Parent }}<a href="{{ .Permalink }}">{{ .Title }}</a><span class="breadcrumb__sep" aria-hidden="true">›</span>{{ end }}
+      <span aria-current="page">{{ .Title | truncate 50 }}</span>
+    </nav>
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</section>
+{{ end }}

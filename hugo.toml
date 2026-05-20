@@ -1,0 +1,123 @@
+baseURL = "https://nth-therm.com/"
+title = "NTH Therm – Industrieöfen nach Maß | Made in Germany"
+enableRobotsTXT = true
+enableGitInfo = false
+summaryLength = 70
+paginate = 10
+
+[build]
+  writeStats = true
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+
+[params]
+  description = "NTH Therm GmbH – Hersteller maßgefertigter Industrieöfen, Klimaprüfkammern und Trocknungssysteme aus Rülzheim. Bis 1300 °C. Individuelle Lösungen made in Germany."
+  author = "NTH Therm GmbH"
+  phone = "+49 7272 9310989"
+  mobile = "+49 1523 3626998"
+  email = "info@nth-therm.com"
+  address = "Lerchenweg 11, 76761 Rülzheim"
+  companyName = "NTH Therm GmbH"
+  hrb = "HRB 32913, Amtsgericht Landau (Pfalz)"
+  vatId = "DE335186159"
+  taxNumber = "41/650/20464"
+  googleMapsEmbed = "https://maps.google.com/?q=Lerchenweg+11+76761+Rulzheim"
+  formspreeEndpoint = "https://formspree.io/f/YOUR_FORM_ID"
+  enableSchema = true
+  enableHreflang = true
+  cookieBannerEnabled = true
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
+    weight = 1
+    contentDir = "content/de"
+    title = "NTH Therm – Industrieöfen nach Maß | Made in Germany"
+    [languages.de.params]
+      description = "NTH Therm GmbH – Hersteller maßgefertigter Industrieöfen aus Rülzheim. Bis 1300 °C. Individuelle Lösungen made in Germany."
+      tagline = "Industrieöfen. Präzise. Zuverlässig. Made in Germany."
+      ctaMain = "Jetzt anfragen"
+      ctaLearn = "Mehr erfahren"
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 2
+    contentDir = "content/en"
+    title = "NTH Therm – Custom Industrial Furnaces | Made in Germany"
+    [languages.en.params]
+      description = "NTH Therm GmbH – Manufacturer of custom industrial furnaces from Rülzheim, Germany. Up to 1300 °C. Individual solutions made in Germany."
+      tagline = "Industrial Furnaces. Precise. Reliable. Made in Germany."
+      ctaMain = "Request a Quote"
+      ctaLearn = "Learn More"
+
+[menu]
+  [[menu.main]]
+    identifier = "furnaces"
+    name = "Industrieöfen"
+    url = "/industrieoefen/"
+    weight = 10
+    [menu.main.params]
+      enName = "Industrial Furnaces"
+      enUrl = "/industrial-furnaces/"
+
+  [[menu.main]]
+    identifier = "climatic"
+    name = "Umweltsimulation"
+    url = "/umweltsimulation/"
+    weight = 20
+    [menu.main.params]
+      enName = "Climatic Chambers"
+      enUrl = "/climatic-chambers/"
+
+  [[menu.main]]
+    identifier = "drying"
+    name = "Trocknungssysteme"
+    url = "/trocknungssysteme/"
+    weight = 30
+    [menu.main.params]
+      enName = "Drying Systems"
+      enUrl = "/heat-drying-systems/"
+
+  [[menu.main]]
+    identifier = "pyrolysis"
+    name = "Pyrolyseöfen"
+    url = "/pyrolyseoefen/"
+    weight = 40
+    [menu.main.params]
+      enName = "Pyrolysis Furnaces"
+      enUrl = "/pyrolysis-furnaces/"
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Service"
+    url = "/services/"
+    weight = 50
+    [menu.main.params]
+      enName = "Services"
+      enUrl = "/services/"
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 60
+    [menu.main.params]
+      enName = "Contact"
+      enUrl = "/contact/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]

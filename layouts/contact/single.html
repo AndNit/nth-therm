@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p style="color:rgba(255,255,255,.65);margin-top:.75em;">{{ if eq $lang "de" }}Wir antworten innerhalb von 24 Stunden.{{ else }}We respond within 24 hours.{{ end }}</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+      <div>
+        {{ .Content }}
+        {{ partial "contact-form.html" . }}
+      </div>
+      <aside class="sidebar">
+        <div class="sidebar-card">
+          <h3>NTH Therm GmbH</h3>
+          <address style="font-style:normal;font-size:.9rem;line-height:1.8;">
+            Lerchenweg 11<br>76761 Rülzheim<br>Deutschland<br><br>
+            <a href="tel:+4972729310989">+49 7272 9310989</a><br>
+            <a href="tel:+4915233626998">+49 1523 3626998</a><br>
+            <a href="mailto:info@nth-therm.com">info@nth-therm.com</a>
+          </address>
+          <hr style="margin:1em 0;border:none;border-top:1px solid var(--col-border);">
+          <p style="font-size:.8rem;color:var(--col-mid);">{{ if eq $lang "de" }}Mo–Fr 8:00–17:00 Uhr{{ else }}Mon–Fri 8:00 am–5:00 pm CET{{ end }}</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}

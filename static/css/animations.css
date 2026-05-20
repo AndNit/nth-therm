@@ -1,0 +1,26 @@
+
+/* ── Scroll-reveal animations (appended) ───────────────── */
+.usp-card,
+.product-card,
+.step-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .4s ease var(--delay, 0ms), transform .4s ease var(--delay, 0ms);
+}
+.usp-card.is-visible,
+.product-card.is-visible,
+.step-card.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* invalid form fields */
+.is-invalid {
+  border-color: var(--col-red) !important;
+  box-shadow: 0 0 0 3px rgba(230,48,18,.15);
+}
+
+/* sticky header shadow on scroll */
+.site-header.is-scrolled {
+  box-shadow: 0 2px 20px rgba(0,0,0,.12);
+}

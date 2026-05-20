@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.intro }}<p style="color:rgba(255,255,255,.7);max-width:60ch;margin-top:.75em;">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    {{ with .Content }}<div class="prose" style="margin-bottom:3rem;">{{ . }}</div>{{ end }}
+
+    {{ if .Params.cta_banner }}
+    {{ $cb := .Params.cta_banner }}
+    <div class="cta-banner" style="margin-bottom:3rem;">
+      <div>
+        <h2>{{ $cb.headline }}</h2>
+        {{ with $cb.text }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <a href="{{ $cb.url | relURL }}" class="btn btn--secondary btn--lg">{{ $cb.cta }}</a>
+    </div>
+    {{ end }}
+
+    <div class="product-grid">
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="product-card">
+        <div class="product-card__img">
+          {{ if .Params.image }}
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+          {{ else }}
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#2c2c2c);display:flex;align-items:center;justify-content:center;">
+            <svg width="64" height="64" viewBox="0 0 80 80" fill="none" stroke="rgba(230,48,18,.4)" stroke-width="1.5"><rect x="10" y="20" width="60" height="40" rx="2"/><rect x="20" y="28" width="40" height="24" rx="1"/><circle cx="40" cy="40" r="6"/></svg>
+          </div>
+          {{ end }}
+        </div>
+        <div class="product-card__body">
+          {{ with .Params.specs.temp_range }}<p class="product-card__temp">{{ . }}</p>{{ end }}
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Summary | truncate 120 }}</p>
+          <span class="product-card__link">{{ if eq $lang "de" }}Mehr erfahren{{ else }}Learn more{{ end }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+
+    {{ if .Params.faqs }}
+    <div style="margin-top:4rem;">
+      <h2 style="text-align:center;margin-bottom:2rem;">FAQ</h2>
+      <div class="faq-list">
+        {{ range .Params.faqs }}
+        <details class="faq-item">
+          <summary>{{ .q }}</summary>
+          <div class="faq-item__answer"><p>{{ .a }}</p></div>
+        </details>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}

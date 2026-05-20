@@ -1,0 +1,82 @@
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.126.0"
+  HUGO_ENV     = "production"
+
+# Redirects
+[[redirects]]
+  from = "/"
+  to   = "/de/"
+  status = 302
+  force = false
+  conditions = {Language = ["de"]}
+
+[[redirects]]
+  from = "/"
+  to   = "/en/"
+  status = 302
+  force = false
+  conditions = {Language = ["en"]}
+
+# Redirect old Joomla URLs → new clean URLs
+[[redirects]]
+  from = "/trocknungssysteme/drymatic-ii"
+  to   = "/de/trocknungssysteme/drymatic-ii/"
+  status = 301
+
+[[redirects]]
+  from = "/en/trocknungssysteme/drymatic-ii"
+  to   = "/en/heat-drying-systems/drymatic-ii/"
+  status = 301
+
+[[redirects]]
+  from = "/en/trocknungssysteme/boost-bar"
+  to   = "/en/heat-drying-systems/"
+  status = 301
+
+[[redirects]]
+  from = "/en/pyrolyseoefen"
+  to   = "/en/pyrolysis-furnaces/"
+  status = 301
+
+[[redirects]]
+  from = "/kontakt"
+  to   = "/de/kontakt/"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to   = "/en/contact/"
+  status = 301
+
+# Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options       = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection      = "1; mode=block"
+    Referrer-Policy       = "strict-origin-when-cross-origin"
+    Permissions-Policy    = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/static/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/static/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/static/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Netlify Identity – enable for Decap CMS
+[context.production]
+  command = "hugo --minify"

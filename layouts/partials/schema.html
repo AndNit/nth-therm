@@ -1,0 +1,135 @@
+{{/* Organization schema – always present */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "{{ .Site.BaseURL }}#organization",
+  "name": "NTH Therm GmbH",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ "images/nth-therm-logo.svg" | absURL }}",
+  "description": "NTH Therm GmbH is a manufacturer of custom-built industrial furnaces, climatic test chambers, heat drying systems and pyrolysis furnaces, based in Rülzheim, Germany.",
+  "foundingDate": "2020",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lerchenweg 11",
+    "addressLocality": "Rülzheim",
+    "postalCode": "76761",
+    "addressCountry": "DE"
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+49-7272-9310989",
+    "contactType": "sales",
+    "areaServed": "EU",
+    "availableLanguage": ["German", "English"]
+  }],
+  "email": "info@nth-therm.com",
+  "telephone": "+49 7272 9310989",
+  "vatID": "DE335186159"
+}
+</script>
+
+{{/* Breadcrumb – on every non-home page */}}
+{{ if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ if eq .Site.Language.Lang "de" }}Startseite{{ else }}Home{{ end }}",
+      "item": "{{ .Site.BaseURL }}"
+    }{{ if .Parent }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Parent.Title }}",
+      "item": "{{ .Parent.Permalink }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }{{ else }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }{{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* HowTo schema – home page only */}}
+{{ if and .IsHome .Params.steps }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ if eq .Site.Language.Lang "de" }}In 6 Schritten zum Industrieofen nach Maß{{ else }}6 Steps to Your Custom Industrial Furnace{{ end }}",
+  "description": "{{ if eq .Site.Language.Lang "de" }}Vom ersten Gespräch bis zur schlüsselfertigen Anlage{{ else }}From first enquiry to turnkey installation{{ end }}",
+  "step": [
+    {{ range $i, $step := .Params.steps }}{{ if $i }},{{ end }}
+    {
+      "@type": "HowToStep",
+      "position": {{ add $i 1 }},
+      "name": "{{ $step.title }}",
+      "text": "{{ $step.text }}"
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* Product schema – product pages */}}
+{{ if eq .Layout "product" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .Params.schema.name | default .Title }}",
+  "brand": {
+    "@type": "Brand",
+    "name": "NTH Therm"
+  },
+  "manufacturer": {
+    "@id": "{{ .Site.BaseURL }}#organization"
+  },
+  "description": "{{ .Params.description }}",
+  "url": "{{ .Permalink }}"{{ with .Params.specs.temp_range }},
+  "additionalProperty": [{
+    "@type": "PropertyValue",
+    "name": "Temperature Range",
+    "value": "{{ . }}"
+  }]{{ end }}
+}
+</script>
+{{ end }}
+
+{{/* FAQPage schema – pages with faqs param */}}
+{{ if .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $faq := .Params.faqs }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $faq.q }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $faq.a }}"
+      }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}

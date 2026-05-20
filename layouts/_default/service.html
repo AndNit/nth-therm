@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="{{ if eq $lang "de" }}/de/services/{{ else }}/en/services/{{ end }}">{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</a>
+      <span class="breadcrumb__sep">›</span>
+      <span>{{ .Title | truncate 40 }}</span>
+    </nav>
+    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+      <div class="prose">
+        {{ .Content }}
+        {{ if $p.faqs }}
+        <h2>{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+        <div class="faq-list">
+          {{ range $p.faqs }}
+          <details class="faq-item">
+            <summary>{{ .q }}</summary>
+            <div class="faq-item__answer"><p>{{ .a }}</p></div>
+          </details>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <aside class="sidebar">
+        {{ if $p.cta }}
+        <div class="sidebar-card">
+          <h3>{{ $p.cta.headline }}</h3>
+          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
+          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary">{{ $p.cta.button }}</a>
+        </div>
+        {{ end }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Schnell erreichbar{{ else }}Quick Contact{{ end }}</h3>
+          <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-bottom:.5em;">+49 7272 9310989</a>
+          <a href="mailto:info@nth-therm.com" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;">info@nth-therm.com</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}

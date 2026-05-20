@@ -1,0 +1,93 @@
+{{ $lang := .Site.Language.Lang }}
+<footer class="site-footer">
+  <div class="site-footer__top">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-col footer-col--brand">
+          <a href="{{ .Site.BaseURL }}" class="footer-logo" aria-label="NTH Therm">
+            <svg width="140" height="34" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="6" height="40" fill="#E63012"/>
+              <text x="14" y="26" font-family="'Barlow Condensed', sans-serif" font-weight="800" font-size="22" fill="#fff">NTH THERM</text>
+              <text x="14" y="38" font-family="'Barlow', sans-serif" font-weight="400" font-size="9" fill="#aaa" letter-spacing="2">INDUSTRIEÖFEN · MADE IN GERMANY</text>
+            </svg>
+          </a>
+          <p class="footer-tagline">{{ if eq $lang "de" }}Maßgefertigte Industrieöfen. Präzise. Zuverlässig. Made in Germany.{{ else }}Custom industrial furnaces. Precise. Reliable. Made in Germany.{{ end }}</p>
+          <div class="trust-badges">
+            <span class="badge">🇩🇪 Made in Germany</span>
+            <span class="badge">ISO-konforme Qualität</span>
+            <span class="badge">DGUV-3 geprüft</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>{{ if eq $lang "de" }}Produkte{{ else }}Products{{ end }}</h3>
+          <ul>
+            {{ if eq $lang "de" }}
+            <li><a href="/de/industrieoefen/">Industrieöfen</a></li>
+            <li><a href="/de/industrieoefen/herdwagenoefen-iwo/">Herdwagenöfen IWO</a></li>
+            <li><a href="/de/industrieoefen/kammeroefen-ico/">Kammeröfen ICO</a></li>
+            <li><a href="/de/industrieoefen/rohroefen-th1/">Rohröfen TH1</a></li>
+            <li><a href="/de/umweltsimulation/">Klimaprüfkammern</a></li>
+            <li><a href="/de/trocknungssysteme/">Trocknungssysteme</a></li>
+            <li><a href="/de/pyrolyseoefen/">Pyrolyseöfen</a></li>
+            {{ else }}
+            <li><a href="/en/industrial-furnaces/">Industrial Furnaces</a></li>
+            <li><a href="/en/industrial-furnaces/bogie-hearth-iwo/">Bogie Hearth IWO</a></li>
+            <li><a href="/en/industrial-furnaces/chamber-furnaces-ico/">Chamber Furnaces ICO</a></li>
+            <li><a href="/en/industrial-furnaces/tube-furnaces-th1/">Tube Furnaces TH1</a></li>
+            <li><a href="/en/climatic-chambers/">Climatic Chambers</a></li>
+            <li><a href="/en/heat-drying-systems/">Drying Systems</a></li>
+            <li><a href="/en/pyrolysis-furnaces/">Pyrolysis Furnaces</a></li>
+            {{ end }}
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</h3>
+          <ul>
+            {{ if eq $lang "de" }}
+            <li><a href="/de/services/">Serviceleistungen</a></li>
+            <li><a href="/de/services/wartung/">Wartung & DGUV-3</a></li>
+            <li><a href="/de/services/modernisierung/">Modernisierung</a></li>
+            <li><a href="/de/industrieoefen/ofenprojekt/">Ofenprojekt starten</a></li>
+            <li><a href="/de/kontakt/ueber-uns/">Über uns</a></li>
+            <li><a href="/de/kontakt/">Kontakt</a></li>
+            {{ else }}
+            <li><a href="/en/services/">All Services</a></li>
+            <li><a href="/en/services/maintenance/">Maintenance & DGUV-3</a></li>
+            <li><a href="/en/services/refurbishment/">Refurbishment</a></li>
+            <li><a href="/en/industrial-furnaces/your-furnace-project/">Start Furnace Project</a></li>
+            <li><a href="/en/contact/about-us/">About Us</a></li>
+            <li><a href="/en/contact/">Contact</a></li>
+            {{ end }}
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col--contact">
+          <h3>{{ if eq $lang "de" }}Kontakt{{ else }}Contact{{ end }}</h3>
+          <address>
+            <p>NTH Therm GmbH<br>Lerchenweg 11<br>76761 Rülzheim<br>Deutschland</p>
+            <p><a href="tel:+4972729310989">+49 7272 9310989</a></p>
+            <p><a href="tel:+4915233626998">+49 1523 3626998</a></p>
+            <p><a href="mailto:info@nth-therm.com">info@nth-therm.com</a></p>
+          </address>
+          <a href="{{ if eq $lang "de" }}/de/kontakt/{{ else }}/en/contact/{{ end }}" class="btn btn--outline btn--sm">
+            {{ if eq $lang "de" }}Jetzt anfragen{{ else }}Get in Touch{{ end }}
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <div class="container">
+      <p class="copyright">© {{ now.Year }} NTH Therm GmbH. {{ if eq $lang "de" }}Alle Rechte vorbehalten.{{ else }}All rights reserved.{{ end }}</p>
+      <nav aria-label="{{ if eq $lang "de" }}Rechtliche Links{{ else }}Legal Links{{ end }}">
+        <a href="{{ if eq $lang "de" }}/de/impressum/{{ else }}/en/imprint/{{ end }}">{{ if eq $lang "de" }}Impressum{{ else }}Imprint{{ end }}</a>
+        <a href="{{ if eq $lang "de" }}/de/datenschutz/{{ else }}/en/privacy/{{ end }}">{{ if eq $lang "de" }}Datenschutz{{ else }}Privacy{{ end }}</a>
+      </nav>
+    </div>
+  </div>
+</footer>

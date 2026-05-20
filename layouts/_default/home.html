@@ -1,0 +1,189 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+
+{{/* ── HERO ─────────────────────────────────────────────── */}}
+<section class="hero">
+  <div class="container">
+    <p class="hero__eyebrow">{{ if eq $lang "de" }}Made in Germany · Seit 2020{{ else }}Made in Germany · Since 2020{{ end }}</p>
+    <h1 class="hero__headline">{{ $p.hero.headline }}</h1>
+    <p class="hero__subline">{{ $p.hero.subline }}</p>
+    <div class="hero__actions">
+      <a href="{{ $p.hero.cta_primary_url | relURL }}" class="btn btn--primary btn--lg">{{ $p.hero.cta_primary }}</a>
+      <a href="{{ $p.hero.cta_secondary_url | relURL }}" class="btn btn--outline-white btn--lg">{{ $p.hero.cta_secondary }}</a>
+    </div>
+    <div class="hero__trust">
+      <div class="hero__trust-item"><strong>11+</strong> {{ if eq $lang "de" }}Ofentypen{{ else }}Furnace types{{ end }}</div>
+      <div class="hero__trust-item"><strong>50–1300 °C</strong> {{ if eq $lang "de" }}Temperaturbereich{{ else }}Temperature range{{ end }}</div>
+      <div class="hero__trust-item"><strong>{{ if eq $lang "de" }}Kostenloser Support{{ else }}Free consultation{{ end }}</strong></div>
+      <div class="hero__trust-item"><strong>{{ if eq $lang "de" }}48h Angebot{{ else }}48h quote{{ end }}</strong></div>
+    </div>
+  </div>
+</section>
+
+{{/* ── USPs ─────────────────────────────────────────────── */}}
+<section class="section section--alt">
+  <div class="container">
+    <div class="usp-grid">
+      {{ range $p.usps }}
+      <div class="usp-card">
+        <div class="usp-card__icon" aria-hidden="true">
+          {{ if eq .icon "precision" }}
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="24" cy="24" r="20"/><circle cx="24" cy="24" r="6"/>
+            <line x1="24" y1="4" x2="24" y2="12"/><line x1="24" y1="36" x2="24" y2="44"/>
+            <line x1="4" y1="24" x2="12" y2="24"/><line x1="36" y1="24" x2="44" y2="24"/>
+          </svg>
+          {{ else if eq .icon "quality" }}
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M24 4l4 8 9 1.3-6.5 6.3 1.5 9L24 24l-8 4.6 1.5-9L11 13.3l9-1.3z"/>
+            <path d="M8 36l4 8M40 36l-4 8M8 36h32"/>
+          </svg>
+          {{ else }}
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M24 8v8M16 12l4 6M32 12l-4 6"/>
+            <rect x="8" y="20" width="32" height="20" rx="2"/>
+            <path d="M16 30h16M16 35h10"/>
+          </svg>
+          {{ end }}
+        </div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ── PROCESS STEPS ────────────────────────────────────── */}}
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">{{ if eq $lang "de" }}Unser Prozess{{ else }}Our Process{{ end }}</p>
+      <h2>{{ if eq $lang "de" }}In 6 Schritten zum Ofen nach Maß{{ else }}6 Steps to Your Custom Furnace{{ end }}</h2>
+      <p>{{ if eq $lang "de" }}Von der ersten Anfrage bis zur schlüsselfertigen Anlage – transparent, persönlich, termingerecht.{{ else }}From first enquiry to turnkey installation – transparent, personal, on time.{{ end }}</p>
+    </div>
+    <div class="steps-grid">
+      {{ range $p.steps }}
+      <div class="step-card">
+        <div class="step-card__number">{{ .number }}</div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ── PRODUCT TEASERS ──────────────────────────────────── */}}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">{{ if eq $lang "de" }}Produkte{{ else }}Products{{ end }}</p>
+      <h2>{{ if eq $lang "de" }}Industrieöfen für Ihren Prozess{{ else }}Industrial Furnaces for Your Process{{ end }}</h2>
+    </div>
+    <div class="product-grid">
+      {{ range $p.products_teaser }}
+      <a href="{{ .slug | relURL }}" class="product-card">
+        <div class="product-card__img">
+          {{ if .image }}
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+          {{ else }}
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#2c2c2c);display:flex;align-items:center;justify-content:center;">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" stroke="rgba(230,48,18,.4)" stroke-width="1.5">
+              <rect x="10" y="20" width="60" height="40" rx="2"/>
+              <rect x="20" y="28" width="40" height="24" rx="1"/>
+              <line x1="10" y1="60" x2="0" y2="68"/><line x1="70" y1="60" x2="80" y2="68"/>
+              <circle cx="40" cy="40" r="6"/>
+            </svg>
+          </div>
+          {{ end }}
+        </div>
+        <div class="product-card__body">
+          <p class="product-card__temp">{{ .temp }}</p>
+          <h3>{{ .name }}</h3>
+          <p>{{ .teaser }}</p>
+          <span class="product-card__link">{{ if eq $lang "de" }}Mehr erfahren{{ else }}Learn more{{ end }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <div class="text-center mt-xl">
+      <a href="{{ if eq $lang "de" }}/de/industrieoefen/{{ else }}/en/industrial-furnaces/{{ end }}" class="btn btn--secondary">
+        {{ if eq $lang "de" }}Alle Industrieöfen ansehen{{ else }}View All Industrial Furnaces{{ end }}
+      </a>
+    </div>
+  </div>
+</section>
+
+{{/* ── CTA BANNER ───────────────────────────────────────── */}}
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>{{ if eq $lang "de" }}Ihr nächster Industrieofen – maßgefertigt für Sie{{ else }}Your Next Industrial Furnace – Custom-Built for You{{ end }}</h2>
+        <p>{{ if eq $lang "de" }}Kostenloses Angebot · Lieferzeit ab 10 Wochen · Persönliche Beratung durch unsere Ingenieure{{ else }}Free quote · Delivery from 10 weeks · Personal advice from our engineers{{ end }}</p>
+      </div>
+      <a href="{{ if eq $lang "de" }}/de/industrieoefen/ofenprojekt/{{ else }}/en/industrial-furnaces/your-furnace-project/{{ end }}" class="btn btn--secondary btn--lg">
+        {{ if eq $lang "de" }}Ofenprojekt starten{{ else }}Start Furnace Project{{ end }}
+      </a>
+    </div>
+  </div>
+</section>
+
+{{/* ── FAQs ─────────────────────────────────────────────── */}}
+{{ if $p.faqs }}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">FAQ</p>
+      <h2>{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+    </div>
+    <div class="faq-list">
+      {{ range $p.faqs }}
+      <details class="faq-item">
+        <summary>{{ .q }}</summary>
+        <div class="faq-item__answer"><p>{{ .a }}</p></div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── PARTNERS ─────────────────────────────────────────── */}}
+{{ if $p.partners }}
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">{{ if eq $lang "de" }}Technologiepartner{{ else }}Technology Partners{{ end }}</p>
+      <h2>{{ if eq $lang "de" }}Starke Partnerschaften{{ else }}Strong Partnerships{{ end }}</h2>
+    </div>
+    <div class="partner-strip">
+      {{ range $p.partners }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}">
+        <span>{{ .name }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── FINAL CTA ────────────────────────────────────────── */}}
+<section class="section section--dark">
+  <div class="container text-center">
+    <h2 style="color:#fff;margin-bottom:.75em;">{{ if eq $lang "de" }}Bereit? Wir auch.{{ else }}Ready? So are we.{{ end }}</h2>
+    <p style="color:rgba(255,255,255,.65);margin-inline:auto;margin-bottom:2em;">
+      {{ if eq $lang "de" }}Rufen Sie uns an oder schicken Sie uns Ihre Anforderungen. Wir melden uns innerhalb von 24 Stunden.{{ else }}Call us or send us your requirements. We will respond within 24 hours.{{ end }}
+    </p>
+    <div style="display:flex;gap:1em;justify-content:center;flex-wrap:wrap;">
+      <a href="{{ if eq $lang "de" }}/de/kontakt/{{ else }}/en/contact/{{ end }}" class="btn btn--primary btn--lg">
+        {{ if eq $lang "de" }}Jetzt kostenlos anfragen{{ else }}Request a Free Quote{{ end }}
+      </a>
+      <a href="tel:+4972729310989" class="btn btn--outline-white btn--lg">+49 7272 9310989</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}
