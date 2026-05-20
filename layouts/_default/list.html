@@ -35,8 +35,8 @@
         </div>
         <div class="product-card__body">
           {{ with .Params.specs.temp_range }}<p class="product-card__temp">{{ . }}</p>{{ end }}
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Summary | truncate 120 }}</p>
+          <h3>{{ .Title | replaceRE `\s*[–—|].*$` "" }}</h3>
+          <p>{{ with .Description }}{{ . | truncate 160 }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}</p>
           <span class="product-card__link">{{ if eq $lang "de" }}Mehr erfahren{{ else }}Learn more{{ end }}</span>
         </div>
       </a>
