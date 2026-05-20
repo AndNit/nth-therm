@@ -64,9 +64,9 @@
     <input type="checkbox" id="f-privacy" name="privacy" required>
     <label for="f-privacy" style="font-family:var(--font-body);text-transform:none;letter-spacing:0;font-size:.88rem;font-weight:400;color:var(--col-mid);">
       {{ if eq $lang "de" }}
-        Ich habe die <a href="/datenschutz/" target="_blank" style="color:var(--col-red);">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
+        Ich habe die <a href="{{ "/datenschutz/" | relURL }}" target="_blank" style="color:var(--col-red);">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
       {{ else }}
-        I have read the <a href="/en/privacy/" target="_blank" style="color:var(--col-red);">Privacy Policy</a> and agree to the processing of my data.
+        I have read the <a href="{{ "/en/privacy/" | relURL }}" target="_blank" style="color:var(--col-red);">Privacy Policy</a> and agree to the processing of my data.
       {{ end }}
     </label>
   </div>

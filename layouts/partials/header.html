@@ -15,68 +15,68 @@
 
         {{/* Industrieöfen with dropdown */}}
         <li class="has-dropdown">
-          <a href="{{ if eq $lang "de" }}/industrieoefen/{{ else }}/en/industrial-furnaces/{{ end }}" class="{{ if hasPrefix .RelPermalink "/industrieoefen" }}is-active{{ else if hasPrefix .RelPermalink "/en/industrial-furnaces" }}is-active{{ end }}">
+          <a href="{{ if eq $lang "de" }}{{ "/industrieoefen/" | relURL }}{{ else }}{{ "/en/industrial-furnaces/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/industrieoefen" }}is-active{{ else if hasPrefix .RelPermalink "/en/industrial-furnaces" }}is-active{{ end }}">
             {{ if eq $lang "de" }}Industrieöfen{{ else }}Industrial Furnaces{{ end }}
           </a>
           <ul class="dropdown">
             {{ if eq $lang "de" }}
-            <li><a href="/industrieoefen/herdwagenoefen-iwo/">Herdwagenöfen IWO</a></li>
-            <li><a href="/industrieoefen/herdwagenoefen-iwf/">Herdwagenöfen IWF (schwere Lasten)</a></li>
-            <li><a href="/industrieoefen/kammeroefen-ico/">Kammeröfen ICO (Umluft)</a></li>
-            <li><a href="/industrieoefen/kammeroefen-icf/">Kammeröfen ICF (bis 1300 °C)</a></li>
-            <li><a href="/industrieoefen/karburierungsoefen/">Karburierungsöfen</a></li>
-            <li><a href="/industrieoefen/haubenoefen/">Haubenöfen</a></li>
-            <li><a href="/industrieoefen/abschreckoefen/">Abschreck- & Härteöfen</a></li>
-            <li><a href="/industrieoefen/multifunktionskammerofen-irf/">Multifunktionsofen IRF</a></li>
-            <li><a href="/industrieoefen/laboroefen-ibf/">Laboröfen IBF</a></li>
-            <li><a href="/industrieoefen/rohroefen-th1/">Rohröfen TH1</a></li>
-            <li><a href="/industrieoefen/durchlaufoefen/">Durchlauföfen</a></li>
-            <li class="dropdown__cta"><a href="/industrieoefen/ofenprojekt/">➜ Ofenprojekt starten</a></li>
+            <li><a href="{{ "/industrieoefen/herdwagenoefen-iwo/" | relURL }}">Herdwagenöfen IWO</a></li>
+            <li><a href="{{ "/industrieoefen/herdwagenoefen-iwf/" | relURL }}">Herdwagenöfen IWF (schwere Lasten)</a></li>
+            <li><a href="{{ "/industrieoefen/kammeroefen-ico/" | relURL }}">Kammeröfen ICO (Umluft)</a></li>
+            <li><a href="{{ "/industrieoefen/kammeroefen-icf/" | relURL }}">Kammeröfen ICF (bis 1300 °C)</a></li>
+            <li><a href="{{ "/industrieoefen/karburierungsoefen/" | relURL }}">Karburierungsöfen</a></li>
+            <li><a href="{{ "/industrieoefen/haubenoefen/" | relURL }}">Haubenöfen</a></li>
+            <li><a href="{{ "/industrieoefen/abschreckoefen/" | relURL }}">Abschreck- & Härteöfen</a></li>
+            <li><a href="{{ "/industrieoefen/multifunktionskammerofen-irf/" | relURL }}">Multifunktionsofen IRF</a></li>
+            <li><a href="{{ "/industrieoefen/laboroefen-ibf/" | relURL }}">Laboröfen IBF</a></li>
+            <li><a href="{{ "/industrieoefen/rohroefen-th1/" | relURL }}">Rohröfen TH1</a></li>
+            <li><a href="{{ "/industrieoefen/durchlaufoefen/" | relURL }}">Durchlauföfen</a></li>
+            <li class="dropdown__cta"><a href="{{ "/industrieoefen/ofenprojekt/" | relURL }}">➜ Ofenprojekt starten</a></li>
             {{ else }}
-            <li><a href="/en/industrial-furnaces/bogie-hearth-iwo/">Bogie Hearth IWO</a></li>
-            <li><a href="/en/industrial-furnaces/bogie-hearth-iwf/">Bogie Hearth IWF (heavy loads)</a></li>
-            <li><a href="/en/industrial-furnaces/chamber-furnaces-ico/">Chamber Furnaces ICO (forced air)</a></li>
-            <li><a href="/en/industrial-furnaces/chamber-furnaces-icf/">Chamber Furnaces ICF (to 1300 °C)</a></li>
-            <li><a href="/en/industrial-furnaces/carburizing-furnaces/">Carburizing Furnaces</a></li>
-            <li><a href="/en/industrial-furnaces/bell-type-furnaces/">Bell-Type Furnaces</a></li>
-            <li><a href="/en/industrial-furnaces/quenching-furnaces/">Quenching Furnaces</a></li>
-            <li><a href="/en/industrial-furnaces/multi-door-furnace-irf/">Multi-Door Furnace IRF</a></li>
-            <li><a href="/en/industrial-furnaces/table-top-furnaces-ibf/">Table-Top Furnaces IBF</a></li>
-            <li><a href="/en/industrial-furnaces/tube-furnaces-th1/">Tube Furnaces TH1</a></li>
-            <li><a href="/en/industrial-furnaces/conveyor-furnaces/">Conveyor Furnaces</a></li>
-            <li class="dropdown__cta"><a href="/en/industrial-furnaces/your-furnace-project/">➜ Start Furnace Project</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/bogie-hearth-iwo/" | relURL }}">Bogie Hearth IWO</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/bogie-hearth-iwf/" | relURL }}">Bogie Hearth IWF (heavy loads)</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/chamber-furnaces-ico/" | relURL }}">Chamber Furnaces ICO (forced air)</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/chamber-furnaces-icf/" | relURL }}">Chamber Furnaces ICF (to 1300 °C)</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/carburizing-furnaces/" | relURL }}">Carburizing Furnaces</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/bell-type-furnaces/" | relURL }}">Bell-Type Furnaces</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/quenching-furnaces/" | relURL }}">Quenching Furnaces</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/multi-door-furnace-irf/" | relURL }}">Multi-Door Furnace IRF</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/table-top-furnaces-ibf/" | relURL }}">Table-Top Furnaces IBF</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/tube-furnaces-th1/" | relURL }}">Tube Furnaces TH1</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/conveyor-furnaces/" | relURL }}">Conveyor Furnaces</a></li>
+            <li class="dropdown__cta"><a href="{{ "/en/industrial-furnaces/your-furnace-project/" | relURL }}">➜ Start Furnace Project</a></li>
             {{ end }}
           </ul>
         </li>
 
-        <li><a href="{{ if eq $lang "de" }}/umweltsimulation/{{ else }}/en/climatic-chambers/{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/umweltsimulation") (hasPrefix .RelPermalink "/en/climatic-chambers") }}is-active{{ end }}">
+        <li><a href="{{ if eq $lang "de" }}{{ "/umweltsimulation/" | relURL }}{{ else }}{{ "/en/climatic-chambers/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/umweltsimulation") (hasPrefix .RelPermalink "/en/climatic-chambers") }}is-active{{ end }}">
           {{ if eq $lang "de" }}Umweltsimulation{{ else }}Climatic Chambers{{ end }}
         </a></li>
 
-        <li><a href="{{ if eq $lang "de" }}/trocknungssysteme/{{ else }}/en/heat-drying-systems/{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/trocknungssysteme") (hasPrefix .RelPermalink "/en/heat-drying-systems") }}is-active{{ end }}">
+        <li><a href="{{ if eq $lang "de" }}{{ "/trocknungssysteme/" | relURL }}{{ else }}{{ "/en/heat-drying-systems/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/trocknungssysteme") (hasPrefix .RelPermalink "/en/heat-drying-systems") }}is-active{{ end }}">
           {{ if eq $lang "de" }}Trocknungssysteme{{ else }}Drying Systems{{ end }}
         </a></li>
 
-        <li><a href="{{ if eq $lang "de" }}/pyrolyseoefen/{{ else }}/en/pyrolysis-furnaces/{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/pyrolyseoefen") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") }}is-active{{ end }}">
+        <li><a href="{{ if eq $lang "de" }}{{ "/pyrolyseoefen/" | relURL }}{{ else }}{{ "/en/pyrolysis-furnaces/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/pyrolyseoefen") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") }}is-active{{ end }}">
           {{ if eq $lang "de" }}Pyrolyseöfen{{ else }}Pyrolysis Furnaces{{ end }}
         </a></li>
 
         <li class="has-dropdown">
-          <a href="{{ if eq $lang "de" }}/services/{{ else }}/en/services/{{ end }}" class="{{ if hasPrefix .RelPermalink "/services" }}is-active{{ else if hasPrefix .RelPermalink "/en/services" }}is-active{{ end }}">
+          <a href="{{ if eq $lang "de" }}{{ "/services/" | relURL }}{{ else }}{{ "/en/services/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/services" }}is-active{{ else if hasPrefix .RelPermalink "/en/services" }}is-active{{ end }}">
             {{ if eq $lang "de" }}Service{{ else }}Services{{ end }}
           </a>
           <ul class="dropdown">
             {{ if eq $lang "de" }}
-            <li><a href="/services/wartung/">Wartung & DGUV-3-Prüfung</a></li>
-            <li><a href="/services/modernisierung/">Aufarbeitung & Modernisierung</a></li>
+            <li><a href="{{ "/services/wartung/" | relURL }}">Wartung & DGUV-3-Prüfung</a></li>
+            <li><a href="{{ "/services/modernisierung/" | relURL }}">Aufarbeitung & Modernisierung</a></li>
             {{ else }}
-            <li><a href="/en/services/maintenance/">Maintenance & DGUV-3 Inspection</a></li>
-            <li><a href="/en/services/refurbishment/">Refurbishment & Modernisation</a></li>
+            <li><a href="{{ "/en/services/maintenance/" | relURL }}">Maintenance & DGUV-3 Inspection</a></li>
+            <li><a href="{{ "/en/services/refurbishment/" | relURL }}">Refurbishment & Modernisation</a></li>
             {{ end }}
           </ul>
         </li>
 
-        <li><a href="{{ if eq $lang "de" }}/kontakt/{{ else }}/en/contact/{{ end }}" class="nav-cta {{ if or (hasPrefix .RelPermalink "/kontakt") (hasPrefix .RelPermalink "/en/contact") }}is-active{{ end }}">
+        <li><a href="{{ if eq $lang "de" }}{{ "/kontakt/" | relURL }}{{ else }}{{ "/en/contact/" | relURL }}{{ end }}" class="nav-cta {{ if or (hasPrefix .RelPermalink "/kontakt") (hasPrefix .RelPermalink "/en/contact") }}is-active{{ end }}">
           {{ if eq $lang "de" }}Kontakt{{ else }}Contact{{ end }}
         </a></li>
 

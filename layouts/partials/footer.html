@@ -24,21 +24,21 @@
           <h3>{{ if eq $lang "de" }}Produkte{{ else }}Products{{ end }}</h3>
           <ul>
             {{ if eq $lang "de" }}
-            <li><a href="/industrieoefen/">Industrieöfen</a></li>
-            <li><a href="/industrieoefen/herdwagenoefen-iwo/">Herdwagenöfen IWO</a></li>
-            <li><a href="/industrieoefen/kammeroefen-ico/">Kammeröfen ICO</a></li>
-            <li><a href="/industrieoefen/rohroefen-th1/">Rohröfen TH1</a></li>
-            <li><a href="/umweltsimulation/">Klimaprüfkammern</a></li>
-            <li><a href="/trocknungssysteme/">Trocknungssysteme</a></li>
-            <li><a href="/pyrolyseoefen/">Pyrolyseöfen</a></li>
+            <li><a href="{{ "/industrieoefen/" | relURL }}">Industrieöfen</a></li>
+            <li><a href="{{ "/industrieoefen/herdwagenoefen-iwo/" | relURL }}">Herdwagenöfen IWO</a></li>
+            <li><a href="{{ "/industrieoefen/kammeroefen-ico/" | relURL }}">Kammeröfen ICO</a></li>
+            <li><a href="{{ "/industrieoefen/rohroefen-th1/" | relURL }}">Rohröfen TH1</a></li>
+            <li><a href="{{ "/umweltsimulation/" | relURL }}">Klimaprüfkammern</a></li>
+            <li><a href="{{ "/trocknungssysteme/" | relURL }}">Trocknungssysteme</a></li>
+            <li><a href="{{ "/pyrolyseoefen/" | relURL }}">Pyrolyseöfen</a></li>
             {{ else }}
-            <li><a href="/en/industrial-furnaces/">Industrial Furnaces</a></li>
-            <li><a href="/en/industrial-furnaces/bogie-hearth-iwo/">Bogie Hearth IWO</a></li>
-            <li><a href="/en/industrial-furnaces/chamber-furnaces-ico/">Chamber Furnaces ICO</a></li>
-            <li><a href="/en/industrial-furnaces/tube-furnaces-th1/">Tube Furnaces TH1</a></li>
-            <li><a href="/en/climatic-chambers/">Climatic Chambers</a></li>
-            <li><a href="/en/heat-drying-systems/">Drying Systems</a></li>
-            <li><a href="/en/pyrolysis-furnaces/">Pyrolysis Furnaces</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/" | relURL }}">Industrial Furnaces</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/bogie-hearth-iwo/" | relURL }}">Bogie Hearth IWO</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/chamber-furnaces-ico/" | relURL }}">Chamber Furnaces ICO</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/tube-furnaces-th1/" | relURL }}">Tube Furnaces TH1</a></li>
+            <li><a href="{{ "/en/climatic-chambers/" | relURL }}">Climatic Chambers</a></li>
+            <li><a href="{{ "/en/heat-drying-systems/" | relURL }}">Drying Systems</a></li>
+            <li><a href="{{ "/en/pyrolysis-furnaces/" | relURL }}">Pyrolysis Furnaces</a></li>
             {{ end }}
           </ul>
         </div>
@@ -47,19 +47,19 @@
           <h3>{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</h3>
           <ul>
             {{ if eq $lang "de" }}
-            <li><a href="/services/">Serviceleistungen</a></li>
-            <li><a href="/services/wartung/">Wartung & DGUV-3</a></li>
-            <li><a href="/services/modernisierung/">Modernisierung</a></li>
-            <li><a href="/industrieoefen/ofenprojekt/">Ofenprojekt starten</a></li>
-            <li><a href="/kontakt/ueber-uns/">Über uns</a></li>
-            <li><a href="/kontakt/">Kontakt</a></li>
+            <li><a href="{{ "/services/" | relURL }}">Serviceleistungen</a></li>
+            <li><a href="{{ "/services/wartung/" | relURL }}">Wartung & DGUV-3</a></li>
+            <li><a href="{{ "/services/modernisierung/" | relURL }}">Modernisierung</a></li>
+            <li><a href="{{ "/industrieoefen/ofenprojekt/" | relURL }}">Ofenprojekt starten</a></li>
+            <li><a href="{{ "/kontakt/ueber-uns/" | relURL }}">Über uns</a></li>
+            <li><a href="{{ "/kontakt/" | relURL }}">Kontakt</a></li>
             {{ else }}
-            <li><a href="/en/services/">All Services</a></li>
-            <li><a href="/en/services/maintenance/">Maintenance & DGUV-3</a></li>
-            <li><a href="/en/services/refurbishment/">Refurbishment</a></li>
-            <li><a href="/en/industrial-furnaces/your-furnace-project/">Start Furnace Project</a></li>
-            <li><a href="/en/contact/about-us/">About Us</a></li>
-            <li><a href="/en/contact/">Contact</a></li>
+            <li><a href="{{ "/en/services/" | relURL }}">All Services</a></li>
+            <li><a href="{{ "/en/services/maintenance/" | relURL }}">Maintenance & DGUV-3</a></li>
+            <li><a href="{{ "/en/services/refurbishment/" | relURL }}">Refurbishment</a></li>
+            <li><a href="{{ "/en/industrial-furnaces/your-furnace-project/" | relURL }}">Start Furnace Project</a></li>
+            <li><a href="{{ "/en/contact/about-us/" | relURL }}">About Us</a></li>
+            <li><a href="{{ "/en/contact/" | relURL }}">Contact</a></li>
             {{ end }}
           </ul>
         </div>
@@ -72,7 +72,7 @@
             <p><a href="tel:+4915233626998">+49 1523 3626998</a></p>
             <p><a href="mailto:info@nth-therm.com">info@nth-therm.com</a></p>
           </address>
-          <a href="{{ if eq $lang "de" }}/kontakt/{{ else }}/en/contact/{{ end }}" class="btn btn--outline btn--sm">
+          <a href="{{ if eq $lang "de" }}{{ "/kontakt/" | relURL }}{{ else }}{{ "/en/contact/" | relURL }}{{ end }}" class="btn btn--outline btn--sm">
             {{ if eq $lang "de" }}Jetzt anfragen{{ else }}Get in Touch{{ end }}
           </a>
         </div>
@@ -85,8 +85,8 @@
     <div class="container">
       <p class="copyright">© {{ now.Year }} NTH Therm GmbH. {{ if eq $lang "de" }}Alle Rechte vorbehalten.{{ else }}All rights reserved.{{ end }}</p>
       <nav aria-label="{{ if eq $lang "de" }}Rechtliche Links{{ else }}Legal Links{{ end }}">
-        <a href="{{ if eq $lang "de" }}/impressum/{{ else }}/en/imprint/{{ end }}">{{ if eq $lang "de" }}Impressum{{ else }}Imprint{{ end }}</a>
-        <a href="{{ if eq $lang "de" }}/datenschutz/{{ else }}/en/privacy/{{ end }}">{{ if eq $lang "de" }}Datenschutz{{ else }}Privacy{{ end }}</a>
+        <a href="{{ if eq $lang "de" }}{{ "/impressum/" | relURL }}{{ else }}{{ "/en/imprint/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Impressum{{ else }}Imprint{{ end }}</a>
+        <a href="{{ if eq $lang "de" }}{{ "/datenschutz/" | relURL }}{{ else }}{{ "/en/privacy/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Datenschutz{{ else }}Privacy{{ end }}</a>
       </nav>
     </div>
   </div>
