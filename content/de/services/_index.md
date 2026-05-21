@@ -1,22 +1,35 @@
 ---
-title: "Service & Wartung für Industrieöfen | NTH Therm"
-description: "NTH Therm Serviceleistungen: Wartung, DGUV-3-Prüfung, Modernisierung, SPS-Fernwartung, Prozessoptimierung und Automatisierung für Industrieöfen. Jetzt anfragen."
+title: "Service für Industrieöfen | Wartung, Modernisierung, Inbetriebnahme | NTH Therm"
+description: "Vollständiges Service-Portfolio für Industrieöfen: Wartung & DGUV-3, Modernisierung, Inbetriebnahme & Schulung, SPS-Fernwartung und Ersatzteilversorgung – für NTH Therm und Fremdanlagen."
 translationKey: "services"
-layout: "section-services"
 weight: 50
-intro: "Ihr Industrieofen ist eine kritische Anlage – Ausfälle kosten Geld. Unser Service-Team sorgt dafür, dass Ihre Anlagen laufen: präventiv, reaktiv und langfristig."
+intro: "Ihr Industrieofen ist eine kritische Anlage – Ausfälle kosten Geld, Prozessabweichungen kosten Qualität. NTH Therm begleitet Sie über den gesamten Lebenszyklus Ihrer Anlage: von der Inbetriebnahme bis zur Modernisierung."
 ---
 
-## Service für Industrieöfen – Schnell, Kompetent, Europaweite Reichweite
+## Service über den gesamten Anlagen-Lebenszyklus
 
-NTH Therm ist nicht nur Hersteller, sondern auch Ihr langfristiger Servicepartner. Unsere Techniker sind mit den Besonderheiten der von uns gefertigten Anlagen bestens vertraut – und können auch **fremde Industrieöfen** inspizieren, warten und modernisieren.
+NTH Therm ist nicht nur Hersteller, sondern Ihr langfristiger Partner. Unsere Serviceleistungen decken alle Phasen des Anlagenlebenszyklus ab – und stehen auch für **Industrieöfen anderer Hersteller** offen.
 
-**Unsere Serviceleistungen:**
-- Regelmäßige Wartung und Ofendurchsicht
-- DGUV-3-Prüfung (BGV A3) nach DIN VDE 0100-600
-- Temperaturüberprüfung und -kalibrierung
-- SPS-Fernwartung und Remote-Diagnose
-- Ersatzteilbevorratung und schnelle Lieferung
-- Modernisierung älterer Anlagen
-- Bedienpersonal-Schulungen
-- Anlagen-Verlagerung und Wiederinbetriebnahme
+### Unser Service-Portfolio
+
+**Wartung & DGUV-3-Prüfung**
+Jährliche Inspektion, Kalibrierung, elektrische Sicherheitsprüfung und vollständige Dokumentation. Reaktionszeit bei Störungen: ≤ 4 Stunden. Wartungsvertrag oder Einzeleinsatz.
+
+**Modernisierung & Aufarbeitung**
+Neue SPS (Siemens S7-1500), Touch-HMI, Sicherheitstechnik, Isolierung, Heizungssystem – für 30–60 % der Neuanschaffungskosten. Erschließen Sie neue Prozesse ohne neuen Ofen.
+
+**Inbetriebnahme & Schulung**
+Strukturierte Inbetriebnahme mit Temperaturqualifizierung (TUS/SAT), Rezeptprogrammierung und CE-Abnahme. Schulungen für Bediener und Wartungspersonal – auf Wunsch auch für CQI-9 und AMS2750.
+
+**SPS-Fernwartung & Ersatzteilversorgung**
+Gesicherter VPN-Fernzugriff für schnelle Diagnose und Entstörung. Ersatzteilbevorratung für NTH Therm und Fremdanlagen. Optional: OEE-Monitoring mit Evocon für vorausschauende Wartung.
+
+### Leistungsversprechen
+
+| Kennzahl | Wert |
+|----------|------|
+| Reaktionszeit bei Produktionsstillstand | ≤ 4 Stunden |
+| Einsparung vs. Notfallreparatur (Wartungsvertrag) | ∅ 60 % |
+| Kosten Modernisierung vs. Neukauf | 30–60 % |
+| Lebensdauerverlängerung durch Modernisierung | 15+ Jahre |
+| Markenabdeckung | Alle gängigen Hersteller |

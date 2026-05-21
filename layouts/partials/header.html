@@ -92,11 +92,15 @@
           </a>
           <ul class="dropdown">
             {{ if eq $lang "de" }}
-            <li><a href="{{ "/services/wartung/" | relURL }}">Wartung & DGUV-3-Prüfung</a></li>
-            <li><a href="{{ "/services/modernisierung/" | relURL }}">Aufarbeitung & Modernisierung</a></li>
+            <li><a href="{{ "/services/wartung/" | relURL }}">Wartung &amp; DGUV-3-Prüfung</a></li>
+            <li><a href="{{ "/services/modernisierung/" | relURL }}">Aufarbeitung &amp; Modernisierung</a></li>
+            <li><a href="{{ "/services/inbetriebnahme/" | relURL }}">Inbetriebnahme &amp; Schulung</a></li>
+            <li><a href="{{ "/services/fernwartung-ersatzteile/" | relURL }}">SPS-Fernwartung &amp; Ersatzteile</a></li>
             {{ else }}
-            <li><a href="{{ "/en/services/maintenance/" | relURL }}">Maintenance & DGUV-3 Inspection</a></li>
-            <li><a href="{{ "/en/services/refurbishment/" | relURL }}">Refurbishment & Modernisation</a></li>
+            <li><a href="{{ "/en/services/maintenance/" | relURL }}">Maintenance &amp; DGUV-3 Inspection</a></li>
+            <li><a href="{{ "/en/services/refurbishment/" | relURL }}">Refurbishment &amp; Modernisation</a></li>
+            <li><a href="{{ "/en/services/commissioning/" | relURL }}">Commissioning &amp; Training</a></li>
+            <li><a href="{{ "/en/services/remote-spare-parts/" | relURL }}">Remote Maintenance &amp; Spare Parts</a></li>
             {{ end }}
           </ul>
         </li>
