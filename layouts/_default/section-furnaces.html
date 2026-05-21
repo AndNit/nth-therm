@@ -1,0 +1,82 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+
+<div class="page-hero">
+  <div class="container">
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
+    {{ with .Params.intro }}<p style="color:rgba(255,255,255,.7);max-width:60ch;margin-top:.75em;">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+{{/* ── 1: Product Grid ── */}}
+<section class="section">
+  <div class="container">
+
+    <div class="product-grid">
+      {{ range where .Pages "Params.layout" "ne" "project-form" }}
+      <a href="{{ .Permalink }}" class="product-card">
+        <div class="product-card__img">
+          {{ if .Params.image }}
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+          {{ else }}
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#2c2c2c);display:flex;align-items:center;justify-content:center;">
+            <svg width="64" height="64" viewBox="0 0 80 80" fill="none" stroke="rgba(230,48,18,.4)" stroke-width="1.5"><rect x="10" y="20" width="60" height="40" rx="2"/><rect x="20" y="28" width="40" height="24" rx="1"/><circle cx="40" cy="40" r="6"/></svg>
+          </div>
+          {{ end }}
+        </div>
+        <div class="product-card__body">
+          {{ with .Params.specs.temp_range }}<p class="product-card__temp">{{ . }}</p>{{ end }}
+          <h3>{{ .Title | replaceRE `\s*[–—|].*$` "" }}</h3>
+          <p>{{ with .Description }}{{ . | truncate 160 }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}</p>
+          <span class="product-card__link">{{ if eq $lang "de" }}Mehr erfahren{{ else }}Learn more{{ end }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+
+    {{/* ── 2: Configurator CTA ── */}}
+    {{ if .Params.cta_banner }}
+    {{ $cb := .Params.cta_banner }}
+    <div class="cta-banner cta-banner--featured" style="margin-top:3rem;">
+      {{ if $cb.image }}
+      <div class="cta-banner__img">
+        <img src="{{ $cb.image | relURL }}" alt="{{ $cb.headline }}" loading="lazy">
+      </div>
+      {{ end }}
+      <div class="cta-banner__body">
+        <h2>{{ $cb.headline }}</h2>
+        {{ with $cb.text }}<p>{{ . }}</p>{{ end }}
+        <a href="{{ $cb.url | relURL }}" class="btn btn--primary btn--lg">{{ $cb.cta }}</a>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+
+{{/* ── 3: Description ── */}}
+{{ with .Content }}
+<section class="section section--alt">
+  <div class="container">
+    <div class="prose">{{ . }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ if .Params.faqs }}
+<section class="section">
+  <div class="container">
+    <h2 style="text-align:center;margin-bottom:2rem;">FAQ</h2>
+    <div class="faq-list">
+      {{ range .Params.faqs }}
+      <details class="faq-item">
+        <summary>{{ .q }}</summary>
+        <div class="faq-item__answer"><p>{{ .a }}</p></div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

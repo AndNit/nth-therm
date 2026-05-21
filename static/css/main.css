@@ -611,8 +611,8 @@ strong { font-weight: 600; }
 .site-footer__top { padding: var(--space-2xl) 0; }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1.2fr;
-  gap: var(--space-xl);
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.1fr;
+  gap: var(--space-md);
 }
 .footer-col h3 {
   font-family: var(--font-display); font-size: .75rem; font-weight: 700;
@@ -675,7 +675,7 @@ strong { font-weight: 600; }
 
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr 1fr; }
   .content-layout { grid-template-columns: 1fr; }
   .sidebar { position: static; }
 }
@@ -704,7 +704,7 @@ strong { font-weight: 600; }
   .cta-banner--featured .btn { align-self: center; }
   .contact-info-grid { grid-template-columns: 1fr; }
   .contact-map { position: static; }
-  .contact-map iframe { height: 260px; }
+  .contact-map iframe { height: 250px; }
   .contact-form-card { padding: var(--space-md); }
 }
 
@@ -718,40 +718,33 @@ strong { font-weight: 600; }
 /* ── Contact Page ───────────────────────────────────────── */
 .contact-info-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.35fr;   /* map gets more visual weight */
   gap: var(--space-lg);
   align-items: start;
 }
-/* info panel: card treatment matching the map */
-.contact-info {
-  background: var(--col-white);
-  border: 1px solid var(--col-border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: var(--space-lg);
-}
+/* info panel: clean type on white — no card, map provides the visual anchor */
 .contact-info__company {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 700;
   text-transform: none;    /* override global uppercase */
   letter-spacing: 0;
   color: var(--col-graphite);
-  padding-bottom: .7em;
+  padding-bottom: .6em;
   border-bottom: 2px solid var(--col-red);
   margin-bottom: 0;
 }
-/* channel rows: use padding + border-bottom for consistent visual rows */
+/* channel rows: padding + border-bottom, compact and structured */
 .contact-channel {
   display: flex;
-  gap: .875rem;
+  gap: .75rem;
   align-items: flex-start;
-  padding: .875rem 0;
+  padding: .85rem 0;
   border-bottom: 1px solid var(--col-border);
 }
 .contact-channel__icon {
   flex-shrink: 0;
-  width: 2rem;
-  height: 2rem;
+  width: 1.6rem;
+  height: 1.6rem;
   border-radius: 50%;
   background: var(--col-mist);
   display: flex;
@@ -760,24 +753,26 @@ strong { font-weight: 600; }
   color: var(--col-red);
   margin-top: .1rem;
 }
-.contact-channel__icon svg { width: .9rem; height: .9rem; }
+.contact-channel__icon svg { width: .75rem; height: .75rem; }
 .contact-channel__label {
   display: block;
-  font-size: .68rem;
+  font-size: .67rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .07em;
   color: var(--col-mid);
-  margin-bottom: .3em;
+  margin-bottom: .25em;
 }
 .contact-channel address {
   font-style: normal;
-  line-height: 1.65;
+  line-height: 1.6;
+  font-size: .925rem;
   color: var(--col-graphite);
 }
 .contact-channel p {
   margin: 0;
-  line-height: 1.65;
+  line-height: 1.6;
+  font-size: .925rem;
   color: var(--col-graphite);
   max-width: none;     /* reset global 72ch constraint */
 }
@@ -787,20 +782,20 @@ strong { font-weight: 600; }
 .contact-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: .4rem;
-  padding-top: var(--space-sm);
+  gap: .35rem;
+  padding-top: .85rem;
 }
 .contact-badge {
   display: inline-flex;
   align-items: center;
   gap: .3rem;
-  font-size: .75rem;
+  font-size: .72rem;
   font-weight: 600;
   color: var(--col-slate);
   background: var(--col-mist);
   border: 1px solid var(--col-border);
   border-radius: 2rem;
-  padding: .25em .75em;
+  padding: .22em .7em;
 }
 .contact-map {
   border-radius: var(--radius);
@@ -813,15 +808,15 @@ strong { font-weight: 600; }
 .contact-map iframe {
   display: block;
   width: 100%;
-  height: 420px;
+  height: 360px;
   border: none;
 }
 .contact-map__link {
   display: flex;
   align-items: center;
   gap: .4rem;
-  padding: .65em 1em;
-  font-size: .8rem;
+  padding: .6em 1em;
+  font-size: .78rem;
   font-weight: 600;
   color: var(--col-red);
   background: var(--col-white);

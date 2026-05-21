@@ -15,17 +15,20 @@ cta_banner:
   image: "/images/ofenprojekt.jpg"
 ---
 
-## Industrieöfen für jeden Anwendungsfall
+## Wärmebehandlungsanlagen mit System
 
-Unsere Produktpalette umfasst alle gängigen Ofentypen für die industrielle Wärmebehandlung – vom kompakten Tischgerät für das Labor bis zur schwerlastfähigen Großanlage für die Serienproduktion.
+Das NTH Therm Produktprogramm umfasst alle gängigen Ofentypen für die industrielle Thermoprozesstechnik – von kompakten Tischöfen für Forschung und Qualitätssicherung bis zu schwerlastfähigen Herdwagenöfen für Chargen im Tonnenbereich. Jede Anlage wird in Europa konstruiert und individuell nach Kundenanforderungen gefertigt. Standardisierte Baukästen sichern wirtschaftliche Lieferzeiten; kundenspezifische Abmessungen, Heizsysteme und Atmosphärenausführungen sind ohne Kompromisse beim Grundkonzept realisierbar.
 
-**Wir fertigen Industrieöfen für folgende Prozesse:**
-- Anlassen, Glühen, Normalisieren
-- Härten und Abschrecken (Luft / Wasser / Öl)
-- Karburieren und Aufkohlen
-- Sintern und Kalzinieren
-- Vorwärmen und Trocknen
-- Altern und Aushärten
-- Pyrolyse und thermische Reinigung
+**Thermische Prozesse – Anlagen und Temperaturbereiche:**
 
-Alle Industrieöfen sind mit unserer **Touch-Screen-Steuerung**, programmierbaren PID-Reglern und optionaler PC-Software / RS232/RS485-Schnittstelle ausgestattet.
+- **Anlassen, Glühen, Normalisieren** – Kammeröfen ICO, Herdwagenöfen IWO, Laboröfen IBF; 50–900 °C
+- **Härten und Abschrecken** – Abschreck- und Härteöfen, Kammeröfen ICO; 800–1000 °C mit Luft-, Wasser- oder Ölabschreckung
+- **Karburieren und Aufkohlen** – Karburierungsöfen; bis 1000 °C mit C-Potenzialregelung und ATEX-Ausführung
+- **Sintern und Kalzinieren** – Kammeröfen ICF, Herdwagenöfen IWF, Rohröfen TH1; bis 1300 °C
+- **Vorwärmen und Trocknen** – Kammeröfen ICO, Herdwagenöfen IWO, Durchlauföfen; 50–400 °C
+- **Altern und Aushärten** – Kammeröfen ICO, Laboröfen IBF; 50–260 °C
+- **Pyrolyse und thermische Reinigung** – Pyrolyseöfen; 400–700 °C unter Inertgasatmosphäre
+
+**Steuerungstechnik und Prozessdokumentation**
+
+Alle Anlagen werden serienmäßig mit einer PLC-basierten **Touch-Screen-Steuerung** mit frei programmierbaren Temperaturrampen, Haltezeiten und Alarmgrenzen ausgeliefert. Schnittstellen für PC-Anbindung via RS232/RS485 oder Ethernet sind standardmäßig integriert. Für qualitätskritische und validierungspflichtige Prozesse – etwa in der Luft- und Raumfahrt (AMS 2750), Medizintechnik (ISO 13485) oder Automobilindustrie (CQI-9) – stehen IQ/OQ-konforme Dokumentationspakete und Temperaturgleichförmigkeitsprotokolle auf Anfrage bereit.
