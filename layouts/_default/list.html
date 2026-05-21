@@ -2,7 +2,7 @@
 {{ $lang := .Site.Language.Lang }}
 <div class="page-hero">
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
     {{ with .Params.intro }}<p style="color:rgba(255,255,255,.7);max-width:60ch;margin-top:.75em;">{{ . }}</p>{{ end }}
   </div>
 </div>

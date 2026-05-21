@@ -49,16 +49,16 @@
           </ul>
         </li>
 
+        <li><a href="{{ if eq $lang "de" }}{{ "/pyrolyseoefen/" | relURL }}{{ else }}{{ "/en/pyrolysis-furnaces/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/pyrolyseoefen") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") }}is-active{{ end }}">
+          {{ if eq $lang "de" }}Pyrolyseöfen{{ else }}Pyrolysis Furnaces{{ end }}
+        </a></li>
+
         <li><a href="{{ if eq $lang "de" }}{{ "/umweltsimulation/" | relURL }}{{ else }}{{ "/en/climatic-chambers/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/umweltsimulation") (hasPrefix .RelPermalink "/en/climatic-chambers") }}is-active{{ end }}">
           {{ if eq $lang "de" }}Umweltsimulation{{ else }}Climatic Chambers{{ end }}
         </a></li>
 
         <li><a href="{{ if eq $lang "de" }}{{ "/trocknungssysteme/" | relURL }}{{ else }}{{ "/en/heat-drying-systems/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/trocknungssysteme") (hasPrefix .RelPermalink "/en/heat-drying-systems") }}is-active{{ end }}">
           {{ if eq $lang "de" }}Trocknungssysteme{{ else }}Drying Systems{{ end }}
-        </a></li>
-
-        <li><a href="{{ if eq $lang "de" }}{{ "/pyrolyseoefen/" | relURL }}{{ else }}{{ "/en/pyrolysis-furnaces/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/pyrolyseoefen") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") }}is-active{{ end }}">
-          {{ if eq $lang "de" }}Pyrolyseöfen{{ else }}Pyrolysis Furnaces{{ end }}
         </a></li>
 
         <li class="has-dropdown">

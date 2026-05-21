@@ -8,7 +8,7 @@
       {{ with .Parent }}<a href="{{ .Permalink }}">{{ .Title }}</a><span class="breadcrumb__sep" aria-hidden="true">›</span>{{ end }}
       <span aria-current="page">{{ .Title | truncate 50 }}</span>
     </nav>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
   </div>
 </div>
 <section class="section">

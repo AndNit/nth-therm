@@ -11,7 +11,7 @@
       <span>{{ .Title | truncate 40 }}</span>
     </nav>
     <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Service{{ else }}Services{{ end }}</p>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
   </div>
 </div>
 <section class="section">
