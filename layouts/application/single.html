@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="{{ if eq $lang "de" }}{{ "/anwendungen/" | relURL }}{{ else }}{{ "/en/applications/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Anwendungen{{ else }}Applications{{ end }}</a>
+      <span class="breadcrumb__sep">›</span>
+      <span>{{ .Title | truncate 40 }}</span>
+    </nav>
+    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Anwendung{{ else }}Application{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+      <div class="prose">
+        {{ .Content }}
+        {{ if $p.faqs }}
+        <h2>{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+        <div class="faq-list">
+          {{ range $p.faqs }}
+          <details class="faq-item">
+            <summary>{{ .q }}</summary>
+            <div class="faq-item__answer"><p>{{ .a }}</p></div>
+          </details>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <aside class="sidebar">
+        {{ if $p.cta }}
+        <div class="sidebar-card">
+          <h3>{{ $p.cta.headline }}</h3>
+          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
+          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary">{{ $p.cta.button }}</a>
+        </div>
+        {{ end }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Schnell erreichbar{{ else }}Quick Contact{{ end }}</h3>
+          <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-bottom:.5em;">+49 7272 9310989</a>
+          <a href="mailto:info@nth-therm.com" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;">info@nth-therm.com</a>
+        </div>
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Alle Anwendungen{{ else }}All Applications{{ end }}</h3>
+          <ul style="font-size:.9rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.4em;">
+            {{ if eq $lang "de" }}
+            <li><a href="{{ "/anwendungen/anlassen/" | relURL }}" style="color:var(--col-red);">Anlassen</a></li>
+            <li><a href="{{ "/anwendungen/haerten/" | relURL }}" style="color:var(--col-red);">Härten</a></li>
+            <li><a href="{{ "/anwendungen/gluehen/" | relURL }}" style="color:var(--col-red);">Glühen</a></li>
+            <li><a href="{{ "/anwendungen/sintern/" | relURL }}" style="color:var(--col-red);">Sintern</a></li>
+            <li><a href="{{ "/anwendungen/karburieren/" | relURL }}" style="color:var(--col-red);">Karburieren</a></li>
+            <li><a href="{{ "/anwendungen/trocknen/" | relURL }}" style="color:var(--col-red);">Trocknen</a></li>
+            <li><a href="{{ "/anwendungen/vorwaermen/" | relURL }}" style="color:var(--col-red);">Vorwärmen</a></li>
+            {{ else }}
+            <li><a href="{{ "/en/applications/tempering/" | relURL }}" style="color:var(--col-red);">Tempering</a></li>
+            <li><a href="{{ "/en/applications/hardening/" | relURL }}" style="color:var(--col-red);">Hardening</a></li>
+            <li><a href="{{ "/en/applications/annealing/" | relURL }}" style="color:var(--col-red);">Annealing</a></li>
+            <li><a href="{{ "/en/applications/sintering/" | relURL }}" style="color:var(--col-red);">Sintering</a></li>
+            <li><a href="{{ "/en/applications/carburising/" | relURL }}" style="color:var(--col-red);">Carburising</a></li>
+            <li><a href="{{ "/en/applications/drying/" | relURL }}" style="color:var(--col-red);">Drying</a></li>
+            <li><a href="{{ "/en/applications/preheating/" | relURL }}" style="color:var(--col-red);">Preheating</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}

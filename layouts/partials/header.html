@@ -62,6 +62,31 @@
         </a></li>
 
         <li class="has-dropdown">
+          <a href="{{ if eq $lang "de" }}{{ "/anwendungen/" | relURL }}{{ else }}{{ "/en/applications/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/anwendungen" }}is-active{{ else if hasPrefix .RelPermalink "/en/applications" }}is-active{{ end }}">
+            {{ if eq $lang "de" }}Anwendungen{{ else }}Applications{{ end }}
+          </a>
+          <ul class="dropdown">
+            {{ if eq $lang "de" }}
+            <li><a href="{{ "/anwendungen/anlassen/" | relURL }}">Anlassen</a></li>
+            <li><a href="{{ "/anwendungen/haerten/" | relURL }}">Härten</a></li>
+            <li><a href="{{ "/anwendungen/gluehen/" | relURL }}">Glühen</a></li>
+            <li><a href="{{ "/anwendungen/sintern/" | relURL }}">Sintern</a></li>
+            <li><a href="{{ "/anwendungen/karburieren/" | relURL }}">Karburieren</a></li>
+            <li><a href="{{ "/anwendungen/trocknen/" | relURL }}">Trocknen</a></li>
+            <li><a href="{{ "/anwendungen/vorwaermen/" | relURL }}">Vorwärmen</a></li>
+            {{ else }}
+            <li><a href="{{ "/en/applications/tempering/" | relURL }}">Tempering</a></li>
+            <li><a href="{{ "/en/applications/hardening/" | relURL }}">Hardening</a></li>
+            <li><a href="{{ "/en/applications/annealing/" | relURL }}">Annealing</a></li>
+            <li><a href="{{ "/en/applications/sintering/" | relURL }}">Sintering</a></li>
+            <li><a href="{{ "/en/applications/carburising/" | relURL }}">Carburising</a></li>
+            <li><a href="{{ "/en/applications/drying/" | relURL }}">Drying</a></li>
+            <li><a href="{{ "/en/applications/preheating/" | relURL }}">Preheating</a></li>
+            {{ end }}
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
           <a href="{{ if eq $lang "de" }}{{ "/services/" | relURL }}{{ else }}{{ "/en/services/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/services" }}is-active{{ else if hasPrefix .RelPermalink "/en/services" }}is-active{{ end }}">
             {{ if eq $lang "de" }}Service{{ else }}Services{{ end }}
           </a>
