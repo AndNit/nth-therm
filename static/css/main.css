@@ -704,7 +704,7 @@ strong { font-weight: 600; }
   .cta-banner--featured .btn { align-self: center; }
   .contact-info-grid { grid-template-columns: 1fr; }
   .contact-map { position: static; }
-  .contact-map iframe { height: 280px; }
+  .contact-map iframe { height: 260px; }
   .contact-form-card { padding: var(--space-md); }
 }
 
@@ -718,86 +718,109 @@ strong { font-weight: 600; }
 /* ── Contact Page ───────────────────────────────────────── */
 .contact-info-grid {
   display: grid;
-  grid-template-columns: 1fr 1.55fr;
-  gap: var(--space-xl);
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
   align-items: start;
 }
-.contact-info__company {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--col-graphite);
-  padding-bottom: .6em;
-  border-bottom: 2px solid var(--col-red);
-  margin-bottom: var(--space-md);
+/* info panel: card treatment matching the map */
+.contact-info {
+  background: var(--col-white);
+  border: 1px solid var(--col-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-lg);
 }
+.contact-info__company {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: none;    /* override global uppercase */
+  letter-spacing: 0;
+  color: var(--col-graphite);
+  padding-bottom: .7em;
+  border-bottom: 2px solid var(--col-red);
+  margin-bottom: 0;
+}
+/* channel rows: use padding + border-bottom for consistent visual rows */
 .contact-channel {
   display: flex;
-  gap: 1rem;
+  gap: .875rem;
   align-items: flex-start;
-  margin-bottom: 1.25rem;
+  padding: .875rem 0;
+  border-bottom: 1px solid var(--col-border);
 }
 .contact-channel__icon {
   flex-shrink: 0;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background: var(--col-mist);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--col-red);
+  margin-top: .1rem;
 }
-.contact-channel__icon svg { width: 1rem; height: 1rem; }
+.contact-channel__icon svg { width: .9rem; height: .9rem; }
 .contact-channel__label {
   display: block;
-  font-size: .7rem;
+  font-size: .68rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .06em;
+  letter-spacing: .07em;
   color: var(--col-mid);
-  margin-bottom: .2em;
+  margin-bottom: .3em;
 }
-.contact-channel address { font-style: normal; line-height: 1.6; }
-.contact-channel p { margin: .15em 0; }
-.contact-channel a { color: var(--col-graphite); }
+.contact-channel address {
+  font-style: normal;
+  line-height: 1.65;
+  color: var(--col-graphite);
+}
+.contact-channel p {
+  margin: 0;
+  line-height: 1.65;
+  color: var(--col-graphite);
+  max-width: none;     /* reset global 72ch constraint */
+}
+.contact-channel p + p { margin-top: .1em; }
+.contact-channel a { color: var(--col-graphite); transition: color var(--transition); }
 .contact-channel a:hover { color: var(--col-red); }
 .contact-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
-  margin-top: var(--space-md);
+  gap: .4rem;
+  padding-top: var(--space-sm);
 }
 .contact-badge {
   display: inline-flex;
   align-items: center;
-  gap: .35rem;
-  font-size: .78rem;
+  gap: .3rem;
+  font-size: .75rem;
   font-weight: 600;
-  color: var(--col-graphite);
+  color: var(--col-slate);
   background: var(--col-mist);
   border: 1px solid var(--col-border);
   border-radius: 2rem;
-  padding: .3em .8em;
+  padding: .25em .75em;
 }
 .contact-map {
-  position: sticky;
-  top: calc(var(--header-h) + 1.5rem);
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--col-border);
-  box-shadow: 0 4px 16px rgba(0,0,0,.08);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: calc(var(--header-h) + 1.5rem);
 }
 .contact-map iframe {
   display: block;
   width: 100%;
-  height: 380px;
+  height: 420px;
   border: none;
 }
 .contact-map__link {
   display: flex;
   align-items: center;
   gap: .4rem;
-  padding: .6em 1em;
+  padding: .65em 1em;
   font-size: .8rem;
   font-weight: 600;
   color: var(--col-red);
@@ -808,7 +831,7 @@ strong { font-weight: 600; }
 }
 .contact-map__link:hover { background: var(--col-mist); }
 .contact-form-section {
-  max-width: 780px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .contact-form-section__header {
