@@ -246,8 +246,12 @@
             </div>
             <div class="form-grid form-grid--2col">
               <div class="form-field">
-                <label for="w-name">{{ if eq $lang "de" }}Ihr Name *{{ else }}Your Name *{{ end }}</label>
-                <input type="text" id="w-name" name="name" required placeholder="{{ if eq $lang "de" }}Max Mustermann{{ else }}John Smith{{ end }}">
+                <label for="w-firstname">{{ if eq $lang "de" }}Vorname *{{ else }}First Name *{{ end }}</label>
+                <input type="text" id="w-firstname" name="firstname" required placeholder="{{ if eq $lang "de" }}Max{{ else }}John{{ end }}">
+              </div>
+              <div class="form-field">
+                <label for="w-lastname">{{ if eq $lang "de" }}Nachname *{{ else }}Last Name *{{ end }}</label>
+                <input type="text" id="w-lastname" name="lastname" required placeholder="{{ if eq $lang "de" }}Mustermann{{ else }}Smith{{ end }}">
               </div>
               <div class="form-field">
                 <label for="w-company">{{ if eq $lang "de" }}Unternehmen{{ else }}Company{{ end }}</label>
@@ -267,15 +271,27 @@
               <textarea id="w-notes" name="notes" rows="3"
                 placeholder="{{ if eq $lang "de" }}Besonderheiten, Fragen, Sonderwünsche...{{ else }}Special requirements, questions, notes...{{ end }}"></textarea>
             </div>
-            <div class="form-field form-field--checkbox" style="margin-top:1rem;">
-              <input type="checkbox" id="w-privacy" name="privacy" required>
-              <label for="w-privacy" style="font-family:var(--font-body);text-transform:none;letter-spacing:0;font-size:.88rem;font-weight:400;color:var(--col-mid);">
-                {{ if eq $lang "de" }}
-                  Ich habe die <a href="{{ "/datenschutz/" | relURL }}" target="_blank" style="color:var(--col-red);">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
-                {{ else }}
-                  I have read the <a href="{{ "/en/privacy/" | relURL }}" target="_blank" style="color:var(--col-red);">Privacy Policy</a> and agree to the processing of my data.
-                {{ end }}
-              </label>
+            <div class="consent-group">
+              <div class="form-field form-field--checkbox">
+                <input type="checkbox" id="w-privacy" name="privacy" required>
+                <label for="w-privacy">
+                  {{ if eq $lang "de" }}
+                    Ich habe die <a href="{{ "/datenschutz/" | relURL }}" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
+                  {{ else }}
+                    I have read the <a href="{{ "/en/privacy/" | relURL }}" target="_blank">Privacy Policy</a> and agree to the processing of my data.
+                  {{ end }}
+                </label>
+              </div>
+              <div class="form-field form-field--checkbox">
+                <input type="checkbox" id="w-communication" name="communication_consent" required>
+                <label for="w-communication">
+                  {{ if eq $lang "de" }}
+                    Ich bin damit einverstanden, dass NTH Therm GmbH mich zur Bearbeitung meiner Anfrage kontaktiert.
+                  {{ else }}
+                    I agree to be contacted by NTH Therm GmbH regarding my enquiry.
+                  {{ end }}
+                </label>
+              </div>
             </div>
             <div class="wizard-nav">
               <button type="button" class="btn btn--outline wizard-btn-prev">← {{ if eq $lang "de" }}Zurück{{ else }}Back{{ end }}</button>

@@ -8,12 +8,16 @@
 
   <div class="form-grid form-grid--2col">
     <div class="form-field">
-      <label for="f-company">{{ if eq $lang "de" }}Unternehmen{{ else }}Company{{ end }}</label>
-      <input type="text" id="f-company" name="company" placeholder="{{ if eq $lang "de" }}Muster GmbH{{ else }}Acme Ltd{{ end }}">
+      <label for="f-firstname">{{ if eq $lang "de" }}Vorname *{{ else }}First Name *{{ end }}</label>
+      <input type="text" id="f-firstname" name="firstname" required placeholder="{{ if eq $lang "de" }}Max{{ else }}John{{ end }}">
     </div>
     <div class="form-field">
-      <label for="f-name">{{ if eq $lang "de" }}Ihr Name *{{ else }}Your Name *{{ end }}</label>
-      <input type="text" id="f-name" name="name" required placeholder="{{ if eq $lang "de" }}Max Mustermann{{ else }}John Smith{{ end }}">
+      <label for="f-lastname">{{ if eq $lang "de" }}Nachname *{{ else }}Last Name *{{ end }}</label>
+      <input type="text" id="f-lastname" name="lastname" required placeholder="{{ if eq $lang "de" }}Mustermann{{ else }}Smith{{ end }}">
+    </div>
+    <div class="form-field">
+      <label for="f-company">{{ if eq $lang "de" }}Unternehmen{{ else }}Company{{ end }}</label>
+      <input type="text" id="f-company" name="company" placeholder="{{ if eq $lang "de" }}Muster GmbH{{ else }}Acme Ltd{{ end }}">
     </div>
     <div class="form-field">
       <label for="f-email">{{ if eq $lang "de" }}E-Mail *{{ else }}Email *{{ end }}</label>
@@ -26,33 +30,32 @@
   </div>
 
   <div class="form-field" style="margin-top:1rem;">
-    <label for="f-interest">{{ if eq $lang "de" }}Interessensgebiet{{ else }}Area of Interest{{ end }}</label>
-    <select id="f-interest" name="interest">
-      <option value="">{{ if eq $lang "de" }}Bitte wählen...{{ else }}Please select...{{ end }}</option>
+    <label>{{ if eq $lang "de" }}Interessensgebiet (Mehrfachauswahl möglich){{ else }}Area of Interest (multiple selection possible){{ end }}</label>
+    <div class="checkbox-group">
       {{ if eq $lang "de" }}
-      <option>Industrieöfen – Herdwagenöfen</option>
-      <option>Industrieöfen – Kammeröfen</option>
-      <option>Industrieöfen – Rohröfen / Laboröfen</option>
-      <option>Industrieöfen – Sonstiges</option>
-      <option>Klimaprüfkammern (ATT/ACS)</option>
-      <option>Trocknungssysteme (Drymatic)</option>
-      <option>Pyrolyseöfen</option>
-      <option>Service & Wartung</option>
-      <option>Modernisierung bestehender Anlage</option>
-      <option>Sonstiges</option>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrieöfen – Herdwagenöfen"> Industrieöfen – Herdwagenöfen</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrieöfen – Kammeröfen"> Industrieöfen – Kammeröfen</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrieöfen – Rohröfen / Laboröfen"> Industrieöfen – Rohröfen / Laboröfen</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrieöfen – Sonstiges"> Industrieöfen – Sonstiges</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Klimaprüfkammern (ATT/ACS)"> Klimaprüfkammern (ATT/ACS)</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Trocknungssysteme (Drymatic)"> Trocknungssysteme (Drymatic)</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Pyrolyseöfen"> Pyrolyseöfen</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Service & Wartung"> Service &amp; Wartung</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Modernisierung bestehender Anlage"> Modernisierung bestehender Anlage</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Sonstiges"> Sonstiges</label>
       {{ else }}
-      <option>Industrial Furnaces – Bogie Hearth</option>
-      <option>Industrial Furnaces – Chamber Furnaces</option>
-      <option>Industrial Furnaces – Tube / Lab Furnaces</option>
-      <option>Industrial Furnaces – Other</option>
-      <option>Climatic Test Chambers (ATT/ACS)</option>
-      <option>Heat Drying Systems (Drymatic)</option>
-      <option>Pyrolysis Furnaces</option>
-      <option>Service & Maintenance</option>
-      <option>Modernisation of Existing System</option>
-      <option>Other</option>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrial Furnaces – Bogie Hearth"> Industrial Furnaces – Bogie Hearth</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrial Furnaces – Chamber Furnaces"> Industrial Furnaces – Chamber Furnaces</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrial Furnaces – Tube / Lab Furnaces"> Industrial Furnaces – Tube / Lab Furnaces</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Industrial Furnaces – Other"> Industrial Furnaces – Other</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Climatic Test Chambers (ATT/ACS)"> Climatic Test Chambers (ATT/ACS)</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Heat Drying Systems (Drymatic)"> Heat Drying Systems (Drymatic)</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Pyrolysis Furnaces"> Pyrolysis Furnaces</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Service & Maintenance"> Service &amp; Maintenance</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Modernisation of Existing System"> Modernisation of Existing System</label>
+      <label class="checkbox-label"><input type="checkbox" name="interest" value="Other"> Other</label>
       {{ end }}
-    </select>
+    </div>
   </div>
 
   <div class="form-field" style="margin-top:1rem;">
@@ -60,15 +63,27 @@
     <textarea id="f-message" name="message" required placeholder="{{ if eq $lang "de" }}Beschreiben Sie kurz Ihre Anforderungen: Ofentyp, Temperatur, Chargengröße, Lieferwunsch...{{ else }}Please describe your requirements briefly: furnace type, temperature, batch size, delivery...{{ end }}"></textarea>
   </div>
 
-  <div class="form-field form-field--checkbox" style="margin-top:1rem;">
-    <input type="checkbox" id="f-privacy" name="privacy" required>
-    <label for="f-privacy" style="font-family:var(--font-body);text-transform:none;letter-spacing:0;font-size:.88rem;font-weight:400;color:var(--col-mid);">
-      {{ if eq $lang "de" }}
-        Ich habe die <a href="{{ "/datenschutz/" | relURL }}" target="_blank" style="color:var(--col-red);">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
-      {{ else }}
-        I have read the <a href="{{ "/en/privacy/" | relURL }}" target="_blank" style="color:var(--col-red);">Privacy Policy</a> and agree to the processing of my data.
-      {{ end }}
-    </label>
+  <div class="consent-group">
+    <div class="form-field form-field--checkbox">
+      <input type="checkbox" id="f-privacy" name="privacy" required>
+      <label for="f-privacy">
+        {{ if eq $lang "de" }}
+          Ich habe die <a href="{{ "/datenschutz/" | relURL }}" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.
+        {{ else }}
+          I have read the <a href="{{ "/en/privacy/" | relURL }}" target="_blank">Privacy Policy</a> and agree to the processing of my data.
+        {{ end }}
+      </label>
+    </div>
+    <div class="form-field form-field--checkbox">
+      <input type="checkbox" id="f-communication" name="communication_consent" required>
+      <label for="f-communication">
+        {{ if eq $lang "de" }}
+          Ich bin damit einverstanden, dass NTH Therm GmbH mich zur Bearbeitung meiner Anfrage kontaktiert.
+        {{ else }}
+          I agree to be contacted by NTH Therm GmbH regarding my enquiry.
+        {{ end }}
+      </label>
+    </div>
   </div>
 
   <div class="form-submit">
