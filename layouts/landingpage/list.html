@@ -1,0 +1,60 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
+    {{ with $p.intro }}<p style="color:rgba(255,255,255,.75);max-width:65ch;margin-top:.75em;font-size:1.05rem;line-height:1.55;">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+      <div class="prose">{{ .Content }}</div>
+      <aside class="sidebar">
+        {{ if $p.cta }}
+        <div class="sidebar-card" style="border-top-color:var(--col-red)">
+          <h3>{{ $p.cta.headline }}</h3>
+          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
+          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary" style="width:100%;justify-content:center;">{{ $p.cta.button }}</a>
+          <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
+            {{ if eq $lang "de" }}Kostenlos · Unverbindlich · Antwort in 48 Std.{{ else }}Free · No obligation · Reply within 48 hrs.{{ end }}
+          </p>
+        </div>
+        {{ end }}
+        {{ if $p.partner }}
+        <div class="sidebar-card">
+          <p style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--col-mid);margin-bottom:.5em;">{{ if eq $lang "de" }}Technologiepartner{{ else }}Technology Partner{{ end }}</p>
+          <strong style="font-size:.95rem;">{{ $p.partner.name }}</strong>
+          <p style="font-size:.84rem;margin-top:.5em;color:var(--col-mid);line-height:1.5;">{{ $p.partner.description }}</p>
+          {{ with $p.partner.url }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-top:.75em;">{{ if eq $lang "de" }}Herstellerwebsite{{ else }}Manufacturer Website{{ end }}</a>{{ end }}
+        </div>
+        {{ end }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Direkte Beratung{{ else }}Direct Consultation{{ end }}</h3>
+          <p>{{ if eq $lang "de" }}Sprechen Sie direkt mit unseren Spezialisten.{{ else }}Speak directly with our specialists.{{ end }}</p>
+          <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-bottom:.5em;">+49 7272 9310989</a>
+          <a href="mailto:info@nth-therm.com" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;">info@nth-therm.com</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+{{ if $p.faqs }}
+<section class="section section--alt">
+  <div class="container" style="max-width:800px;">
+    <h2 style="text-align:center;margin-bottom:2rem;">{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+    <div class="faq-list">
+      {{ range $p.faqs }}
+      <details class="faq-item">
+        <summary>{{ .q }}</summary>
+        <div class="faq-item__answer"><p>{{ .a }}</p></div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,97 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="{{ if eq $lang "de" }}{{ "/branchen/" | relURL }}{{ else }}{{ "/en/industries/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Branchen{{ else }}Industries{{ end }}</a>
+      <span class="breadcrumb__sep">›</span>
+      <span>{{ .Title | replaceRE `\s*\|.*$` "" | truncate 40 }}</span>
+    </nav>
+    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Branche{{ else }}Industry{{ end }}</p>
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
+    {{ with $p.intro }}<p style="color:rgba(255,255,255,.75);max-width:65ch;margin-top:.75em;font-size:1.05rem;line-height:1.55;">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="content-layout">
+      <div class="prose">
+        {{ .Content }}
+        {{ if $p.faqs }}
+        <h2>{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+        <div class="faq-list">
+          {{ range $p.faqs }}
+          <details class="faq-item">
+            <summary>{{ .q }}</summary>
+            <div class="faq-item__answer"><p>{{ .a }}</p></div>
+          </details>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+
+      <aside class="sidebar">
+        {{ if $p.cta }}
+        <div class="sidebar-card" style="border-top-color:var(--col-red)">
+          <h3>{{ $p.cta.headline }}</h3>
+          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
+          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary" style="width:100%;justify-content:center;">{{ $p.cta.button }}</a>
+          <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
+            {{ if eq $lang "de" }}Kostenlos · Unverbindlich{{ else }}Free · No obligation{{ end }}
+          </p>
+        </div>
+        {{ end }}
+
+        {{ if $p.products }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Empfohlene Produkte{{ else }}Recommended Products{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.products }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{ if $p.applications }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Relevante Anwendungen{{ else }}Relevant Applications{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.applications }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Alle Branchen{{ else }}All Industries{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ if eq $lang "de" }}
+            <li><a href="{{ "/branchen/automotive/" | relURL }}" style="color:var(--col-red);">Automobilindustrie</a></li>
+            <li><a href="{{ "/branchen/luft-und-raumfahrt/" | relURL }}" style="color:var(--col-red);">Luft- und Raumfahrt</a></li>
+            <li><a href="{{ "/branchen/werkzeug-maschinenbau/" | relURL }}" style="color:var(--col-red);">Werkzeug- & Maschinenbau</a></li>
+            <li><a href="{{ "/branchen/elektronik-emobilitaet/" | relURL }}" style="color:var(--col-red);">Elektronik & E-Mobilität</a></li>
+            <li><a href="{{ "/branchen/medizin-labortechnik/" | relURL }}" style="color:var(--col-red);">Medizin- & Labortechnik</a></li>
+            <li><a href="{{ "/branchen/energie-neue-materialien/" | relURL }}" style="color:var(--col-red);">Energie & neue Materialien</a></li>
+            <li><a href="{{ "/branchen/forschung-entwicklung/" | relURL }}" style="color:var(--col-red);">Forschung & Entwicklung</a></li>
+            {{ else }}
+            <li><a href="{{ "/en/industries/automotive/" | relURL }}" style="color:var(--col-red);">Automotive</a></li>
+            <li><a href="{{ "/en/industries/aerospace/" | relURL }}" style="color:var(--col-red);">Aerospace</a></li>
+            <li><a href="{{ "/en/industries/tool-mechanical-engineering/" | relURL }}" style="color:var(--col-red);">Tool Making & Mechanical Engineering</a></li>
+            <li><a href="{{ "/en/industries/electronics-emobility/" | relURL }}" style="color:var(--col-red);">Electronics & E-Mobility</a></li>
+            <li><a href="{{ "/en/industries/medical-laboratory/" | relURL }}" style="color:var(--col-red);">Medical & Laboratory Technology</a></li>
+            <li><a href="{{ "/en/industries/energy-advanced-materials/" | relURL }}" style="color:var(--col-red);">Energy & Advanced Materials</a></li>
+            <li><a href="{{ "/en/industries/research-development/" | relURL }}" style="color:var(--col-red);">Research & Development</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}

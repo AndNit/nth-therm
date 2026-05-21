@@ -87,6 +87,33 @@
         </li>
 
         <li class="has-dropdown">
+          <a href="{{ if eq $lang "de" }}{{ "/branchen/" | relURL }}{{ else }}{{ "/en/industries/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/branchen" }}is-active{{ else if hasPrefix .RelPermalink "/en/industries" }}is-active{{ end }}">
+            {{ if eq $lang "de" }}Branchen{{ else }}Industries{{ end }}
+          </a>
+          <ul class="dropdown">
+            {{ if eq $lang "de" }}
+            <li><a href="{{ "/branchen/automotive/" | relURL }}">Automobilindustrie</a></li>
+            <li><a href="{{ "/branchen/luft-und-raumfahrt/" | relURL }}">Luft- und Raumfahrt</a></li>
+            <li><a href="{{ "/branchen/werkzeug-maschinenbau/" | relURL }}">Werkzeug- &amp; Maschinenbau</a></li>
+            <li><a href="{{ "/branchen/elektronik-emobilitaet/" | relURL }}">Elektronik &amp; E-Mobilität</a></li>
+            <li><a href="{{ "/branchen/medizin-labortechnik/" | relURL }}">Medizin- &amp; Labortechnik</a></li>
+            <li><a href="{{ "/branchen/energie-neue-materialien/" | relURL }}">Energie &amp; neue Materialien</a></li>
+            <li><a href="{{ "/branchen/forschung-entwicklung/" | relURL }}">Forschung &amp; Entwicklung</a></li>
+            <li class="dropdown__cta"><a href="{{ "/branchen/" | relURL }}">➜ Alle Branchen</a></li>
+            {{ else }}
+            <li><a href="{{ "/en/industries/automotive/" | relURL }}">Automotive</a></li>
+            <li><a href="{{ "/en/industries/aerospace/" | relURL }}">Aerospace</a></li>
+            <li><a href="{{ "/en/industries/tool-mechanical-engineering/" | relURL }}">Tool Making &amp; Mechanical Engineering</a></li>
+            <li><a href="{{ "/en/industries/electronics-emobility/" | relURL }}">Electronics &amp; E-Mobility</a></li>
+            <li><a href="{{ "/en/industries/medical-laboratory/" | relURL }}">Medical &amp; Laboratory Technology</a></li>
+            <li><a href="{{ "/en/industries/energy-advanced-materials/" | relURL }}">Energy &amp; Advanced Materials</a></li>
+            <li><a href="{{ "/en/industries/research-development/" | relURL }}">Research &amp; Development</a></li>
+            <li class="dropdown__cta"><a href="{{ "/en/industries/" | relURL }}">➜ All Industries</a></li>
+            {{ end }}
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
           <a href="{{ if eq $lang "de" }}{{ "/services/" | relURL }}{{ else }}{{ "/en/services/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/services" }}is-active{{ else if hasPrefix .RelPermalink "/en/services" }}is-active{{ end }}">
             {{ if eq $lang "de" }}Service{{ else }}Services{{ end }}
           </a>
