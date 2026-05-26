@@ -68,6 +68,18 @@
         </div>
         {{ end }}
 
+        {{/* Relevant services for this industry */}}
+        {{ if $p.related_services }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Passende Services{{ else }}Services for Your Sector{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_services }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
         <div class="sidebar-card">
           <h3>{{ if eq $lang "de" }}Alle Branchen{{ else }}All Industries{{ end }}</h3>
           <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">

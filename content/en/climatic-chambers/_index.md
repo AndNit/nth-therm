@@ -28,6 +28,15 @@ cta:
   text: "Describe your test requirements – we will recommend the right ACS chamber and prepare a quote."
   button: "Get Free Consultation"
   url: "/en/contact/?product=climatic-chamber"
+related_links:
+  - name: "Electronics & E-Mobility"
+    url: "/en/industries/electronics-emobility/"
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
+  - name: "Medical & Laboratory Technology"
+    url: "/en/industries/medical-laboratory/"
 ---
 
 ## Environmental Simulation – Why Reliable Test Technology Is Critical

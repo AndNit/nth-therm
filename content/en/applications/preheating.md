@@ -16,6 +16,11 @@ cta:
   text: "Share your component size, material and preheat temperature – we will recommend the right furnace type."
   button: "Submit Enquiry"
   url: "/en/contact/?process=preheating"
+related_industries:
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
 ---
 
 ## Preheating – Thermal Preparation for Welding, Forging and Coating

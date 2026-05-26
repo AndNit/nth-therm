@@ -25,6 +25,13 @@ cta:
   text: "Präventive Wartung spart im Schnitt 60 % der Notfallreparaturkosten. Schützen Sie Ihre Anlage und Ihre Prozessqualität."
   button: "Wartungsvertrag anfragen"
   url: "/kontakt/?service=wartung"
+related_services:
+  - name: "Modernisierung"
+    url: "/services/modernisierung/"
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
+  - name: "Fernwartung & Ersatzteile"
+    url: "/services/fernwartung-ersatzteile/"
 ---
 
 ## Wartung & DGUV-3-Prüfung – Sicherheit, Compliance und Prozessqualität

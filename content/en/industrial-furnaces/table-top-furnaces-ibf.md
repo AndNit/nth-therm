@@ -26,6 +26,27 @@ cta:
   headline: "Request a Quote for the IBF Table-Top Furnace"
   button: "Request a Quote"
   url: "/contact/?product=table-top-furnace-ibf"
+related_applications:
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+  - name: "Hardening"
+    url: "/en/applications/hardening/"
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+related_industries:
+  - name: "Medical & Laboratory Technology"
+    url: "/en/industries/medical-laboratory/"
+  - name: "Research & Development"
+    url: "/en/industries/research-development/"
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
+related_products:
+  - name: "Tube Furnace TH1"
+    url: "/en/industrial-furnaces/tube-furnaces-th1/"
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Multi-Door Furnace IRF"
+    url: "/en/industrial-furnaces/multi-door-furnace-irf/"
 ---
 
 ## Table-Top Furnace IBF – Compact Bench Solution for Lab and Small Batches

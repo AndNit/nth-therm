@@ -22,6 +22,13 @@ cta:
   text: "Share your cleaning task with us – we will find the optimal solution together with Pyrox bv."
   button: "Request Consultation"
   url: "/contact/?product=pyrolysis-furnace"
+related_links:
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
 ---
 
 ## Pyrolysis Furnaces – Clean Through Thermal Decomposition

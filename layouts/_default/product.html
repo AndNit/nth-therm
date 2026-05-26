@@ -121,6 +121,42 @@
           </a>
         </div>
 
+        {{/* Typical applications */}}
+        {{ if $p.related_applications }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Typische Anwendungen{{ else }}Typical Applications{{ end }}</h3>
+          <ul style="font-size:.9rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_applications }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{/* Industries that use this furnace */}}
+        {{ if $p.related_industries }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Einsatzbranchen{{ else }}Industries We Serve{{ end }}</h3>
+          <ul style="font-size:.9rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_industries }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{/* Related furnace types */}}
+        {{ if $p.related_products }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Ähnliche Ofentypen{{ else }}Similar Furnace Types{{ end }}</h3>
+          <ul style="font-size:.9rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_products }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
       </aside>
     </div>
   </div>

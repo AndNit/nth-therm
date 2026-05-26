@@ -28,6 +28,21 @@ cta:
   text: "Wir entwickeln Ihren Aufkohlofen für maximale Prozesssicherheit und Reproduzierbarkeit."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=karburierungsofen"
+related_applications:
+  - name: "Karburieren"
+    url: "/anwendungen/karburieren/"
+  - name: "Härten"
+    url: "/anwendungen/haerten/"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+related_products:
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Abschreckofen"
+    url: "/industrieoefen/abschreckoefen/"
 ---
 
 ## Karburierungsöfen – Vollautomatisches Aufkohlen mit höchster Präzision

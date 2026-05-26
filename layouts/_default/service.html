@@ -44,6 +44,18 @@
           <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-bottom:.5em;">+49 7272 9310989</a>
           <a href="mailto:info@nth-therm.com" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;">info@nth-therm.com</a>
         </div>
+
+        {{/* Other services */}}
+        {{ if $p.related_services }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Weitere Services{{ else }}Other Services{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_services }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
       </aside>
     </div>
   </div>

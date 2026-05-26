@@ -16,6 +16,13 @@ cta:
   text: "Nennen Sie uns Stahlsorte, Bauteilgeometrie und gewünschte Härte – wir entwickeln das passende Ofenkonzept."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=haerten"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
 ---
 
 ## Härten – Maximale Oberflächenhärte durch gezieltes Austenitisieren und Abschrecken

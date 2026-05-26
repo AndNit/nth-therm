@@ -29,6 +29,29 @@ cta:
   text: "Wir konfigurieren Ihren Hochtemperaturkammerofen passgenau für Ihre Prozessanforderungen."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=kammerofen-icf"
+related_applications:
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+  - name: "Härten"
+    url: "/anwendungen/haerten/"
+  - name: "Karburieren"
+    url: "/anwendungen/karburieren/"
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+related_industries:
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
+  - name: "Medizin- & Labortechnik"
+    url: "/branchen/medizin-labortechnik/"
+related_products:
+  - name: "Kammerofen ICO"
+    url: "/industrieoefen/kammeroefen-ico/"
+  - name: "Herdwagenofen IWF"
+    url: "/industrieoefen/herdwagenoefen-iwf/"
+  - name: "Rohrofen TH1"
+    url: "/industrieoefen/rohroefen-th1/"
 ---
 
 ## Kammerofen ICF – Hochtemperaturlösung bis 1300 °C

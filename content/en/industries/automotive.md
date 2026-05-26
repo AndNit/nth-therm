@@ -39,6 +39,11 @@ cta:
   text: "CQI-9-compliant heat treatment, climatic test chambers or maintenance contracts — we advise you."
   button: "Submit Enquiry"
   url: "/en/contact/?industry=automotive"
+related_services:
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
 ---
 
 ## Heat Treatment and Thermal Testing for Automotive Suppliers

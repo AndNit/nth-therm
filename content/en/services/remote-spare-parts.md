@@ -23,6 +23,11 @@ cta:
   text: "Activate your remote maintenance access now – so we can respond within minutes when a fault occurs."
   button: "Request Remote Maintenance"
   url: "/en/contact/?service=remote-maintenance"
+related_services:
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
 ---
 
 ## Remote PLC Maintenance & Spare Parts – Maximum Availability for Your System

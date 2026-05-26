@@ -26,6 +26,27 @@ cta:
   text: "Define your load requirements – we will size the IWF accordingly."
   button: "Request a Quote"
   url: "/contact/?product=bogie-hearth-iwf"
+related_applications:
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+  - name: "Preheating"
+    url: "/en/applications/preheating/"
+  - name: "Hardening"
+    url: "/en/applications/hardening/"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
+related_products:
+  - name: "Bogie Hearth Furnace IWO"
+    url: "/en/industrial-furnaces/bogie-hearth-iwo/"
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
 ---
 
 ## Bogie Hearth Furnace IWF – For Heavy Loads up to 1300 °C

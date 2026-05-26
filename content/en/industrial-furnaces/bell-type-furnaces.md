@@ -26,6 +26,21 @@ cta:
   text: "Configure your bell-type furnace for optimum process efficiency."
   button: "Request a Quote"
   url: "/contact/?product=bell-type-furnace"
+related_applications:
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+related_industries:
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
+related_products:
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Bogie Hearth Furnace IWF"
+    url: "/en/industrial-furnaces/bogie-hearth-iwf/"
 ---
 
 ## Bell-Type Furnaces – High Flexibility Through Separate Heating and Cooling

@@ -33,6 +33,11 @@ cta:
   text: "Sintering furnaces for dental ceramics, laboratory furnaces with IQ/OQ/PQ or climatic chambers for medical devices — we advise you."
   button: "Submit Enquiry"
   url: "/en/contact/?industry=medical-laboratory"
+related_services:
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
 ---
 
 ## Thermal Processes for Medical Technology and Laboratory Applications

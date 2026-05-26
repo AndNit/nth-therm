@@ -24,6 +24,13 @@ cta:
   text: "Wir beraten Sie zur optimalen Systemkonfiguration für Ihr Schadensbild und Ihre Einsatzgebiete."
   button: "Beratung anfordern"
   url: "/kontakt/?produkt=drymatic"
+related_links:
+  - name: "Trocknen"
+    url: "/anwendungen/trocknen/"
+  - name: "Elektronik & E-Mobilität"
+    url: "/branchen/elektronik-emobilitaet/"
+  - name: "Trocknungssysteme (Industrieöfen)"
+    url: "/anwendungen/trocknen/"
 ---
 
 ## Warum Wärmetrocknung die bessere Methode ist

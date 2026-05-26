@@ -37,6 +37,11 @@ cta:
   text: "Härterei, Maschinenbau oder Werkzeugfertigung – wir konfigurieren den richtigen Ofen für Ihre Charge."
   button: "Ofenprojekt starten"
   url: "/industrieoefen/ofenprojekt/"
+related_services:
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
+  - name: "Modernisierung"
+    url: "/services/modernisierung/"
 ---
 
 ## Wärmebehandlung im Werkzeug- und Maschinenbau

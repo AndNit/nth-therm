@@ -37,6 +37,11 @@ cta:
   text: "Laboratory furnace, tube furnace, chamber furnace or climatic chamber — we find the right system for your research project."
   button: "Submit Enquiry"
   url: "/en/contact/?industry=research-development"
+related_services:
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
+  - name: "Remote Maintenance & Spare Parts"
+    url: "/en/services/remote-spare-parts/"
 ---
 
 ## Thermal Systems for Research and Development

@@ -25,6 +25,11 @@ cta:
   text: "Schicken Sie uns die technischen Daten Ihrer Anlage – wir prüfen kostenlos, was eine Modernisierung bringt."
   button: "Kostenlose Analyse anfordern"
   url: "/kontakt/?service=modernisierung"
+related_services:
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
 ---
 
 ## Modernisierung & Aufarbeitung – Mehr aus bestehenden Anlagen herausholen

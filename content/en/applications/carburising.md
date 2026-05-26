@@ -16,6 +16,11 @@ cta:
   text: "Describe your material, required case depth (CHD) and batch size – we will dimension the right system."
   button: "Submit Enquiry"
   url: "/en/contact/?process=carburising"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
 ---
 
 ## Carburising – Case Hardening for Maximum Wear Resistance with a Tough Core

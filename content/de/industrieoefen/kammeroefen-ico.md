@@ -32,6 +32,29 @@ cta:
   text: "Wir dimensionieren Ihren Kammerofen ICO exakt nach Ihrer Chargengröße und Ihrem Prozess."
   button: "Kostenloses Angebot anfordern"
   url: "/kontakt/?produkt=kammerofen-ico"
+related_applications:
+  - name: "Anlassen"
+    url: "/anwendungen/anlassen/"
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+  - name: "Trocknen"
+    url: "/anwendungen/trocknen/"
+  - name: "Vorwärmen"
+    url: "/anwendungen/vorwaermen/"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Elektronik & E-Mobilität"
+    url: "/branchen/elektronik-emobilitaet/"
+related_products:
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Herdwagenofen IWO"
+    url: "/industrieoefen/herdwagenoefen-iwo/"
+  - name: "Laborofen IBF"
+    url: "/industrieoefen/laboroefen-ibf/"
 ---
 
 ## Kammerofen ICO – Präzise Temperaturverteilung für anspruchsvolle Prozesse

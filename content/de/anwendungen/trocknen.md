@@ -16,6 +16,11 @@ cta:
   text: "Nennen Sie uns Trocknungsgut, Feuchtigkeit, Durchsatz und Temperaturbedarf – wir empfehlen das passende System."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=trocknen"
+related_industries:
+  - name: "Elektronik & E-Mobilität"
+    url: "/branchen/elektronik-emobilitaet/"
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
 ---
 
 ## Trocknen – Feuchtigkeitsentzug mit Präzision für Beschichtung, Keramik und Verbundwerkstoffe

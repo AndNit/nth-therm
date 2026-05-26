@@ -33,6 +33,11 @@ cta:
   text: "AMS2750-compliant furnaces, NADCAP qualification or ACS climatic chambers — we advise you."
   button: "Submit Enquiry"
   url: "/en/contact/?industry=aerospace"
+related_services:
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
 ---
 
 ## Thermal Processes for Aerospace – Maximum Precision, Complete Documentation

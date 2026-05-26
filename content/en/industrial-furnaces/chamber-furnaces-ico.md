@@ -32,6 +32,29 @@ cta:
   text: "We size your ICO chamber furnace precisely to your batch dimensions and process."
   button: "Request a Free Quote"
   url: "/contact/?product=chamber-furnace-ico"
+related_applications:
+  - name: "Tempering"
+    url: "/en/applications/tempering/"
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+  - name: "Drying"
+    url: "/en/applications/drying/"
+  - name: "Preheating"
+    url: "/en/applications/preheating/"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Electronics & E-Mobility"
+    url: "/en/industries/electronics-emobility/"
+related_products:
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Bogie Hearth Furnace IWO"
+    url: "/en/industrial-furnaces/bogie-hearth-iwo/"
+  - name: "Table-Top Furnace IBF"
+    url: "/en/industrial-furnaces/table-top-furnaces-ibf/"
 ---
 
 ## Chamber Furnace ICO – Precise Temperature Distribution for Demanding Processes

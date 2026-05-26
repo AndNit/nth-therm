@@ -34,6 +34,23 @@ cta:
   text: "Choose your inner diameter, temperature range and atmosphere – we build your tube furnace to exact specification."
   button: "Request a Quote Now"
   url: "/contact/?product=tube-furnace-th1"
+related_applications:
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+related_industries:
+  - name: "Research & Development"
+    url: "/en/industries/research-development/"
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
+  - name: "Medical & Laboratory Technology"
+    url: "/en/industries/medical-laboratory/"
+related_products:
+  - name: "Table-Top Furnace IBF"
+    url: "/en/industrial-furnaces/table-top-furnaces-ibf/"
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
 ---
 
 ## Tube Furnace TH1 – Precision for Lab and Production

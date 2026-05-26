@@ -33,6 +33,11 @@ cta:
   text: "Battery cathode materials, fuel cells, ceramic sintering or pyrolysis — we configure the right system."
   button: "Submit Enquiry"
   url: "/en/contact/?industry=energy-advanced-materials"
+related_services:
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
+  - name: "Remote Maintenance & Spare Parts"
+    url: "/en/services/remote-spare-parts/"
 ---
 
 ## Thermal Processes for Energy Technology and Future Materials

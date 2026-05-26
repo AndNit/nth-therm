@@ -31,6 +31,16 @@
           {{ with $p.partner.url }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-top:.75em;">{{ if eq $lang "de" }}Herstellerwebsite{{ else }}Manufacturer Website{{ end }}</a>{{ end }}
         </div>
         {{ end }}
+        {{ if $p.related_links }}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Weiterführende Themen{{ else }}Related Topics{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_links }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
         <div class="sidebar-card">
           <h3>{{ if eq $lang "de" }}Direkte Beratung{{ else }}Direct Consultation{{ end }}</h3>
           <p>{{ if eq $lang "de" }}Sprechen Sie direkt mit unseren Spezialisten.{{ else }}Speak directly with our specialists.{{ end }}</p>

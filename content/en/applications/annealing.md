@@ -16,6 +16,13 @@ cta:
   text: "Whether full annealing, stress-relief or normalising – we recommend the right furnace for your process."
   button: "Submit Enquiry"
   url: "/en/contact/?process=annealing"
+related_industries:
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
 ---
 
 ## Annealing – Microstructure Improvement and Stress Relief for Better Workability

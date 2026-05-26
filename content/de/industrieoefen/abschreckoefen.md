@@ -25,6 +25,21 @@ cta:
   headline: "Abschreckofen konfigurieren"
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=abschreckofen"
+related_applications:
+  - name: "Härten"
+    url: "/anwendungen/haerten/"
+  - name: "Karburieren"
+    url: "/anwendungen/karburieren/"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+related_products:
+  - name: "Karburierungsofen"
+    url: "/industrieoefen/karburierungsoefen/"
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
 ---
 
 ## Abschrecköfen – Maximale Härte durch kontrollierten Abschreckprozess

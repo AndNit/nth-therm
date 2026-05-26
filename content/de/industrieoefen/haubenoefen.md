@@ -26,6 +26,21 @@ cta:
   text: "Konfigurieren Sie Ihren Haubenofen für optimale Prozesseffizienz."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=haubenofen"
+related_applications:
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+related_industries:
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
+related_products:
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Herdwagenofen IWF"
+    url: "/industrieoefen/herdwagenoefen-iwf/"
 ---
 
 ## Haubenöfen – Hohe Flexibilität durch getrennte Heiz- und Kühleinheit

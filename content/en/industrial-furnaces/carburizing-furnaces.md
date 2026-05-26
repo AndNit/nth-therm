@@ -28,6 +28,21 @@ cta:
   text: "We develop your carburizing furnace for maximum process safety and reproducibility."
   button: "Request a Quote Now"
   url: "/contact/?product=carburizing-furnace"
+related_applications:
+  - name: "Carburising"
+    url: "/en/applications/carburising/"
+  - name: "Hardening"
+    url: "/en/applications/hardening/"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+related_products:
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Quenching Furnace"
+    url: "/en/industrial-furnaces/quenching-furnaces/"
 ---
 
 ## Carburizing Furnaces – Fully Automated Case Hardening with Maximum Precision

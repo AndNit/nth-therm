@@ -23,6 +23,11 @@ cta:
   text: "Neu- oder Fremdanlage – wir begleiten die Inbetriebnahme und schulen Ihr Team bis zur produktionsreifen Anlage."
   button: "Inbetriebnahme anfragen"
   url: "/kontakt/?service=inbetriebnahme"
+related_services:
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
+  - name: "Fernwartung & Ersatzteile"
+    url: "/services/fernwartung-ersatzteile/"
 ---
 
 ## Inbetriebnahme & Schulung – Von der gelieferten Anlage zur produktionsreifen Anlage

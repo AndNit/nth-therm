@@ -34,6 +34,23 @@ cta:
   text: "Wählen Sie Ihren Innendurchmesser, Temperaturbereich und Atmosphäre – wir bauen Ihren Rohrofen exakt nach Spezifikation."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=rohrofen-th1"
+related_applications:
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+related_industries:
+  - name: "Forschung & Entwicklung"
+    url: "/branchen/forschung-entwicklung/"
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
+  - name: "Medizin- & Labortechnik"
+    url: "/branchen/medizin-labortechnik/"
+related_products:
+  - name: "Laborofen IBF"
+    url: "/industrieoefen/laboroefen-ibf/"
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
 ---
 
 ## Rohrofen TH1 – Präzision für Labor und Produktion

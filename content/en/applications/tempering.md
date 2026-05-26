@@ -18,6 +18,13 @@ cta:
   text: "Share your batch dimensions, target temperature and quantities – we will recommend the optimal furnace type."
   button: "Submit Enquiry"
   url: "/en/contact/?process=tempering"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
 ---
 
 ## Tempering – Toughness and Dimensional Stability through Precision Heat Treatment

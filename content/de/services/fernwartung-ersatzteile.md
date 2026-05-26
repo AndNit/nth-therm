@@ -23,6 +23,11 @@ cta:
   text: "Richten Sie jetzt Ihren Fernwartungszugang ein – damit wir im Störungsfall innerhalb von Minuten reagieren können."
   button: "Fernwartung anfragen"
   url: "/kontakt/?service=fernwartung"
+related_services:
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
 ---
 
 ## SPS-Fernwartung & Ersatzteilversorgung – Maximale Verfügbarkeit Ihrer Anlage

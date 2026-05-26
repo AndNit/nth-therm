@@ -33,6 +33,11 @@ cta:
   text: "Batteriekathodenmaterialien, Brennstoffzellen, Keramiksintern oder Pyrolyse – wir konfigurieren die richtige Anlage."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=energie-neue-materialien"
+related_services:
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
+  - name: "Fernwartung & Ersatzteile"
+    url: "/services/fernwartung-ersatzteile/"
 ---
 
 ## Thermische Prozesse für Energietechnik und Zukunftsmaterialien

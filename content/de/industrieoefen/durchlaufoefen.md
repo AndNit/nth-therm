@@ -29,6 +29,23 @@ cta:
   text: "Teilen Sie uns Ihren gewünschten Durchsatz mit – wir dimensionieren den Durchlaufofen passend."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=durchlaufofen"
+related_applications:
+  - name: "Anlassen"
+    url: "/anwendungen/anlassen/"
+  - name: "Trocknen"
+    url: "/anwendungen/trocknen/"
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Elektronik & E-Mobilität"
+    url: "/branchen/elektronik-emobilitaet/"
+related_products:
+  - name: "Kammerofen ICO"
+    url: "/industrieoefen/kammeroefen-ico/"
+  - name: "Herdwagenofen IWO"
+    url: "/industrieoefen/herdwagenoefen-iwo/"
 ---
 
 ## Durchlauföfen – Kontinuierlicher Betrieb für Serien und Massenproduktion

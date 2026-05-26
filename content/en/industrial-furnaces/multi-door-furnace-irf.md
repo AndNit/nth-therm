@@ -21,6 +21,23 @@ cta:
   headline: "Enquire About the IRF Multi-Purpose Furnace"
   button: "Request a Quote"
   url: "/contact/?product=furnace-irf"
+related_applications:
+  - name: "Tempering"
+    url: "/en/applications/tempering/"
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+  - name: "Hardening"
+    url: "/en/applications/hardening/"
+related_industries:
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Research & Development"
+    url: "/en/industries/research-development/"
+related_products:
+  - name: "Chamber Furnace ICO"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
 ---
 
 ## Multi-Door Chamber Furnace IRF – Two Processes in One Furnace

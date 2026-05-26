@@ -37,6 +37,11 @@ cta:
   text: "Hardening shop, mechanical engineering or tool manufacture — we configure the right furnace for your charge."
   button: "Start Furnace Project"
   url: "/en/industrial-furnaces/your-furnace-project/"
+related_services:
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
+  - name: "Refurbishment"
+    url: "/en/services/refurbishment/"
 ---
 
 ## Heat Treatment in Tool Making and Mechanical Engineering

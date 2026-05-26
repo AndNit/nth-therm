@@ -16,6 +16,13 @@ cta:
   text: "Ob Weichglühen, Spannungsarmglühen oder Normalglühen – wir empfehlen den richtigen Ofen für Ihr Verfahren."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=gluehen"
+related_industries:
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
 ---
 
 ## Glühen – Gefügeverbesserung und Eigenspannungsabbau für bessere Verarbeitbarkeit

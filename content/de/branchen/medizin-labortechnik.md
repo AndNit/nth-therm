@@ -33,6 +33,11 @@ cta:
   text: "Sinteröfen für Dentalkeramik, Laboröfen mit IQ/OQ/PQ oder Klimaprüfkammern für Medizinprodukte – wir beraten Sie."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=medizin-labortechnik"
+related_services:
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
 ---
 
 ## Thermische Prozesse für Medizintechnik und Laboranwendungen

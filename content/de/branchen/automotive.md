@@ -39,6 +39,11 @@ cta:
   text: "CQI-9-konforme Wärmebehandlung, Klimaprüfkammern oder Wartungsverträge – wir beraten Sie."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=automotive"
+related_services:
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
 ---
 
 ## Wärmebehandlung und thermische Prüfung für Automotive-Zulieferer

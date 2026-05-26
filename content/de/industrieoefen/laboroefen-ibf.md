@@ -26,6 +26,27 @@ cta:
   headline: "Laborofen IBF anfragen"
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=laborofen-ibf"
+related_applications:
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+  - name: "Härten"
+    url: "/anwendungen/haerten/"
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+related_industries:
+  - name: "Medizin- & Labortechnik"
+    url: "/branchen/medizin-labortechnik/"
+  - name: "Forschung & Entwicklung"
+    url: "/branchen/forschung-entwicklung/"
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
+related_products:
+  - name: "Rohrofen TH1"
+    url: "/industrieoefen/rohroefen-th1/"
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Multifunktionaler Kammerofen IRF"
+    url: "/industrieoefen/multifunktionskammerofen-irf/"
 ---
 
 ## Laborofen IBF – Kompakte Tischlösung für Labor und Kleinserien

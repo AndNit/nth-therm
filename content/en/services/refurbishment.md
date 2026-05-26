@@ -25,6 +25,11 @@ cta:
   text: "Send us your system's technical data – we will assess the modernisation potential free of charge."
   button: "Request a Free Assessment"
   url: "/en/contact/?service=refurbishment"
+related_services:
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
 ---
 
 ## Refurbishment & Modernisation – Getting More from Existing Systems

@@ -21,6 +21,21 @@ cta:
   headline: "Configure Your Quenching Furnace"
   button: "Request a Quote"
   url: "/contact/?product=quenching-furnace"
+related_applications:
+  - name: "Hardening"
+    url: "/en/applications/hardening/"
+  - name: "Carburising"
+    url: "/en/applications/carburising/"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+related_products:
+  - name: "Carburizing Furnace"
+    url: "/en/industrial-furnaces/carburizing-furnaces/"
+  - name: "Chamber Furnace ICF"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
 ---
 
 ## Quenching Furnaces – Maximum Hardness Through Controlled Quenching

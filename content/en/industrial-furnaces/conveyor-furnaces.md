@@ -29,6 +29,23 @@ cta:
   text: "Share your required throughput with us – we will size the conveyor furnace accordingly."
   button: "Request a Quote Now"
   url: "/contact/?product=conveyor-furnace"
+related_applications:
+  - name: "Tempering"
+    url: "/en/applications/tempering/"
+  - name: "Drying"
+    url: "/en/applications/drying/"
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Electronics & E-Mobility"
+    url: "/en/industries/electronics-emobility/"
+related_products:
+  - name: "Chamber Furnace ICO"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
+  - name: "Bogie Hearth Furnace IWO"
+    url: "/en/industrial-furnaces/bogie-hearth-iwo/"
 ---
 
 ## Conveyor Furnaces – Continuous Operation for Series and Mass Production

@@ -16,6 +16,15 @@ cta:
   text: "Nennen Sie uns Sintermaterial, Zieltemperatur, Chargengröße und Atmosphärenanforderungen – wir entwickeln das passende Ofensystem."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=sintern"
+related_industries:
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
+  - name: "Medizin- & Labortechnik"
+    url: "/branchen/medizin-labortechnik/"
+  - name: "Forschung & Entwicklung"
+    url: "/branchen/forschung-entwicklung/"
+  - name: "Elektronik & E-Mobilität"
+    url: "/branchen/elektronik-emobilitaet/"
 ---
 
 ## Sintern – Pulverwerkstoffe und Keramiken zu stabilen Bauteilen verdichten

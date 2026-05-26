@@ -16,6 +16,13 @@ cta:
   text: "Tell us your steel grade, component geometry and target hardness – we will develop the right furnace concept."
   button: "Submit Enquiry"
   url: "/en/contact/?process=hardening"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
 ---
 
 ## Hardening – Maximum Surface Hardness through Austenitising and Quenching

@@ -26,6 +26,27 @@ cta:
   text: "Definieren Sie Ihre Lastanforderungen – wir dimensionieren den IWF entsprechend."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=herdwagenofen-iwf"
+related_applications:
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+  - name: "Vorwärmen"
+    url: "/anwendungen/vorwaermen/"
+  - name: "Härten"
+    url: "/anwendungen/haerten/"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
+related_products:
+  - name: "Herdwagenofen IWO"
+    url: "/industrieoefen/herdwagenoefen-iwo/"
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
 ---
 
 ## Herdwagenofen IWF – Für schwere Lasten bis 1300 °C

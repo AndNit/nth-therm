@@ -18,6 +18,13 @@ cta:
   text: "Teilen Sie uns Chargenabmessungen, Zieltemperatur und Stückzahlen mit – wir empfehlen den optimalen Ofentyp."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=anlassen"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
 ---
 
 ## Anlassen – Zähigkeit und Maßhaltigkeit durch präzise Wärmebehandlung

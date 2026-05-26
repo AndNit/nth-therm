@@ -16,6 +16,11 @@ cta:
   text: "Beschreiben Sie Werkstoff, Einsatztiefe (CHD) und Chargengröße – wir dimensionieren das passende System."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=karburieren"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
 ---
 
 ## Karburieren – Randschichthärtung für maximale Verschleißfestigkeit bei zähem Kern

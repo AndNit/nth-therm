@@ -36,6 +36,29 @@ cta:
   text: "Share your requirements with us – we will provide you with an individual quotation within 48 hours."
   button: "Request Your Free Quote Now"
   url: "/contact/?product=bogie-hearth-iwo"
+related_applications:
+  - name: "Tempering"
+    url: "/en/applications/tempering/"
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+  - name: "Preheating"
+    url: "/en/applications/preheating/"
+  - name: "Drying"
+    url: "/en/applications/drying/"
+related_industries:
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
+  - name: "Tool Making & Mechanical Engineering"
+    url: "/en/industries/tool-mechanical-engineering/"
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
+related_products:
+  - name: "Bogie Hearth Furnace IWF"
+    url: "/en/industrial-furnaces/bogie-hearth-iwf/"
+  - name: "Chamber Furnace ICO"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
+  - name: "Conveyor Furnace"
+    url: "/en/industrial-furnaces/conveyor-furnaces/"
 ---
 
 ## Bogie Hearth Furnaces IWO – Professional Solution for Heavy Loads

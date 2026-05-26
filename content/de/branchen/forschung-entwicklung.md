@@ -37,6 +37,11 @@ cta:
   text: "Laborofen, Rohrofen, Kammerofen oder Klimaprüfkammer – wir finden das richtige System für Ihr Forschungsprojekt."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=forschung-entwicklung"
+related_services:
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
+  - name: "Fernwartung & Ersatzteile"
+    url: "/services/fernwartung-ersatzteile/"
 ---
 
 ## Thermische Systeme für Forschung und Entwicklung

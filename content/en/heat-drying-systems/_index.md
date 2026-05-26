@@ -24,6 +24,11 @@ cta:
   text: "We advise you on the optimal system configuration for your damage type and application area."
   button: "Request Consultation"
   url: "/en/contact/?product=drymatic"
+related_links:
+  - name: "Drying"
+    url: "/en/applications/drying/"
+  - name: "Electronics & E-Mobility"
+    url: "/en/industries/electronics-emobility/"
 ---
 
 ## Why Heat Drying Is the Better Method

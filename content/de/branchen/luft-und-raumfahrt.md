@@ -33,6 +33,11 @@ cta:
   text: "AMS2750-konforme Öfen, NADCAP-Qualifizierung oder ACS-Klimaprüfkammern – wir beraten Sie."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=luft-und-raumfahrt"
+related_services:
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
+  - name: "Wartung & DGUV-3"
+    url: "/services/wartung/"
 ---
 
 ## Thermische Prozesse für Luft- und Raumfahrt – Höchste Präzision, lückenlose Dokumentation

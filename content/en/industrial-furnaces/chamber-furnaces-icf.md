@@ -29,6 +29,29 @@ cta:
   text: "We configure your high-temperature chamber furnace precisely to your process requirements."
   button: "Request a Quote"
   url: "/contact/?product=chamber-furnace-icf"
+related_applications:
+  - name: "Sintering"
+    url: "/en/applications/sintering/"
+  - name: "Hardening"
+    url: "/en/applications/hardening/"
+  - name: "Carburising"
+    url: "/en/applications/carburising/"
+  - name: "Annealing"
+    url: "/en/applications/annealing/"
+related_industries:
+  - name: "Aerospace"
+    url: "/en/industries/aerospace/"
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
+  - name: "Medical & Laboratory Technology"
+    url: "/en/industries/medical-laboratory/"
+related_products:
+  - name: "Chamber Furnace ICO"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
+  - name: "Bogie Hearth Furnace IWF"
+    url: "/en/industrial-furnaces/bogie-hearth-iwf/"
+  - name: "Tube Furnace TH1"
+    url: "/en/industrial-furnaces/tube-furnaces-th1/"
 ---
 
 ## Chamber Furnace ICF – High-Temperature Solution up to 1300 °C

@@ -36,6 +36,29 @@ cta:
   text: "Teilen Sie uns Ihre Anforderungen mit – wir erstellen Ihnen innerhalb von 48 Stunden ein individuelles Angebot."
   button: "Jetzt kostenloses Angebot anfordern"
   url: "/kontakt/?produkt=herdwagenofen-iwo"
+related_applications:
+  - name: "Anlassen"
+    url: "/anwendungen/anlassen/"
+  - name: "Glühen"
+    url: "/anwendungen/gluehen/"
+  - name: "Vorwärmen"
+    url: "/anwendungen/vorwaermen/"
+  - name: "Trocknen"
+    url: "/anwendungen/trocknen/"
+related_industries:
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
+related_products:
+  - name: "Herdwagenofen IWF"
+    url: "/industrieoefen/herdwagenoefen-iwf/"
+  - name: "Kammerofen ICO"
+    url: "/industrieoefen/kammeroefen-ico/"
+  - name: "Durchlaufofen"
+    url: "/industrieoefen/durchlaufoefen/"
 ---
 
 ## Herdwagenöfen IWO – Professionelle Lösung für schwere Lasten

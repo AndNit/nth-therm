@@ -24,6 +24,23 @@ cta:
   headline: "IRF Multifunktionsofen anfragen"
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=kammerofen-irf"
+related_applications:
+  - name: "Anlassen"
+    url: "/anwendungen/anlassen/"
+  - name: "Sintern"
+    url: "/anwendungen/sintern/"
+  - name: "Härten"
+    url: "/anwendungen/haerten/"
+related_industries:
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Forschung & Entwicklung"
+    url: "/branchen/forschung-entwicklung/"
+related_products:
+  - name: "Kammerofen ICO"
+    url: "/industrieoefen/kammeroefen-ico/"
+  - name: "Kammerofen ICF"
+    url: "/industrieoefen/kammeroefen-icf/"
 ---
 
 ## Multifunktionaler Kammerofen IRF – Zwei Prozesse in einem Ofen

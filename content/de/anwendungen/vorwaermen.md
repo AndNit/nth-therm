@@ -16,6 +16,11 @@ cta:
   text: "Teilen Sie uns Bauteilgröße, Werkstoff und Vorwärmtemperatur mit – wir empfehlen den richtigen Ofentyp."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=vorwaermen"
+related_industries:
+  - name: "Werkzeug- & Maschinenbau"
+    url: "/branchen/werkzeug-maschinenbau/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
 ---
 
 ## Vorwärmen – Thermische Vorbereitung für Schweißen, Schmieden und Beschichten

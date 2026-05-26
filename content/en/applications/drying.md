@@ -16,6 +16,11 @@ cta:
   text: "Tell us what you are drying, the moisture content, throughput and temperature requirement – we will recommend the right system."
   button: "Submit Enquiry"
   url: "/en/contact/?process=drying"
+related_industries:
+  - name: "Electronics & E-Mobility"
+    url: "/en/industries/electronics-emobility/"
+  - name: "Automotive"
+    url: "/en/industries/automotive/"
 ---
 
 ## Drying – Precision Moisture Removal for Coatings, Ceramics and Composites

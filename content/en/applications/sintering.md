@@ -16,6 +16,15 @@ cta:
   text: "Tell us your sinter material, target temperature, batch size and atmosphere requirements – we will design the right furnace system."
   button: "Submit Enquiry"
   url: "/en/contact/?process=sintering"
+related_industries:
+  - name: "Energy & Advanced Materials"
+    url: "/en/industries/energy-advanced-materials/"
+  - name: "Medical & Laboratory Technology"
+    url: "/en/industries/medical-laboratory/"
+  - name: "Research & Development"
+    url: "/en/industries/research-development/"
+  - name: "Electronics & E-Mobility"
+    url: "/en/industries/electronics-emobility/"
 ---
 
 ## Sintering – Consolidating Powder Materials and Ceramics into Solid Components

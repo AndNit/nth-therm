@@ -29,6 +29,11 @@ cta:
   text: "IEC 60068, AEC-Q100, LV124, IEC 62660 – wir finden die passende ACS-Kammer für Ihre Prüfanforderungen."
   button: "Beratung anfordern"
   url: "/kontakt/?branche=elektronik-emobilitaet"
+related_services:
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
+  - name: "Fernwartung & Ersatzteile"
+    url: "/services/fernwartung-ersatzteile/"
 ---
 
 ## Klimaprüfung und thermische Prozesse für Elektronik und E-Mobilität

@@ -28,6 +28,15 @@ cta:
   text: "Beschreiben Sie Ihre Testanforderungen – wir empfehlen die passende ACS-Kammer und erstellen ein Angebot."
   button: "Kostenlos beraten lassen"
   url: "/kontakt/?produkt=klimapruefkammer"
+related_links:
+  - name: "Elektronik & E-Mobilität"
+    url: "/branchen/elektronik-emobilitaet/"
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Luft- und Raumfahrt"
+    url: "/branchen/luft-und-raumfahrt/"
+  - name: "Medizin- & Labortechnik"
+    url: "/branchen/medizin-labortechnik/"
 ---
 
 ## Umweltsimulation – warum zuverlässige Prüftechnik entscheidend ist

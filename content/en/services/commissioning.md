@@ -23,6 +23,11 @@ cta:
   text: "New build or third-party furnace – we manage commissioning and train your team to production-ready status."
   button: "Request Commissioning"
   url: "/en/contact/?service=commissioning"
+related_services:
+  - name: "Maintenance & DGUV-3"
+    url: "/en/services/maintenance/"
+  - name: "Remote Maintenance & Spare Parts"
+    url: "/en/services/remote-spare-parts/"
 ---
 
 ## Commissioning & Training – From Delivered System to Production-Ready Asset

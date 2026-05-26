@@ -22,6 +22,13 @@ cta:
   text: "Teilen Sie uns Ihre Reinigungsaufgabe mit – wir finden gemeinsam mit Pyrox bv die optimale Lösung."
   button: "Beratung anfordern"
   url: "/kontakt/?produkt=pyrolyseofen"
+related_links:
+  - name: "Energie & neue Materialien"
+    url: "/branchen/energie-neue-materialien/"
+  - name: "Automobilindustrie"
+    url: "/branchen/automotive/"
+  - name: "Inbetriebnahme"
+    url: "/services/inbetriebnahme/"
 ---
 
 ## Pyrolyseöfen – Sauber durch thermische Zersetzung

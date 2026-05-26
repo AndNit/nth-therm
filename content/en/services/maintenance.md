@@ -25,6 +25,13 @@ cta:
   text: "Preventive maintenance saves an average of 60% of emergency repair costs. Protect your equipment and process quality."
   button: "Request a Maintenance Contract"
   url: "/en/contact/?service=maintenance"
+related_services:
+  - name: "Refurbishment"
+    url: "/en/services/refurbishment/"
+  - name: "Commissioning"
+    url: "/en/services/commissioning/"
+  - name: "Remote Maintenance & Spare Parts"
+    url: "/en/services/remote-spare-parts/"
 ---
 
 ## Maintenance & DGUV-3 Inspection – Safety, Compliance and Process Quality
