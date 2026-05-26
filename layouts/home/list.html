@@ -109,7 +109,7 @@
       {{ end }}
     </div>
     <div class="text-center mt-xl">
-      <a href="{{ if eq $lang "de" }}/industrieoefen/{{ else }}/en/industrial-furnaces/{{ end }}" class="btn btn--secondary">
+      <a href="{{ if eq $lang "de" }}{{ "/industrieoefen/" | relURL }}{{ else }}{{ "/en/industrial-furnaces/" | relURL }}{{ end }}" class="btn btn--secondary">
         {{ if eq $lang "de" }}Alle Industrieöfen ansehen{{ else }}View All Industrial Furnaces{{ end }}
       </a>
     </div>
@@ -124,7 +124,7 @@
         <h2>{{ if eq $lang "de" }}Ihr nächster Industrieofen – maßgefertigt für Sie{{ else }}Your Next Industrial Furnace – Custom-Built for You{{ end }}</h2>
         <p>{{ if eq $lang "de" }}Kostenloses Angebot · Lieferzeit ab 10 Wochen · Persönliche Beratung durch unsere Ingenieure{{ else }}Free quote · Delivery from 10 weeks · Personal advice from our engineers{{ end }}</p>
       </div>
-      <a href="{{ if eq $lang "de" }}/industrieoefen/ofenprojekt/{{ else }}/en/industrial-furnaces/your-furnace-project/{{ end }}" class="btn btn--secondary btn--lg">
+      <a href="{{ if eq $lang "de" }}{{ "/industrieoefen/ofenprojekt/" | relURL }}{{ else }}{{ "/en/industrial-furnaces/your-furnace-project/" | relURL }}{{ end }}" class="btn btn--secondary btn--lg">
         {{ if eq $lang "de" }}Ofenprojekt starten{{ else }}Start Furnace Project{{ end }}
       </a>
     </div>
@@ -178,7 +178,7 @@
       {{ if eq $lang "de" }}Rufen Sie uns an oder schicken Sie uns Ihre Anforderungen. Wir melden uns innerhalb von 24 Stunden.{{ else }}Call us or send us your requirements. We will respond within 24 hours.{{ end }}
     </p>
     <div style="display:flex;gap:1em;justify-content:center;flex-wrap:wrap;">
-      <a href="{{ if eq $lang "de" }}/kontakt/{{ else }}/en/contact/{{ end }}" class="btn btn--primary btn--lg">
+      <a href="{{ if eq $lang "de" }}{{ "/kontakt/" | relURL }}{{ else }}{{ "/en/contact/" | relURL }}{{ end }}" class="btn btn--primary btn--lg">
         {{ if eq $lang "de" }}Jetzt kostenlos anfragen{{ else }}Request a Free Quote{{ end }}
       </a>
       <a href="tel:+4972729310989" class="btn btn--outline-white btn--lg">+49 7272 9310989</a>

@@ -863,3 +863,7 @@ strong { font-weight: 600; }
 @media print {
   .site-header, .cookie-banner, .site-footer { display: none; }
 }
+
+/* ── Tailwind utilities ─────────────────────────────────── */
+/* Preflight (reset) is disabled above — only utility classes are emitted. */
+@tailwind utilities;

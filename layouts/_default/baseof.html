@@ -46,7 +46,9 @@
   </noscript>
 
   {{/* ── Styles ── */}}
-  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  {{- $css := resources.Get "css/main.css" | css.PostCSS -}}
+  {{- if hugo.IsProduction }}{{ $css = $css | minify }}{{ end -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   <link rel="stylesheet" href="{{ "css/animations.css" | relURL }}">
 
   {{/* ── Favicon ── */}}

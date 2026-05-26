@@ -142,7 +142,7 @@
     {{/* Language switcher */}}
     <div class="lang-switch">
       {{ range .Translations }}
-      <a href="{{ .Permalink }}" class="lang-switch__link" hreflang="{{ .Site.Language.Lang }}" aria-label="Switch to {{ .Site.Language.LanguageName }}">
+      <a href="{{ .RelPermalink }}" class="lang-switch__link" hreflang="{{ .Site.Language.Lang }}" aria-label="Switch to {{ .Site.Language.LanguageName }}">
         {{ upper .Site.Language.Lang }}
       </a>
       {{ end }}

@@ -4,7 +4,7 @@
 <div class="page-hero">
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
       <span class="breadcrumb__sep">›</span>
       <a href="{{ if eq $lang "de" }}{{ "/anwendungen/" | relURL }}{{ else }}{{ "/en/applications/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Anwendungen{{ else }}Applications{{ end }}</a>
       <span class="breadcrumb__sep">›</span>

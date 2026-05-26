@@ -3,9 +3,9 @@
 <div class="page-hero">
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ .Site.BaseURL }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
       <span class="breadcrumb__sep" aria-hidden="true">›</span>
-      {{ with .Parent }}<a href="{{ .Permalink }}">{{ .Title }}</a><span class="breadcrumb__sep" aria-hidden="true">›</span>{{ end }}
+      {{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="breadcrumb__sep" aria-hidden="true">›</span>{{ end }}
       <span aria-current="page">{{ .Title | truncate 50 }}</span>
     </nav>
     <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>

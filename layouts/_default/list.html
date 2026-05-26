@@ -36,7 +36,7 @@
 
     <div class="product-grid">
       {{ range where .Pages "Params.layout" "ne" "project-form" }}
-      <a href="{{ .Permalink }}" class="product-card">
+      <a href="{{ .RelPermalink }}" class="product-card">
         <div class="product-card__img">
           {{ if .Params.image }}
           <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">

@@ -72,7 +72,7 @@ paginate = 10
     weight = 10
     [menu.main.params]
       enName = "Industrial Furnaces"
-      enUrl = "/industrial-furnaces/"
+      enUrl = "/en/industrial-furnaces/"
 
   [[menu.main]]
     identifier = "climatic"
@@ -81,7 +81,7 @@ paginate = 10
     weight = 20
     [menu.main.params]
       enName = "Climatic Chambers"
-      enUrl = "/climatic-chambers/"
+      enUrl = "/en/climatic-chambers/"
 
   [[menu.main]]
     identifier = "drying"
@@ -90,7 +90,7 @@ paginate = 10
     weight = 30
     [menu.main.params]
       enName = "Drying Systems"
-      enUrl = "/heat-drying-systems/"
+      enUrl = "/en/heat-drying-systems/"
 
   [[menu.main]]
     identifier = "pyrolysis"
@@ -99,7 +99,7 @@ paginate = 10
     weight = 40
     [menu.main.params]
       enName = "Pyrolysis Furnaces"
-      enUrl = "/pyrolysis-furnaces/"
+      enUrl = "/en/pyrolysis-furnaces/"
 
   [[menu.main]]
     identifier = "services"
@@ -108,7 +108,7 @@ paginate = 10
     weight = 50
     [menu.main.params]
       enName = "Services"
-      enUrl = "/services/"
+      enUrl = "/en/services/"
 
   [[menu.main]]
     identifier = "contact"
@@ -117,7 +117,7 @@ paginate = 10
     weight = 60
     [menu.main.params]
       enName = "Contact"
-      enUrl = "/contact/"
+      enUrl = "/en/contact/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
