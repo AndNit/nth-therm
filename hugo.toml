@@ -41,8 +41,8 @@ paginate = 10
 
 [languages]
   [languages.de]
-    languageName = "Deutsch"
-    languageCode = "de"
+    label = "Deutsch"
+    locale = "de"
     weight = 1
     contentDir = "content/de"
     title = "NTH Therm – Industrieöfen nach Maß | Made in Germany"
@@ -53,8 +53,8 @@ paginate = 10
       ctaLearn = "Mehr erfahren"
 
   [languages.en]
-    languageName = "English"
-    languageCode = "en"
+    label = "English"
+    locale = "en"
     weight = 2
     contentDir = "content/en"
     title = "NTH Therm – Custom Industrial Furnaces | Made in Germany"
