@@ -7,7 +7,7 @@ translationKey: "home"
 schema:
   type: "Organization"
 hero:
-  headline: "Industrial Furnaces. Precisely Engineered. Built for Your Production."
+  headline: "Industrial Furnaces. Tailored Precisely to Your Products."
   subline: "NTH Therm designs and manufactures custom industrial furnaces up to 1300 °C – integrated into your process, made in Germany, with hands-on personal service."
   cta_primary: "Request a Free Quote"
   cta_secondary: "Explore Products"

@@ -7,7 +7,7 @@ translationKey: "home"
 schema:
   type: "Organization"
 hero:
-  headline: "Industrieöfen. Präzise gefertigt. Exakt auf Ihre Produktion."
+  headline: "Industrieöfen. Exakt auf Ihre Produkte angepaßt"
   subline: "NTH Therm entwickelt und baut maßgefertigte Industrieöfen bis 1300 °C – integriert in Ihre Fertigung, made in Germany, mit persönlichem Service."
   cta_primary: "Jetzt kostenlos anfragen"
   cta_secondary: "Produkte entdecken"
