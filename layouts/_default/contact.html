@@ -10,7 +10,7 @@
   </div>
 </div>
 
-{{/* ── Section 1: Unified Contact Card (Details + Map) ── */}}
+{{/* ── Section 1: Contact Card (Details + Form) ── */}}
 <section class="section">
   <div class="container">
     <div class="contact-card">
@@ -61,37 +61,14 @@
         </div>
       </div>
 
-      <div class="contact-card__map">
-        <iframe
-          src="https://www.openstreetmap.org/export/embed.html?bbox=8.280%2C49.125%2C8.330%2C49.150&amp;layer=mapnik&amp;marker=49.136%2C8.303"
-          width="100%"
-          frameborder="0"
-          scrolling="no"
-          title="{{ if eq $lang "de" }}NTH Therm GmbH – Standort Rülzheim{{ else }}NTH Therm GmbH – Location Rülzheim{{ end }}"
-          loading="lazy">
-        </iframe>
-        <a href="https://www.openstreetmap.org/?mlat=49.136&amp;mlon=8.303#map=15/49.136/8.303"
-           target="_blank" rel="noopener" class="contact-map__link">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
-          {{ if eq $lang "de" }}In OpenStreetMap öffnen{{ else }}Open in OpenStreetMap{{ end }}
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-{{/* ── Section 2: Form CTA ── */}}
-<section class="section section--alt">
-  <div class="container">
-    <div class="contact-form-section">
-      <div class="contact-form-section__header">
-        <h2>{{ if eq $lang "de" }}Anfrage stellen{{ else }}Submit an Enquiry{{ end }}</h2>
-        <p>{{ if eq $lang "de" }}Beschreiben Sie kurz Ihr Projekt oder Ihre Anforderungen – wir melden uns innerhalb von 24 Stunden mit einem konkreten Vorschlag.{{ else }}Briefly describe your project or requirements – we will respond within 24 hours with a concrete proposal.{{ end }}</p>
-      </div>
-      <div class="contact-form-card">
+      <div class="contact-form-section">
+        <div class="contact-form-section__header">
+          <h2>{{ if eq $lang "de" }}Anfrage stellen{{ else }}Submit an Enquiry{{ end }}</h2>
+          <p>{{ if eq $lang "de" }}Beschreiben Sie kurz Ihr Projekt oder Ihre Anforderungen – wir melden uns innerhalb von 24 Stunden mit einem konkreten Vorschlag.{{ else }}Briefly describe your project or requirements – we will respond within 24 hours with a concrete proposal.{{ end }}</p>
+        </div>
         {{ partial "contact-form.html" . }}
       </div>
+
     </div>
   </div>
 </section>

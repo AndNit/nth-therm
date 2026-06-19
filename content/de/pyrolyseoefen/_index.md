@@ -1,7 +1,7 @@
 ---
 image: "/images/pyrolyseofen.jpg"
 title: "Pyrolyseöfen – Thermische Reinigung mit Pyrox bv | NTH Therm"
-description: "Pyrolyseöfen für thermische Reinigung von Lackhaken, Backblechen, Wärmetauschern und Motorwicklungen. Partner: Pyrox bv (Niederlande). Beratung anfordern."
+description: "Pyrolyseöfen für thermische Reinigung von Lackhaken, Backblechen, Wärmetauschern und Motorwicklungen. Partner: Pyrox bv (Niederlande). Beratung vereinbaren."
 translationKey: "pyrolysis-furnaces"
 layout: "section-pyrolysis"
 weight: 40
@@ -20,7 +20,7 @@ faqs:
 cta:
   headline: "Pyrolyseofen anfragen"
   text: "Teilen Sie uns Ihre Reinigungsaufgabe mit – wir finden gemeinsam mit Pyrox bv die optimale Lösung."
-  button: "Beratung anfordern"
+  button: "Beratung vereinbaren"
   url: "/kontakt/?produkt=pyrolyseofen"
 related_links:
   - name: "Energie & neue Materialien"

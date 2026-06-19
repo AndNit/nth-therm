@@ -27,7 +27,7 @@ faqs:
 cta:
   headline: "Request Climatic Chamber for Electronics"
   text: "IEC 60068, AEC-Q100, LV124, IEC 62660 — we find the right ACS chamber for your test requirements."
-  button: "Request Consultation"
+  button: "Schedule a Consultation"
   url: "/en/contact/?industry=electronics-emobility"
 related_services:
   - name: "Commissioning"

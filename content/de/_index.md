@@ -1,6 +1,6 @@
 ---
 title: "Industrieöfen nach Maß – Präzise Fertigung | NTH Therm"
-description: "NTH Therm GmbH – Ihr Spezialist für maßgefertigte Industrieöfen bis 1300 °C. Made in Germany. Von Herdwagen- bis Rohröfen. Jetzt kostenlos anfragen."
+description: "NTH Therm GmbH – Ihr Spezialist für maßgefertigte Industrieöfen bis 1300 °C. German Engineering. Von Herdwagen- bis Rohröfen. Jetzt Beratung vereinbaren."
 slug: ""
 layout: "home"
 translationKey: "home"
@@ -8,8 +8,8 @@ schema:
   type: "Organization"
 hero:
   headline: "Industrieöfen. Exakt auf Ihre Produkte angepaßt"
-  subline: "NTH Therm entwickelt und baut maßgefertigte Industrieöfen bis 1300 °C – integriert in Ihre Fertigung, made in Germany, mit persönlichem Service."
-  cta_primary: "Jetzt kostenlos anfragen"
+  subline: "NTH Therm entwickelt und baut maßgefertigte Industrieöfen bis 1300 °C – integriert in Ihre Fertigung, German Engineering, mit persönlichem Service."
+  cta_primary: "Jetzt Beratung vereinbaren"
   cta_secondary: "Produkte entdecken"
   cta_primary_url: "/kontakt/"
   cta_secondary_url: "/industrieoefen/"
@@ -69,7 +69,7 @@ products_teaser:
     teaser: "Vollautomatisch, hoher Durchsatz, für Serien- und Massenfertigung."
 faqs:
   - q: "Was kostet ein Industrieofen von NTH Therm?"
-    a: "Da jede Anlage individuell gefertigt wird, variieren die Kosten je nach Größe, Temperaturbereich, Automatisierungsgrad und Zubehör. Fordern Sie jetzt ein kostenloses, unverbindliches Angebot an – in der Regel innerhalb von 48 Stunden."
+    a: "Da jede Anlage individuell gefertigt wird, variieren die Kosten je nach Größe, Temperaturbereich, Automatisierungsgrad und Zubehör. Fordern Sie jetzt Ihr individuelles Angebot an – in der Regel innerhalb von 48 Stunden."
   - q: "Wie lange dauert die Lieferzeit?"
     a: "Die Lieferzeit hängt von Komplexität und Umfang ab. Standardanlagen liefern wir typischerweise in 10–16 Wochen, Sonderanlagen nach Absprache. Bereits bei der Angebotserstellung nennen wir Ihnen einen verbindlichen Termin."
   - q: "Bieten Sie auch Wartung und Reparatur an?"
@@ -100,7 +100,7 @@ NTH Therm GmbH ist Ihr Spezialist für **maßgefertigte Industrieöfen** aus Rü
 
 Unsere Leistungsversprechen:
 
-- **Individuelle Lösungen made in Germany** – kein Serienprodukt, jede Anlage ist ein Unikat
+- **Individuelle Lösungen – German Engineering** – kein Serienprodukt, jede Anlage ist ein Unikat
 - **Temperaturbereich 50–1300 °C** – vom Labortischofen bis zur Großanlage
 - **Europaweiter Service** – Inbetriebnahme, Schulung, Wartung, DGUV-3-Prüfung
 - **Persönliche Betreuung** – direkter Kontakt zu unseren Ingenieuren ab dem ersten Anruf

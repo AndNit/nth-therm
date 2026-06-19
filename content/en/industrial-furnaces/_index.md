@@ -9,9 +9,9 @@ weight: 10
 intro: "From a single bespoke unit to fully automated series production – we build the right industrial furnace for your application. All furnaces are engineered in Europe and built to measure."
 cta_banner:
   headline: "Not sure yet which furnace you need?"
-  text: "No problem. Our 6-step project wizard guides you to a tailored quote in minutes."
-  cta: "Start Your Furnace Project"
-  url: "/en/industrial-furnaces/your-furnace-project/"
+  text: "No problem. Our engineers clarify your requirements personally and recommend the right furnace type – without obligation and with no lead time."
+  cta: "Schedule a Consultation"
+  url: "/en/contact/"
   image: "/images/ofenprojekt.jpg"
 ---
 

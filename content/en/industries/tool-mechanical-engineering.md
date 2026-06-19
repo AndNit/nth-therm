@@ -34,9 +34,9 @@ faqs:
     a: "Yes. The IRF is designed for alternating processes at different temperatures and atmospheres — for example normalising, tempering and soft annealing in the same system. Multiple doors enable efficient loading and unloading for different batch sizes."
 cta:
   headline: "Request Heat Treatment Furnace"
-  text: "Hardening shop, mechanical engineering or tool manufacture — we configure the right furnace for your charge."
-  button: "Start Furnace Project"
-  url: "/en/industrial-furnaces/your-furnace-project/"
+  text: "Hardening shop, mechanical engineering or tool manufacture — our engineers work with you to specify the right furnace for your charge."
+  button: "Schedule a Consultation"
+  url: "/en/contact/"
 related_services:
   - name: "Maintenance & DGUV-3"
     url: "/en/services/maintenance/"

@@ -26,7 +26,7 @@ faqs:
 cta:
   headline: "Request a Climatic Test Chamber"
   text: "Describe your test requirements – we will recommend the right ACS chamber and prepare a quote."
-  button: "Get Free Consultation"
+  button: "Schedule a Consultation"
   url: "/en/contact/?product=climatic-chamber"
 related_links:
   - name: "Electronics & E-Mobility"

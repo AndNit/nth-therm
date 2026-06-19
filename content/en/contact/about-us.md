@@ -19,7 +19,7 @@ schema:
 
 ### Our Strengths
 
-**Customer focus:** Every system is developed exactly to the customer's requirements – from the first consultation to turnkey commissioning. Personal support from our engineers is not the exception but the standard.
+**Customer focus:** Every system is developed exactly to the customer's requirements – from the first consultation to turnkey commissioning. Personal consultation from our engineers is not the exception but the standard.
 
 **Competence and experience:** Our team combines decades of experience in the design and operation of industrial heat treatment systems with current knowledge in control engineering, automation and energy efficiency.
 

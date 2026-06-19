@@ -28,9 +28,9 @@ faqs:
   - q: "Can the ICO operate under protective gas atmosphere?"
     a: "Yes – with the optional inert gas connection (N₂, Ar), oxidation-sensitive materials can be treated under protective atmosphere."
 cta:
-  headline: "Configure Your ICO Chamber Furnace"
+  headline: "Request Your ICO Chamber Furnace Quote"
   text: "We size your ICO chamber furnace precisely to your batch dimensions and process."
-  button: "Request a Free Quote"
+  button: "Request a Quotation"
   url: "/contact/?product=chamber-furnace-ico"
 related_applications:
   - name: "Tempering"

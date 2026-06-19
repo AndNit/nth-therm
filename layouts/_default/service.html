@@ -32,13 +32,9 @@
         {{ end }}
       </div>
       <aside class="sidebar">
-        {{ if $p.cta }}
-        <div class="sidebar-card">
-          <h3>{{ $p.cta.headline }}</h3>
-          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
-          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary">{{ $p.cta.button }}</a>
-        </div>
-        {{ end }}
+        {{/* Inline quote card */}}
+        {{ partial "sidebar-quote-form.html" . }}
+
         <div class="sidebar-card">
           <h3>{{ if eq $lang "de" }}Schnell erreichbar{{ else }}Quick Contact{{ end }}</h3>
           <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-bottom:.5em;">+49 7272 9310989</a>

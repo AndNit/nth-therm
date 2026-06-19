@@ -88,17 +88,8 @@
       {{/* ── Sidebar ── */}}
       <aside class="sidebar">
 
-        {{/* CTA card */}}
-        {{ if $p.cta }}
-        <div class="sidebar-card" style="border-top-color:var(--col-red)">
-          <h3>{{ $p.cta.headline }}</h3>
-          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
-          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary">{{ $p.cta.button }}</a>
-          <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
-            {{ if eq $lang "de" }}Kostenlos · Unverbindlich · Antwort in 48 Std.{{ else }}Free · No obligation · Reply within 48 hrs.{{ end }}
-          </p>
-        </div>
-        {{ end }}
+        {{/* Inline quote card */}}
+        {{ partial "sidebar-quote-form.html" . }}
 
         {{/* Quick contact card */}}
         <div class="sidebar-card">
@@ -109,15 +100,6 @@
           </a>
           <a href="mailto:info@nth-therm.com" class="btn btn--outline btn--sm mt-sm" style="width:100%;justify-content:center;">
             info@nth-therm.com
-          </a>
-        </div>
-
-        {{/* Configurator link */}}
-        <div class="sidebar-card" style="background:var(--col-graphite);color:#fff;border-color:var(--col-graphite)">
-          <h3 style="color:#fff;">{{ if eq $lang "de" }}Ofen konfigurieren{{ else }}Configure Furnace{{ end }}</h3>
-          <p style="color:rgba(255,255,255,.65);">{{ if eq $lang "de" }}Beschreiben Sie Ihre Anforderungen – wir bauen Ihren Ofen nach Maß.{{ else }}Describe your requirements – we build your furnace to measure.{{ end }}</p>
-          <a href="{{ if eq $lang "de" }}{{ "/industrieoefen/ofenprojekt/" | relURL }}{{ else }}{{ "/en/industrial-furnaces/your-furnace-project/" | relURL }}{{ end }}" class="btn btn--primary" style="width:100%;justify-content:center;">
-            {{ if eq $lang "de" }}Ofenprojekt starten{{ else }}Start Project{{ end }}
           </a>
         </div>
 

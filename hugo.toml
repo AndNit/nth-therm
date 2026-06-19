@@ -1,5 +1,5 @@
 baseURL = "https://nth-therm.com/"
-title = "NTH Therm – Industrieöfen nach Maß | Made in Germany"
+title = "NTH Therm – Industrieöfen nach Maß | German Engineering"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
@@ -23,7 +23,7 @@ paginate = 10
     style = "github"
 
 [params]
-  description = "NTH Therm GmbH – Hersteller maßgefertigter Industrieöfen, Klimaprüfkammern und Trocknungssysteme aus Rülzheim. Bis 1300 °C. Individuelle Lösungen made in Germany."
+  description = "NTH Therm GmbH – Hersteller maßgefertigter Industrieöfen, Klimaprüfkammern und Trocknungssysteme aus Rülzheim. Bis 1300 °C. Individuelle Lösungen. German Engineering."
   author = "NTH Therm GmbH"
   phone = "+49 7272 9310989"
   mobile = "+49 1523 3626998"
@@ -45,10 +45,10 @@ paginate = 10
     locale = "de"
     weight = 1
     contentDir = "content/de"
-    title = "NTH Therm – Industrieöfen nach Maß | Made in Germany"
+    title = "NTH Therm – Industrieöfen nach Maß | German Engineering"
     [languages.de.params]
-      description = "NTH Therm GmbH – Hersteller maßgefertigter Industrieöfen aus Rülzheim. Bis 1300 °C. Individuelle Lösungen made in Germany."
-      tagline = "Industrieöfen. Präzise. Zuverlässig. Made in Germany."
+      description = "NTH Therm GmbH – Hersteller maßgefertigter Industrieöfen aus Rülzheim. Bis 1300 °C. Individuelle Lösungen. German Engineering."
+      tagline = "Industrieöfen. Präzise. Zuverlässig. German Engineering."
       ctaMain = "Jetzt anfragen"
       ctaLearn = "Mehr erfahren"
 
@@ -57,10 +57,10 @@ paginate = 10
     locale = "en"
     weight = 2
     contentDir = "content/en"
-    title = "NTH Therm – Custom Industrial Furnaces | Made in Germany"
+    title = "NTH Therm – Custom Industrial Furnaces | German Engineering"
     [languages.en.params]
-      description = "NTH Therm GmbH – Manufacturer of custom industrial furnaces from Rülzheim, Germany. Up to 1300 °C. Individual solutions made in Germany."
-      tagline = "Industrial Furnaces. Precise. Reliable. Made in Germany."
+      description = "NTH Therm GmbH – Manufacturer of custom industrial furnaces from Rülzheim, Germany. Up to 1300 °C. Individual solutions. German Engineering."
+      tagline = "Industrial Furnaces. Precise. Reliable. German Engineering."
       ctaMain = "Request a Quote"
       ctaLearn = "Learn More"
 

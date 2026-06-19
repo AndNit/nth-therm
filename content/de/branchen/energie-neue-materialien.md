@@ -30,7 +30,7 @@ faqs:
     a: "Die Carbonisierungslinie für Kohlenstofffasern arbeitet bei 1000–1500 °C und erfordert Durchlauföfen unter Inertgasatmosphäre (N2). NTH Therm Durchlauföfen können für diese Prozesse ausgelegt werden. Graphitisierung bei 2000–3000 °C liegt außerhalb des NTH Therm Standardprogramms, aber wir beraten Sie gerne zur Systemauswahl."
 cta:
   headline: "Energietechnik-Lösung anfragen"
-  text: "Batteriekathodenmaterialien, Brennstoffzellen, Keramiksintern oder Pyrolyse – wir konfigurieren die richtige Anlage."
+  text: "Batteriekathodenmaterialien, Brennstoffzellen, Keramiksintern oder Pyrolyse – unsere Ingenieure spezifizieren gemeinsam mit Ihnen die passende Anlage."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=energie-neue-materialien"
 related_services:

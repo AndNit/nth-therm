@@ -1,6 +1,6 @@
 ---
 title: "Herdwagenofen IWF – Schwere Lasten bis 1300 °C | NTH Therm"
-description: "Herdwagenöfen IWF für schwere Lasten bis 1300 °C. Keramische Bodenplatte, Rohrheizelemente, individuelle Konfiguration. Made in Germany. Angebot anfordern."
+description: "Herdwagenöfen IWF für schwere Lasten bis 1300 °C. Keramische Bodenplatte, Rohrheizelemente, individuelle Konfiguration. German Engineering. Angebot anfordern."
 translationKey: "bogie-hearth-iwf"
 layout: "product"
 image: "/images/herdwagenofen-iwf.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Applications & Heat Treatment Processes | NTH Therm"
-description: "Tempering, hardening, annealing, sintering, carburising, drying, preheating: NTH Therm industrial furnaces for all common heat treatment processes. Made in Germany."
+description: "Tempering, hardening, annealing, sintering, carburising, drying, preheating: NTH Therm industrial furnaces for all common heat treatment processes. German Engineering."
 translationKey: "applications"
 weight: 45
 intro: "Every heat treatment process places specific demands on temperature, atmosphere and uniformity. NTH Therm delivers the right furnace systems – precise, process-reliable and tailored to your application."

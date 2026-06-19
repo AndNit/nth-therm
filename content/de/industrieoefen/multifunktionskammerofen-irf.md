@@ -10,6 +10,7 @@ schema:
   name: "Multifunktionaler Kammerofen IRF"
   brand: "NTH Therm"
 specs:
+  temp_range: "860 + 1200 °C"
   temp_range_left: "860 °C (Umluft)"
   temp_range_right: "1200 °C (Hochtemperatur)"
   doors: "Doppeltür"

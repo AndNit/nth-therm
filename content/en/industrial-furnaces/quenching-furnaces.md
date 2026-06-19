@@ -18,7 +18,7 @@ faqs:
   - q: "Which quenching media are available?"
     a: "Standard: air. Optional: water, oil or combined. The double water agitation system ensures uniform quenching."
 cta:
-  headline: "Configure Your Quenching Furnace"
+  headline: "Request Your Quenching Furnace Quote"
   button: "Request a Quote"
   url: "/contact/?product=quenching-furnace"
 related_applications:

@@ -1,6 +1,6 @@
 ---
 title: "Custom Industrial Furnaces – Precise Engineering | NTH Therm"
-description: "NTH Therm GmbH – specialists in custom-built industrial furnaces up to 1300 °C. Made in Germany. Bogie hearth to tube furnaces. Request a free quote today."
+description: "NTH Therm GmbH – specialists in custom-built industrial furnaces up to 1300 °C. German Engineering. Bogie hearth to tube furnaces. Schedule a consultation today."
 slug: ""
 layout: "home"
 translationKey: "home"
@@ -8,8 +8,8 @@ schema:
   type: "Organization"
 hero:
   headline: "Industrial Furnaces. Tailored Precisely to Your Products."
-  subline: "NTH Therm designs and manufactures custom industrial furnaces up to 1300 °C – integrated into your process, made in Germany, with hands-on personal service."
-  cta_primary: "Request a Free Quote"
+  subline: "NTH Therm designs and manufactures custom industrial furnaces up to 1300 °C – integrated into your process, German Engineering, with hands-on personal service."
+  cta_primary: "Schedule a Consultation"
   cta_secondary: "Explore Products"
   cta_primary_url: "/en/contact/"
   cta_secondary_url: "/en/industrial-furnaces/"
@@ -69,7 +69,7 @@ products_teaser:
     teaser: "Fully automatic, high throughput, for series and mass production."
 faqs:
   - q: "How much does an industrial furnace from NTH Therm cost?"
-    a: "Since every system is custom-built, costs vary depending on size, temperature range, degree of automation and accessories. Request a free, non-binding quote now – we typically respond within 48 hours."
+    a: "Since every system is custom-built, costs vary depending on size, temperature range, degree of automation and accessories. Request your individual quotation now – we typically respond within 48 hours."
   - q: "What is the delivery time?"
     a: "Delivery time depends on complexity and scope. Standard systems are typically delivered in 10–16 weeks; special systems by arrangement. We provide a binding delivery date with every offer."
   - q: "Do you also offer maintenance and repair services?"
@@ -100,7 +100,7 @@ NTH Therm GmbH is your specialist for **custom-built industrial furnaces** from 
 
 Our promises:
 
-- **Individual solutions made in Germany** – no standard product, every system is unique
+- **Individual solutions – German Engineering** – no standard product, every system is unique
 - **Temperature range 50–1300 °C** – from bench-top lab furnace to large-scale plant
 - **Pan-European service** – commissioning, training, maintenance, DGUV-3 inspection
 - **Personal contact** – direct line to our engineers from the very first call

@@ -6,9 +6,9 @@
 
         <div class="footer-col footer-col--brand">
           <a href="{{ .Site.Home.RelPermalink }}" class="footer-logo" aria-label="NTH Therm – Zur Startseite">
-            <img src="{{ "images/nth-therm-logo.png" | relURL }}" alt="NTH Therm" width="140" height="66" loading="lazy">
+            <img src="{{ "images/nth-therm-logo-glow.png" | relURL }}" alt="NTH Therm" width="140" height="71" loading="lazy">
           </a>
-          <p class="footer-tagline">{{ if eq $lang "de" }}Maßgefertigte Industrieöfen. Präzise. Zuverlässig. Made in Germany.{{ else }}Custom industrial furnaces. Precise. Reliable. Made in Germany.{{ end }}</p>
+          <p class="footer-tagline">{{ if eq $lang "de" }}Maßgefertigte Industrieöfen. Präzise. Zuverlässig. German Engineering.{{ else }}Custom industrial furnaces. Precise. Reliable. German Engineering.{{ end }}</p>
           <div class="trust-badges">
             <span class="badge">🇪🇺 Made in EU</span>
             <span class="badge">ISO-konforme Qualität</span>
@@ -92,14 +92,14 @@
             <li><a href="{{ "/services/" | relURL }}">Serviceleistungen</a></li>
             <li><a href="{{ "/services/wartung/" | relURL }}">Wartung &amp; DGUV-3</a></li>
             <li><a href="{{ "/services/modernisierung/" | relURL }}">Modernisierung</a></li>
-            <li><a href="{{ "/industrieoefen/ofenprojekt/" | relURL }}">Ofenprojekt starten</a></li>
+            <li><a href="{{ "/kontakt/" | relURL }}">Beratungsgespräch vereinbaren</a></li>
             <li><a href="{{ "/kontakt/ueber-uns/" | relURL }}">Über uns</a></li>
             <li><a href="{{ "/kontakt/" | relURL }}">Kontakt</a></li>
             {{ else }}
             <li><a href="{{ "/en/services/" | relURL }}">All Services</a></li>
             <li><a href="{{ "/en/services/maintenance/" | relURL }}">Maintenance &amp; DGUV-3</a></li>
             <li><a href="{{ "/en/services/refurbishment/" | relURL }}">Refurbishment</a></li>
-            <li><a href="{{ "/en/industrial-furnaces/your-furnace-project/" | relURL }}">Start Furnace Project</a></li>
+            <li><a href="{{ "/en/contact/" | relURL }}">Schedule a Consultation</a></li>
             <li><a href="{{ "/en/contact/about-us/" | relURL }}">About Us</a></li>
             <li><a href="{{ "/en/contact/" | relURL }}">Contact</a></li>
             {{ end }}

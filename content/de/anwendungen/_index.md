@@ -1,6 +1,6 @@
 ---
 title: "Anwendungen & Wärmebehandlungsverfahren | NTH Therm"
-description: "Anlassen, Härten, Glühen, Sintern, Karburieren, Trocknen, Vorwärmen: NTH Therm Industrieöfen für alle gängigen Wärmebehandlungsverfahren. Made in Germany."
+description: "Anlassen, Härten, Glühen, Sintern, Karburieren, Trocknen, Vorwärmen: NTH Therm Industrieöfen für alle gängigen Wärmebehandlungsverfahren. German Engineering."
 translationKey: "applications"
 weight: 45
 intro: "Jedes Wärmebehandlungsverfahren stellt spezifische Anforderungen an Temperatur, Atmosphäre und Gleichmäßigkeit. NTH Therm liefert die passenden Ofensysteme – präzise, prozesssicher und auf Ihre Anwendung abgestimmt."

@@ -23,7 +23,7 @@ faqs:
     a: "The heating bell can be quickly moved from one base to the next – enabling very efficient operation with short idle times and high throughput."
 cta:
   headline: "Request a Bell-Type Furnace Quote"
-  text: "Configure your bell-type furnace for optimum process efficiency."
+  text: "Our engineers specify your bell-type furnace for optimum process efficiency and minimal downtime."
   button: "Request a Quote"
   url: "/contact/?product=bell-type-furnace"
 related_applications:

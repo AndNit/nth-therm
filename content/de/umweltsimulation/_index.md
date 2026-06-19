@@ -26,7 +26,7 @@ faqs:
 cta:
   headline: "Klimaprüfkammer anfragen"
   text: "Beschreiben Sie Ihre Testanforderungen – wir empfehlen die passende ACS-Kammer und erstellen ein Angebot."
-  button: "Kostenlos beraten lassen"
+  button: "Beratung vereinbaren"
   url: "/kontakt/?produkt=klimapruefkammer"
 related_links:
   - name: "Elektronik & E-Mobilität"

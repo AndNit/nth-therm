@@ -26,7 +26,7 @@ faqs:
     a: "At temperatures above 860 °C, heat is transferred primarily by radiation. A fan would be ineffective and subject to rapid wear. Tube heating elements with free radiation are the optimal solution in this range."
 cta:
   headline: "Request an ICF Chamber Furnace Quote"
-  text: "We configure your high-temperature chamber furnace precisely to your process requirements."
+  text: "Our engineers specify your high-temperature chamber furnace precisely to your process requirements."
   button: "Request a Quote"
   url: "/contact/?product=chamber-furnace-icf"
 related_applications:

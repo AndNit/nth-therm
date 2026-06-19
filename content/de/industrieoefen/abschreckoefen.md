@@ -22,7 +22,7 @@ faqs:
   - q: "Welche Abschreckmedien sind verfügbar?"
     a: "Standard: Luft. Optional: Wasser, Öl oder kombiniert. Das doppelte Wasserschüttelsystem sorgt für gleichmäßiges Abschrecken."
 cta:
-  headline: "Abschreckofen konfigurieren"
+  headline: "Abschreckofen anfragen"
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=abschreckofen"
 related_applications:

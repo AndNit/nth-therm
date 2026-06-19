@@ -30,8 +30,8 @@ faqs:
   - q: "Sind auch Vertikalkonfigurationen möglich?"
     a: "Ja – als Option ist eine vertikale Ausführung des Rohrofens erhältlich."
 cta:
-  headline: "Rohrofen TH1 konfigurieren"
-  text: "Wählen Sie Ihren Innendurchmesser, Temperaturbereich und Atmosphäre – wir bauen Ihren Rohrofen exakt nach Spezifikation."
+  headline: "Rohrofen TH1 anfragen"
+  text: "Unsere Ingenieure klären gemeinsam mit Ihnen Innendurchmesser, Temperaturbereich und Atmosphäre – und bauen Ihren Rohrofen exakt nach Spezifikation."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=rohrofen-th1"
 related_applications:

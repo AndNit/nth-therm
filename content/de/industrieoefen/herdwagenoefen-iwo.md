@@ -1,6 +1,6 @@
 ---
 title: "Herdwagenofen IWO – 50 bis 860 °C mit Zwangsluftumwälzung | NTH Therm"
-description: "Professionelle Herdwagenöfen IWO von NTH Therm: 50–860 °C, forcierte Luftzirkulation, schwere Lasten, individuelle Abmessungen. Jetzt konfigurieren & Angebot anfordern."
+description: "Professionelle Herdwagenöfen IWO von NTH Therm: 50–860 °C, forcierte Luftzirkulation, schwere Lasten, individuelle Abmessungen. Jetzt Angebot anfordern."
 translationKey: "bogie-hearth-iwo"
 layout: "product"
 image: "/images/herdwagenofen-iwo.jpg"
@@ -34,7 +34,7 @@ faqs:
 cta:
   headline: "Herdwagenofen IWO anfragen"
   text: "Teilen Sie uns Ihre Anforderungen mit – wir erstellen Ihnen innerhalb von 48 Stunden ein individuelles Angebot."
-  button: "Jetzt kostenloses Angebot anfordern"
+  button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=herdwagenofen-iwo"
 related_applications:
   - name: "Anlassen"

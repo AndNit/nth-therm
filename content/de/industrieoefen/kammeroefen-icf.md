@@ -26,7 +26,7 @@ faqs:
     a: "Bei Temperaturen über 860 °C wird Wärme hauptsächlich durch Strahlung übertragen. Ein Gebläse wäre hier uneffektiv und würde verschleißen. Rohrheizelemente mit freier Strahlung sind in diesem Bereich die optimale Lösung."
 cta:
   headline: "ICF Kammerofen anfragen"
-  text: "Wir konfigurieren Ihren Hochtemperaturkammerofen passgenau für Ihre Prozessanforderungen."
+  text: "Unsere Ingenieure spezifizieren Ihren Hochtemperaturkammerofen passgenau für Ihre Prozessanforderungen."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=kammerofen-icf"
 related_applications:

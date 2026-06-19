@@ -24,7 +24,7 @@ faqs:
   - q: "Ist der Ofen ATEX-konform?"
     a: "Ja – unsere Karburierungsöfen werden mit einem vollständigen Explosionsschutzsystem geliefert."
 cta:
-  headline: "Karburierungsofen konfigurieren"
+  headline: "Karburierungsofen anfragen"
   text: "Wir entwickeln Ihren Aufkohlofen für maximale Prozesssicherheit und Reproduzierbarkeit."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=karburierungsofen"

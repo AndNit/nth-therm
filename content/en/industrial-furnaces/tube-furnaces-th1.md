@@ -30,8 +30,8 @@ faqs:
   - q: "Are vertical configurations available?"
     a: "Yes – a vertical tube furnace version is available as an option."
 cta:
-  headline: "Configure Your TH1 Tube Furnace"
-  text: "Choose your inner diameter, temperature range and atmosphere – we build your tube furnace to exact specification."
+  headline: "Request Your TH1 Tube Furnace Quote"
+  text: "Our engineers define the right inner diameter, temperature range and atmosphere together with you – and build your tube furnace to exact specification."
   button: "Request a Quote Now"
   url: "/contact/?product=tube-furnace-th1"
 related_applications:

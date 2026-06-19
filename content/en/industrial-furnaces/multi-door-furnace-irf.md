@@ -10,6 +10,7 @@ schema:
   name: "Multi-Door Chamber Furnace IRF"
   brand: "NTH Therm"
 specs:
+  temp_range: "860 + 1200 °C"
   temp_range_left: "860 °C (forced air)"
   temp_range_right: "1200 °C (high temperature)"
   doors: "Double door"

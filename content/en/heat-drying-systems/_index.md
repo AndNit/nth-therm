@@ -18,11 +18,11 @@ faqs:
   - q: "What is the difference between Class 1 and Class 4 drying?"
     a: "The IICRC S500 standard classifies water damage by depth of penetration. Class 1 means minimal moisture absorption, Class 4 means deeply penetrated water in dense materials (concrete, hardwood, screed). The Drymatic II enables Class 4 drying without demolition."
   - q: "What service does NTH Therm offer for Drymatic systems?"
-    a: "System configuration advice, fast delivery, technical support, training for restoration personnel and spare-parts supply. For larger restoration companies we offer framework agreements."
+    a: "System configuration advice, fast delivery, technical service, training for restoration personnel and spare-parts supply. For larger restoration companies we offer framework agreements."
 cta:
   headline: "Request Drymatic System"
   text: "We advise you on the optimal system configuration for your damage type and application area."
-  button: "Request Consultation"
+  button: "Schedule a Consultation"
   url: "/en/contact/?product=drymatic"
 related_links:
   - name: "Drying"

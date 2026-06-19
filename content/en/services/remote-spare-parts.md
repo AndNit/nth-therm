@@ -44,7 +44,7 @@ Combined with **structured spare-parts stocking** – stock items from our wareh
 - Parameter adjustments and recipe optimisation
 - Controlled safety overrides for fault analysis (fully logged)
 - Software updates and programme corrections
-- Remote support for your maintenance staff during mechanical fault resolution
+- Remote assistance for your maintenance staff during mechanical fault resolution
 
 **Response times:**
 | Priority | Target |

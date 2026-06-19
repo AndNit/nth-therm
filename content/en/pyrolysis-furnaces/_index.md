@@ -1,7 +1,7 @@
 ---
 image: "/images/pyrolyseofen.jpg"
 title: "Pyrolysis Furnaces – Thermal Cleaning with Pyrox bv | NTH Therm"
-description: "Pyrolysis furnaces for thermal cleaning of paint hooks, baking trays, heat exchangers and motor windings. Partner: Pyrox bv (Netherlands). Request consultation."
+description: "Pyrolysis furnaces for thermal cleaning of paint hooks, baking trays, heat exchangers and motor windings. Partner: Pyrox bv (Netherlands). Schedule a consultation."
 translationKey: "pyrolysis-furnaces"
 layout: "section-pyrolysis"
 weight: 40
@@ -20,7 +20,7 @@ faqs:
 cta:
   headline: "Request a Pyrolysis Furnace Quote"
   text: "Share your cleaning task with us – we will find the optimal solution together with Pyrox bv."
-  button: "Request Consultation"
+  button: "Schedule a Consultation"
   url: "/contact/?product=pyrolysis-furnace"
 related_links:
   - name: "Energy & Advanced Materials"

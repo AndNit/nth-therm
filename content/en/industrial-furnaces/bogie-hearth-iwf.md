@@ -1,6 +1,6 @@
 ---
 title: "Bogie Hearth Furnace IWF – Heavy Loads up to 1300 °C | NTH Therm"
-description: "Bogie hearth furnaces IWF for heavy loads up to 1300 °C. Ceramic floor plate, tube heating elements, individual configuration. Made in Germany. Request a quote."
+description: "Bogie hearth furnaces IWF for heavy loads up to 1300 °C. Ceramic floor plate, tube heating elements, individual configuration. German Engineering. Request a quote."
 translationKey: "bogie-hearth-iwf"
 layout: "product"
 image: "/images/herdwagenofen-iwf.jpg"

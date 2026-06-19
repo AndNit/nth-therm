@@ -30,7 +30,7 @@ faqs:
     a: "The carbonisation line for carbon fibres operates at 1000–1500 °C and requires continuous furnaces under inert gas atmosphere (N2). NTH Therm conveyor furnaces can be designed for these processes. Graphitisation at 2000–3000 °C is outside NTH Therm's standard range, but we are happy to advise on system selection."
 cta:
   headline: "Request Energy Technology Solution"
-  text: "Battery cathode materials, fuel cells, ceramic sintering or pyrolysis — we configure the right system."
+  text: "Battery cathode materials, fuel cells, ceramic sintering or pyrolysis — our engineers work with you to specify the right system."
   button: "Submit Enquiry"
   url: "/en/contact/?industry=energy-advanced-materials"
 related_services:

@@ -23,7 +23,7 @@ faqs:
     a: "Die Heizhaube kann schnell von einem Bodenstück zum nächsten versetzt werden – das ermöglicht einen sehr effizienten Betrieb mit kurzen Standzeiten und hohem Durchsatz."
 cta:
   headline: "Haubenofen anfragen"
-  text: "Konfigurieren Sie Ihren Haubenofen für optimale Prozesseffizienz."
+  text: "Unsere Ingenieure spezifizieren Ihren Haubenofen passgenau – für optimale Prozesseffizienz und minimale Standzeiten."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=haubenofen"
 related_applications:

@@ -13,7 +13,7 @@ faqs:
   - q: "Which control systems does NTH Therm use for modernisations?"
     a: "We work preferably with Siemens S7-1200 and S7-1500 (TIA Portal). For simpler applications also with Unitronics, Schneider Electric or other standard market systems – depending on requirements and the customer's existing infrastructure."
   - q: "Can I unlock new processes through a modernisation?"
-    a: "Yes. A basic chamber furnace can be extended with an N₂/H₂ atmosphere circuit, oxygen probe and automatic purge sequence to enable protective-gas annealing – without buying a new furnace. An existing hardening furnace can be fitted with carbon-potential control for carburising. We assess your system's potential free of charge."
+    a: "Yes. A basic chamber furnace can be extended with an N₂/H₂ atmosphere circuit, oxygen probe and automatic purge sequence to enable protective-gas annealing – without buying a new furnace. An existing hardening furnace can be fitted with carbon-potential control for carburising. We assess your system's modernisation potential as part of our initial analysis."
   - q: "How long does a modernisation project take?"
     a: "Simple control modernisations (new PLC + HMI) typically take 4–8 weeks. More comprehensive projects including insulation renewal, new heating system and new capabilities (atmosphere, multi-zone control) can take 12–20 weeks, depending on scope and material availability."
   - q: "Do you modernise furnaces from other manufacturers?"
@@ -22,8 +22,8 @@ faqs:
     a: "After every modernisation we carry out a full DGUV-3 inspection to DIN VDE 0100-600 and issue a new inspection report. The system is then fully standards-compliant – including CE documentation for significant modifications."
 cta:
   headline: "Assess Your Modernisation Potential"
-  text: "Send us your system's technical data – we will assess the modernisation potential free of charge."
-  button: "Request a Free Assessment"
+  text: "Send us your system's technical data – we will assess what modernisation can deliver for your process."
+  button: "Request an Assessment"
   url: "/en/contact/?service=refurbishment"
 related_services:
   - name: "Maintenance & DGUV-3"
@@ -104,7 +104,7 @@ Modernisation does not have to target the status quo. We also extend existing sy
 
 ### Modernisation Project Sequence
 
-1. **Free initial assessment** – condition survey based on technical documentation (remote or on site)
+1. **Initial assessment** – condition survey based on technical documentation (remote or on site)
 2. **Quotation and scope of work** – clear definition of all components, deliverables and dates
 3. **Dismantling and refurbishment** – carried out in our workshop or at the customer's site
 4. **Commissioning** – on-site commissioning, process trials, calibration

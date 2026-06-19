@@ -1,6 +1,6 @@
 ---
 title: "Bogie Hearth Furnace IWO – 50 to 860 °C Forced Air Circulation | NTH Therm"
-description: "Professional bogie hearth furnaces IWO by NTH Therm: 50–860 °C, forced air circulation, heavy loads, custom dimensions. Configure now & request a quote."
+description: "Professional bogie hearth furnaces IWO by NTH Therm: 50–860 °C, forced air circulation, heavy loads, custom dimensions. Request a quote."
 translationKey: "bogie-hearth-iwo"
 layout: "product"
 image: "/images/herdwagenofen-iwo.jpg"
@@ -34,7 +34,7 @@ faqs:
 cta:
   headline: "Request a Quote for the IWO Bogie Hearth Furnace"
   text: "Share your requirements with us – we will provide you with an individual quotation within 48 hours."
-  button: "Request Your Free Quote Now"
+  button: "Request a Quotation"
   url: "/contact/?product=bogie-hearth-iwo"
 related_applications:
   - name: "Tempering"

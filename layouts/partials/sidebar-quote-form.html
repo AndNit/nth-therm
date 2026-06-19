@@ -1,0 +1,71 @@
+{{/* Inline quote card for product/service sidebars.
+     Call with: {{ partial "sidebar-quote-form.html" . }} */}}
+{{ $lang := .Site.Language.Lang }}
+{{ $endpoint := .Site.Params.formspreeEndpoint }}
+{{ $title := .Title | replaceRE `\s*\|.*$` "" }}
+{{ $p := .Params }}
+
+<div class="sidebar-card sidebar-card--quote" style="border-top-color:var(--col-red)">
+
+  {{/* ── CTA view (default) ── */}}
+  <div class="sq-cta">
+    {{ if $p.cta }}
+    <h3>{{ $p.cta.headline }}</h3>
+    {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
+    {{ else }}
+    <h3>{{ if eq $lang "de" }}{{ $title }} anfragen{{ else }}Request a Quote{{ end }}</h3>
+    {{ end }}
+    <button type="button" class="btn btn--primary sq-toggle" style="width:100%;justify-content:center;">
+      {{ if eq $lang "de" }}Angebot anfordern{{ else }}Request a Quote{{ end }}
+    </button>
+    <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
+      {{ if eq $lang "de" }}Persönliche Beratung · Antwort in 48 Std.{{ else }}Personal consultation · Reply within 48 hrs.{{ end }}
+    </p>
+  </div>
+
+  {{/* ── Form view (hidden until toggle) ── */}}
+  <div class="sq-form" hidden>
+    <h3>{{ if eq $lang "de" }}Anfrage senden{{ else }}Send Enquiry{{ end }}</h3>
+    <form action="{{ $endpoint }}" method="POST" class="sidebar-quote-form">
+      <input type="hidden" name="_language" value="{{ $lang }}">
+      <input type="hidden" name="_subject" value="{{ if eq $lang "de" }}Angebotsanfrage: {{ $title }}{{ else }}Quote request: {{ $title }}{{ end }}">
+      <input type="hidden" name="produkt" value="{{ $title }}">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+      <div class="form-field">
+        <label for="sq-name">{{ if eq $lang "de" }}Name *{{ else }}Name *{{ end }}</label>
+        <input type="text" id="sq-name" name="name" required placeholder="{{ if eq $lang "de" }}Ihr Name{{ else }}Your name{{ end }}">
+      </div>
+      <div class="form-field">
+        <label for="sq-email">{{ if eq $lang "de" }}E-Mail *{{ else }}Email *{{ end }}</label>
+        <input type="email" id="sq-email" name="email" required placeholder="name@firma.de">
+      </div>
+      <div class="form-field">
+        <label for="sq-msg">{{ if eq $lang "de" }}Nachricht *{{ else }}Message *{{ end }}</label>
+        <textarea id="sq-msg" name="message" required rows="3" placeholder="{{ if eq $lang "de" }}Ihre Anforderungen...{{ else }}Your requirements...{{ end }}"></textarea>
+      </div>
+      <div class="form-field form-field--checkbox" style="margin-bottom:.5rem;">
+        <input type="checkbox" id="sq-privacy" name="privacy" required>
+        <label for="sq-privacy">
+          {{ if eq $lang "de" }}<a href="{{ "/datenschutz/" | relURL }}" target="_blank">Datenschutz</a> gelesen &amp; akzeptiert{{ else }}<a href="{{ "/en/privacy/" | relURL }}" target="_blank">Privacy Policy</a> read &amp; accepted{{ end }}
+        </label>
+      </div>
+      <button type="submit" class="btn btn--primary sq-submit" style="width:100%;justify-content:center;">
+        {{ if eq $lang "de" }}Anfrage absenden{{ else }}Submit Enquiry{{ end }}
+      </button>
+      <button type="button" class="btn btn--outline btn--sm sq-cancel" style="width:100%;justify-content:center;margin-top:.4rem;">
+        {{ if eq $lang "de" }}Abbrechen{{ else }}Cancel{{ end }}
+      </button>
+      <div class="sq-success" hidden style="margin-top:.75rem;padding:.65rem;background:#e8f5e9;border-left:3px solid #4caf50;border-radius:4px;font-size:.85rem;">
+        {{ if eq $lang "de" }}✓ Danke! Wir melden uns innerhalb von 48 Std.{{ else }}✓ Thank you! We'll reply within 48 hrs.{{ end }}
+      </div>
+      <div class="sq-error" hidden style="margin-top:.75rem;padding:.65rem;background:#fce4ec;border-left:3px solid var(--col-red);border-radius:4px;font-size:.85rem;">
+        {{ if eq $lang "de" }}⚠ Fehler – bitte schreiben: info@nth-therm.com{{ else }}⚠ Error – write to: info@nth-therm.com{{ end }}
+      </div>
+    </form>
+    <p style="margin-top:.6rem;font-size:.8rem;color:var(--col-mid);">
+      {{ if eq $lang "de" }}Persönliche Beratung · Antwort in 48 Std.{{ else }}Personal consultation · Reply within 48 hrs.{{ end }}
+    </p>
+  </div>
+
+</div>

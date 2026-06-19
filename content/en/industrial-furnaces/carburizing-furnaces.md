@@ -24,7 +24,7 @@ faqs:
   - q: "Is the furnace ATEX-compliant?"
     a: "Yes – our carburizing furnaces are supplied with a complete explosion protection system."
 cta:
-  headline: "Configure Your Carburizing Furnace"
+  headline: "Request Your Carburizing Furnace Quote"
   text: "We develop your carburizing furnace for maximum process safety and reproducibility."
   button: "Request a Quote Now"
   url: "/contact/?product=carburizing-furnace"

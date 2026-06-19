@@ -28,9 +28,9 @@ faqs:
   - q: "Kann der ICO auch unter Schutzgasatmosphäre betrieben werden?"
     a: "Ja – mit dem optionalen Inertgasanschluss (N₂, Ar) können oxidationsempfindliche Materialien unter Schutzgas behandelt werden."
 cta:
-  headline: "Kammerofen ICO konfigurieren"
+  headline: "Kammerofen ICO anfragen"
   text: "Wir dimensionieren Ihren Kammerofen ICO exakt nach Ihrer Chargengröße und Ihrem Prozess."
-  button: "Kostenloses Angebot anfordern"
+  button: "Angebot anfordern"
   url: "/kontakt/?produkt=kammerofen-ico"
 related_applications:
   - name: "Anlassen"

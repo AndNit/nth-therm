@@ -166,6 +166,73 @@
     });
   }
 
+  /* ── Sidebar Quote Form ───────────────────────────────── */
+  $$('.sidebar-card--quote').forEach(card => {
+    const ctaView  = card.querySelector('.sq-cta');
+    const formView = card.querySelector('.sq-form');
+    const toggleBtn = card.querySelector('.sq-toggle');
+    const cancelBtn = card.querySelector('.sq-cancel');
+    const form     = card.querySelector('.sidebar-quote-form');
+    const submitBtn = card.querySelector('.sq-submit');
+    const success  = card.querySelector('.sq-success');
+    const error    = card.querySelector('.sq-error');
+
+    if (!toggleBtn || !ctaView || !formView) return;
+
+    toggleBtn.addEventListener('click', () => {
+      ctaView.hidden = true;
+      formView.hidden = false;
+    });
+
+    if (cancelBtn) {
+      cancelBtn.addEventListener('click', () => {
+        ctaView.hidden = false;
+        formView.hidden = true;
+      });
+    }
+
+    if (form) {
+      form.addEventListener('submit', async e => {
+        e.preventDefault();
+        const required = $$('[required]', form);
+        let valid = true;
+        required.forEach(el => {
+          el.classList.remove('is-invalid');
+          if (!el.value.trim() || (el.type === 'checkbox' && !el.checked)) {
+            el.classList.add('is-invalid');
+            valid = false;
+          }
+        });
+        if (!valid) return;
+
+        submitBtn.disabled = true;
+        try {
+          const res = await fetch(form.action, {
+            method: 'POST',
+            headers: { Accept: 'application/json' },
+            body: new FormData(form)
+          });
+          if (res.ok) {
+            form.reset();
+            if (success) success.hidden = false;
+            if (submitBtn) submitBtn.hidden = true;
+            if (cancelBtn) cancelBtn.hidden = true;
+          } else {
+            throw new Error('server');
+          }
+        } catch {
+          if (error) error.hidden = false;
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+
+      $$('[required]', form).forEach(el => {
+        el.addEventListener('input', () => el.classList.remove('is-invalid'));
+      });
+    }
+  });
+
   /* ── Smooth anchor scrolling ──────────────────────────── */
   $$('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {

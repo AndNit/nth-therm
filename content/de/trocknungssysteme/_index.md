@@ -18,11 +18,11 @@ faqs:
   - q: "Was ist der Unterschied zwischen Klasse-1- und Klasse-4-Trocknung?"
     a: "Die IICRC-S500-Norm klassifiziert Wasserschäden nach Durchdringungstiefe. Klasse 1 bedeutet minimale Feuchtigkeitsabsorption, Klasse 4 bedeutet tief eingedrungenes Wasser in dichte Materialien (Beton, Hartholz, Estrich). Drymatic II ermöglicht Klasse-4-Trocknung ohne Abbruch."
   - q: "Welchen Service bietet NTH Therm für Drymatic-Systeme?"
-    a: "Beratung zur Systemkonfiguration, schnelle Lieferung, technischen Support, Schulungen für Sanierungspersonal und Ersatzteilversorgung. Für größere Sanierungsunternehmen bieten wir Rahmenvereinbarungen."
+    a: "Beratung zur Systemkonfiguration, schnelle Lieferung, technischen Service, Schulungen für Sanierungspersonal und Ersatzteilversorgung. Für größere Sanierungsunternehmen bieten wir Rahmenvereinbarungen."
 cta:
   headline: "Drymatic-System anfragen"
   text: "Wir beraten Sie zur optimalen Systemkonfiguration für Ihr Schadensbild und Ihre Einsatzgebiete."
-  button: "Beratung anfordern"
+  button: "Beratung vereinbaren"
   url: "/kontakt/?produkt=drymatic"
 related_links:
   - name: "Trocknen"

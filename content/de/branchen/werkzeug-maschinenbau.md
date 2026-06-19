@@ -34,9 +34,9 @@ faqs:
     a: "Ja. Der IRF ist für wechselnde Prozesse bei unterschiedlichen Temperaturen und Atmosphären ausgelegt – zum Beispiel Normalisieren, Anlassen und Weichglühen in derselben Anlage. Multiple Türen ermöglichen effiziente Be- und Entladevorgänge für verschiedene Chargengrößen."
 cta:
   headline: "Wärmebehandlungsofen anfragen"
-  text: "Härterei, Maschinenbau oder Werkzeugfertigung – wir konfigurieren den richtigen Ofen für Ihre Charge."
-  button: "Ofenprojekt starten"
-  url: "/industrieoefen/ofenprojekt/"
+  text: "Härterei, Maschinenbau oder Werkzeugfertigung – unsere Ingenieure spezifizieren gemeinsam mit Ihnen den richtigen Ofen für Ihre Charge."
+  button: "Beratung vereinbaren"
+  url: "/kontakt/"
 related_services:
   - name: "Wartung & DGUV-3"
     url: "/services/wartung/"

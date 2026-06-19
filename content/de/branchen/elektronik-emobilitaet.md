@@ -27,7 +27,7 @@ faqs:
 cta:
   headline: "Klimaprüfkammer für Elektronik anfragen"
   text: "IEC 60068, AEC-Q100, LV124, IEC 62660 – wir finden die passende ACS-Kammer für Ihre Prüfanforderungen."
-  button: "Beratung anfordern"
+  button: "Beratung vereinbaren"
   url: "/kontakt/?branche=elektronik-emobilitaet"
 related_services:
   - name: "Inbetriebnahme"

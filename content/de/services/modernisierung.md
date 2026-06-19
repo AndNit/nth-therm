@@ -13,7 +13,7 @@ faqs:
   - q: "Welche Steuerungssysteme setzt NTH Therm bei der Modernisierung ein?"
     a: "Wir arbeiten bevorzugt mit Siemens S7-1200 und S7-1500 (TIA Portal). Für einfachere Anwendungen auch mit Unitronics, Schneider Electric oder anderen marktgängigen Systemen – je nach Anforderung und vorhandener Infrastruktur des Kunden."
   - q: "Kann ich durch eine Modernisierung neue Prozesse erschließen?"
-    a: "Ja. Ein einfacher Kammerofen kann durch eine Atmosphärensteuerung mit N₂/H₂-Zufuhr und Sauerstoffsonde zu einem Schutzgasglühofen erweitert werden. Ein bestehender Härteofen kann durch Integration eines C-Potenzialreglers für die Karburierung ertüchtigt werden. Wir prüfen das Potenzial Ihrer Anlage kostenlos."
+    a: "Ja. Ein einfacher Kammerofen kann durch eine Atmosphärensteuerung mit N₂/H₂-Zufuhr und Sauerstoffsonde zu einem Schutzgasglühofen erweitert werden. Ein bestehender Härteofen kann durch Integration eines C-Potenzialreglers für die Karburierung ertüchtigt werden. Wir prüfen das Modernisierungspotenzial Ihrer Anlage im Rahmen unserer Erstanalyse."
   - q: "Wie lange dauert ein Modernisierungsprojekt?"
     a: "Einfache Steuerungsmodernisierungen (neue SPS + HMI) dauern typischerweise 4–8 Wochen. Umfassendere Projekte mit Isolierungserneuerung, neuem Heizungssystem und Integration neuer Funktionen (Atmosphäre, mehrstufige Zonierung) können 12–20 Wochen in Anspruch nehmen – abhängig von Auftragsvolumen und Materialverfügbarkeit."
   - q: "Modernisieren Sie auch Öfen anderer Hersteller?"
@@ -22,8 +22,8 @@ faqs:
     a: "Nach jeder Modernisierung führen wir eine vollständige DGUV-3-Prüfung nach DIN VDE 0100-600 durch und stellen ein neues Prüfprotokoll aus. Die Anlage ist danach vollständig normenkonform – inkl. CE-Dokumentation bei wesentlichen Änderungen."
 cta:
   headline: "Modernisierungspotenzial prüfen lassen"
-  text: "Schicken Sie uns die technischen Daten Ihrer Anlage – wir prüfen kostenlos, was eine Modernisierung bringt."
-  button: "Kostenlose Analyse anfordern"
+  text: "Schicken Sie uns die technischen Daten Ihrer Anlage – wir prüfen, welches Potenzial eine Modernisierung bietet."
+  button: "Analyse anfordern"
   url: "/kontakt/?service=modernisierung"
 related_services:
   - name: "Wartung & DGUV-3"
@@ -104,7 +104,7 @@ Eine Modernisierung muss nicht auf den Status quo zielen. Wir erweitern bestehen
 
 ### Ablauf eines Modernisierungsprojekts
 
-1. **Kostenlose Erst-Analyse** – Bestandsaufnahme anhand der technischen Unterlagen (remote oder vor Ort)
+1. **Erstanalyse** – Bestandsaufnahme anhand der technischen Unterlagen (remote oder vor Ort)
 2. **Angebot und Leistungsbeschreibung** – Klare Definition aller Komponenten, Leistungen und Termine
 3. **Demontage und Aufarbeitung** – Durchführung in unserer Werkstatt oder beim Kunden
 4. **Inbetriebnahme** – Vor-Ort-Inbetriebnahme, Prozesserprobung, Kalibrierung
