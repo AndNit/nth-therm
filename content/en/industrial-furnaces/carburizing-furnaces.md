@@ -20,9 +20,9 @@ applications:
   - "Gas carburising for series production"
 faqs:
   - q: "How precise is the carbon potential control?"
-    a: "Continuous carbon potential measurement and fully automatic control enable very high reproducibility – ideal for series processes with tight tolerances."
+    a: "Continuous carbon potential measurement and fully automatic control enable very high reproducibility, ideal for series processes with tight tolerances."
   - q: "Is the furnace ATEX-compliant?"
-    a: "Yes – our carburizing furnaces are supplied with a complete explosion protection system."
+    a: "Yes, our carburizing furnaces are supplied with a complete explosion protection system."
 cta:
   headline: "Request Your Carburizing Furnace Quote"
   text: "We develop your carburizing furnace for maximum process safety and reproducibility."
@@ -47,6 +47,6 @@ related_products:
 
 ## Carburizing Furnaces – Fully Automated Case Hardening with Maximum Precision
 
-Our **carburizing furnaces** enable fully automated case hardening under controlled gas atmosphere (N₂/methanol/propane). Continuous carbon potential measurement guarantees reproducible results – batch after batch.
+Our **carburizing furnaces** enable fully automated case hardening under controlled gas atmosphere (N₂/methanol/propane). Continuous carbon potential measurement guarantees reproducible results, batch after batch.
 
 **Equipment:** Stainless-steel retort · Hydraulic door opening · 5-sided heating · Composite insulation · Explosion protection system · Pyrolysis of process gases · PLC control · Data logging

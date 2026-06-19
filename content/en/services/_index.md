@@ -3,12 +3,12 @@ title: "Industrial Furnace Services | Maintenance, Modernisation, Commissioning 
 description: "Complete service portfolio for industrial furnaces: maintenance & DGUV-3, modernisation, commissioning & training, remote PLC maintenance and spare-parts supply – for NTH Therm and third-party systems."
 translationKey: "services"
 weight: 50
-intro: "Your industrial furnace is a critical asset – downtime costs money, process deviations cost quality. NTH Therm supports you across the full lifecycle of your system: from commissioning through to modernisation."
+intro: "Your industrial furnace is a critical asset: downtime costs money, process deviations cost quality. NTH Therm supports you across the full lifecycle of your system: from commissioning through to modernisation."
 ---
 
 ## Service Across the Full System Lifecycle
 
-NTH Therm is not only a manufacturer but your long-term partner. Our services cover every phase of the system lifecycle – and are available for **industrial furnaces from all manufacturers**.
+NTH Therm is not only a manufacturer but your long-term partner. Our services cover every phase of the system lifecycle, and are available for **industrial furnaces from all manufacturers**.
 
 ### Our Service Portfolio
 
@@ -19,7 +19,7 @@ Annual inspection, calibration, electrical safety testing and complete documenta
 New PLC (Siemens S7-1500), touch HMI, safety technology, insulation, heating system – at 30–60% of new-purchase cost. Unlock new processes without a new furnace.
 
 **Commissioning & Training**
-Structured commissioning with temperature qualification (TUS/SAT), recipe programming and CE acceptance. Training for operators and maintenance staff – CQI-9 and AMS2750 calibration on request.
+Structured commissioning with temperature qualification (TUS/SAT), recipe programming and CE acceptance. Training for operators and maintenance staff, CQI-9 and AMS2750 calibration on request.
 
 **Remote PLC Maintenance & Spare Parts**
 Secured VPN remote access for fast diagnostics and fault resolution. Spare-parts stocking for NTH Therm and third-party systems. Optional: OEE monitoring with Evocon for predictive maintenance.

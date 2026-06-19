@@ -23,7 +23,7 @@ faqs:
     a: "The IWF is designed for higher temperatures (up to 1300 °C) and heavier loads. It uses tube heating elements with free radiation instead of forced air circulation, and has a ceramic floor plate for maximum load capacity."
 cta:
   headline: "Enquire About the IWF for Heavy Loads"
-  text: "Define your load requirements – we will size the IWF accordingly."
+  text: "Define your load requirements, and we will size the IWF accordingly."
   button: "Request a Quote"
   url: "/contact/?product=bogie-hearth-iwf"
 related_applications:

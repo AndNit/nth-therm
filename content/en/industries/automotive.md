@@ -76,10 +76,10 @@ The AIAG standard CQI-9 is mandatory for automotive suppliers with heat treatmen
 
 Control units, sensors, power electronics and high-voltage systems must withstand extreme operating conditions over their entire service life. ACS climatic test chambers (supplied and serviced by NTH Therm) meet all automotive qualification standards:
 
-- **LV124 / LV148** – Standard for electrical/electronic automotive components
-- **ISO 16750-4** – Environmental loads for automotive components
-- **AEC-Q100 / AEC-Q101** – Automotive semiconductor qualification
-- **IEC 62660** – Lithium-ion cells for traction batteries
+- **LV124 / LV148:** Standard for electrical/electronic automotive components
+- **ISO 16750-4:** Environmental loads for automotive components
+- **AEC-Q100 / AEC-Q101:** Automotive semiconductor qualification
+- **IEC 62660:** Lithium-ion cells for traction batteries
 
 **Battery and E-Mobility:** For qualifying and developing battery cells, modules and systems, controlled temperature profiles are essential — from formation cycling through capacity measurements to accelerated ageing. ACS chambers provide the required temperature precision and uniformity.
 

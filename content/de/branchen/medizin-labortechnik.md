@@ -27,10 +27,10 @@ faqs:
   - q: "Welche Normen gelten für die Klimaprüfung von Medizinprodukten?"
     a: "IEC 60601-1 (allgemeine Anforderungen für medizinische elektrische Geräte) mit den Collateral-Standards IEC 60601-1-2 (EMV) und umgebungsbezogenen Anforderungen. ISO 10993 für die Biokompatibilität ergänzt die elektrischen Normen. Klimaprüfung nach IEC 60068 für Umweltrobustheit."
   - q: "Bietet NTH Therm Laboröfen mit QMS-gerechter Dokumentation?"
-    a: "Ja. IBF-Laboröfen und Rohröfen TH1 können mit vollständiger IQ/OQ/PQ-Dokumentation (Installation Qualification, Operational Qualification, Performance Qualification) geliefert werden – anforderungsgerecht für ISO 13485-Qualitätsmanagementsysteme."
+    a: "Ja. IBF-Laboröfen und Rohröfen TH1 können mit vollständiger IQ/OQ/PQ-Dokumentation (Installation Qualification, Operational Qualification, Performance Qualification) geliefert werden, anforderungsgerecht für ISO 13485-Qualitätsmanagementsysteme."
 cta:
   headline: "MedTech-Lösung anfragen"
-  text: "Sinteröfen für Dentalkeramik, Laboröfen mit IQ/OQ/PQ oder Klimaprüfkammern für Medizinprodukte – wir beraten Sie."
+  text: "Sinteröfen für Dentalkeramik, Laboröfen mit IQ/OQ/PQ oder Klimaprüfkammern für Medizinprodukte: Wir beraten Sie."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=medizin-labortechnik"
 related_services:
@@ -44,7 +44,7 @@ related_services:
 
 Die Medizintechnik stellt an thermische Prozesse einzigartige Anforderungen: Reinheit des Prozesses (keine Kontamination), Präzision der Temperaturführung, vollständige Dokumentation für regulatorische Anforderungen (FDA, CE-Kennzeichnung, ISO 13485) und Reproduzierbarkeit jeder einzelnen Charge. Ein Sinterdefekt bei einem Implantat oder eine fehlerhafte Klimaprüfung bei einem Medizingerät kann direkte Patientensicherheitsrisiken bedeuten.
 
-NTH Therm liefert Laboröfen, Hochtemperaturöfen und Klimaprüfkammern für Medizintechnik und Laboranwendungen – mit den nötigen Qualifizierungsleistungen.
+NTH Therm liefert Laboröfen, Hochtemperaturöfen und Klimaprüfkammern für Medizintechnik und Laboranwendungen, jeweils mit den nötigen Qualifizierungsleistungen.
 
 ### Sintern von Dentalkeramik und Dentalimplantaten
 
@@ -78,18 +78,18 @@ Für Hüft- und Knieprothesen sowie dentale Gerüste: Spannungsarmglühen und An
 
 **Laboröfen IBF** und **Rohröfen TH1** werden in analytischen Labors und der Pharmaindustrie vielfältig eingesetzt:
 
-- **Veraschung** – organische Probenzerstörung für chemische Analyse
-- **Calcinierung** – Zersetzung anorganischer Verbindungen (Carbonatzerfall, Hydroxidzersetzung)
-- **Katalysatorherstellung** – Trägerimprägnierung und Aktivierungsglühen
-- **Pharmapulver-Prozesse** – Trocknen, Kristallisationssteuerung, Schüttgut-Konditionierung
-- **Synthese** – Festkörpersynthese unter Inertgasatmosphäre (Rohrofenrohr mit Gas)
+- **Veraschung:** organische Probenzerstörung für chemische Analyse
+- **Calcinierung:** Zersetzung anorganischer Verbindungen (Carbonatzerfall, Hydroxidzersetzung)
+- **Katalysatorherstellung:** Trägerimprägnierung und Aktivierungsglühen
+- **Pharmapulver-Prozesse:** Trocknen, Kristallisationssteuerung, Schüttgut-Konditionierung
+- **Synthese:** Festkörpersynthese unter Inertgasatmosphäre (Rohrofenrohr mit Gas)
 
 ### Klimaprüfung für Medizinprodukte
 
-Medizinische Geräte müssen unter verschiedensten Umgebungsbedingungen sicher und zuverlässig funktionieren – im Operationssaal bei +25 °C, im Transportbehälter bei −20 °C, im Lager bei 90 % Luftfeuchtigkeit. ACS-Klimaprüfkammern unterstützen die Qualifizierung nach:
+Medizinische Geräte müssen unter verschiedensten Umgebungsbedingungen sicher und zuverlässig funktionieren: im Operationssaal bei +25 °C, im Transportbehälter bei −20 °C, im Lager bei 90 % Luftfeuchtigkeit. ACS-Klimaprüfkammern unterstützen die Qualifizierung nach:
 
-- **IEC 60601-1** – Allgemeine Anforderungen für medizinische elektrische Geräte
-- **IEC 60068** – Umweltprüfungen für elektronische Baugruppen
-- **ISO 11135 / ISO 17665** – Sterilisationsvalidierung (ergänzend zur Klimaprüfung)
+- **IEC 60601-1:** Allgemeine Anforderungen für medizinische elektrische Geräte
+- **IEC 60068:** Umweltprüfungen für elektronische Baugruppen
+- **ISO 11135 / ISO 17665:** Sterilisationsvalidierung (ergänzend zur Klimaprüfung)
 
-Auf Wunsch liefern wir Kammern mit vollständiger IQ/OQ/PQ-Dokumentation – anforderungsgerecht für ISO 13485-Qualitätsmanagementsysteme und FDA-Anforderungen (21 CFR Part 11-kompatible Datenaufzeichnung auf Anfrage).
+Auf Wunsch liefern wir Kammern mit vollständiger IQ/OQ/PQ-Dokumentation, anforderungsgerecht für ISO 13485-Qualitätsmanagementsysteme und FDA-Anforderungen (21 CFR Part 11-kompatible Datenaufzeichnung auf Anfrage).

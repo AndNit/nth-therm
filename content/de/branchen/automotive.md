@@ -4,7 +4,7 @@ description: "Industrieöfen und Klimaprüfkammern für die Automobilindustrie: 
 translationKey: "industry-automotive"
 layout: "industry"
 weight: 10
-intro: "Von der Zahnradhärtung nach CQI-9 bis zur Klimaprüfung von Batteriesystemen nach LV124 – NTH Therm liefert thermische Lösungen für die gesamte Automotive-Lieferkette."
+intro: "Von der Zahnradhärtung nach CQI-9 bis zur Klimaprüfung von Batteriesystemen nach LV124: NTH Therm liefert thermische Lösungen für die gesamte Automotive-Lieferkette."
 products:
   - name: "Kammeröfen ICO (Umluft)"
     url: "/industrieoefen/kammeroefen-ico/"
@@ -27,16 +27,16 @@ applications:
     url: "/anwendungen/karburieren/"
 faqs:
   - q: "Was definiert CQI-9 und welche Öfen sind konform?"
-    a: "CQI-9 ist der AIAG-Standard für Wärmebehandlung in der Automobillieferkette. Er definiert Anforderungen an Temperaturuniformität (TUS), Gerätekalibrierung (SAT), Prozessdokumentation und Systemgenauigkeitsklassen. NTH Therm führt alle erforderlichen Qualifizierungen durch – TUS, SAT, CE-Abnahme – und konfiguriert Anlagen für CQI-9-Prozessklassen."
+    a: "CQI-9 ist der AIAG-Standard für Wärmebehandlung in der Automobillieferkette. Er definiert Anforderungen an Temperaturuniformität (TUS), Gerätekalibrierung (SAT), Prozessdokumentation und Systemgenauigkeitsklassen. NTH Therm führt alle erforderlichen Qualifizierungen durch (TUS, SAT, CE-Abnahme) und konfiguriert Anlagen für CQI-9-Prozessklassen."
   - q: "Welche Automotive-Bauteile werden typischerweise gehärtet?"
     a: "Zahnräder (Stirn-, Kegelrad, Planetenrad), Antriebs- und Getriebewellen, Kurbelwellen, Nockenwellen, Lageraußenringe, Achsschenkel, Verbindungselemente, Federn und Bremsscheiben. Je nach Anforderung werden Einsatzhärten, Durchhärten, induktives Härten oder Nitrieren eingesetzt."
   - q: "Welche ACS-Klimanormen gelten für Automotive-Elektronik?"
     a: "LV124 und LV148 (BMW-/VDA-Standard für elektrische/elektronische Kfz-Komponenten), ISO 16750-4 (Umweltlasten), AEC-Q100/Q101 (Halbleiterqualifizierung), IEC 60068. Alle relevanten Normen werden von ACS-Klimaprüfkammern unterstützt."
   - q: "Bietet NTH Therm Wartungsverträge für Automotive-Produktionsanlagen?"
-    a: "Ja. Für produktionskritische Anlagen bieten wir Wartungsverträge mit garantierten Reaktionszeiten (≤ 4 Stunden bei Produktionsstillstand), präventiven Serviceintervallen und Ersatzteilbevorratung. CQI-9 erfordert dokumentierte Wartungshistorie – diese wird lückenlos geführt."
+    a: "Ja. Für produktionskritische Anlagen bieten wir Wartungsverträge mit garantierten Reaktionszeiten (≤ 4 Stunden bei Produktionsstillstand), präventiven Serviceintervallen und Ersatzteilbevorratung. CQI-9 erfordert eine dokumentierte Wartungshistorie, die wir lückenlos führen."
 cta:
   headline: "Automotive-Lösung anfragen"
-  text: "CQI-9-konforme Wärmebehandlung, Klimaprüfkammern oder Wartungsverträge – wir beraten Sie."
+  text: "CQI-9-konforme Wärmebehandlung, Klimaprüfkammern oder Wartungsverträge: Wir beraten Sie."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=automotive"
 related_services:
@@ -48,15 +48,15 @@ related_services:
 
 ## Wärmebehandlung und thermische Prüfung für Automotive-Zulieferer
 
-Die Automobilbranche zählt zu den anspruchsvollsten Kunden für thermische Prozesse. Getriebebauteile müssen präzise gehärtet sein, Karosseriekomponenten stress-relaxiert, Elektroniksysteme unter Extrembedingungen qualifiziert und Batteriemodule unter kontrollierten Temperaturprofilen konditioniert. NTH Therm bietet das vollständige Spektrum – Industrieöfen für die Wärmebehandlung, Klimaprüfkammern für die Produktqualifizierung und umfassenden Service für den Produktionsbetrieb.
+Die Automobilbranche zählt zu den anspruchsvollsten Kunden für thermische Prozesse. Getriebebauteile müssen präzise gehärtet sein, Karosseriekomponenten stress-relaxiert, Elektroniksysteme unter Extrembedingungen qualifiziert und Batteriemodule unter kontrollierten Temperaturprofilen konditioniert. NTH Therm bietet das vollständige Spektrum: Industrieöfen für die Wärmebehandlung, Klimaprüfkammern für die Produktqualifizierung und umfassenden Service für den Produktionsbetrieb.
 
 ### Wärmebehandlung im Antriebsstrang – Härtung, Anlassen, Karburieren
 
-Das mechanische Herzstück jedes Fahrzeugs – Getriebe, Antriebswellen, Differenziale – besteht aus hochbeanspruchten Stahlteilen, deren Eigenschaften durch gezielte Wärmebehandlung eingestellt werden.
+Das mechanische Herzstück jedes Fahrzeugs (Getriebe, Antriebswellen, Differenziale) besteht aus hochbeanspruchten Stahlteilen, deren Eigenschaften durch gezielte Wärmebehandlung eingestellt werden.
 
 **Einsatzhärten (Karburieren + Härten + Anlassen)** erzeugt die für Zahnräder und Wellen optimale Kombination: harte, verschleißbeständige Oberfläche bei zähem, stoßfestem Kern. NTH Therm Karburierungsöfen arbeiten mit endothermen und synthetischen Atmosphären, NTH Therm Abschreckeinheiten mit Öl- und Polymerabschreckung.
 
-**Anlassen nach dem Härten** stellt Zähigkeit und Duktilität ein. Anlassöfen mit Umluftsystem (ICO-Serie) garantieren enge Temperaturgleichmäßigkeit – entscheidend für gleichmäßige Bauteilhärte über das gesamte Chargenvolumen.
+**Anlassen nach dem Härten** stellt Zähigkeit und Duktilität ein. Anlassöfen mit Umluftsystem (ICO-Serie) garantieren enge Temperaturgleichmäßigkeit, entscheidend für gleichmäßige Bauteilhärte über das gesamte Chargenvolumen.
 
 **Normalisieren und Spannungsarmglühen** von geschmiedeten und geschweißten Rohteilen vor der Feinbearbeitung reduziert Maßabweichungen und Verzug in der nachfolgenden Zerspanung.
 
@@ -76,12 +76,12 @@ Der AIAG-Standard CQI-9 ist für Automotive-Zulieferer mit Wärmebehandlungsproz
 
 Steuergeräte, Sensoren, Leistungselektronik und Hochvoltsysteme müssen extreme Betriebsbedingungen über ihre gesamte Lebensdauer überstehen. ACS-Klimaprüfkammern (geliefert und gewartet von NTH Therm) erfüllen alle Automotive-Qualifizierungsnormen:
 
-- **LV124 / LV148** – Standard für elektrische/elektronische Kfz-Komponenten
-- **ISO 16750-4** – Umweltbelastungen für Kfz-Komponenten
-- **AEC-Q100 / AEC-Q101** – Halbleiterqualifizierung Automotive
-- **IEC 62660** – Lithium-Ionen-Zellen für Traktionsbatterien
+- **LV124 / LV148:** Standard für elektrische/elektronische Kfz-Komponenten
+- **ISO 16750-4:** Umweltbelastungen für Kfz-Komponenten
+- **AEC-Q100 / AEC-Q101:** Halbleiterqualifizierung Automotive
+- **IEC 62660:** Lithium-Ionen-Zellen für Traktionsbatterien
 
-**Batterie und E-Mobilität:** Für die Qualifizierung und Entwicklung von Batteriezellen, -modulen und -systemen sind kontrollierte Temperaturprofile essenziell – von der Formationszyklie über Kapazitätsmessungen bis zur beschleunigten Alterung. ACS-Kammern bieten die nötige Temperaturpräzision und -gleichmäßigkeit.
+**Batterie und E-Mobilität:** Für die Qualifizierung und Entwicklung von Batteriezellen, -modulen und -systemen sind kontrollierte Temperaturprofile essenziell, von der Formationszyklie über Kapazitätsmessungen bis zur beschleunigten Alterung. ACS-Kammern bieten die nötige Temperaturpräzision und -gleichmäßigkeit.
 
 ### Service für Automotive-Produktionsanlagen
 

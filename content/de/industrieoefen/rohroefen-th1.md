@@ -26,12 +26,12 @@ faqs:
   - q: "Welche Rohrinnendurchmesser sind verfügbar?"
     a: "Standard-Innendurchmesser: 15, 25, 38, 50, 60, 75 und 100 mm. Kundenspezifische Durchmesser auf Anfrage."
   - q: "Kann der TH1 unter Vakuum betrieben werden?"
-    a: "Ja – mit dem optionalen Vakuumanschluss ist Betrieb bis 10⁻⁶ mbar möglich. Quarzrohre und -systeme sind ebenfalls erhältlich."
+    a: "Ja, mit dem optionalen Vakuumanschluss ist Betrieb bis 10⁻⁶ mbar möglich. Quarzrohre und -systeme sind ebenfalls erhältlich."
   - q: "Sind auch Vertikalkonfigurationen möglich?"
-    a: "Ja – als Option ist eine vertikale Ausführung des Rohrofens erhältlich."
+    a: "Ja, als Option ist eine vertikale Ausführung des Rohrofens erhältlich."
 cta:
   headline: "Rohrofen TH1 anfragen"
-  text: "Unsere Ingenieure klären gemeinsam mit Ihnen Innendurchmesser, Temperaturbereich und Atmosphäre – und bauen Ihren Rohrofen exakt nach Spezifikation."
+  text: "Unsere Ingenieure klären gemeinsam mit Ihnen Innendurchmesser, Temperaturbereich und Atmosphäre und bauen Ihren Rohrofen exakt nach Spezifikation."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=rohrofen-th1"
 related_applications:

@@ -23,10 +23,10 @@ faqs:
   - q: "Welche Förderarten sind möglich?"
     a: "Riemenförderung (bis 900 °C) oder Rollenförderung (bis 1100 °C). Die Bandbreite und Bandgeschwindigkeit werden auf Ihren Prozess und Durchsatz abgestimmt."
   - q: "Kann die Durchlaufgeschwindigkeit eingestellt werden?"
-    a: "Ja – stufenlos einstellbare Bandgeschwindigkeit per Frequenzumrichter ist Standard."
+    a: "Ja, stufenlos einstellbare Bandgeschwindigkeit per Frequenzumrichter ist Standard."
 cta:
   headline: "Durchlaufofen für Ihre Serienproduktion"
-  text: "Teilen Sie uns Ihren gewünschten Durchsatz mit – wir dimensionieren den Durchlaufofen passend."
+  text: "Teilen Sie uns Ihren gewünschten Durchsatz mit, und wir dimensionieren den Durchlaufofen passend."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=durchlaufofen"
 related_applications:
@@ -50,4 +50,4 @@ related_products:
 
 ## Durchlauföfen – Kontinuierlicher Betrieb für Serien und Massenproduktion
 
-Durchlauföfen von NTH Therm ermöglichen die **vollautomatische Wärmebehandlung im Durchlauf** – ideal für Serien- und Massenteile, bei denen Chargenbetrieb zu langsam oder zu teuer wäre. Zonensteuerung, einstellbare Bandgeschwindigkeit und kundenspezifische Fördersysteme machen sie zum Rückgrat kontinuierlicher Fertigungslinien.
+Durchlauföfen von NTH Therm ermöglichen die **vollautomatische Wärmebehandlung im Durchlauf**, ideal für Serien- und Massenteile, bei denen Chargenbetrieb zu langsam oder zu teuer wäre. Zonensteuerung, einstellbare Bandgeschwindigkeit und kundenspezifische Fördersysteme machen sie zum Rückgrat kontinuierlicher Fertigungslinien.

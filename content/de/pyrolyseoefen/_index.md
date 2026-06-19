@@ -16,10 +16,10 @@ faqs:
   - q: "Welche Teile können thermisch gereinigt werden?"
     a: "Lackhaken und -gestelle aus Pulverbeschichtungslinien, Backbleche, Wärmetauscher, kontaminierte Silikonteile, Motorwicklungen (Isolierung und Lack bei der Motorüberholung)."
   - q: "Wie umweltfreundlich ist das Verfahren?"
-    a: "Sehr umweltfreundlich – die Pyrolysegase werden vollständig nachverbrannt. Es entstehen keine flüssigen Abfallstoffe. Das Verfahren entspricht dem Kreislaufwirtschaftsprinzip."
+    a: "Sehr umweltfreundlich: Die Pyrolysegase werden vollständig nachverbrannt, es entstehen keine flüssigen Abfallstoffe. Das Verfahren entspricht dem Kreislaufwirtschaftsprinzip."
 cta:
   headline: "Pyrolyseofen anfragen"
-  text: "Teilen Sie uns Ihre Reinigungsaufgabe mit – wir finden gemeinsam mit Pyrox bv die optimale Lösung."
+  text: "Teilen Sie uns Ihre Reinigungsaufgabe mit, und wir finden gemeinsam mit Pyrox bv die optimale Lösung."
   button: "Beratung vereinbaren"
   url: "/kontakt/?produkt=pyrolyseofen"
 related_links:
@@ -33,14 +33,14 @@ related_links:
 
 ## Pyrolyseöfen – Sauber durch thermische Zersetzung
 
-NTH Therm vertreibt in Deutschland die Pyrolyseöfen von **Pyrox bv** (Niederlande, gegründet 2012). Pyrolyse ist das wirtschaftlichste Verfahren zur thermischen Reinigung metallischer Bauteile – schneller als Sandstrahlen, sicherer als Lösemittelreinigung, ohne Rückstände.
+NTH Therm vertreibt in Deutschland die Pyrolyseöfen von **Pyrox bv** (Niederlande, gegründet 2012). Pyrolyse ist das wirtschaftlichste Verfahren zur thermischen Reinigung metallischer Bauteile: schneller als Sandstrahlen, sicherer als Lösemittelreinigung, ohne Rückstände.
 
 ### Anwendungsbereiche
 
 **Beschichtungslinien:** Regelmäßige Reinigung von Lackhaken, Hängegestellen, Rahmen und Tablaren in Pulverbeschichtungs- und Nasslackieranlagen. Referenzen: Robberechts NV (Turnhout, Belgien), ABL-Technic Uden BV (Niederlande).
 
-**Lebensmittelindustrie:** Thermische Reinigung von Backblechen, Gitterrosten und Backformen – ohne Chemie, ohne Rückstände.
+**Lebensmittelindustrie:** Thermische Reinigung von Backblechen, Gitterrosten und Backformen, ohne Chemie, ohne Rückstände.
 
 **Wärmetauscher:** Entfernung von Verschmutzungen und Oxidschichten auf Wärmetauschern.
 
-**Motorenüberholung:** Thermische Entfernung von Isolierlack und Kunstharzen aus Motorwicklungen – Voraussetzung für die Wiederbewicklung.
+**Motorenüberholung:** Thermische Entfernung von Isolierlack und Kunstharzen aus Motorwicklungen als Voraussetzung für die Wiederbewicklung.

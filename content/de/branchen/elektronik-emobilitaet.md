@@ -4,7 +4,7 @@ description: "Klimaprüfkammern für Elektronikqualifizierung und Batterie-Testi
 translationKey: "industry-electronics"
 layout: "industry"
 weight: 40
-intro: "Elektronische Komponenten und Batteriesysteme müssen extreme Umgebungsbedingungen überstehen. ACS-Klimaprüfkammern von NTH Therm liefern normkonforme Prüfbedingungen für alle Lebensphasen – von der Bauteilqualifizierung bis zur Systemvalidierung."
+intro: "Elektronische Komponenten und Batteriesysteme müssen extreme Umgebungsbedingungen überstehen. ACS-Klimaprüfkammern von NTH Therm liefern normkonforme Prüfbedingungen für alle Lebensphasen, von der Bauteilqualifizierung bis zur Systemvalidierung."
 products:
   - name: "Klimaprüfkammern (ACS)"
     url: "/umweltsimulation/"
@@ -21,12 +21,12 @@ faqs:
   - q: "Wie funktioniert Environmental Stress Screening (ESS) und wann ist es sinnvoll?"
     a: "ESS kombiniert thermische Lastwechsel mit Vibration, um latente Fertigungsfehler (weak-link-Defekte) in der Serienfertigung zu aktivieren und zu entdecken, bevor das Produkt den Kunden erreicht. Sinnvoll bei hoher Qualitätsanforderung und mittleren Stückzahlen, z.B. Steuergeräte, Frequenzumrichter, Leistungsmodule."
   - q: "Kann NTH Therm Kammern für Batteriezelltests liefern?"
-    a: "Ja. ACS-Kammern für Batteriezelltests sind speziell für die Anforderungen der IEC 62660 und UN 38.3 ausgelegt – mit definierten Temperaturrampen, Gleichmäßigkeit und der nötigen Sicherheitsausstattung für Versuche mit Lithium-Ionen-Zellen (Explosionsschutz, Abgasabführung auf Anfrage)."
+    a: "Ja. ACS-Kammern für Batteriezelltests sind speziell für die Anforderungen der IEC 62660 und UN 38.3 ausgelegt, mit definierten Temperaturrampen, Gleichmäßigkeit und der nötigen Sicherheitsausstattung für Versuche mit Lithium-Ionen-Zellen (Explosionsschutz, Abgasabführung auf Anfrage)."
   - q: "Wofür werden Laboröfen in der Elektronikbranche eingesetzt?"
     a: "IBF-Laboröfen werden in der Elektronikbranche eingesetzt für: Lackaushärtung (conformal coating), Ausheizen von Leiterplatten, Sinterung von Dickschichtpasten, thermische Alterungsversuche an Bauelementen und Entgasen vor dem Vakuumverguss."
 cta:
   headline: "Klimaprüfkammer für Elektronik anfragen"
-  text: "IEC 60068, AEC-Q100, LV124, IEC 62660 – wir finden die passende ACS-Kammer für Ihre Prüfanforderungen."
+  text: "IEC 60068, AEC-Q100, LV124, IEC 62660: Wir finden die passende ACS-Kammer für Ihre Prüfanforderungen."
   button: "Beratung vereinbaren"
   url: "/kontakt/?branche=elektronik-emobilitaet"
 related_services:
@@ -38,9 +38,9 @@ related_services:
 
 ## Klimaprüfung und thermische Prozesse für Elektronik und E-Mobilität
 
-Elektrische und elektronische Komponenten sind in modernen Fahrzeugen, Industrieanlagen und Energiesystemen allgegenwärtig – und sie müssen unter extremen Bedingungen zuverlässig funktionieren. Temperaturen von −40 °C im Winterbetrieb bis +125 °C im Motorraum, Feuchte, Temperaturschocks, Vibration – all das muss in der Produktqualifizierung nachgestellt und nachgewiesen werden.
+Elektrische und elektronische Komponenten sind in modernen Fahrzeugen, Industrieanlagen und Energiesystemen allgegenwärtig und müssen unter extremen Bedingungen zuverlässig funktionieren. Temperaturen von −40 °C im Winterbetrieb bis +125 °C im Motorraum, Feuchte, Temperaturschocks und Vibration: All das muss in der Produktqualifizierung nachgestellt und nachgewiesen werden.
 
-NTH Therm liefert ACS-Klimaprüfkammern für die vollständige Qualifizierungs- und Validierungskette – von der Bauteilqualifizierung bis zum Systemtest.
+NTH Therm liefert ACS-Klimaprüfkammern für die vollständige Qualifizierungs- und Validierungskette, von der Bauteilqualifizierung bis zum Systemtest.
 
 ### Bauteilqualifizierung nach IEC 60068 und AEC-Q100
 
@@ -54,15 +54,15 @@ ACS-Klimaprüfkammern ermöglichen diese Prüfungen vollständig normkonform, mi
 
 ### Automotive-Elektronik: LV124, LV148 und ISO 16750
 
-Für OEM-Zulieferer in der Automobilbranche sind die Automotive-spezifischen Lastnormen verpflichtend. **LV124** und **LV148** definieren Prüfsequenzen für 12V- bzw. 48V-Bordnetzkomponen-ten – inklusive Spannungsfestigkeit, Temperaturstress und kombinierter Dauerlast. **ISO 16750-4** definiert Klimaeinflüsse für alle Kfz-Komponenten.
+Für OEM-Zulieferer in der Automobilbranche sind die Automotive-spezifischen Lastnormen verpflichtend. **LV124** und **LV148** definieren Prüfsequenzen für 12V- bzw. 48V-Bordnetzkomponenten, inklusive Spannungsfestigkeit, Temperaturstress und kombinierter Dauerlast. **ISO 16750-4** definiert Klimaeinflüsse für alle Kfz-Komponenten.
 
-ACS-Kammern lassen sich mit externen Prüfständen (Last, Signaleinspeisung) kombinieren – für die erforderliche „betriebliche" Prüfung unter Temperaturlast.
+ACS-Kammern lassen sich mit externen Prüfständen (Last, Signaleinspeisung) kombinieren, um die erforderliche betriebliche Prüfung unter Temperaturlast durchzuführen.
 
 ### Batterietechnik und E-Mobilität
 
 Die Qualifizierung von Lithium-Ionen-Batteriezellen, -modulen und -systemen ist einer der wachstumsstärksten Bereiche der Umweltprüfung:
 
-**Zellebene:** Formation und Kapazitätsmessung unter definierten Temperaturprofilen. Zellen verhalten sich temperaturabhängig – präzise Temperierung ist entscheidend für reproduzierbare Messwerte. Normen: IEC 62660-1/2, IEC 62133.
+**Zellebene:** Formation und Kapazitätsmessung unter definierten Temperaturprofilen. Da sich Zellen temperaturabhängig verhalten, ist präzise Temperierung entscheidend für reproduzierbare Messwerte. Normen: IEC 62660-1/2, IEC 62133.
 
 **Modulebene:** Thermisches Management-Tests, Übertemperaturverhalten, Konditionierung vor Kapazitätsmessung. UN 38.3 für den Transport.
 

@@ -8,7 +8,7 @@ schema:
   type: "Organization"
 hero:
   headline: "Industrial Furnaces. Tailored Precisely to Your Products."
-  subline: "NTH Therm designs and manufactures custom industrial furnaces up to 1300 °C – integrated into your process, German Engineering, with hands-on personal service."
+  subline: "NTH Therm designs and manufactures custom industrial furnaces up to 1300 °C, integrated into your process, German Engineering, with hands-on personal service."
   cta_primary: "Schedule a Consultation"
   cta_secondary: "Explore Products"
   cta_primary_url: "/en/contact/"
@@ -19,7 +19,7 @@ usps:
     text: "No off-the-shelf products. Every furnace is engineered precisely to your requirements, temperature profiles and production workflows."
   - icon: "quality"
     title: "Proven Quality"
-    text: "Ease of operation, high operational safety through intelligent automation and energy-efficient design – batch after batch."
+    text: "Ease of operation, high operational safety through intelligent automation and energy-efficient design, batch after batch."
   - icon: "service"
     title: "Excellent Service"
     text: "From planning through handover and beyond: personal contacts, operator training and rapid maintenance response times."
@@ -29,13 +29,13 @@ steps:
     text: "We capture your exact needs: temperature range, batch weight, atmosphere, cycle time."
   - number: "02"
     title: "Expert Consultation"
-    text: "Our engineers advise you from the start – transparently, independently and solution-focused."
+    text: "Our engineers advise you from the start, transparently, independently and solution-focused."
   - number: "03"
     title: "Proposal & Details"
     text: "We submit a binding offer and work out every detail together with you."
   - number: "04"
     title: "CAD Design"
-    text: "Our designers present an initial CAD drawing – adjustable down to every detail."
+    text: "Our designers present an initial CAD drawing, adjustable down to every detail."
   - number: "05"
     title: "Approval & Optimisation"
     text: "You review, we optimise. Manufacturing only begins when you are completely satisfied."
@@ -54,7 +54,7 @@ products_teaser:
     temp: "50–1300 °C"
     icon: "furnace-chamber"
     image: "/images/kammerofen-ico.jpg"
-    teaser: "Tempering, annealing, ageing, preheating – flexible and energy-efficient."
+    teaser: "Tempering, annealing, ageing, preheating: flexible and energy-efficient."
   - name: "Tube Furnaces TH1"
     slug: "/en/industrial-furnaces/tube-furnaces-th1/"
     temp: "50–1200 °C"
@@ -69,11 +69,11 @@ products_teaser:
     teaser: "Fully automatic, high throughput, for series and mass production."
 faqs:
   - q: "How much does an industrial furnace from NTH Therm cost?"
-    a: "Since every system is custom-built, costs vary depending on size, temperature range, degree of automation and accessories. Request your individual quotation now – we typically respond within 48 hours."
+    a: "Since every system is custom-built, costs vary depending on size, temperature range, degree of automation and accessories. Request your individual quotation now: we typically respond within 48 hours."
   - q: "What is the delivery time?"
     a: "Delivery time depends on complexity and scope. Standard systems are typically delivered in 10–16 weeks; special systems by arrangement. We provide a binding delivery date with every offer."
   - q: "Do you also offer maintenance and repair services?"
-    a: "Yes – we offer comprehensive services: scheduled maintenance, DGUV-3 inspections, spare-parts stocking, remote PLC maintenance, operator training and retrofitting of older systems."
+    a: "Yes, we offer comprehensive services: scheduled maintenance, DGUV-3 inspections, spare-parts stocking, remote PLC maintenance, operator training and retrofitting of older systems."
   - q: "What temperature ranges do your furnaces cover?"
     a: "Our industrial furnaces cover temperature ranges from 50 °C to 1300 °C. Depending on the application (tempering, hardening, carburising, sintering, etc.) we recommend the most suitable furnace type."
   - q: "Can you also service furnaces from other manufacturers?"
@@ -96,11 +96,11 @@ partners:
     url: "https://herkules-resotec.de/"
 ---
 
-NTH Therm GmbH is your specialist for **custom-built industrial furnaces** from Rülzheim, Germany. We develop, design and deliver industrial furnaces, climatic test chambers, heat drying systems and pyrolysis furnaces – individually tailored to your production.
+NTH Therm GmbH is your specialist for **custom-built industrial furnaces** from Rülzheim, Germany. We develop, design and deliver industrial furnaces, climatic test chambers, heat drying systems and pyrolysis furnaces, individually tailored to your production.
 
 Our promises:
 
-- **Individual solutions – German Engineering** – no standard product, every system is unique
-- **Temperature range 50–1300 °C** – from bench-top lab furnace to large-scale plant
-- **Pan-European service** – commissioning, training, maintenance, DGUV-3 inspection
-- **Personal contact** – direct line to our engineers from the very first call
+- **Individual solutions – German Engineering:** no standard product, every system is unique
+- **Temperature range 50–1300 °C:** from bench-top lab furnace to large-scale plant
+- **Pan-European service:** commissioning, training, maintenance, DGUV-3 inspection
+- **Personal contact:** direct line to our engineers from the very first call

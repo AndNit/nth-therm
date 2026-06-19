@@ -4,7 +4,7 @@ description: "Drymatic Wärmetrocknungssysteme von NTH Therm: Drymatic II, Boost
 translationKey: "drying-systems"
 layout: "landingpage"
 weight: 30
-intro: "Drymatic nutzt gezielte Wärme, um Wasserschäden radikal schneller zu trocknen – Böden und Wände bleiben erhalten, die Trocknungszeit halbiert sich. NTH Therm ist autorisierter Distributor und Full-Service-Partner für die Sanierungsbranche."
+intro: "Drymatic nutzt gezielte Wärme, um Wasserschäden radikal schneller zu trocknen. Böden und Wände bleiben erhalten, die Trocknungszeit halbiert sich. NTH Therm ist autorisierter Distributor und Full-Service-Partner für die Sanierungsbranche."
 partner:
   name: "Drymatic Systems"
   description: "Drymatic entwickelt und produziert professionelle Wärmetrocknungssysteme für die Schadensanierungsbranche. Die Technologie setzt auf präzise Wärmeführung statt konventioneller Konvektionstrocknung."
@@ -12,7 +12,7 @@ faqs:
   - q: "Wie viel schneller ist Wärmetrocknung im Vergleich zur konventionellen Trocknung?"
     a: "Typisch 30–60 % schneller als reine Konvektionstrocknung mit Bautrocknern. Bei Klasse-4-Schäden (tief durchdringendes Wasser in Hohlraumkonstruktionen) kann der Vorteil noch deutlich größer sein. Die exakte Zeitersparnis hängt von Materialart, Durchfeuchtungsgrad und Schadensumfang ab."
   - q: "Für welche Bodenbeläge eignet sich das Drymatic-System?"
-    a: "Besonders geeignet für Parkett, Dielenböden, Laminat und Holzunterböden – also genau die Beläge, die bei konventioneller Trocknung oft abgerissen werden müssen. Auch Estrich, Wandkonstruktionen und Hohlraumaufbauten werden effektiv getrocknet."
+    a: "Besonders geeignet für Parkett, Dielenböden, Laminat und Holzunterböden, also genau die Beläge, die bei konventioneller Trocknung oft abgerissen werden müssen. Auch Estrich, Wandkonstruktionen und Hohlraumaufbauten werden effektiv getrocknet."
   - q: "Kann Drymatic ohne Aufbohren von Böden eingesetzt werden?"
     a: "Ja. Über den Boost Bar wird Wärme unter Holzböden und Parkett eingebracht, ohne Bohrlöcher setzen zu müssen. Für tiefer liegende Hohlräume stehen Injektions-Adapter-Sets zur Verfügung, die mit kleinen Bohrlöchern (18–32 mm) arbeiten."
   - q: "Was ist der Unterschied zwischen Klasse-1- und Klasse-4-Trocknung?"
@@ -35,7 +35,7 @@ related_links:
 
 ## Warum Wärmetrocknung die bessere Methode ist
 
-Konventionelle Bautrockner funktionieren durch Konvektion: Sie entziehen der Raumluft Feuchtigkeit. Das Problem: Der eigentliche Transport der Feuchtigkeit aus dem Material heraus – aus dem Holz, dem Estrich, dem Wandputz – geschieht dabei langsam und unkontrolliert. Das Gerät wartet darauf, dass das Material von selbst verdunstet.
+Konventionelle Bautrockner funktionieren durch Konvektion: Sie entziehen der Raumluft Feuchtigkeit. Das Problem: Der eigentliche Transport der Feuchtigkeit aus dem Material heraus, aus dem Holz, dem Estrich, dem Wandputz, geschieht dabei langsam und unkontrolliert. Das Gerät wartet darauf, dass das Material von selbst verdunstet.
 
 **Wärmetrocknung setzt anders an.** Gezielte Wärme erhöht den Dampfdruck innerhalb des feuchten Materials. Die Feuchtigkeit wird aktiv aus der Materialstruktur herausgetrieben, von der warmen Luft aufgenommen und nach außen abgeführt. Der Prozess ist aktiv, steuerbar und wesentlich schneller.
 
@@ -43,7 +43,7 @@ Das Ergebnis in der Praxis:
 - Böden und Wandverkleidungen bleiben erhalten, die sonst abgerissen werden müssten
 - Trocknungszeiten halbieren sich in vielen Fällen
 - Sekundärschäden durch langwierige Feuchtigkeit (Schimmel, Schwindung) werden reduziert
-- Der Gesamtschaden – und damit die Schadensabwicklung – wird kleiner
+- Der Gesamtschaden und damit die Schadensabwicklung werden kleiner
 
 ---
 
@@ -63,17 +63,17 @@ Der **Drymatic II** ist die Zentrale des Systems. Er versorgt alle angeschlossen
 
 **Drei Betriebsmodi für jede Situation:**
 
-**Positiv** – Überdruckbetrieb: Trockene Warmluft wird aktiv in Hohlräume und Strukturen gepresst. Optimal für belüftete Hohlraumböden und Wandaufbauten mit Zugänglichkeit auf einer Seite.
+**Positiv (Überdruckbetrieb):** Trockene Warmluft wird aktiv in Hohlräume und Strukturen gepresst. Optimal für belüftete Hohlraumböden und Wandaufbauten mit Zugänglichkeit auf einer Seite.
 
-**Negativ** – Unterdruckbetrieb: Feuchte Luft wird aus Hohlräumen abgesaugt und durch trockene Außenluft ersetzt. Ideal wenn eine Lufteinleitung nicht möglich ist, aber eine Absaugöffnung vorhanden ist.
+**Negativ (Unterdruckbetrieb):** Feuchte Luft wird aus Hohlräumen abgesaugt und durch trockene Außenluft ersetzt. Ideal wenn eine Lufteinleitung nicht möglich ist, aber eine Absaugöffnung vorhanden ist.
 
-**Ausgeglichen** – Kombinierter Betrieb: Einleitung und Absaugung gleichzeitig für komplexe, geschlossene Hohlraumstrukturen. Maximale Effizienz bei schwer zugänglichen Konstruktionen.
+**Ausgeglichen (kombinierter Betrieb):** Einleitung und Absaugung gleichzeitig für komplexe, geschlossene Hohlraumstrukturen. Maximale Effizienz bei schwer zugänglichen Konstruktionen.
 
 ---
 
 ### Boost Bar – Unterbodentrocknung ohne Demontage
 
-Der **Drymatic Boost Bar** ist ein flaches Heizelement, das entlang von Sockelleisten und unter Bodenbelägen positioniert wird. Er erwärmt die Luftschicht unter Holzböden, Parkett und Laminat gezielt – ohne Bohrungen, ohne Demontage.
+Der **Drymatic Boost Bar** ist ein flaches Heizelement, das entlang von Sockelleisten und unter Bodenbelägen positioniert wird. Er erwärmt die Luftschicht unter Holzböden, Parkett und Laminat gezielt, ohne Bohrungen und ohne Demontage.
 
 **Einsatzbereiche:**
 - Parkettböden und Dielenböden über Betondecken
@@ -93,13 +93,13 @@ Vorteile gegenüber Lufttrocknung:
 - Direkte Wärmeübertragung ohne Verluste in die Raumluft
 - Kontrollierte Temperatur an der Materialoberfläche
 - Besonders wirksam bei Estrich, Betonböden und Fliesen auf Nassestrich
-- Mehrere Größen – kombinierbar für große Flächen
+- Mehrere Größen, kombinierbar für große Flächen
 
 ---
 
 ### Adapter-Sets für Hohlraumtrocknung (Klasse 4)
 
-Für tief durchfeuchtete Strukturen – Wandaufbauten, Doppelböden, Deckenhohlräume – bietet Drymatic spezialisierte Adapter-Sets:
+Für tief durchfeuchtete Strukturen (Wandaufbauten, Doppelböden, Deckenhohlräume) bietet Drymatic spezialisierte Adapter-Sets:
 
 | Set | Inhalt | Typischer Einsatz |
 |-----|--------|------------------|
@@ -112,10 +112,10 @@ Für tief durchfeuchtete Strukturen – Wandaufbauten, Doppelböden, Deckenhohlr
 
 ### Anwendungsfelder im Überblick
 
-**Wohngebäude – Wasserschaden nach Rohrbruch oder Leitungsschaden**
+**Wohngebäude: Wasserschaden nach Rohrbruch oder Leitungsschaden**
 Die häufigste Anwendung. Böden und Wände können oft vollständig erhalten werden, was den Schaden für Eigentümer und Versicherung erheblich reduziert.
 
-**Gewerbeimmobilien – Schnelle Wiederherstellung der Nutzbarkeit**
+**Gewerbeimmobilien: Schnelle Wiederherstellung der Nutzbarkeit**
 Im gewerblichen Bereich zählt Ausfallzeit. Wärmetrocknung minimiert die Sanierungsdauer und beschleunigt die Rückkehr zur Betriebsbereitschaft.
 
 **Estrichtrocknung im Neubau**

@@ -81,11 +81,11 @@ For the catalyst support (platinum particles on carbon) and membrane components,
 
 ### High-Performance Ceramics and Composites
 
-**Silicon carbide (SiC)** – for power semiconductors, heat exchangers and protective equipment: sintering temperature 1800–2200 °C (outside NTH Therm standard range, but ICF furnaces usable for pre-sintering and special applications to 1300 °C).
+**Silicon carbide (SiC):** for power semiconductors, heat exchangers and protective equipment: sintering temperature 1800–2200 °C (outside NTH Therm standard range, but ICF furnaces usable for pre-sintering and special applications to 1300 °C).
 
-**Aluminium oxide (Al2O3)** – for substrates, insulators, cutting ceramics: sintering temperature 1400–1700 °C. ICF furnaces configurable.
+**Aluminium oxide (Al2O3):** for substrates, insulators, cutting ceramics: sintering temperature 1400–1700 °C. ICF furnaces configurable.
 
-**Boron nitride, silicon nitride** – for special applications in power electronics and thermal management.
+**Boron nitride, silicon nitride:** for special applications in power electronics and thermal management.
 
 ### Battery Recycling – Pyrolysis as a Key Step
 

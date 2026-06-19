@@ -3,7 +3,7 @@ title: "Industries – NTH Therm Solutions for Your Sector"
 description: "NTH Therm industrial furnaces, climatic test chambers and heat drying systems for automotive, aerospace, tool making, electronics, medical technology, energy and research."
 translationKey: "industries-section"
 weight: 45
-intro: "The NTH Therm portfolio – industrial furnaces, climatic test chambers, pyrolysis furnaces and heat drying systems – serves a wide range of industries. Find out which solutions are most relevant to your sector."
+intro: "The NTH Therm portfolio (industrial furnaces, climatic test chambers, pyrolysis furnaces and heat drying systems) serves a wide range of industries. Find out which solutions are most relevant to your sector."
 ---
 
 ## NTH Therm in Your Industry

@@ -6,14 +6,14 @@ layout: "application"
 weight: 20
 faqs:
   - q: "Was ist der Unterschied zwischen Durchhärten und Randschichthärten?"
-    a: "Beim Durchhärten wird das gesamte Bauteil austenitisiert und abgeschreckt – Ergebnis ist eine gleichmäßige Martensitstruktur über den gesamten Querschnitt. Beim Randschichthärten (z. B. Karburieren, Nitrieren) wird nur die Oberfläche gehärtet, der Kern bleibt zäh."
+    a: "Beim Durchhärten wird das gesamte Bauteil austenitisiert und abgeschreckt. Das Ergebnis ist eine gleichmäßige Martensitstruktur über den gesamten Querschnitt. Beim Randschichthärten (z. B. Karburieren, Nitrieren) wird nur die Oberfläche gehärtet, der Kern bleibt zäh."
   - q: "Welche Abschreckmedien unterstützen NTH Therm Öfen?"
-    a: "Unsere Härtesysteme sind für Abschreckung in Luft, Öl, Wasser, Polymer und Schutzgas (Druckgasabschreckung) ausgelegt – je nach Stahlsorte und geforderter Abschreckintensität."
+    a: "Unsere Härtesysteme sind für Abschreckung in Luft, Öl, Wasser, Polymer und Schutzgas (Druckgasabschreckung) ausgelegt, je nach Stahlsorte und geforderter Abschreckintensität."
   - q: "Wie verhindere ich Verzug beim Härten?"
     a: "Gleichmäßige Austenitisiertemperatur (±5 K), symmetrische Chargenanordnung und definierte Abschreckparameter minimieren den Verzug. Wir beraten Sie bei der Ofenauswahl und der Chargiertechnik."
 cta:
   headline: "Härteofen anfragen"
-  text: "Nennen Sie uns Stahlsorte, Bauteilgeometrie und gewünschte Härte – wir entwickeln das passende Ofenkonzept."
+  text: "Nennen Sie uns Stahlsorte, Bauteilgeometrie und gewünschte Härte. Wir entwickeln das passende Ofenkonzept."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=haerten"
 related_industries:
@@ -27,7 +27,7 @@ related_industries:
 
 ## Härten – Maximale Oberflächenhärte durch gezieltes Austenitisieren und Abschrecken
 
-Das **Härten** ist das zentrale Verfahren zur Steigerung der Verschleiß- und Druckfestigkeit metallischer Bauteile. Durch Erhitzen auf Austenitisiertemperatur und anschließendes rasches Abschrecken entsteht die harte Martensitphase – Voraussetzung für hohe Standzeiten von Werkzeugen, Getriebeteilen und Formen.
+Das **Härten** ist das zentrale Verfahren zur Steigerung der Verschleiß- und Druckfestigkeit metallischer Bauteile. Durch Erhitzen auf Austenitisiertemperatur und anschließendes rasches Abschrecken entsteht die harte Martensitphase, die Voraussetzung für hohe Standzeiten von Werkzeugen, Getriebeteilen und Formen.
 
 Ein stabiles und reproduzierbares Härteergebnis erfordert präzise Temperaturführung, kontrollierte Atmosphäre und einen definierten Abschreckprozess. NTH Therm bietet aufeinander abgestimmte Ofensysteme für alle gängigen Härteverfahren.
 
@@ -48,7 +48,7 @@ Ein stabiles und reproduzierbares Härteergebnis erfordert präzise Temperaturf�
 
 ### Empfohlene NTH Therm Ofensysteme
 
-- **Kammerofen ICF** – bis 1300 °C, für hochlegierte Werkzeugstähle und Sonderwerkstoffe
-- **Karburierungsofen** – kontrollierte Kohlenstoffatmosphäre für kombiniertes Einsatzhärten
-- **Abschreck- & Härteofen** – integriertes Austenitisier- und Abschrecksystem
-- **Herdwagenofen IWF / IWO** – für großformatige Schmiedeteile und schwere Chargen
+- **Kammerofen ICF:** bis 1300 °C, für hochlegierte Werkzeugstähle und Sonderwerkstoffe
+- **Karburierungsofen:** kontrollierte Kohlenstoffatmosphäre für kombiniertes Einsatzhärten
+- **Abschreck- & Härteofen:** integriertes Austenitisier- und Abschrecksystem
+- **Herdwagenofen IWF / IWO:** für großformatige Schmiedeteile und schwere Chargen

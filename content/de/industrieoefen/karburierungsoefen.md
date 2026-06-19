@@ -20,9 +20,9 @@ applications:
   - "Gasaufkohlung für Serienfertigung"
 faqs:
   - q: "Wie präzise ist die Kohlenstoffpotenzialregelung?"
-    a: "Die kontinuierliche C-Potenzialmessung und vollautomatische Regelung ermöglichen eine sehr hohe Reproduzierbarkeit – ideal für Serienprozesse mit engen Toleranzen."
+    a: "Die kontinuierliche C-Potenzialmessung und vollautomatische Regelung ermöglichen eine sehr hohe Reproduzierbarkeit, ideal für Serienprozesse mit engen Toleranzen."
   - q: "Ist der Ofen ATEX-konform?"
-    a: "Ja – unsere Karburierungsöfen werden mit einem vollständigen Explosionsschutzsystem geliefert."
+    a: "Ja, unsere Karburierungsöfen werden mit einem vollständigen Explosionsschutzsystem geliefert."
 cta:
   headline: "Karburierungsofen anfragen"
   text: "Wir entwickeln Ihren Aufkohlofen für maximale Prozesssicherheit und Reproduzierbarkeit."
@@ -47,6 +47,6 @@ related_products:
 
 ## Karburierungsöfen – Vollautomatisches Aufkohlen mit höchster Präzision
 
-Unsere **Karburierungsöfen** ermöglichen das vollautomatische Einsatzhärten unter kontrollierter Gasatmosphäre (N₂/Methanol/Propan). Die kontinuierliche C-Potenzialmessung garantiert reproduzierbare Ergebnisse – Charge für Charge.
+Unsere **Karburierungsöfen** ermöglichen das vollautomatische Einsatzhärten unter kontrollierter Gasatmosphäre (N₂/Methanol/Propan). Die kontinuierliche C-Potenzialmessung garantiert reproduzierbare Ergebnisse, Charge für Charge.
 
 **Ausstattung:** Edelstahl-Retorte · Hydraulische Türöffnung · Beheizung von 5 Seiten · Kombi-Isolierung · Explosionsschutzsystem · Pyrolyse anfallender Produktgase · SPS-Steuerung · Datenaufzeichnung

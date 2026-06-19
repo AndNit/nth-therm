@@ -78,18 +78,18 @@ For hip and knee prostheses and dental frameworks: stress relieving and temperin
 
 **IBF laboratory furnaces** and **TH1 tube furnaces** are widely used in analytical laboratories and the pharmaceutical industry:
 
-- **Ashing** – organic sample destruction for chemical analysis
-- **Calcination** – decomposition of inorganic compounds (carbonate decomposition, hydroxide decomposition)
-- **Catalyst preparation** – support impregnation and activation annealing
-- **Pharmaceutical powder processes** – drying, crystallisation control, bulk conditioning
-- **Synthesis** – solid-state synthesis under inert gas atmosphere (tube furnace with gas)
+- **Ashing:** organic sample destruction for chemical analysis
+- **Calcination:** decomposition of inorganic compounds (carbonate decomposition, hydroxide decomposition)
+- **Catalyst preparation:** support impregnation and activation annealing
+- **Pharmaceutical powder processes:** drying, crystallisation control, bulk conditioning
+- **Synthesis:** solid-state synthesis under inert gas atmosphere (tube furnace with gas)
 
 ### Climatic Testing for Medical Devices
 
 Medical devices must function safely and reliably under a wide range of environmental conditions — in the operating theatre at +25 °C, in a transport container at −20 °C, in storage at 90 % humidity. ACS climatic chambers support qualification per:
 
-- **IEC 60601-1** – General requirements for medical electrical equipment
-- **IEC 60068** – Environmental tests for electronic assemblies
-- **ISO 11135 / ISO 17665** – Sterilisation validation (complementary to climatic testing)
+- **IEC 60601-1:** General requirements for medical electrical equipment
+- **IEC 60068:** Environmental tests for electronic assemblies
+- **ISO 11135 / ISO 17665:** Sterilisation validation (complementary to climatic testing)
 
 On request, we supply chambers with complete IQ/OQ/PQ documentation — meeting ISO 13485 quality management systems and FDA requirements (21 CFR Part 11-compatible data recording on request).

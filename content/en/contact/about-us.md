@@ -19,11 +19,11 @@ schema:
 
 ### Our Strengths
 
-**Customer focus:** Every system is developed exactly to the customer's requirements – from the first consultation to turnkey commissioning. Personal consultation from our engineers is not the exception but the standard.
+**Customer focus:** Every system is developed exactly to the customer's requirements, from the first consultation to turnkey commissioning. Personal consultation from our engineers is not the exception but the standard.
 
 **Competence and experience:** Our team combines decades of experience in the design and operation of industrial heat treatment systems with current knowledge in control engineering, automation and energy efficiency.
 
-**Reliable partner network:** Through our technology partnerships we offer a broader range of capabilities than a pure OEM could – always with a single point of contact for planning, delivery and service.
+**Reliable partner network:** Through our technology partnerships we offer a broader range of capabilities than a pure OEM could, always with a single point of contact for planning, delivery and service.
 
 ### Technology Partners
 

@@ -30,7 +30,7 @@ faqs:
     a: "Die Carbonisierungslinie für Kohlenstofffasern arbeitet bei 1000–1500 °C und erfordert Durchlauföfen unter Inertgasatmosphäre (N2). NTH Therm Durchlauföfen können für diese Prozesse ausgelegt werden. Graphitisierung bei 2000–3000 °C liegt außerhalb des NTH Therm Standardprogramms, aber wir beraten Sie gerne zur Systemauswahl."
 cta:
   headline: "Energietechnik-Lösung anfragen"
-  text: "Batteriekathodenmaterialien, Brennstoffzellen, Keramiksintern oder Pyrolyse – unsere Ingenieure spezifizieren gemeinsam mit Ihnen die passende Anlage."
+  text: "Ob Batteriekathodenmaterialien, Brennstoffzellen, Keramiksintern oder Pyrolyse: Unsere Ingenieure spezifizieren gemeinsam mit Ihnen die passende Anlage."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=energie-neue-materialien"
 related_services:
@@ -42,7 +42,7 @@ related_services:
 
 ## Thermische Prozesse für Energietechnik und Zukunftsmaterialien
 
-Die Energiewende schafft neue Anforderungen an thermische Prozesse. Batteriezellen, Brennstoffzellen, Festkörperelektrolyte und Hochleistungskeramiken sind ohne präzise Wärmebehandlung nicht herstellbar. Gleichzeitig entsteht eine neue Industrie für das Recycling von Energiespeichern – ebenfalls auf thermische Prozesse angewiesen.
+Die Energiewende schafft neue Anforderungen an thermische Prozesse. Batteriezellen, Brennstoffzellen, Festkörperelektrolyte und Hochleistungskeramiken sind ohne präzise Wärmebehandlung nicht herstellbar. Gleichzeitig entsteht eine neue Industrie für das Recycling von Energiespeichern, die ebenfalls auf thermische Prozesse angewiesen ist.
 
 NTH Therm Hochtemperaturöfen, Rohröfen und Pyrolyseöfen decken die Schlüsselprozesse der Energietechnik und neuen Materialien ab.
 
@@ -50,13 +50,13 @@ NTH Therm Hochtemperaturöfen, Rohröfen und Pyrolyseöfen decken die Schlüssel
 
 Die aktiven Kathodenmaterialien moderner Lithium-Ionen-Zellen werden durch Hochtemperaturreaktionen zwischen Precursoren synthetisiert und gesintert. Der Sinterprozess bestimmt maßgeblich Kapazität, Zyklenfestigkeit und Sicherheitsverhalten der Batterie.
 
-**LFP – Lithiumeisenphosphat (LiFePO4)**
+**LFP: Lithiumeisenphosphat (LiFePO4)**
 Sintertemperatur: 600–800 °C, Atmosphäre: reduzierend oder neutral (N2 + H2 oder rein N2). LFP ist thermisch stabiler als andere Kathodenmaterialien und wird bei niedrigeren Temperaturen gesintert.
 
-**NMC – Lithium-Nickel-Mangan-Cobalt-Oxid**
+**NMC: Lithium-Nickel-Mangan-Cobalt-Oxid**
 Sintertemperatur: 700–900 °C, Atmosphäre: sauerstoffreich. Die genaue NMC-Stöchiometrie (111, 622, 811) beeinflusst Sintertemperatur und -atmosphäre erheblich. NMC 811 ist besonders empfindlich gegenüber Atmosphärenabweichungen.
 
-**NCA – Lithium-Nickel-Cobalt-Aluminium-Oxid**
+**NCA: Lithium-Nickel-Cobalt-Aluminium-Oxid**
 Sintertemperatur: 700–800 °C, Atmosphäre: Sauerstoff. Ähnliche Anforderungen wie NMC.
 
 Für diese Prozesse eignen sich **Rohröfen TH1** (kleine Batches, Forschung) und **Kammeröfen ICF** (Skalierung, Pilotproduktion) mit präziser Gasführung und Atmosphärenkontrolle.
@@ -85,14 +85,14 @@ Für den Katalysatorträger (Platinpartikel auf Kohlenstoff) und Membrankomponen
 
 **Aluminiumoxid (Al2O3)** – für Substrate, Isolatoren, Schneidkeramik: Sintertemperatur 1400–1700 °C. ICF-Öfen konfigurierbar.
 
-**Bornitrid, Siliciumnitrid** – für Spezialanwendungen in Leistungselektronik und Wärmemanagement.
+**Bornitrid, Siliciumnitrid:** für Spezialanwendungen in Leistungselektronik und Wärmemanagement.
 
 ### Batterierecycling – Pyrolyse als Schlüsselschritt
 
-Das Recycling von Lithium-Ionen-Batterien erfordert einen thermischen Vorbereitungsschritt: **Pyrolyse** (auch Thermalpyrolyse oder Black-Mass-Prozess). Vor der hydrometallurgischen Rückgewinnung von Li, Co, Ni, Mn und Cu werden die organischen Bestandteile – Elektrolyt, Binder, Separator – thermisch zersetzt:
+Das Recycling von Lithium-Ionen-Batterien erfordert einen thermischen Vorbereitungsschritt: **Pyrolyse** (auch Thermalpyrolyse oder Black-Mass-Prozess). Vor der hydrometallurgischen Rückgewinnung von Li, Co, Ni, Mn und Cu werden die organischen Bestandteile (Elektrolyt, Binder, Separator) thermisch zersetzt:
 
 - Temperaturbereich: 400–600 °C
 - Atmosphäre: Inertgas (N2) oder leicht reduzierend
 - Abgasbehandlung: erforderlich (Elektrolytdämpfe, HF-Bildung)
 
-NTH Therm **Pyrolyseöfen** sind speziell für diesen Prozess entwickelt – mit geschlossenen Kammern, Inertgasführung, integrierter Abgasbehandlung und den nötigen Sicherheitseinrichtungen für den Umgang mit Lithium-Ionen-Zellmaterialien.
+NTH Therm **Pyrolyseöfen** sind speziell für diesen Prozess entwickelt, mit geschlossenen Kammern, Inertgasführung, integrierter Abgasbehandlung und den nötigen Sicherheitseinrichtungen für den Umgang mit Lithium-Ionen-Zellmaterialien.

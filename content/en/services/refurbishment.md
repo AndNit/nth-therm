@@ -9,20 +9,20 @@ schema:
   name: "Furnace Modernisation"
 faqs:
   - q: "Is modernisation worthwhile compared to buying new?"
-    a: "Yes, when the mechanical structure – furnace shell, insulation, bogie hearth, load-bearing framework – is still in good condition. This is often the case, as mechanical components last significantly longer than controls and safety systems. Full modernisation typically costs 30–60% of a comparable new build – with a comparable result."
+    a: "Yes, when the mechanical structure (furnace shell, insulation, bogie hearth, load-bearing framework) is still in good condition. This is often the case, as mechanical components last significantly longer than controls and safety systems. Full modernisation typically costs 30–60% of a comparable new build, with a comparable result."
   - q: "Which control systems does NTH Therm use for modernisations?"
-    a: "We work preferably with Siemens S7-1200 and S7-1500 (TIA Portal). For simpler applications also with Unitronics, Schneider Electric or other standard market systems – depending on requirements and the customer's existing infrastructure."
+    a: "We work preferably with Siemens S7-1200 and S7-1500 (TIA Portal). For simpler applications also with Unitronics, Schneider Electric or other standard market systems, depending on requirements and the customer's existing infrastructure."
   - q: "Can I unlock new processes through a modernisation?"
-    a: "Yes. A basic chamber furnace can be extended with an N₂/H₂ atmosphere circuit, oxygen probe and automatic purge sequence to enable protective-gas annealing – without buying a new furnace. An existing hardening furnace can be fitted with carbon-potential control for carburising. We assess your system's modernisation potential as part of our initial analysis."
+    a: "Yes. A basic chamber furnace can be extended with an N₂/H₂ atmosphere circuit, oxygen probe and automatic purge sequence to enable protective-gas annealing, without buying a new furnace. An existing hardening furnace can be fitted with carbon-potential control for carburising. We assess your system's modernisation potential as part of our initial analysis."
   - q: "How long does a modernisation project take?"
     a: "Simple control modernisations (new PLC + HMI) typically take 4–8 weeks. More comprehensive projects including insulation renewal, new heating system and new capabilities (atmosphere, multi-zone control) can take 12–20 weeks, depending on scope and material availability."
   - q: "Do you modernise furnaces from other manufacturers?"
-    a: "Yes – we are brand-agnostic. We have modernised furnaces from Nabertherm, Linn, Thermconcept, Heraeus, Carbolite and various international manufacturers. Prerequisite: provision of technical documentation or a chargeable condition survey."
+    a: "Yes, we are brand-agnostic. We have modernised furnaces from Nabertherm, Linn, Thermconcept, Heraeus, Carbolite and various international manufacturers. Prerequisite: provision of technical documentation or a chargeable condition survey."
   - q: "What happens to DGUV-3 compliance after modernisation?"
-    a: "After every modernisation we carry out a full DGUV-3 inspection to DIN VDE 0100-600 and issue a new inspection report. The system is then fully standards-compliant – including CE documentation for significant modifications."
+    a: "After every modernisation we carry out a full DGUV-3 inspection to DIN VDE 0100-600 and issue a new inspection report. The system is then fully standards-compliant, including CE documentation for significant modifications."
 cta:
   headline: "Assess Your Modernisation Potential"
-  text: "Send us your system's technical data – we will assess what modernisation can deliver for your process."
+  text: "Send us your system's technical data, and we will assess what modernisation can deliver for your process."
   button: "Request an Assessment"
   url: "/en/contact/?service=refurbishment"
 related_services:
@@ -34,9 +34,9 @@ related_services:
 
 ## Refurbishment & Modernisation – Getting More from Existing Systems
 
-A 15-year-old industrial furnace with a sound shell and outdated electronics is not a liability – it is an opportunity. The mechanical structure of industrial furnaces is designed for decades. What ages is the controls, safety relays, thermocouples, insulation and heating elements – all replaceable.
+A 15-year-old industrial furnace with a sound shell and outdated electronics is not a liability, but an opportunity. The mechanical structure of industrial furnaces is designed for decades. What ages is the controls, safety relays, thermocouples, insulation and heating elements: all replaceable.
 
-NTH Therm modernises industrial furnaces of **all manufacturers and types** to current standards: new PLC, touch HMI, up-to-date safety technology, and optionally new process capabilities. The result is a system that in terms of operation, safety and energy consumption is barely distinguishable from a new build – at 30–60% of new-purchase cost.
+NTH Therm modernises industrial furnaces of **all manufacturers and types** to current standards: new PLC, touch HMI, up-to-date safety technology, and optionally new process capabilities. The result is a system that in terms of operation, safety and energy consumption is barely distinguishable from a new build, at 30–60% of new-purchase cost.
 
 ### When Does Modernisation Make Sense?
 
@@ -94,7 +94,7 @@ NTH Therm modernises industrial furnaces of **all manufacturers and types** to c
 
 Modernisation does not have to target the status quo. We also extend existing systems functionally:
 
-**Add protective-gas capability:** Equip a chamber furnace with N₂ inlet, atmosphere valves, oxygen probe and automatic purge sequence. Result: protective-gas annealing enabled – without a new furnace.
+**Add protective-gas capability:** Equip a chamber furnace with N₂ inlet, atmosphere valves, oxygen probe and automatic purge sequence. Result: protective-gas annealing enabled, without a new furnace.
 
 **Add carburising capability:** Extend an existing hardening furnace with carbon-potential control, endothermic gas supply and exhaust combustion. New application fields: case hardening of gears, shafts, pins.
 
@@ -104,9 +104,9 @@ Modernisation does not have to target the status quo. We also extend existing sy
 
 ### Modernisation Project Sequence
 
-1. **Initial assessment** – condition survey based on technical documentation (remote or on site)
-2. **Quotation and scope of work** – clear definition of all components, deliverables and dates
-3. **Dismantling and refurbishment** – carried out in our workshop or at the customer's site
-4. **Commissioning** – on-site commissioning, process trials, calibration
-5. **Documentation** – DGUV-3 report, CE documentation, PLC source files, wiring diagrams
-6. **Training** – operator briefing on new controls and functions
+1. **Initial assessment:** condition survey based on technical documentation (remote or on site)
+2. **Quotation and scope of work:** clear definition of all components, deliverables and dates
+3. **Dismantling and refurbishment:** carried out in our workshop or at the customer's site
+4. **Commissioning:** on-site commissioning, process trials, calibration
+5. **Documentation:** DGUV-3 report, CE documentation, PLC source files, wiring diagrams
+6. **Training:** operator briefing on new controls and functions

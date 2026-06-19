@@ -4,7 +4,7 @@ description: "Climatic test chambers and environmental simulation systems from A
 translationKey: "climatic-chambers"
 layout: "landingpage"
 weight: 20
-intro: "NTH Therm is an authorised partner of ACS/Angelantoni Test Technologies – the world leader in climatic test chambers since 1952. Complete system solutions: consultation, delivery, qualification and service from one source."
+intro: "NTH Therm is an authorised partner of ACS/Angelantoni Test Technologies, the world leader in climatic test chambers since 1952. Complete system solutions: consultation, delivery, qualification and service from one source."
 partner:
   name: "Angelantoni Test Technologies (ACS)"
   founded: "1952"
@@ -25,7 +25,7 @@ faqs:
     a: "Yes. NTH Therm offers maintenance, calibration and repair for climatic test chambers from other manufacturers. Please contact us with the system details."
 cta:
   headline: "Request a Climatic Test Chamber"
-  text: "Describe your test requirements – we will recommend the right ACS chamber and prepare a quote."
+  text: "Describe your test requirements, and we will recommend the right ACS chamber and prepare a quote."
   button: "Schedule a Consultation"
   url: "/en/contact/?product=climatic-chamber"
 related_links:

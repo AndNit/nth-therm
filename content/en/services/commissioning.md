@@ -15,12 +15,12 @@ faqs:
   - q: "What documentation do I receive from commissioning?"
     a: "Temperature uniformity survey report (TUS), thermocouple calibration certificate, PLC source files and data backup, recipe documentation, CE declaration of conformity, DGUV-3 initial inspection report, operating manual and wiring diagrams."
   - q: "Can I book training for my maintenance department?"
-    a: "Yes – we offer separate maintenance and service training for technical staff: control architecture, PLC diagnostics, fault diagnosis, replacement of heating elements and thermocouples, safety systems and documentation."
+    a: "Yes, we offer separate maintenance and service training for technical staff: control architecture, PLC diagnostics, fault diagnosis, replacement of heating elements and thermocouples, safety systems and documentation."
   - q: "Do you calibrate for CQI-9 and AMS2750?"
     a: "Yes. For customers in the automotive supply chain (CQI-9) and aerospace (AMS2750 / NADCAP) we carry out system accuracy tests (SAT) and temperature uniformity surveys (TUS) and document results in audit-ready format."
 cta:
   headline: "Request Commissioning"
-  text: "New build or third-party furnace – we manage commissioning and train your team to production-ready status."
+  text: "New build or third-party furnace: we manage commissioning and train your team to production-ready status."
   button: "Request Commissioning"
   url: "/en/contact/?service=commissioning"
 related_services:
@@ -32,36 +32,36 @@ related_services:
 
 ## Commissioning & Training – From Delivered System to Production-Ready Asset
 
-Delivering a new system is the penultimate step. The decisive one is commissioning: only when temperature uniformity, process recipes and safety circuits have been qualified and documented – and your personnel are confident operating the system – does the value begin for you.
+Delivering a new system is the penultimate step. The decisive one is commissioning: only when temperature uniformity, process recipes and safety circuits have been qualified and documented, and your personnel are confident operating the system, does the value begin for you.
 
 NTH Therm guides you through complete commissioning, performs all required qualification steps, and hands over a system that delivers reproducible results from the first production cycle.
 
 ### NTH Therm Commissioning Sequence
 
-**Phase 1 – Mechanical Installation and Verification**
+**Phase 1: Mechanical Installation and Verification**
 - Check installation conditions (floor load capacity, clearances, utility connections)
 - Erection and alignment of the system
 - Verification of all mechanical connections, seals and interlocks
 - Initial electrical, gas and cooling connections (where applicable)
 
-**Phase 2 – Electrical Initial Inspection (DGUV-3)**
+**Phase 2: Electrical Initial Inspection (DGUV-3)**
 - Full DGUV-3 inspection per DIN VDE 0100-600
 - Protective conductor, insulation and functional testing of all safety circuits
 - Issue of inspection certificate
 
-**Phase 3 – Process Qualification**
+**Phase 3: Process Qualification**
 - Heat-up test and verification of all heating circuits
 - **Temperature uniformity survey (TUS)** with multi-point measurement in the working chamber
 - Thermocouple calibration and correction factor determination where required
 - **System accuracy test (SAT)** for automotive / aerospace processes (CQI-9, AMS2750)
 - Adjustment and testing of all safety functions (over-temperature, door interlock, emergency stop)
 
-**Phase 4 – Recipe Programming and Process Trials**
+**Phase 4: Recipe Programming and Process Trials**
 - Programming of all process recipes per specification
 - Trial runs with dummy charge where possible
 - Calibration of atmosphere sensors (carburising and protective-gas furnaces)
 
-**Phase 5 – Documentation and Handover**
+**Phase 5: Documentation and Handover**
 - Compilation of all acceptance documents (see FAQ)
 - Handover of source files, wiring diagrams, operating manual
 - Formal acceptance and sign-off
@@ -78,8 +78,8 @@ For experienced operators: recipe optimisation, data analysis, diagnosis of comm
 For maintenance personnel: PLC architecture and diagnostics, fault diagnosis in TIA Portal, replacement of heating elements and thermocouples, safety systems, documentation.
 
 **Refresher Training**
-After staff changes, after modernisations or after extended shutdown periods – available on request, also remotely.
+After staff changes, after modernisations or after extended shutdown periods. Available on request, also remotely.
 
 ### Commissioning of Third-Party Furnaces
 
-We carry out commissioning and qualification for furnaces from other manufacturers – particularly when used for quality-critical processes in automotive or aerospace supply chains. Prerequisite: provision of complete technical documentation.
+We carry out commissioning and qualification for furnaces from other manufacturers, particularly when used for quality-critical processes in automotive or aerospace supply chains. Prerequisite: provision of complete technical documentation.

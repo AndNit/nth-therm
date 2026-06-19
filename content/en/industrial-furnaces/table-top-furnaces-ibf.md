@@ -21,7 +21,7 @@ applications:
   - "Sintering and calcining trials"
 faqs:
   - q: "Which chamber sizes are available?"
-    a: "The IBF is available in various sizes. As a bench-top unit it is especially compact – ideal for laboratories with limited space."
+    a: "The IBF is available in various sizes. As a bench-top unit it is especially compact, ideal for laboratories with limited space."
 cta:
   headline: "Request a Quote for the IBF Table-Top Furnace"
   button: "Request a Quote"

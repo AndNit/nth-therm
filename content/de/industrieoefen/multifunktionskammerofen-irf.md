@@ -46,4 +46,4 @@ related_products:
 
 ## Multifunktionaler Kammerofen IRF – Zwei Prozesse in einem Ofen
 
-Der **IRF** ist die platzsparende Lösung für Betriebe, die sowohl Niedertemperaturprozesse (Anlassen, Altern) als auch Hochtemperaturanwendungen (Sintern, Kalzinieren) abdecken müssen. Zwei unabhängige Türen, zwei unabhängige Steuerungen – ein kompaktes Gehäuse.
+Der **IRF** ist die platzsparende Lösung für Betriebe, die sowohl Niedertemperaturprozesse (Anlassen, Altern) als auch Hochtemperaturanwendungen (Sintern, Kalzinieren) abdecken müssen. Zwei unabhängige Türen, zwei unabhängige Steuerungen, alles in einem kompakten Gehäuse.

@@ -6,10 +6,10 @@ layout: "section-furnaces"
 schema:
   type: "ProductGroup"
 weight: 10
-intro: "From a single bespoke unit to fully automated series production – we build the right industrial furnace for your application. All furnaces are engineered in Europe and built to measure."
+intro: "From a single bespoke unit to fully automated series production, we build the right industrial furnace for your application. All furnaces are engineered in Europe and built to measure."
 cta_banner:
   headline: "Not sure yet which furnace you need?"
-  text: "No problem. Our engineers clarify your requirements personally and recommend the right furnace type – without obligation and with no lead time."
+  text: "No problem. Our engineers clarify your requirements personally and recommend the right furnace type, without obligation and with no lead time."
   cta: "Schedule a Consultation"
   url: "/en/contact/"
   image: "/images/ofenprojekt.jpg"
@@ -17,18 +17,18 @@ cta_banner:
 
 ## Heat Treatment Systems Engineered for Precision
 
-The NTH Therm product programme covers the full spectrum of industrial thermal processing equipment – from compact bench-top furnaces for research and quality assurance to heavy-duty bogie hearth systems handling multi-tonne charges. Every system is engineered in Europe and built to the customer's exact specification. Standardised modular designs ensure competitive lead times; custom dimensions, heating systems and atmosphere configurations are achievable without compromising the proven base concept.
+The NTH Therm product programme covers the full spectrum of industrial thermal processing equipment, from compact bench-top furnaces for research and quality assurance to heavy-duty bogie hearth systems handling multi-tonne charges. Every system is engineered in Europe and built to the customer's exact specification. Standardised modular designs ensure competitive lead times; custom dimensions, heating systems and atmosphere configurations are achievable without compromising the proven base concept.
 
-**Thermal Processes – Equipment and Temperature Ranges:**
+**Thermal Processes: Equipment and Temperature Ranges**
 
-- **Tempering, annealing, normalising** – Chamber furnaces ICO, bogie hearth IWO, table-top furnaces IBF; 50–900 °C
-- **Hardening and quenching** – Quenching and hardening furnaces, chamber furnaces ICO; 800–1000 °C with air, water or oil quench
-- **Carburising and case hardening** – Carburising furnaces; up to 1000 °C with carbon potential control and ATEX-rated options
-- **Sintering and calcining** – Chamber furnaces ICF, bogie hearth IWF, tube furnaces TH1; up to 1300 °C
-- **Preheating and drying** – Chamber furnaces ICO, bogie hearth IWO, conveyor furnaces; 50–400 °C
-- **Ageing and curing** – Chamber furnaces ICO, table-top furnaces IBF; 50–260 °C
-- **Pyrolysis and thermal cleaning** – Pyrolysis furnaces; 400–700 °C under inert gas atmosphere
+- **Tempering, annealing, normalising:** Chamber furnaces ICO, bogie hearth IWO, table-top furnaces IBF; 50–900 °C
+- **Hardening and quenching:** Quenching and hardening furnaces, chamber furnaces ICO; 800–1000 °C with air, water or oil quench
+- **Carburising and case hardening:** Carburising furnaces; up to 1000 °C with carbon potential control and ATEX-rated options
+- **Sintering and calcining:** Chamber furnaces ICF, bogie hearth IWF, tube furnaces TH1; up to 1300 °C
+- **Preheating and drying:** Chamber furnaces ICO, bogie hearth IWO, conveyor furnaces; 50–400 °C
+- **Ageing and curing:** Chamber furnaces ICO, table-top furnaces IBF; 50–260 °C
+- **Pyrolysis and thermal cleaning:** Pyrolysis furnaces; 400–700 °C under inert gas atmosphere
 
 **Control Technology and Process Documentation**
 
-All systems are delivered as standard with a PLC-based **touch-screen controller** with freely programmable temperature ramps, dwell times and alarm limits. PC interfaces via RS232/RS485 or Ethernet are included as standard. For quality-critical and validation-relevant processes – such as aerospace (AMS 2750), medical technology (ISO 13485) or automotive (CQI-9) – IQ/OQ-compliant documentation packages and temperature uniformity surveys are available on request.
+All systems are delivered as standard with a PLC-based **touch-screen controller** with freely programmable temperature ramps, dwell times and alarm limits. PC interfaces via RS232/RS485 or Ethernet are included as standard. For quality-critical and validation-relevant processes (such as aerospace AMS 2750, medical technology ISO 13485 or automotive CQI-9), IQ/OQ-compliant documentation packages and temperature uniformity surveys are available on request.

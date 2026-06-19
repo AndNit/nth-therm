@@ -14,7 +14,7 @@ NTH Therm GmbH, Lerchenweg 11, 76761 Rülzheim, info@nth-therm.com
 
 ### Verarbeitete Daten und Zwecke
 
-**Kontaktformulare:** Name, E-Mail, Telefon, Firmenname – zur Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO).
+**Kontaktformulare:** Name, E-Mail, Telefon, Firmenname. Zweck: Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO).
 
 **Google Analytics:** Nutzungsstatistiken (anonymisiert). Grundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können widersprechen unter: https://tools.google.com/dlpage/gaoptout.
 

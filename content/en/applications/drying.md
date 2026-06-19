@@ -8,12 +8,12 @@ faqs:
   - q: "What distinguishes industrial drying from conventional heating?"
     a: "In industrial drying, the focus is on controlled moisture removal: temperature, humidity, air circulation and exhaust management must be coordinated to prevent cracking, blistering or incomplete drying."
   - q: "Which drying systems does NTH Therm offer?"
-    a: "Our range includes the Drymatic heat-drying system for high-throughput drying applications and low-temperature chamber furnaces (ICO) with precise forced-air circulation and optional humidity measurement – matched to your production volume and temperature requirements."
+    a: "Our range includes the Drymatic heat-drying system for high-throughput drying applications and low-temperature chamber furnaces (ICO) with precise forced-air circulation and optional humidity measurement, matched to your production volume and temperature requirements."
   - q: "Can solvent vapours be safely extracted?"
-    a: "Yes – for applications involving solvent-based coatings we equip our furnaces with explosion-protected exhaust systems and safety valves to ATEX standards. Please specify the solvents used when requesting a quote."
+    a: "Yes, for applications involving solvent-based coatings we equip our furnaces with explosion-protected exhaust systems and safety valves to ATEX standards. Please specify the solvents used when requesting a quote."
 cta:
   headline: "Request a Drying System"
-  text: "Tell us what you are drying, the moisture content, throughput and temperature requirement – we will recommend the right system."
+  text: "Tell us what you are drying, the moisture content, throughput and temperature requirement, and we will recommend the right system."
   button: "Submit Enquiry"
   url: "/en/contact/?process=drying"
 related_industries:
@@ -40,14 +40,14 @@ NTH Therm offers tailored solutions for a wide spectrum of industrial drying tas
 
 ### Typical Applications
 
-- **Painting and coating** – curing wet paint, powder coat and primer on bodywork panels, machine housings and steel structures
-- **Ceramics and moulded parts** – pre-drying of green bodies and plaster moulds before firing
-- **Foundry cores** – drying sand and shell cores for precise final dimensions
-- **Composites** – curing GRP/CFRP parts, resins and adhesive bonds
-- **Wood and natural materials** – technical timber drying, furniture and construction element drying
+- **Painting and coating:** curing wet paint, powder coat and primer on bodywork panels, machine housings and steel structures
+- **Ceramics and moulded parts:** pre-drying of green bodies and plaster moulds before firing
+- **Foundry cores:** drying sand and shell cores for precise final dimensions
+- **Composites:** curing GRP/CFRP parts, resins and adhesive bonds
+- **Wood and natural materials:** technical timber drying, furniture and construction element drying
 
 ### Recommended NTH Therm Systems
 
-- **Drymatic Drying System** – for heat-drying processes with high throughput and energy efficiency
-- **Chamber Furnace ICO** – forced-air to 750 °C, precise temperature control even at low temperatures
-- **Conveyor Furnace** – for continuous coating lines and series production
+- **Drymatic Drying System:** for heat-drying processes with high throughput and energy efficiency
+- **Chamber Furnace ICO:** forced-air to 750 °C, precise temperature control even at low temperatures
+- **Conveyor Furnace:** for continuous coating lines and series production

@@ -20,10 +20,10 @@ applications:
   - "Normalisieren"
 faqs:
   - q: "Was ist der Vorteil des Haubenprinzips?"
-    a: "Die Heizhaube kann schnell von einem Bodenstück zum nächsten versetzt werden – das ermöglicht einen sehr effizienten Betrieb mit kurzen Standzeiten und hohem Durchsatz."
+    a: "Die Heizhaube kann schnell von einem Bodenstück zum nächsten versetzt werden, was einen sehr effizienten Betrieb mit kurzen Standzeiten und hohem Durchsatz ermöglicht."
 cta:
   headline: "Haubenofen anfragen"
-  text: "Unsere Ingenieure spezifizieren Ihren Haubenofen passgenau – für optimale Prozesseffizienz und minimale Standzeiten."
+  text: "Unsere Ingenieure spezifizieren Ihren Haubenofen passgenau, für optimale Prozesseffizienz und minimale Standzeiten."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=haubenofen"
 related_applications:
@@ -45,4 +45,4 @@ related_products:
 
 ## Haubenöfen – Hohe Flexibilität durch getrennte Heiz- und Kühleinheit
 
-Das **Haubenprinzip** trennt Heizen und Kühlen räumlich: Eine mobile Heizhaube (Hauptkammer oben) wird auf die Charge gesetzt und heizt – während eine zweite Charge in der Kühlkammer (untere Einheit mit Zwangsluftkühlung) abkühlt. Maximale Nutzungseffizienz.
+Das **Haubenprinzip** trennt Heizen und Kühlen räumlich: Eine mobile Heizhaube (Hauptkammer oben) wird auf die Charge gesetzt und heizt, während eine zweite Charge in der Kühlkammer (untere Einheit mit Zwangsluftkühlung) abkühlt. Maximale Nutzungseffizienz.

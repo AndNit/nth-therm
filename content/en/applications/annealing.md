@@ -10,10 +10,10 @@ faqs:
   - q: "Why is a controlled cooling rate important in annealing?"
     a: "Cooling too rapidly can introduce new residual stresses or stabilise undesirable phases. Full (spheroidising) annealing requires very slow furnace cooling (< 20 K/h) to fully transform carbides into spheroidal form."
   - q: "Can annealing be carried out under protective atmosphere?"
-    a: "Yes – particularly for bright or pre-treated surfaces we recommend bright annealing under N₂ or H₂. NTH Therm equips suitable chamber furnaces with atmosphere control on request."
+    a: "Yes, particularly for bright or pre-treated surfaces we recommend bright annealing under N₂ or H₂. NTH Therm equips suitable chamber furnaces with atmosphere control on request."
 cta:
   headline: "Request an Annealing Furnace"
-  text: "Whether full annealing, stress-relief or normalising – we recommend the right furnace for your process."
+  text: "Whether full annealing, stress-relief or normalising, we recommend the right furnace for your process."
   button: "Submit Enquiry"
   url: "/en/contact/?process=annealing"
 related_industries:
@@ -27,7 +27,7 @@ related_industries:
 
 ## Annealing – Microstructure Improvement and Stress Relief for Better Workability
 
-**Annealing treatments** are versatile heat treatment processes for targeted modification of the metallic microstructure. Depending on the goal – softening, grain refinement, stress relief or reversal of work hardening – temperature, holding time and cooling rate differ considerably.
+**Annealing treatments** are versatile heat treatment processes for targeted modification of the metallic microstructure. Depending on the goal (softening, grain refinement, stress relief or reversal of work hardening), temperature, holding time and cooling rate differ considerably.
 
 NTH Therm supplies chamber furnaces and bogie-hearth furnaces with precise temperature control and programmable cooling ramps for all common annealing processes.
 
@@ -50,7 +50,7 @@ NTH Therm supplies chamber furnaces and bogie-hearth furnaces with precise tempe
 
 ### Recommended NTH Therm Furnace Systems
 
-- **Chamber Furnace ICO** – forced-air to 750 °C, for stress-relief and recrystallisation annealing
-- **Chamber Furnace ICF** – to 1300 °C, for diffusion annealing and high-alloy steels
-- **Bogie-Hearth Furnace IWF / IWO** – for large-format forgings, welded structures and castings
-- **Bell-Type Furnace** – for coils, rolls and stacked charges
+- **Chamber Furnace ICO:** forced-air to 750 °C, for stress-relief and recrystallisation annealing
+- **Chamber Furnace ICF:** to 1300 °C, for diffusion annealing and high-alloy steels
+- **Bogie-Hearth Furnace IWF / IWO:** for large-format forgings, welded structures and castings
+- **Bell-Type Furnace:** for coils, rolls and stacked charges

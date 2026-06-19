@@ -20,7 +20,7 @@ applications:
   - "Normalising"
 faqs:
   - q: "What is the advantage of the bell-type concept?"
-    a: "The heating bell can be quickly moved from one base to the next – enabling very efficient operation with short idle times and high throughput."
+    a: "The heating bell can be quickly moved from one base to the next, enabling very efficient operation with short idle times and high throughput."
 cta:
   headline: "Request a Bell-Type Furnace Quote"
   text: "Our engineers specify your bell-type furnace for optimum process efficiency and minimal downtime."
@@ -45,4 +45,4 @@ related_products:
 
 ## Bell-Type Furnaces – High Flexibility Through Separate Heating and Cooling
 
-The **bell-type principle** separates heating and cooling spatially: a mobile heating bell (upper main chamber) is placed onto the batch and heats it – while a second batch cools in the lower cooling base unit (with forced air cooling). Maximum utilisation efficiency.
+The **bell-type principle** separates heating and cooling spatially: a mobile heating bell (upper main chamber) is placed onto the batch and heats it, while a second batch cools in the lower cooling base unit (with forced air cooling). Maximum utilisation efficiency.

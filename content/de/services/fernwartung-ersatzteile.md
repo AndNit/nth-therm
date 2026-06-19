@@ -9,18 +9,18 @@ schema:
   name: "SPS-Fernwartung und Ersatzteilversorgung"
 faqs:
   - q: "Wie funktioniert die SPS-Fernwartung technisch?"
-    a: "Wir greifen über eine gesicherte VPN-Verbindung (Siemens Sinema Remote Connect oder gleichwertig) auf die SPS der Anlage zu. Voraussetzung ist ein Internetzugang am Aufstellort (LAN oder Mobilfunk-Router). Die Verbindung wird ausschließlich auf Anforderung des Kunden aufgebaut – kein dauerhafter Fernzugriff ohne Freigabe."
+    a: "Wir greifen über eine gesicherte VPN-Verbindung (Siemens Sinema Remote Connect oder gleichwertig) auf die SPS der Anlage zu. Voraussetzung ist ein Internetzugang am Aufstellort (LAN oder Mobilfunk-Router). Die Verbindung wird ausschließlich auf Anforderung des Kunden aufgebaut. Ein dauerhafter Fernzugriff ohne Kundenfreigabe findet nicht statt."
   - q: "Was kann per Fernwartung behoben werden, was nicht?"
     a: "Remote behebbar: Steuerungsfehler, falsche Parametereinstellungen, Rezeptfehler, Sensorausfälle (Diagnose und Handanweisung), Softwareprobleme, Firmware-Updates. Nicht remote behebbar: mechanische Defekte, Heizelement- oder Thermoelement-Ausfall, physische Beschädigungen. Für diese Fälle koordinieren wir nach der Remote-Diagnose einen Vor-Ort-Einsatz."
   - q: "Welche Ersatzteile bevorraten Sie?"
     a: "Für NTH Therm Anlagen halten wir ein rollendes Lager der meistgefragten Verschleißteile: Thermoelemente (Typ K, N, S), Halbleiterrelais, Leistungsschütze, Sicherheitsrelais, Lichtgitter, Drucktransmitter und ausgewählte Heizelement-Typen. Für Fremdanlagen beschaffen wir Teile über unser Lieferantennetzwerk."
   - q: "Wie schnell werden Ersatzteile geliefert?"
-    a: "Lagerteile werden in der Regel am nächsten Werktag versendet (Expresslieferung auf Anfrage). Fremdbedarfsteile innerhalb von 2–5 Werktagen, Sonderteile (Sonderheizungen, SiC-Elemente, kundenspezifische Dichtungen) nach Absprache – typisch 2–4 Wochen."
+    a: "Lagerteile werden in der Regel am nächsten Werktag versendet (Expresslieferung auf Anfrage). Fremdbedarfsteile innerhalb von 2–5 Werktagen, Sonderteile (Sonderheizungen, SiC-Elemente, kundenspezifische Dichtungen) nach Absprache, typisch innerhalb von 2–4 Wochen."
   - q: "Kann ich auch Anlagen ohne bestehenden Wartungsvertrag per Fernwartung entstören lassen?"
-    a: "Ja – Fernwartung ist auch ohne Wartungsvertrag als Einzelleistung verfügbar. Wartungsvertragskunden werden jedoch priorisiert und zahlen reduzierte Stundensätze."
+    a: "Ja, Fernwartung ist auch ohne Wartungsvertrag als Einzelleistung verfügbar. Wartungsvertragskunden werden jedoch priorisiert und zahlen reduzierte Stundensätze."
 cta:
   headline: "Fernwartung einrichten"
-  text: "Richten Sie jetzt Ihren Fernwartungszugang ein – damit wir im Störungsfall innerhalb von Minuten reagieren können."
+  text: "Richten Sie jetzt Ihren Fernwartungszugang ein, damit wir im Störungsfall innerhalb von Minuten reagieren können."
   button: "Fernwartung anfragen"
   url: "/kontakt/?service=fernwartung"
 related_services:
@@ -32,9 +32,9 @@ related_services:
 
 ## SPS-Fernwartung & Ersatzteilversorgung – Maximale Verfügbarkeit Ihrer Anlage
 
-Die schnellste Entstörung ist die, die keine Anreise erfordert. Mit **SPS-Fernwartung** über gesicherten VPN-Zugang können unsere Techniker die Steuerung Ihrer Anlage direkt analysieren und in vielen Fällen ohne Vor-Ort-Einsatz beheben – innerhalb von Minuten statt Stunden.
+Die schnellste Entstörung ist die, die keine Anreise erfordert. Mit **SPS-Fernwartung** über gesicherten VPN-Zugang können unsere Techniker die Steuerung Ihrer Anlage direkt analysieren und in vielen Fällen ohne Vor-Ort-Einsatz beheben: oft innerhalb von Minuten statt Stunden.
 
-Kombiniert mit einer **strukturierten Ersatzteilbevorratung** – Lagerteile ab Lager, Fremdteile über unser europäisches Lieferantennetzwerk – halten wir Ihre Standzeiten minimal.
+Kombiniert mit einer **strukturierten Ersatzteilbevorratung** (Lagerteile ab Lager, Fremdteile über unser europäisches Lieferantennetzwerk) halten wir Ihre Standzeiten minimal.
 
 ### SPS-Fernwartung im Detail
 
@@ -60,15 +60,15 @@ Kombiniert mit einer **strukturierten Ersatzteilbevorratung** – Lagerteile ab 
 
 ### Anlagenüberwachung mit OEE-Software
 
-Für Kunden mit höchsten Verfügbarkeitsanforderungen bieten wir die Integration von **Evocon OEE-Software** an: kontinuierliches Monitoring von Anlagenverfügbarkeit, Chargenzeiten und Prozessparametern – mit Alarmierung bei Abweichungen, noch bevor ein Stillstand eintritt. Auswertungen laufen im Browser, ohne lokale Installation.
+Für Kunden mit höchsten Verfügbarkeitsanforderungen bieten wir die Integration von **Evocon OEE-Software** an: kontinuierliches Monitoring von Anlagenverfügbarkeit, Chargenzeiten und Prozessparametern, mit Alarmierung bei Abweichungen noch bevor ein Stillstand eintritt. Auswertungen laufen im Browser, ohne lokale Installation.
 
 Die Kombination aus Evocon-Monitoring und NTH Therm Fernwartung schafft eine **vorausschauende Wartungsarchitektur**: Abweichungen werden erkannt, bevor sie zu Ausfällen werden.
 
 ### Ersatzteilversorgung
 
 **Lagerbestand für NTH Therm Anlagen:**
-- Thermoelemente (Typ K, N, S, B) – gängige Abmessungen auf Lager
-- Halbleiterrelais (Crydom, Carlo Gavazzi) – alle gängigen Leistungsklassen
+- Thermoelemente (Typ K, N, S, B), gängige Abmessungen auf Lager
+- Halbleiterrelais (Crydom, Carlo Gavazzi), alle gängigen Leistungsklassen
 - Leistungsschütze und Motorschutzschalter (Siemens, ABB)
 - Pilz-Sicherheitsrelais und Schutztürsicherungen
 - Lichtgitter und Näherungsschalter
@@ -78,4 +78,4 @@ Die Kombination aus Evocon-Monitoring und NTH Therm Fernwartung schafft eine **v
 Für Öfen anderer Hersteller beschaffen wir Ersatzteile über unser Lieferantennetzwerk in Deutschland, Österreich und den Niederlanden. Häufig nachgefragte Teile (Standard-Thermoelemente, Halbleiterrelais gängiger Typen, Schütze) beschaffen wir binnen 1–2 Werktagen.
 
 **Ersatzteildokumentation:**
-Auf Wunsch pflegen wir für Ihre Anlage einen dokumentierten Ersatzteilkatalog mit Bestellnummern, Lieferanten und Mindestlagermengen – Grundlage für Ihre eigene Ersatzteilbevorratung und eine reibungslose Übergabe bei Personalwechsel.
+Auf Wunsch pflegen wir für Ihre Anlage einen dokumentierten Ersatzteilkatalog mit Bestellnummern, Lieferanten und Mindestlagermengen als Grundlage für Ihre eigene Ersatzteilbevorratung und eine reibungslose Übergabe bei Personalwechsel.

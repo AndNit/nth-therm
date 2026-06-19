@@ -19,11 +19,11 @@ schema:
 
 ### Unsere Stärken
 
-**Kundenorientierung:** Jede Anlage wird exakt auf die Anforderungen des Kunden entwickelt – vom ersten Beratungsgespräch bis zur schlüsselfertigen Inbetriebnahme. Persönliche Betreuung durch unsere Ingenieure ist nicht die Ausnahme, sondern der Standard.
+**Kundenorientierung:** Jede Anlage wird exakt auf die Anforderungen des Kunden entwickelt, vom ersten Beratungsgespräch bis zur schlüsselfertigen Inbetriebnahme. Persönliche Betreuung durch unsere Ingenieure ist nicht die Ausnahme, sondern der Standard.
 
 **Kompetenz und Erfahrung:** Unser Team verbindet jahrzehntelange Erfahrung in der Konstruktion und im Betrieb industrieller Wärmebehandlungsanlagen mit aktuellem Wissen in Steuerungstechnik, Automatisierung und Energieeffizienz.
 
-**Verlässliches Partnernetzwerk:** Durch unsere Technologiepartnerschaften bieten wir ein breiteres Leistungsspektrum, als ein reiner OEM es könnte – stets mit einem Ansprechpartner für Planung, Lieferung und Service.
+**Verlässliches Partnernetzwerk:** Durch unsere Technologiepartnerschaften bieten wir ein breiteres Leistungsspektrum, als ein reiner OEM es könnte, stets mit einem Ansprechpartner für Planung, Lieferung und Service.
 
 ### Technologiepartner
 

@@ -15,12 +15,12 @@ faqs:
   - q: "Was erhalte ich als Inbetriebnahme-Dokumentation?"
     a: "Temperaturgleichmäßigkeits-Protokoll (TUS), Thermoelementkalibrierprotokoll, SPS-Quelldaten und Datensicherung, Rezeptdokumentation, CE-Konformitätserklärung, DGUV-3-Erstprüfprotokoll, Bedienungsanleitung und Schaltpläne."
   - q: "Kann ich die Schulung auch für meine Wartungsabteilung buchen?"
-    a: "Ja – wir bieten separate Wartungs- und Serviceschulungen für technisches Personal an: Steuerungsarchitektur, SPS-Diagnose, Fehlerbehebung, präventive Instandhaltung und Sicherheitsvorschriften."
+    a: "Ja, wir bieten separate Wartungs- und Serviceschulungen für technisches Personal an: Steuerungsarchitektur, SPS-Diagnose, Fehlerbehebung, präventive Instandhaltung und Sicherheitsvorschriften."
   - q: "Kalibrieren Sie auch für CQI-9 und AMS2750?"
     a: "Ja. Für Kunden aus der Automotive-Zuliefererkette (CQI-9) und der Luft- und Raumfahrt (AMS2750 / NADCAP) führen wir Systemgenauigkeitsprüfungen (SAT) und Temperaturverteilungsmessungen (TUS) durch und dokumentieren die Ergebnisse prüfungsfertig."
 cta:
   headline: "Inbetriebnahme anfragen"
-  text: "Neu- oder Fremdanlage – wir begleiten die Inbetriebnahme und schulen Ihr Team bis zur produktionsreifen Anlage."
+  text: "Ob Neu- oder Fremdanlage: Wir begleiten die Inbetriebnahme und schulen Ihr Team bis zur produktionsreifen Anlage."
   button: "Inbetriebnahme anfragen"
   url: "/kontakt/?service=inbetriebnahme"
 related_services:
@@ -32,36 +32,36 @@ related_services:
 
 ## Inbetriebnahme & Schulung – Von der gelieferten Anlage zur produktionsreifen Anlage
 
-Eine neue Anlage zu liefern ist der vorletzte Schritt. Der entscheidende ist die Inbetriebnahme: Erst wenn Temperaturgleichmäßigkeit, Prozessrezepte und Sicherheitskreise qualifiziert und dokumentiert sind – und Ihr Personal sicher im Umgang mit der Anlage ist – beginnt für Sie der Mehrwert.
+Eine neue Anlage zu liefern ist der vorletzte Schritt. Der entscheidende ist die Inbetriebnahme: Erst wenn Temperaturgleichmäßigkeit, Prozessrezepte und Sicherheitskreise qualifiziert und dokumentiert sind und Ihr Personal sicher im Umgang mit der Anlage ist, beginnt für Sie der Mehrwert.
 
 NTH Therm begleitet Sie durch die vollständige Inbetriebnahme, führt alle erforderlichen Qualifizierungsschritte durch und übergibt eine Anlage, die vom ersten Produktionszyklus an reproduzierbare Ergebnisse liefert.
 
 ### Ablauf einer NTH Therm Inbetriebnahme
 
-**Phase 1 – Montage und mechanische Überprüfung**
+**Phase 1: Montage und mechanische Überprüfung**
 - Kontrolle der Aufstellbedingungen (Untergrundbelastbarkeit, Abstände, Versorgungsanschlüsse)
 - Aufbau und Ausrichtung der Anlage
 - Überprüfung aller mechanischen Verbindungen, Dichtheiten und Verriegelungen
 - Erstanschluss elektrisch, Gas und Kühlung (falls vorhanden)
 
-**Phase 2 – Elektrische Erstprüfung (DGUV-3)**
+**Phase 2: Elektrische Erstprüfung (DGUV-3)**
 - Vollständige DGUV-3-Prüfung nach DIN VDE 0100-600
 - Schutzleiterprüfung, Isolationsprüfung, Funktionsprüfung aller Sicherheitskreise
 - Protokollierung und Ausstellung des Prüfdokuments
 
-**Phase 3 – Prozessqualifizierung**
+**Phase 3: Prozessqualifizierung**
 - Aufheiztest und Kontrolle aller Heizkreise
 - **Temperaturgleichmäßigkeitsmessung (TUS)** mit mehrpunktiger Messung im Nutzraum
 - Thermoelementkalibrierung und ggf. Korrekturfaktorermittlung
 - **Systemgenauigkeitsprüfung (SAT)** bei Anlagen für automotive / aerospace Prozesse (CQI-9, AMS2750)
 - Einstellung und Test aller Sicherheitsfunktionen (Übertemperaturschutz, Türverriegelung, Notaus)
 
-**Phase 4 – Rezeptprogrammierung und Prozesserprobung**
+**Phase 4: Rezeptprogrammierung und Prozesserprobung**
 - Programmierung aller Prozessrezepte gemäß Lastenheft
 - Probeläufe mit Dummy-Charge (soweit möglich)
 - Kalibrierung der Atmosphärensensorik (bei Karburierungs- und Schutzgasöfen)
 
-**Phase 5 – Dokumentation und Übergabe**
+**Phase 5: Dokumentation und Übergabe**
 - Erstellung aller Abnahmedokumente (s. FAQ)
 - Übergabe Quelldaten, Schaltpläne, Bedienungsanleitung
 - Formale Abnahme und Unterschrift
@@ -78,8 +78,8 @@ Für erfahrene Bediener: Rezeptoptimierung, Datenauswertung, Diagnose häufiger 
 Für Instandhaltungspersonal: SPS-Architektur und Diagnose, Fehlersuche im TIA Portal, Austausch von Heizelemente und Thermoelemente, Sicherheitstechnik, Dokumentation.
 
 **Auffrischungsschulung**
-Nach Personalwechsel, nach Modernisierungen oder nach längeren Betriebsunterbrechungen – auf Anfrage auch remote.
+Nach Personalwechsel, nach Modernisierungen oder nach längeren Betriebsunterbrechungen, auf Anfrage auch remote.
 
 ### Inbetriebnahme von Fremdanlagen
 
-Wir führen Inbetriebnahmen und Qualifizierungen auch für Öfen anderer Hersteller durch – insbesondere wenn diese für qualitätskritische Prozesse in der Automotive- oder Aerospace-Zuliefererkette eingesetzt werden. Voraussetzung: Vorlage der vollständigen technischen Unterlagen.
+Wir führen Inbetriebnahmen und Qualifizierungen auch für Öfen anderer Hersteller durch, insbesondere wenn diese für qualitätskritische Prozesse in der Automotive- oder Aerospace-Zuliefererkette eingesetzt werden. Voraussetzung: Vorlage der vollständigen technischen Unterlagen.

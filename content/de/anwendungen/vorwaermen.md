@@ -6,14 +6,14 @@ layout: "application"
 weight: 70
 faqs:
   - q: "Warum muss Stahl vor dem Schweißen vorgewärmt werden?"
-    a: "Das Vorwärmen verringert die Abkühlgeschwindigkeit der Schweißnaht und der Wärmeeinflusszone. Das verhindert Kaltrisse durch Wasserstoffversprödung, reduziert thermische Spannungen und verbessert die Zähigkeit der Schweißverbindung – besonders wichtig bei hochfesten Stählen und großen Wandstärken."
+    a: "Das Vorwärmen verringert die Abkühlgeschwindigkeit der Schweißnaht und der Wärmeeinflusszone. Das verhindert Kaltrisse durch Wasserstoffversprödung, reduziert thermische Spannungen und verbessert die Zähigkeit der Schweißverbindung, besonders wichtig bei hochfesten Stählen und großen Wandstärken."
   - q: "Welche Vorwärmtemperaturen sind beim Schweißen typisch?"
     a: "Die Mindestvorwärmtemperatur hängt von der Stahlsorte, der Wandstärke und dem Wasserstoffgehalt der Elektroden ab. Für hochfeste Baustähle (S690, S960) und warmfeste Stähle liegen die Werte typischerweise zwischen 80 °C und 250 °C, für hochlegierte Stähle bis 400 °C."
   - q: "Wie lange dauert das Vorwärmen großer Schmiedeteile?"
-    a: "Die Durchwärmzeit hängt vom Bauteilquerschnitt ab. Als Faustregel gilt: 1 Stunde pro 25 mm Wanddicke im Ofen – NTH Therm Herdwagenöfen ermöglichen dabei auch das Vorwärmen sehr großer Schmiedestücke von mehreren Tonnen."
+    a: "Die Durchwärmzeit hängt vom Bauteilquerschnitt ab. Als Faustregel gilt: 1 Stunde pro 25 mm Wanddicke im Ofen. NTH Therm Herdwagenöfen ermöglichen dabei auch das Vorwärmen sehr großer Schmiedestücke von mehreren Tonnen."
 cta:
   headline: "Vorwärmofen anfragen"
-  text: "Teilen Sie uns Bauteilgröße, Werkstoff und Vorwärmtemperatur mit – wir empfehlen den richtigen Ofentyp."
+  text: "Teilen Sie uns Bauteilgröße, Werkstoff und Vorwärmtemperatur mit. Wir empfehlen den richtigen Ofentyp."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=vorwaermen"
 related_industries:
@@ -25,9 +25,9 @@ related_industries:
 
 ## Vorwärmen – Thermische Vorbereitung für Schweißen, Schmieden und Beschichten
 
-Das **Vorwärmen** ist eine thermische Vorbehandlung, die das Werkstück auf eine definierte Temperatur bringt, bevor es dem eigentlichen Prozess – Schweißen, Schmieden, Umformen oder Beschichten – zugeführt wird. Es schützt vor thermischem Schock, verhindert Kaltrisse und verbessert Verarbeitbarkeit sowie Qualität des Endprodukts erheblich.
+Das **Vorwärmen** ist eine thermische Vorbehandlung, die das Werkstück auf eine definierte Temperatur bringt, bevor es dem eigentlichen Prozess (Schweißen, Schmieden, Umformen oder Beschichten) zugeführt wird. Es schützt vor thermischem Schock, verhindert Kaltrisse und verbessert Verarbeitbarkeit sowie Qualität des Endprodukts erheblich.
 
-NTH Therm bietet Vorwärmöfen für alle Größenordnungen – vom kompakten Kammerofen für Werkzeugmaschinen-Bauteile bis zum Großherdwagenofen für mehrere Tonnen schwere Schmiedestücke.
+NTH Therm bietet Vorwärmöfen für alle Größenordnungen, vom kompakten Kammerofen für Werkzeugmaschinen-Bauteile bis zum Großherdwagenofen für mehrere Tonnen schwere Schmiedestücke.
 
 ### Prozessparameter im Überblick
 
@@ -47,7 +47,7 @@ NTH Therm bietet Vorwärmöfen für alle Größenordnungen – vom kompakten Kam
 
 ### Empfohlene NTH Therm Ofensysteme
 
-- **Herdwagenofen IWF** – für sehr schwere Chargen bis mehrere Tonnen, bis 1300 °C
-- **Herdwagenofen IWO** – für mittelschwere Chargen, flexible Beladung
-- **Kammerofen ICF** – für kleinere Bauteile, bis 1300 °C
-- **Kammerofen ICO** – für Vorwärmen bei niedrigen Temperaturen mit exzellenter Gleichmäßigkeit
+- **Herdwagenofen IWF:** für sehr schwere Chargen bis mehrere Tonnen, bis 1300 °C
+- **Herdwagenofen IWO:** für mittelschwere Chargen, flexible Beladung
+- **Kammerofen ICF:** für kleinere Bauteile, bis 1300 °C
+- **Kammerofen ICO:** für Vorwärmen bei niedrigen Temperaturen mit exzellenter Gleichmäßigkeit

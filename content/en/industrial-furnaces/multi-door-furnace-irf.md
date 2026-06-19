@@ -43,4 +43,4 @@ related_products:
 
 ## Multi-Door Chamber Furnace IRF – Two Processes in One Furnace
 
-The **IRF** is the space-saving solution for operations that need to cover both low-temperature processes (tempering, ageing) and high-temperature applications (sintering, calcining). Two independent doors, two independent controls – one compact housing.
+The **IRF** is the space-saving solution for operations that need to cover both low-temperature processes (tempering, ageing) and high-temperature applications (sintering, calcining). Two independent doors, two independent controls, all in one compact housing.

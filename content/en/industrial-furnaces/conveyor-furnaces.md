@@ -23,10 +23,10 @@ faqs:
   - q: "Which conveyor types are available?"
     a: "Belt conveyor (up to 900 °C) or roller conveyor (up to 1100 °C). Belt width and speed are matched to your process and throughput."
   - q: "Can the conveyor speed be adjusted?"
-    a: "Yes – continuously variable belt speed via frequency inverter is standard."
+    a: "Yes, continuously variable belt speed via frequency inverter is standard."
 cta:
   headline: "Conveyor Furnace for Your Series Production"
-  text: "Share your required throughput with us – we will size the conveyor furnace accordingly."
+  text: "Share your required throughput with us, and we will size the conveyor furnace accordingly."
   button: "Request a Quote Now"
   url: "/contact/?product=conveyor-furnace"
 related_applications:
@@ -50,4 +50,4 @@ related_products:
 
 ## Conveyor Furnaces – Continuous Operation for Series and Mass Production
 
-NTH Therm conveyor furnaces enable **fully automatic heat treatment in continuous flow** – ideal for series and mass-produced parts where batch operation is too slow or costly. Zone control, adjustable belt speed and custom conveyor systems make them the backbone of continuous production lines.
+NTH Therm conveyor furnaces enable **fully automatic heat treatment in continuous flow**, ideal for series and mass-produced parts where batch operation is too slow or costly. Zone control, adjustable belt speed and custom conveyor systems make them the backbone of continuous production lines.

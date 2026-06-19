@@ -75,11 +75,11 @@ NTH Therm conducts TUS measurements with multi-point instrumentation and produce
 
 Electrical systems in aircraft and spacecraft are exposed to extreme environmental conditions. ACS climatic chambers support the complete qualification chain:
 
-**RTCA DO-160** – Environmental conditions and test procedures for avionics: temperature, humidity, altitude (low-pressure chamber), vibration, shock, fire.
+**RTCA DO-160:** Environmental conditions and test procedures for avionics: temperature, humidity, altitude (low-pressure chamber), vibration, shock, fire.
 
-**MIL-STD-810** – Military environmental test standard for ground, airborne and sea-borne systems.
+**MIL-STD-810:** Military environmental test standard for ground, airborne and sea-borne systems.
 
-**ESA ECSS** – European space standard for spacecraft components and systems.
+**ESA ECSS:** European space standard for spacecraft components and systems.
 
 ### Service and NADCAP Preparation
 

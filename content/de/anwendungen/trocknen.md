@@ -8,12 +8,12 @@ faqs:
   - q: "Was unterscheidet industrielles Trocknen vom herkömmlichen Erhitzen?"
     a: "Beim industriellen Trocknen steht die kontrollierte Feuchtigkeitsabfuhr im Vordergrund: Temperatur, Luftfeuchtigkeit, Luftumwälzung und Abluftführung müssen aufeinander abgestimmt sein, um Risse, Blasenbildung oder unvollständige Trocknung zu vermeiden."
   - q: "Welche Trocknungssysteme bietet NTH Therm an?"
-    a: "Unser Programm umfasst das Drymatic-Trocknungssystem für Wärme-Trocknungsanwendungen sowie Niedertemperatur-Kammeröfen (ICO) mit präziser Umluftführung und Feuchtemessung – je nach Produktionsvolumen und Temperaturbedarf."
+    a: "Unser Programm umfasst das Drymatic-Trocknungssystem für Wärme-Trocknungsanwendungen sowie Niedertemperatur-Kammeröfen (ICO) mit präziser Umluftführung und Feuchtemessung, je nach Produktionsvolumen und Temperaturbedarf."
   - q: "Können Lösemitteldämpfe sicher abgeführt werden?"
-    a: "Ja – für Anwendungen mit lösemittelhaltigen Beschichtungen statten wir unsere Öfen mit explosionsgeschützten Abluftsystemen und Sicherheitsventilen nach ATEX aus. Bitte geben Sie bei der Anfrage die verwendeten Lösemittel an."
+    a: "Ja. Für Anwendungen mit lösemittelhaltigen Beschichtungen statten wir unsere Öfen mit explosionsgeschützten Abluftsystemen und Sicherheitsventilen nach ATEX aus. Bitte geben Sie bei der Anfrage die verwendeten Lösemittel an."
 cta:
   headline: "Trocknungssystem anfragen"
-  text: "Nennen Sie uns Trocknungsgut, Feuchtigkeit, Durchsatz und Temperaturbedarf – wir empfehlen das passende System."
+  text: "Nennen Sie uns Trocknungsgut, Feuchtigkeit, Durchsatz und Temperaturbedarf. Wir empfehlen das passende System."
   button: "Anfrage stellen"
   url: "/kontakt/?prozess=trocknen"
 related_industries:
@@ -40,14 +40,14 @@ NTH Therm bietet mit dem **Drymatic-System** und niedertemperierten Kammeröfen 
 
 ### Typische Anwendungen
 
-- **Lackierung und Beschichtung** – Aushärten von Nasslack, Pulverlack und Primer auf Karosserieteilen, Maschinengehäusen, Stahlkonstruktionen
-- **Keramik und Formteile** – Vortrocknung von Grünkörpern und Gipsformen vor dem Brand
-- **Gießereikerne** – Trocknung von Sand- und Schalenkerne für präzise Abmessungen
-- **Verbundwerkstoffe** – Aushärten von GFK/CFK-Teilen, Harzen und Klebverbindungen
-- **Holz und Naturstoffe** – Technische Holztrocknung, Möbel- und Bauelementetrocknung
+- **Lackierung und Beschichtung:** Aushärten von Nasslack, Pulverlack und Primer auf Karosserieteilen, Maschinengehäusen, Stahlkonstruktionen
+- **Keramik und Formteile:** Vortrocknung von Grünkörpern und Gipsformen vor dem Brand
+- **Gießereikerne:** Trocknung von Sand- und Schalenkerne für präzise Abmessungen
+- **Verbundwerkstoffe:** Aushärten von GFK/CFK-Teilen, Harzen und Klebverbindungen
+- **Holz und Naturstoffe:** Technische Holztrocknung, Möbel- und Bauelementetrocknung
 
 ### Empfohlene NTH Therm Systeme
 
-- **Drymatic Trocknungssystem** – für Wärme-Trocknungsprozesse mit hohem Durchsatz und Energieeffizienz
-- **Kammerofen ICO** – Umluft bis 750 °C, präzise Temperaturführung auch im Niedrigtemperaturbereich
-- **Durchlaufofen** – für kontinuierliche Beschichtungslinien und Serienfertigung
+- **Drymatic Trocknungssystem:** für Wärme-Trocknungsprozesse mit hohem Durchsatz und Energieeffizienz
+- **Kammerofen ICO:** Umluft bis 750 °C, präzise Temperaturführung auch im Niedrigtemperaturbereich
+- **Durchlaufofen:** für kontinuierliche Beschichtungslinien und Serienfertigung

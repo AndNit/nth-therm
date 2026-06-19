@@ -23,7 +23,7 @@ faqs:
     a: "Der IWF ist für höhere Temperaturen (bis 1300 °C) und schwerere Lasten ausgelegt. Er verwendet Rohrheizelemente mit freier Strahlung statt forcierter Luftumwälzung und hat eine keramische Bodenplatte für maximale Tragfähigkeit."
 cta:
   headline: "IWF für schwere Lasten anfragen"
-  text: "Definieren Sie Ihre Lastanforderungen – wir dimensionieren den IWF entsprechend."
+  text: "Definieren Sie Ihre Lastanforderungen, und wir dimensionieren den IWF entsprechend."
   button: "Angebot anfordern"
   url: "/kontakt/?produkt=herdwagenofen-iwf"
 related_applications:

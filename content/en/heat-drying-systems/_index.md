@@ -4,7 +4,7 @@ description: "Drymatic heat drying systems from NTH Therm: Drymatic II, Boost Ba
 translationKey: "drying-systems"
 layout: "landingpage"
 weight: 30
-intro: "Drymatic uses targeted heat to radically accelerate drying after water damage – floors and walls are preserved, drying time is halved. NTH Therm is an authorised distributor and full-service partner for the restoration industry."
+intro: "Drymatic uses targeted heat to radically accelerate drying after water damage, floors and walls are preserved, drying time is halved. NTH Therm is an authorised distributor and full-service partner for the restoration industry."
 partner:
   name: "Drymatic Systems"
   description: "Drymatic develops and manufactures professional heat drying systems for the water damage restoration industry. The technology relies on precision heat delivery rather than conventional convection drying."
@@ -12,7 +12,7 @@ faqs:
   - q: "How much faster is heat drying compared to conventional drying?"
     a: "Typically 30–60 % faster than conventional convection drying with dehumidifiers. For Class 4 damage (deeply penetrating water in cavity structures) the advantage can be even greater. The exact time saving depends on material type, moisture level and extent of damage."
   - q: "Which floor types are suitable for Drymatic?"
-    a: "Especially suited for hardwood, engineered wood, laminate and timber subfloors – precisely the floor types that often need to be removed with conventional drying. Screed, wall structures and cavity assemblies are also dried effectively."
+    a: "Especially suited for hardwood, engineered wood, laminate and timber subfloors, precisely the floor types that often need to be removed with conventional drying. Screed, wall structures and cavity assemblies are also dried effectively."
   - q: "Can Drymatic be used without drilling into floors?"
     a: "Yes. The Boost Bar delivers heat under hardwood floors and laminate without drilling. For deeper cavities, injection adapter sets are available that work with small boreholes (18–32 mm)."
   - q: "What is the difference between Class 1 and Class 4 drying?"
@@ -61,11 +61,11 @@ The **Drymatic II** is the centre of the system. It supplies all connected adapt
 
 **Three operating modes for every situation:**
 
-**Positive** – pressurised mode: Dry warm air is actively pushed into cavities and structures. Optimal for ventilated hollow floors and wall assemblies accessible from one side.
+**Positive (pressurised mode):** Dry warm air is actively pushed into cavities and structures. Optimal for ventilated hollow floors and wall assemblies accessible from one side.
 
-**Negative** – vacuum mode: Humid air is extracted from cavities and replaced by dry outdoor air. Ideal when air injection is not possible but a suction opening is available.
+**Negative (vacuum mode):** Humid air is extracted from cavities and replaced by dry outdoor air. Ideal when air injection is not possible but a suction opening is available.
 
-**Balanced** – combined mode: Simultaneous injection and extraction for complex, enclosed cavity structures. Maximum efficiency for hard-to-access assemblies.
+**Balanced (combined mode):** Simultaneous injection and extraction for complex, enclosed cavity structures. Maximum efficiency for hard-to-access assemblies.
 
 ---
 

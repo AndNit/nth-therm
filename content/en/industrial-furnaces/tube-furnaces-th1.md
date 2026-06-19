@@ -26,12 +26,12 @@ faqs:
   - q: "Which tube inner diameters are available?"
     a: "Standard inner diameters: 15, 25, 38, 50, 60, 75 and 100 mm. Custom diameters on request."
   - q: "Can the TH1 be operated under vacuum?"
-    a: "Yes – with the optional vacuum connection, operation down to 10⁻⁶ mbar is possible. Quartz tubes and systems are also available."
+    a: "Yes, with the optional vacuum connection, operation down to 10⁻⁶ mbar is possible. Quartz tubes and systems are also available."
   - q: "Are vertical configurations available?"
-    a: "Yes – a vertical tube furnace version is available as an option."
+    a: "Yes, a vertical tube furnace version is available as an option."
 cta:
   headline: "Request Your TH1 Tube Furnace Quote"
-  text: "Our engineers define the right inner diameter, temperature range and atmosphere together with you – and build your tube furnace to exact specification."
+  text: "Our engineers define the right inner diameter, temperature range and atmosphere together with you, and build your tube furnace to exact specification."
   button: "Request a Quote Now"
   url: "/contact/?product=tube-furnace-th1"
 related_applications:

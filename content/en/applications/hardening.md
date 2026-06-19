@@ -8,12 +8,12 @@ faqs:
   - q: "What is the difference between through-hardening and case hardening?"
     a: "Through-hardening austenitises and quenches the entire component, producing a uniform martensitic structure throughout the cross-section. Case hardening (e.g. carburising, nitriding) hardens only the surface layer while the core remains tough."
   - q: "Which quenching media do NTH Therm furnaces support?"
-    a: "Our hardening systems are designed for quenching in air, oil, water, polymer and protective gas (high-pressure gas quenching) – matched to the steel grade and required quench severity."
+    a: "Our hardening systems are designed for quenching in air, oil, water, polymer and protective gas (high-pressure gas quenching), matched to the steel grade and required quench severity."
   - q: "How do I minimise distortion during hardening?"
     a: "Uniform austenitising temperature (±5 K), symmetrical charge arrangement and defined quench parameters all minimise distortion. We advise on furnace selection and charging technique."
 cta:
   headline: "Request a Hardening Furnace"
-  text: "Tell us your steel grade, component geometry and target hardness – we will develop the right furnace concept."
+  text: "Tell us your steel grade, component geometry and target hardness, and we will develop the right furnace concept."
   button: "Submit Enquiry"
   url: "/en/contact/?process=hardening"
 related_industries:
@@ -27,7 +27,7 @@ related_industries:
 
 ## Hardening – Maximum Surface Hardness through Austenitising and Quenching
 
-**Hardening** is the primary process for increasing the wear and compressive strength of metallic components. By heating to austenitising temperature and rapid quenching, the hard martensite phase is formed – the prerequisite for long service life in tools, transmission components and moulds.
+**Hardening** is the primary process for increasing the wear and compressive strength of metallic components. By heating to austenitising temperature and rapid quenching, the hard martensite phase is formed, the prerequisite for long service life in tools, transmission components and moulds.
 
 Stable, reproducible hardening results require precise temperature control, a controlled atmosphere and a defined quench process. NTH Therm provides matched furnace systems for all common hardening processes.
 
@@ -48,7 +48,7 @@ Stable, reproducible hardening results require precise temperature control, a co
 
 ### Recommended NTH Therm Furnace Systems
 
-- **Chamber Furnace ICF** – to 1300 °C, for high-alloy tool steels and special materials
-- **Carburising Furnace** – controlled carbon atmosphere for combined case hardening
-- **Quenching & Hardening Furnace** – integrated austenitising and quench system
-- **Bogie-Hearth Furnace IWF / IWO** – for large-format forgings and heavy charges
+- **Chamber Furnace ICF:** to 1300 °C, for high-alloy tool steels and special materials
+- **Carburising Furnace:** controlled carbon atmosphere for combined case hardening
+- **Quenching & Hardening Furnace:** integrated austenitising and quench system
+- **Bogie-Hearth Furnace IWF / IWO:** for large-format forgings and heavy charges

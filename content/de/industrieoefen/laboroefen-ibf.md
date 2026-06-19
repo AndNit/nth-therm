@@ -21,7 +21,7 @@ applications:
   - "Sinter- und Kalzinierversuche"
 faqs:
   - q: "Welche Kammergrößen sind verfügbar?"
-    a: "Der IBF ist in verschiedenen Baugrößen erhältlich. Als Tischgerät ist er besonders kompakt – ideal für Labors mit begrenztem Platzangebot."
+    a: "Der IBF ist in verschiedenen Baugrößen erhältlich. Als Tischgerät ist er besonders kompakt, ideal für Labors mit begrenztem Platzangebot."
 cta:
   headline: "Laborofen IBF anfragen"
   button: "Angebot anfordern"

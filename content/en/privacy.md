@@ -14,7 +14,7 @@ NTH Therm GmbH, Lerchenweg 11, 76761 Rülzheim, Germany, info@nth-therm.com
 
 ### Data Processed and Purposes
 
-**Contact forms:** Name, email, phone, company name – to process your enquiry (Art. 6(1)(b) GDPR).
+**Contact forms:** Name, email, phone, company name, to process your enquiry (Art. 6(1)(b) GDPR).
 
 **Google Analytics:** Usage statistics (anonymised). Legal basis: consent (Art. 6(1)(a) GDPR). You may object at: https://tools.google.com/dlpage/gaoptout.
 

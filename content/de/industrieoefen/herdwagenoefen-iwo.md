@@ -26,14 +26,14 @@ faqs:
   - q: "Welche maximale Last kann der Herdwagenofen IWO aufnehmen?"
     a: "Der IWO ist speziell für schwere Lasten ausgelegt. Die maximale Beladung hängt von der Größe der Anlage ab und wird im Zuge der Konfiguration festgelegt. Typische Anlagen nehmen 500–5000 kg auf."
   - q: "Kann der Herdwagen elektrisch angetrieben werden?"
-    a: "Ja – der elektrische Wagenantrieb ist eine Standardoption. Damit entfällt manuelles Handling bei schweren Chargen."
+    a: "Ja, der elektrische Wagenantrieb ist eine Standardoption, mit der manuelles Handling bei schweren Chargen entfällt."
   - q: "Welche Atmosphären sind im IWO möglich?"
     a: "Standard ist Luft. Optional können Inertgasanschlüsse (N₂, Ar) mit Durchflussmessern integriert werden, um oxidationsempfindliche Materialien zu schützen."
   - q: "Wie präzise ist die Temperaturverteilung?"
     a: "Durch die forcierte Luftumwälzung erreichen wir eine Temperaturgleichmäßigkeit von < ±5 °C innerhalb der nutzbaren Kammer."
 cta:
   headline: "Herdwagenofen IWO anfragen"
-  text: "Teilen Sie uns Ihre Anforderungen mit – wir erstellen Ihnen innerhalb von 48 Stunden ein individuelles Angebot."
+  text: "Teilen Sie uns Ihre Anforderungen mit, und wir erstellen Ihnen innerhalb von 48 Stunden ein individuelles Angebot."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=herdwagenofen-iwo"
 related_applications:
@@ -63,14 +63,14 @@ related_products:
 
 ## Herdwagenöfen IWO – Professionelle Lösung für schwere Lasten
 
-Der **Herdwagenofen IWO** von NTH Therm ist die bevorzugte Lösung für die Wärmebehandlung großer und schwerer Werkstücke. Durch den herausfahrbaren Herdwagen können Chargen einfach per Gabelstapler oder Kran bestückt werden – ohne Kranbewegungen innerhalb des Ofens.
+Der **Herdwagenofen IWO** von NTH Therm ist die bevorzugte Lösung für die Wärmebehandlung großer und schwerer Werkstücke. Durch den herausfahrbaren Herdwagen können Chargen einfach per Gabelstapler oder Kran bestückt werden, ohne Kranbewegungen innerhalb des Ofens.
 
 ### Warum der IWO die richtige Wahl ist
 
-- **Höchste Flexibilität bei der Beladung** – der Wagen fährt aus dem Ofen, die Charge wird aufgelegt, der Wagen fährt zurück
+- **Höchste Flexibilität bei der Beladung:** Der Wagen fährt aus dem Ofen, die Charge wird aufgelegt, der Wagen fährt zurück
 - **Gleichmäßige Temperaturverteilung** durch forcierte Luftumwälzung (< ±5 °C)
 - **Robuste Rahmenkonstruktion** aus pulverbeschichtetem Stahl, Edelstahl oder hitzebeständigem Material je nach Temperaturbereich
-- **Individuelle Abmessungen** – von der kompakten Einheit bis zur Großanlage für Teile bis mehrere Tonnen
+- **Individuelle Abmessungen:** von der kompakten Einheit bis zur Großanlage für Teile bis mehrere Tonnen
 
 ### Technische Ausstattung (Basisversion)
 

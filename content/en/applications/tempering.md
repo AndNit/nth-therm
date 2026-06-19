@@ -10,12 +10,12 @@ faqs:
   - q: "Which NTH Therm furnace types are suitable for tempering?"
     a: "For tempering we recommend our chamber furnaces ICO (forced-air to 750 °C) and ICF (to 1300 °C), bogie-hearth furnaces IWF/IWO for large-format charges, and conveyor furnaces for continuous series production."
   - q: "Can I temper under protective atmosphere?"
-    a: "Yes – on request we equip our chamber furnaces with a protective gas atmosphere (N₂ or argon) to prevent oxidation of sensitive surfaces."
+    a: "Yes, on request we equip our chamber furnaces with a protective gas atmosphere (N₂ or argon) to prevent oxidation of sensitive surfaces."
   - q: "How long does a typical tempering cycle take?"
     a: "Holding time depends on cross-section and steel grade, typically between 30 minutes and 4 hours. Our control systems program heating ramp, holding time and cooling fully automatically."
 cta:
   headline: "Request a Tempering Furnace"
-  text: "Share your batch dimensions, target temperature and quantities – we will recommend the optimal furnace type."
+  text: "Share your batch dimensions, target temperature and quantities, and we will recommend the optimal furnace type."
   button: "Submit Enquiry"
   url: "/en/contact/?process=tempering"
 related_industries:
@@ -29,7 +29,7 @@ related_industries:
 
 ## Tempering – Toughness and Dimensional Stability through Precision Heat Treatment
 
-**Tempering** is the indispensable second step after hardening: by controlled reheating of the hardened steel, residual stresses are relieved, brittleness is reduced and the desired toughness is set – without unnecessarily sacrificing the achieved hardness.
+**Tempering** is the indispensable second step after hardening: by controlled reheating of the hardened steel, residual stresses are relieved, brittleness is reduced and the desired toughness is set, without unnecessarily sacrificing the achieved hardness.
 
 Reproducible results depend on precise temperature control with tight uniformity tolerances. NTH Therm tempering furnaces achieve temperature uniformity of **±3 to ±10 K** across the entire working chamber, depending on design.
 
@@ -51,7 +51,7 @@ Reproducible results depend on precise temperature control with tight uniformity
 
 ### Recommended NTH Therm Furnace Systems
 
-- **Chamber Furnace ICO** – forced-air to 750 °C, ±5 K uniformity, ideal for series production
-- **Chamber Furnace ICF** – to 1300 °C, also suitable for high-alloy tool steels
-- **Bogie-Hearth Furnace IWF / IWO** – for heavy charges and large-format components
-- **Conveyor Furnace** – for continuous operation with high part throughput
+- **Chamber Furnace ICO:** forced-air to 750 °C, ±5 K uniformity, ideal for series production
+- **Chamber Furnace ICF:** to 1300 °C, also suitable for high-alloy tool steels
+- **Bogie-Hearth Furnace IWF / IWO:** for heavy charges and large-format components
+- **Conveyor Furnace:** for continuous operation with high part throughput

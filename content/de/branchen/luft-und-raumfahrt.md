@@ -30,7 +30,7 @@ faqs:
     a: "MIL-STD-810 (Umweltprüfungen für militärische Ausrüstung), RTCA DO-160 (Avionik), DEF STAN 00-35 (britische Norm). ACS-Kammern sind für Temperaturschock, Feuchtigkeitsprüfung, Höhensimulation und kombinierte Umweltprüfungen ausgelegt."
 cta:
   headline: "Aerospace-Lösung anfragen"
-  text: "AMS2750-konforme Öfen, NADCAP-Qualifizierung oder ACS-Klimaprüfkammern – wir beraten Sie."
+  text: "AMS2750-konforme Öfen, NADCAP-Qualifizierung oder ACS-Klimaprüfkammern: Wir beraten Sie."
   button: "Anfrage stellen"
   url: "/kontakt/?branche=luft-und-raumfahrt"
 related_services:
@@ -42,20 +42,20 @@ related_services:
 
 ## Thermische Prozesse für Luft- und Raumfahrt – Höchste Präzision, lückenlose Dokumentation
 
-Kein anderer Industriezweig stellt strengere Anforderungen an Wärmebehandlungsprozesse als die Luft- und Raumfahrt. Strukturversagen durch fehlerhafte Wärmebehandlung kann katastrophale Folgen haben. Daher sind Prozessrückverfolgbarkeit, Kalibriergenauigkeit und Normkonformität keine Option – sie sind Pflicht.
+Kein anderer Industriezweig stellt strengere Anforderungen an Wärmebehandlungsprozesse als die Luft- und Raumfahrt. Strukturversagen durch fehlerhafte Wärmebehandlung kann katastrophale Folgen haben. Daher sind Prozessrückverfolgbarkeit, Kalibriergenauigkeit und Normkonformität keine Option, sondern Pflicht.
 
 NTH Therm Hochtemperaturöfen und ACS-Klimaprüfkammern erfüllen die strengen Anforderungen der Luft- und Raumfahrtindustrie. Von der Serienproduktion beim Tier-1-Zulieferer bis zum Forschungslabor eines Triebwerkherstellers.
 
 ### Wärmebehandlung von Leichtbaulegierungen und Superlegierungen
 
 **Titan-Legierungen**
-Ti-6Al-4V ist die meistverarbeitete Titanlegierung für Strukturkomponenten, Turbinenteile und medizinische Implantate. Typische Prozesse: Spannungsarmglühen (500–700 °C), Rekristallisationsglühen (700–850 °C), Lösungsglühen und Auslagern für Alpha-Beta-Legierungen. Atmosphärenschutz ist zwingend – NTH Therm Öfen arbeiten mit Inertgasspülung oder im Vakuum.
+Ti-6Al-4V ist die meistverarbeitete Titanlegierung für Strukturkomponenten, Turbinenteile und medizinische Implantate. Typische Prozesse: Spannungsarmglühen (500–700 °C), Rekristallisationsglühen (700–850 °C), Lösungsglühen und Auslagern für Alpha-Beta-Legierungen. Atmosphärenschutz ist zwingend. NTH Therm Öfen arbeiten mit Inertgasspülung oder im Vakuum.
 
 **Nickel-Superlegierungen**
 Turbinenschaufeln, Brennkammern und Triebwerksgehäuse aus Inconel, Waspaloy oder René-Legierungen erfordern präzise Lösungsglüh- und Auslagerungsprogramme bei Temperaturen bis 1200 °C. Die Temperaturuniformität innerhalb der Kammer ist kritisch für gleichmäßige Mikrostruktur.
 
 **Aluminium-Legierungen**
-Strukturkomponenten aus 2xxx- und 7xxx-Serien erfordern exaktes Lösungsglühen und Auslagern (T6, T73, T7351). Temperatur- und Haltezeittoleranzen sind eng – zu kurze Haltezeiten führen zu unvollständiger Löslichkeit, zu lange zu Korngrenzenproblemen.
+Strukturkomponenten aus 2xxx- und 7xxx-Serien erfordern exaktes Lösungsglühen und Auslagern (T6, T73, T7351). Temperatur- und Haltezeittoleranzen sind eng: Zu kurze Haltezeiten führen zu unvollständiger Löslichkeit, zu lange zu Korngrenzenproblemen.
 
 ### AMS2750 und NADCAP – Prozesskonformität sicherstellen
 
@@ -75,11 +75,11 @@ NTH Therm führt TUS-Messungen mit multi-Punkt-Messausstattung durch und erstell
 
 Elektrische Systeme in Flugzeugen und Raumfahrzeugen werden extremen Umgebungsbedingungen ausgesetzt. ACS-Klimaprüfkammern unterstützen die vollständige Qualifizierungskette:
 
-**RTCA DO-160** – Umweltbedingungen und Prüfverfahren für Avionik: Temperatur, Feuchte, Höhe (Unterdruckkammer), Vibration, Schock, Feuer.
+**RTCA DO-160:** Umweltbedingungen und Prüfverfahren für Avionik: Temperatur, Feuchte, Höhe (Unterdruckkammer), Vibration, Schock, Feuer.
 
-**MIL-STD-810** – Militärische Umweltprüfnorm für bodengebundene, luftgestützte und seegestützte Systeme.
+**MIL-STD-810:** Militärische Umweltprüfnorm für bodengebundene, luftgestützte und seegestützte Systeme.
 
-**ESA ECSS** – Europäische Raumfahrtnorm für Raumfahrzeugkomponenten und -systeme.
+**ESA ECSS:** Europäische Raumfahrtnorm für Raumfahrzeugkomponenten und -systeme.
 
 ### Service und NADCAP-Vorbereitung
 

@@ -26,7 +26,7 @@ faqs:
   - q: "Welche Luftzirkulationsrichtungen sind möglich?"
     a: "Sowohl vertikale als auch horizontale Luftumwälzung sind möglich. Die Richtung wird je nach Charge und Prozessanforderungen gewählt."
   - q: "Kann der ICO auch unter Schutzgasatmosphäre betrieben werden?"
-    a: "Ja – mit dem optionalen Inertgasanschluss (N₂, Ar) können oxidationsempfindliche Materialien unter Schutzgas behandelt werden."
+    a: "Ja, mit dem optionalen Inertgasanschluss (N₂, Ar) können oxidationsempfindliche Materialien unter Schutzgas behandelt werden."
 cta:
   headline: "Kammerofen ICO anfragen"
   text: "Wir dimensionieren Ihren Kammerofen ICO exakt nach Ihrer Chargengröße und Ihrem Prozess."
@@ -59,7 +59,7 @@ related_products:
 
 ## Kammerofen ICO – Präzise Temperaturverteilung für anspruchsvolle Prozesse
 
-Der **Kammerofen ICO** von NTH Therm ist der ideale Allrounder für Wärmebehandlungsprozesse bis 860 °C. Das integrierte Umluftgebläse sorgt für eine hervorragende Temperaturgleichmäßigkeit von weniger als ±5 °C – eine Voraussetzung für reproduzierbare Ergebnisse.
+Der **Kammerofen ICO** von NTH Therm ist der ideale Allrounder für Wärmebehandlungsprozesse bis 860 °C. Das integrierte Umluftgebläse sorgt für eine hervorragende Temperaturgleichmäßigkeit von weniger als ±5 °C, eine Voraussetzung für reproduzierbare Ergebnisse.
 
 ### Technische Ausstattung
 

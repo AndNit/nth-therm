@@ -4,7 +4,7 @@ description: "Klimaprüfkammern und Umweltsimulationsanlagen von ACS/Angelantoni
 translationKey: "climatic-chambers"
 layout: "landingpage"
 weight: 20
-intro: "NTH Therm ist autorisierter Partner von ACS/Angelantoni Test Technologies – dem Weltmarktführer für Klimaprüfkammern seit 1952. Komplette Systemlösungen: Beratung, Lieferung, Qualifizierung und Service aus einer Hand."
+intro: "NTH Therm ist autorisierter Partner von ACS/Angelantoni Test Technologies, dem Weltmarktführer für Klimaprüfkammern seit 1952. Komplette Systemlösungen: Beratung, Lieferung, Qualifizierung und Service aus einer Hand."
 partner:
   name: "Angelantoni Test Technologies (ACS)"
   founded: "1952"
@@ -25,7 +25,7 @@ faqs:
     a: "Ja. NTH Therm bietet Wartung, Kalibrierung und Reparatur auch für Klimaprüfkammern anderer Hersteller an. Bitte kontaktieren Sie uns mit den Anlagendaten."
 cta:
   headline: "Klimaprüfkammer anfragen"
-  text: "Beschreiben Sie Ihre Testanforderungen – wir empfehlen die passende ACS-Kammer und erstellen ein Angebot."
+  text: "Beschreiben Sie Ihre Testanforderungen, und wir empfehlen die passende ACS-Kammer und erstellen ein Angebot."
   button: "Beratung vereinbaren"
   url: "/kontakt/?produkt=klimapruefkammer"
 related_links:
@@ -41,11 +41,11 @@ related_links:
 
 ## Umweltsimulation – warum zuverlässige Prüftechnik entscheidend ist
 
-Jedes Produkt, das in der realen Welt funktionieren muss, wird realen Umweltbedingungen ausgesetzt: Temperaturextremen, Feuchtigkeit, Temperaturschwankungen, thermischen Schocks. Ob Automotive-Steuergerät, Medizinprodukt, Luft- und Raumfahrtkomponente oder Industrieelektronik – das Verhalten unter diesen Bedingungen entscheidet über Zulassung, Sicherheit und Marktfähigkeit.
+Jedes Produkt, das in der realen Welt funktionieren muss, wird realen Umweltbedingungen ausgesetzt: Temperaturextremen, Feuchtigkeit, Temperaturschwankungen, thermischen Schocks. Das Verhalten unter diesen Bedingungen entscheidet über Zulassung, Sicherheit und Marktfähigkeit, ob es sich um Automotive-Steuergeräte, Medizinprodukte, Luft- und Raumfahrtkomponenten oder Industrieelektronik handelt.
 
 Klimaprüfkammern schaffen reproduzierbare, normkonforme Prüfbedingungen im Labor. Was draußen Jahre dauert, wird im Beschleunigungstest auf Stunden und Tage komprimiert.
 
-NTH Therm liefert als autorisierter Partner von **ACS/Angelantoni Test Technologies** das vollständige Systemportfolio der Weltmarktführers – kombiniert mit eigenem Installations-, Kalibrierungs- und Wartungsservice.
+NTH Therm liefert als autorisierter Partner von **ACS/Angelantoni Test Technologies** das vollständige Systemportfolio des Weltmarktführers, kombiniert mit eigenem Installations-, Kalibrierungs- und Wartungsservice.
 
 ---
 
@@ -75,7 +75,7 @@ Kombinierte Temperatur-/Vibrationsprüfungen für beschleunigte Ausfallentdeckun
 Für schnelle thermische Übergänge zwischen Heiß- und Kaltzone. Umschaltzeiten unter 10 Sekunden. Kritisch für Bauteile mit verschiedenen Ausdehnungskoeffizienten (PCBs, Hybridmodule, Lötstellen).
 
 #### Begehbare Großraumkammern
-Für die Prüfung von Fahrzeugen, großen Baugruppen oder Systemintegrationstests. Individuell konfiguriert – von 5 m³ bis über 50 m³. Auf Wunsch mit Laufband, Rüttelplatte oder Antriebsprüfstand.
+Für die Prüfung von Fahrzeugen, großen Baugruppen oder Systemintegrationstests. Individuell konfiguriert, von 5 m³ bis über 50 m³. Auf Wunsch mit Laufband, Rüttelplatte oder Antriebsprüfstand.
 
 ---
 

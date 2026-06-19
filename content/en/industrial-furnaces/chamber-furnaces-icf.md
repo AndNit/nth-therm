@@ -21,7 +21,7 @@ applications:
   - "Carburising and cementation"
 faqs:
   - q: "Up to what temperature can the ICF be used?"
-    a: "The ICF is designed for temperatures up to 1300 °C – covering demanding high-temperature processes such as sintering and calcining."
+    a: "The ICF is designed for temperatures up to 1300 °C, covering demanding high-temperature processes such as sintering and calcining."
   - q: "Why does the ICF not have air circulation?"
     a: "At temperatures above 860 °C, heat is transferred primarily by radiation. A fan would be ineffective and subject to rapid wear. Tube heating elements with free radiation are the optimal solution in this range."
 cta:
@@ -56,7 +56,7 @@ related_products:
 
 ## Chamber Furnace ICF – High-Temperature Solution up to 1300 °C
 
-The **ICF chamber furnace** is designed without air circulation and is ideally suited for processes above 860 °C, where radiation is the primary heat transfer mode. Tube heating elements radiate directly onto the batch – efficient, low-maintenance and precise.
+The **ICF chamber furnace** is designed without air circulation and is ideally suited for processes above 860 °C, where radiation is the primary heat transfer mode. Tube heating elements radiate directly onto the batch, efficient, low-maintenance and precise.
 
 **Equipment:** Ceramic floor tile · Tube heating elements with free radiation · Downward-opening counterbalanced doors · PID controller · Semiconductor relay · Over-temperature protection · Ventilation
 

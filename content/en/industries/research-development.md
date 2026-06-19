@@ -72,7 +72,7 @@ The **TH1 tube furnace** is the workhorse of the synthesis laboratory. The heata
 - **Reduction annealing** under H2/N2 or pure H2 (metal powders, catalysts)
 - **Oxidation annealing** under defined O2 partial pressure
 - **Inert gas treatment** under Ar or N2 (oxidation-sensitive materials)
-- **Atmosphere synthesis** – solid-state reactions under precisely set gas environments
+- **Atmosphere synthesis:** solid-state reactions under precisely set gas environments
 - **Carbonisation** (carbon materials, under N2 to 1300 °C)
 - **CVD-like processes** with controlled precursor gas streams
 - **Wet-chemically prepared layers** on supports (catalysts, electrodes)
@@ -99,10 +99,10 @@ New cathode and anode materials, electrolytes and separators are electrochemical
 
 The step from laboratory to pilot production is critical: processes that work perfectly in a tube reactor can yield different results in a chamber furnace. NTH Therm supports this transfer:
 
-**Phase 1 – Laboratory / tube furnace:** Determine process parameters (temperature, time, atmosphere, heating rate)
+**Phase 1 (Laboratory / tube furnace):** Determine process parameters (temperature, time, atmosphere, heating rate)
 
-**Phase 2 – Small chamber furnace ICF / multi-door furnace IRF:** Batch scale-up, influence of furnace atmosphere and uniformity
+**Phase 2 (Small chamber furnace ICF / multi-door furnace IRF):** Batch scale-up, influence of furnace atmosphere and uniformity
 
-**Phase 3 – Production furnace:** Full process validation, reproducibility, economic calculation
+**Phase 3 (Production furnace):** Full process validation, reproducibility, economic calculation
 
 NTH Therm advises on selecting appropriate systems for each phase and supplies all systems from one source — for coherent, traceable process development.

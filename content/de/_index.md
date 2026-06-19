@@ -8,7 +8,7 @@ schema:
   type: "Organization"
 hero:
   headline: "Industrieöfen. Exakt auf Ihre Produkte angepaßt"
-  subline: "NTH Therm entwickelt und baut maßgefertigte Industrieöfen bis 1300 °C – integriert in Ihre Fertigung, German Engineering, mit persönlichem Service."
+  subline: "NTH Therm entwickelt und baut maßgefertigte Industrieöfen bis 1300 °C, integriert in Ihre Fertigung. German Engineering mit persönlichem Service."
   cta_primary: "Jetzt Beratung vereinbaren"
   cta_secondary: "Produkte entdecken"
   cta_primary_url: "/kontakt/"
@@ -19,7 +19,7 @@ usps:
     text: "Kein Ofen von der Stange. Jede Anlage wird exakt auf Ihre Anforderungen, Temperaturprofile und Produktionsabläufe zugeschnitten."
   - icon: "quality"
     title: "Erprobte Qualität"
-    text: "Leichte Bedienbarkeit, hohe Betriebssicherheit durch intelligente Automatisierung und energieeffizienter Betrieb – Serie für Serie."
+    text: "Leichte Bedienbarkeit, hohe Betriebssicherheit durch intelligente Automatisierung und energieeffizienter Betrieb. Serie für Serie."
   - icon: "service"
     title: "Ausgezeichneter Service"
     text: "Von der Planung bis zur Übergabe und darüber hinaus: Persönliche Ansprechpartner, Schulungen und schnelle Wartungsreaktionszeiten."
@@ -29,13 +29,13 @@ steps:
     text: "Mit gezielten Fragen erfassen wir Ihre genauen Anforderungen: Temperaturbereich, Chargengewicht, Atmosphäre, Taktzeit."
   - number: "02"
     title: "Fachkundige Beratung"
-    text: "Unsere Ingenieure beraten Sie von Anfang an – transparent, herstellerunabhängig und lösungsorientiert."
+    text: "Unsere Ingenieure beraten Sie von Anfang an: transparent, herstellerunabhängig und lösungsorientiert."
   - number: "03"
     title: "Angebot & Details"
     text: "Wir erstellen ein verbindliches Angebot und präzisieren gemeinsam mit Ihnen alle Details."
   - number: "04"
     title: "CAD-Konstruktion"
-    text: "Unsere Konstrukteure präsentieren eine erste CAD-Zeichnung – anpassbar bis ins Detail."
+    text: "Unsere Konstrukteure präsentieren eine erste CAD-Zeichnung, anpassbar bis ins Detail."
   - number: "05"
     title: "Freigabe & Optimierung"
     text: "Sie prüfen, wir optimieren. Erst wenn Sie zufrieden sind, beginnt die Fertigung."
@@ -54,7 +54,7 @@ products_teaser:
     temp: "50–1300 °C"
     icon: "furnace-chamber"
     image: "/images/kammerofen-ico.jpg"
-    teaser: "Anlassen, Glühen, Altern, Vorwärmen – flexibel und energieeffizient."
+    teaser: "Anlassen, Glühen, Altern, Vorwärmen: flexibel und energieeffizient."
   - name: "Rohröfen TH1"
     slug: "/industrieoefen/rohroefen-th1/"
     temp: "50–1200 °C"
@@ -69,11 +69,11 @@ products_teaser:
     teaser: "Vollautomatisch, hoher Durchsatz, für Serien- und Massenfertigung."
 faqs:
   - q: "Was kostet ein Industrieofen von NTH Therm?"
-    a: "Da jede Anlage individuell gefertigt wird, variieren die Kosten je nach Größe, Temperaturbereich, Automatisierungsgrad und Zubehör. Fordern Sie jetzt Ihr individuelles Angebot an – in der Regel innerhalb von 48 Stunden."
+    a: "Da jede Anlage individuell gefertigt wird, variieren die Kosten je nach Größe, Temperaturbereich, Automatisierungsgrad und Zubehör. Fordern Sie jetzt Ihr individuelles Angebot an. Wir antworten in der Regel innerhalb von 48 Stunden."
   - q: "Wie lange dauert die Lieferzeit?"
     a: "Die Lieferzeit hängt von Komplexität und Umfang ab. Standardanlagen liefern wir typischerweise in 10–16 Wochen, Sonderanlagen nach Absprache. Bereits bei der Angebotserstellung nennen wir Ihnen einen verbindlichen Termin."
   - q: "Bieten Sie auch Wartung und Reparatur an?"
-    a: "Ja – wir bieten umfassende Serviceleistungen: regelmäßige Wartung, DGUV-3-Prüfungen, Ersatzteilbevorratung, SPS-Fernwartung, Personalschulungen und Modernisierung älterer Anlagen."
+    a: "Ja. Wir bieten umfassende Serviceleistungen: regelmäßige Wartung, DGUV-3-Prüfungen, Ersatzteilbevorratung, SPS-Fernwartung, Personalschulungen und Modernisierung älterer Anlagen."
   - q: "In welchen Temperaturbereichen fertigen Sie Industrieöfen?"
     a: "Unsere Industrieöfen decken Temperaturbereiche von 50 °C bis 1300 °C ab. Je nach Anwendung (Anlassen, Härten, Karburieren, Sintern etc.) empfehlen wir den geeigneten Ofentyp."
   - q: "Können auch fremde Anlagen gewartet werden?"
@@ -96,11 +96,11 @@ partners:
     url: "https://herkules-resotec.de/"
 ---
 
-NTH Therm GmbH ist Ihr Spezialist für **maßgefertigte Industrieöfen** aus Rülzheim, Deutschland. Wir entwickeln, konstruieren und liefern Industrieöfen, Klimaprüfkammern, Wärmetrocknungssysteme und Pyrolyseöfen – individuell auf Ihre Produktion zugeschnitten.
+NTH Therm GmbH ist Ihr Spezialist für **maßgefertigte Industrieöfen** aus Rülzheim, Deutschland. Wir entwickeln, konstruieren und liefern Industrieöfen, Klimaprüfkammern, Wärmetrocknungssysteme und Pyrolyseöfen, individuell auf Ihre Produktion zugeschnitten.
 
 Unsere Leistungsversprechen:
 
-- **Individuelle Lösungen – German Engineering** – kein Serienprodukt, jede Anlage ist ein Unikat
-- **Temperaturbereich 50–1300 °C** – vom Labortischofen bis zur Großanlage
-- **Europaweiter Service** – Inbetriebnahme, Schulung, Wartung, DGUV-3-Prüfung
-- **Persönliche Betreuung** – direkter Kontakt zu unseren Ingenieuren ab dem ersten Anruf
+- **Individuelle Lösungen nach German Engineering** kein Serienprodukt, jede Anlage ist ein Unikat
+- **Temperaturbereich 50–1300 °C** vom Labortischofen bis zur Großanlage
+- **Europaweiter Service:** Inbetriebnahme, Schulung, Wartung, DGUV-3-Prüfung
+- **Persönliche Betreuung:** direkter Kontakt zu unseren Ingenieuren ab dem ersten Anruf

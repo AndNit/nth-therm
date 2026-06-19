@@ -21,7 +21,7 @@ applications:
   - "Aufkohlen und Zementieren"
 faqs:
   - q: "Bis zu welcher Temperatur ist der ICF einsetzbar?"
-    a: "Der ICF ist für Temperaturen bis 1300 °C ausgelegt – damit deckt er auch anspruchsvolle Hochtemperaturprozesse wie Sintern und Kalzinieren ab."
+    a: "Der ICF ist für Temperaturen bis 1300 °C ausgelegt und deckt damit auch anspruchsvolle Hochtemperaturprozesse wie Sintern und Kalzinieren ab."
   - q: "Warum hat der ICF keine Luftumwälzung?"
     a: "Bei Temperaturen über 860 °C wird Wärme hauptsächlich durch Strahlung übertragen. Ein Gebläse wäre hier uneffektiv und würde verschleißen. Rohrheizelemente mit freier Strahlung sind in diesem Bereich die optimale Lösung."
 cta:
@@ -56,7 +56,7 @@ related_products:
 
 ## Kammerofen ICF – Hochtemperaturlösung bis 1300 °C
 
-Der **Kammerofen ICF** ist ohne Luftumwälzung konzipiert und eignet sich ideal für Prozesse ab 860 °C, bei denen Strahlung die primäre Wärmeübertragungsart ist. Rohrheizelemente strahlen direkt auf die Charge – effizient, verschleißarm und präzise.
+Der **Kammerofen ICF** ist ohne Luftumwälzung konzipiert und eignet sich ideal für Prozesse ab 860 °C, bei denen Strahlung die primäre Wärmeübertragungsart ist. Rohrheizelemente strahlen direkt auf die Charge: effizient, verschleißarm und präzise.
 
 **Ausstattung:** Keramische Bodenplatte · Rohrheizelemente mit freier Strahlung · Nach unten öffnende Türen mit Gegengewicht · PID-Regler · Halbleiterrelais · Überhitzungsschutz · Belüftung
 

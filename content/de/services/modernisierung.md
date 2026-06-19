@@ -9,20 +9,20 @@ schema:
   name: "Ofenmodernisierung"
 faqs:
   - q: "Lohnt sich eine Modernisierung gegenüber einem Neukauf?"
-    a: "Ja, wenn das mechanische Grundgerüst – Ofengehäuse, Isolierung, Herdwagen, Tragstruktur – noch in gutem Zustand ist. Das ist bei Industrieöfen häufig der Fall, da mechanische Komponenten deutlich länger halten als Steuerungen und Sicherheitstechnik. Die Kosten einer Vollmodernisierung liegen typischerweise bei 30–60 % eines vergleichbaren Neubaus – bei vergleichbarem Ergebnis."
+    a: "Ja, wenn das mechanische Grundgerüst – Ofengehäuse, Isolierung, Herdwagen, Tragstruktur – noch in gutem Zustand ist. Das ist bei Industrieöfen häufig der Fall, da mechanische Komponenten deutlich länger halten als Steuerungen und Sicherheitstechnik. Die Kosten einer Vollmodernisierung liegen typischerweise bei 30–60 % eines vergleichbaren Neubaus, bei vergleichbarem Ergebnis."
   - q: "Welche Steuerungssysteme setzt NTH Therm bei der Modernisierung ein?"
-    a: "Wir arbeiten bevorzugt mit Siemens S7-1200 und S7-1500 (TIA Portal). Für einfachere Anwendungen auch mit Unitronics, Schneider Electric oder anderen marktgängigen Systemen – je nach Anforderung und vorhandener Infrastruktur des Kunden."
+    a: "Wir arbeiten bevorzugt mit Siemens S7-1200 und S7-1500 (TIA Portal). Für einfachere Anwendungen auch mit Unitronics, Schneider Electric oder anderen marktgängigen Systemen, je nach Anforderung und vorhandener Infrastruktur des Kunden."
   - q: "Kann ich durch eine Modernisierung neue Prozesse erschließen?"
     a: "Ja. Ein einfacher Kammerofen kann durch eine Atmosphärensteuerung mit N₂/H₂-Zufuhr und Sauerstoffsonde zu einem Schutzgasglühofen erweitert werden. Ein bestehender Härteofen kann durch Integration eines C-Potenzialreglers für die Karburierung ertüchtigt werden. Wir prüfen das Modernisierungspotenzial Ihrer Anlage im Rahmen unserer Erstanalyse."
   - q: "Wie lange dauert ein Modernisierungsprojekt?"
-    a: "Einfache Steuerungsmodernisierungen (neue SPS + HMI) dauern typischerweise 4–8 Wochen. Umfassendere Projekte mit Isolierungserneuerung, neuem Heizungssystem und Integration neuer Funktionen (Atmosphäre, mehrstufige Zonierung) können 12–20 Wochen in Anspruch nehmen – abhängig von Auftragsvolumen und Materialverfügbarkeit."
+    a: "Einfache Steuerungsmodernisierungen (neue SPS + HMI) dauern typischerweise 4–8 Wochen. Umfassendere Projekte mit Isolierungserneuerung, neuem Heizungssystem und Integration neuer Funktionen (Atmosphäre, mehrstufige Zonierung) können 12–20 Wochen in Anspruch nehmen, abhängig von Auftragsvolumen und Materialverfügbarkeit."
   - q: "Modernisieren Sie auch Öfen anderer Hersteller?"
-    a: "Ja – wir sind markenunabhängig. Wir haben Öfen von Nabertherm, Linn, Thermconcept, Heraeus, Carbolite und diversen internationalen Herstellern modernisiert. Voraussetzung: Vorlage der technischen Unterlagen oder kostenpflichtige Aufnahme des Ist-Zustands."
+    a: "Ja, wir sind markenunabhängig. Wir haben Öfen von Nabertherm, Linn, Thermconcept, Heraeus, Carbolite und diversen internationalen Herstellern modernisiert. Voraussetzung: Vorlage der technischen Unterlagen oder kostenpflichtige Aufnahme des Ist-Zustands."
   - q: "Was passiert mit der DGUV-3-Konformität nach der Modernisierung?"
-    a: "Nach jeder Modernisierung führen wir eine vollständige DGUV-3-Prüfung nach DIN VDE 0100-600 durch und stellen ein neues Prüfprotokoll aus. Die Anlage ist danach vollständig normenkonform – inkl. CE-Dokumentation bei wesentlichen Änderungen."
+    a: "Nach jeder Modernisierung führen wir eine vollständige DGUV-3-Prüfung nach DIN VDE 0100-600 durch und stellen ein neues Prüfprotokoll aus. Die Anlage ist danach vollständig normenkonform, inkl. CE-Dokumentation bei wesentlichen Änderungen."
 cta:
   headline: "Modernisierungspotenzial prüfen lassen"
-  text: "Schicken Sie uns die technischen Daten Ihrer Anlage – wir prüfen, welches Potenzial eine Modernisierung bietet."
+  text: "Schicken Sie uns die technischen Daten Ihrer Anlage, und wir prüfen, welches Potenzial eine Modernisierung bietet."
   button: "Analyse anfordern"
   url: "/kontakt/?service=modernisierung"
 related_services:
@@ -34,9 +34,9 @@ related_services:
 
 ## Modernisierung & Aufarbeitung – Mehr aus bestehenden Anlagen herausholen
 
-Ein 15 Jahre alter Industrieofen mit intaktem Ofengehäuse und veralteter Elektronik ist keine Fehlinvestition – er ist eine Chance. Das mechanische Grundgerüst von Industrieöfen ist auf Jahrzehnte ausgelegt. Was altert, sind Steuerungen, Sicherheitsrelais, Thermoelemente, Isolierungen und Heizelemente – alles ersetzbar.
+Ein 15 Jahre alter Industrieofen mit intaktem Ofengehäuse und veralteter Elektronik ist keine Fehlinvestition, sondern eine Chance. Das mechanische Grundgerüst von Industrieöfen ist auf Jahrzehnte ausgelegt. Was altert, sind Steuerungen, Sicherheitsrelais, Thermoelemente, Isolierungen und Heizelemente: alles davon ersetzbar.
 
-NTH Therm modernisiert Industrieöfen **aller Hersteller und Typen** auf aktuellen Stand: neue SPS, Touch-HMI, zeitgemäße Sicherheitstechnik, optional neue Prozessfähigkeiten. Das Ergebnis ist eine Anlage, die sich in Bedienung, Sicherheit und Energieverbrauch von einem Neubau kaum unterscheidet – zu 30–60 % der Neuanschaffungskosten.
+NTH Therm modernisiert Industrieöfen **aller Hersteller und Typen** auf aktuellen Stand: neue SPS, Touch-HMI, zeitgemäße Sicherheitstechnik, optional neue Prozessfähigkeiten. Das Ergebnis ist eine Anlage, die sich in Bedienung, Sicherheit und Energieverbrauch von einem Neubau kaum unterscheidet, und das zu 30–60 % der Neuanschaffungskosten.
 
 ### Wann macht eine Modernisierung Sinn?
 
@@ -94,7 +94,7 @@ NTH Therm modernisiert Industrieöfen **aller Hersteller und Typen** auf aktuell
 
 Eine Modernisierung muss nicht auf den Status quo zielen. Wir erweitern bestehende Anlagen auch funktional:
 
-**Schutzgasfähigkeit nachrüsten:** Kammerofen mit N₂-Anschluss, Atmosphärenventilen, Sauerstoffsonde und automatischer Spülsequenz ausrüsten. Ergebnis: Schutgasglühen möglich – ohne neuen Ofen.
+**Schutzgasfähigkeit nachrüsten:** Kammerofen mit N₂-Anschluss, Atmosphärenventilen, Sauerstoffsonde und automatischer Spülsequenz ausrüsten. Ergebnis: Schutzgasglühen möglich, ohne neuen Ofen.
 
 **Karburierungsfähigkeit ergänzen:** Bestehenden Härteofen mit C-Potenzialregelung, Endogaszufuhr und Abgasverbrennung erweitern. Neue Anwendungsfelder: Einsatzhärten für Zahnräder, Wellen, Bolzen.
 
@@ -104,9 +104,9 @@ Eine Modernisierung muss nicht auf den Status quo zielen. Wir erweitern bestehen
 
 ### Ablauf eines Modernisierungsprojekts
 
-1. **Erstanalyse** – Bestandsaufnahme anhand der technischen Unterlagen (remote oder vor Ort)
-2. **Angebot und Leistungsbeschreibung** – Klare Definition aller Komponenten, Leistungen und Termine
-3. **Demontage und Aufarbeitung** – Durchführung in unserer Werkstatt oder beim Kunden
-4. **Inbetriebnahme** – Vor-Ort-Inbetriebnahme, Prozesserprobung, Kalibrierung
-5. **Dokumentation** – DGUV-3-Protokoll, CE-Dokumentation, SPS-Quelldaten, Schaltpläne
-6. **Schulung** – Einweisung Bedienpersonal in neue Steuerung und Funktionen
+1. **Erstanalyse:** Bestandsaufnahme anhand der technischen Unterlagen (remote oder vor Ort)
+2. **Angebot und Leistungsbeschreibung:** Klare Definition aller Komponenten, Leistungen und Termine
+3. **Demontage und Aufarbeitung:** Durchführung in unserer Werkstatt oder beim Kunden
+4. **Inbetriebnahme:** Vor-Ort-Inbetriebnahme, Prozesserprobung, Kalibrierung
+5. **Dokumentation:** DGUV-3-Protokoll, CE-Dokumentation, SPS-Quelldaten, Schaltpläne
+6. **Schulung:** Einweisung Bedienpersonal in neue Steuerung und Funktionen

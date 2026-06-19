@@ -26,7 +26,7 @@ faqs:
   - q: "Which air circulation directions are available?"
     a: "Both vertical and horizontal air circulation are available. The direction is chosen based on the batch and process requirements."
   - q: "Can the ICO operate under protective gas atmosphere?"
-    a: "Yes – with the optional inert gas connection (N₂, Ar), oxidation-sensitive materials can be treated under protective atmosphere."
+    a: "Yes, with the optional inert gas connection (N₂, Ar), oxidation-sensitive materials can be treated under protective atmosphere."
 cta:
   headline: "Request Your ICO Chamber Furnace Quote"
   text: "We size your ICO chamber furnace precisely to your batch dimensions and process."
@@ -59,7 +59,7 @@ related_products:
 
 ## Chamber Furnace ICO – Precise Temperature Distribution for Demanding Processes
 
-The **ICO chamber furnace** from NTH Therm is the ideal all-rounder for heat treatment processes up to 860 °C. The integrated recirculation fan ensures excellent temperature uniformity of less than ±5 °C – a prerequisite for reproducible results.
+The **ICO chamber furnace** from NTH Therm is the ideal all-rounder for heat treatment processes up to 860 °C. The integrated recirculation fan ensures excellent temperature uniformity of less than ±5 °C, a prerequisite for reproducible results.
 
 ### Technical Equipment
 
