@@ -22,4 +22,16 @@ Deutschland
 **Steuernummer:** 41/650/20464
 **USt-ID:** DE335186159
 
-**Bildnachweise:** envato.com, unsplash.com
+**Verantwortlich für den Inhalt dieser Webseite:** Norbert Reiling
+
+---
+
+### Haftungsausschluss
+
+NTH Therm GmbH ist bemüht, ihr Online-Angebot stets aktuell, inhaltlich richtig sowie vollständig zu gestalten. Dennoch ist das Auftreten von Fehlern nicht völlig auszuschließen.
+
+NTH Therm GmbH ist nicht für die Inhalte fremder Seiten verantwortlich, die Sie über einen Link erreichen. Sie übernimmt keine Gewähr für die Richtigkeit und Vollständigkeit der Inhalte und Informationen, die Sie über die von NTH Therm GmbH angebotenen Links zu anderen Anbietern erhalten. Dies gilt auch für Links auf Partner-Seiten von Anbietern und Unternehmen, die mit NTH Therm GmbH verbunden sind.
+
+---
+
+**Bildnachweise:** © envato.com, unsplash.com

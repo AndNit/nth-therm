@@ -129,6 +129,7 @@
       <nav aria-label="{{ if eq $lang "de" }}Rechtliche Links{{ else }}Legal Links{{ end }}">
         <a href="{{ if eq $lang "de" }}{{ "/impressum/" | relURL }}{{ else }}{{ "/en/imprint/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Impressum{{ else }}Imprint{{ end }}</a>
         <a href="{{ if eq $lang "de" }}{{ "/datenschutz/" | relURL }}{{ else }}{{ "/en/privacy/" | relURL }}{{ end }}">{{ if eq $lang "de" }}Datenschutz{{ else }}Privacy{{ end }}</a>
+        <a href="{{ if eq $lang "de" }}{{ "/kontakt/agb/" | relURL }}{{ else }}{{ "/en/contact/terms/" | relURL }}{{ end }}">{{ if eq $lang "de" }}AGB{{ else }}Terms & Conditions{{ end }}</a>
       </nav>
     </div>
   </div>

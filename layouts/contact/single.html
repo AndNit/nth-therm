@@ -10,6 +10,23 @@
   </div>
 </div>
 
+{{/* ── Booking Banner ── */}}
+{{ with .Site.Params.bookingUrl }}
+<section class="section section--alt" style="padding-top:2rem;padding-bottom:2rem;">
+  <div class="container">
+    <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;background:var(--col-primary,#1a3a5c);color:#fff;border-radius:.75rem;padding:1.5rem 2rem;">
+      <div style="flex:1;min-width:200px;">
+        <strong style="font-size:1.1rem;">{{ if eq $lang "de" }}Erstgespräch direkt online buchen{{ else }}Book an Initial Consultation Online{{ end }}</strong>
+        <p style="margin:.25rem 0 0;opacity:.85;font-size:.95rem;">{{ if eq $lang "de" }}Wählen Sie einfach einen freien Termin in unserem Kalender – ohne Wartezeit.{{ else }}Simply pick an available slot in our calendar – no waiting.{{ end }}</p>
+      </div>
+      <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn--outline-white" style="white-space:nowrap;">
+        {{ if eq $lang "de" }}Termin auswählen →{{ else }}Choose a Time Slot →{{ end }}
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 {{/* ── Section 1: Contact Card (Details + Form) ── */}}
 <section class="section">
   <div class="container">
@@ -49,15 +66,6 @@
             <strong class="cinfo-row__label">{{ if eq $lang "de" }}Erreichbarkeit{{ else }}Business Hours{{ end }}</strong>
             <p>{{ if eq $lang "de" }}Mo – Fr, 8:00 – 17:00 Uhr{{ else }}Mon – Fri, 8:00 am – 5:00 pm CET{{ end }}</p>
           </div>
-        </div>
-
-        <div class="cinfo-badges">
-          <span class="cinfo-badge">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-            {{ if eq $lang "de" }}Antwort &lt; 24 Std.{{ else }}Reply &lt; 24 hrs{{ end }}
-          </span>
-          <span class="cinfo-badge">DE · EN</span>
-          <span class="cinfo-badge">DACH</span>
         </div>
       </div>
 

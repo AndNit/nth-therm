@@ -22,4 +22,16 @@ Germany
 **Tax Number:** 41/650/20464
 **VAT ID:** DE335186159
 
-**Image credits:** envato.com, unsplash.com
+**Responsible for the content of this website:** Norbert Reiling
+
+---
+
+### Disclaimer
+
+NTH Therm GmbH endeavours to keep its online offer up to date, accurate and complete at all times. Nevertheless, the occurrence of errors cannot be entirely excluded.
+
+NTH Therm GmbH is not responsible for the content of external pages that you access via a link. It assumes no liability for the accuracy and completeness of the content and information you receive via links offered by NTH Therm GmbH to other providers. This also applies to links to partner pages of providers and companies associated with NTH Therm GmbH.
+
+---
+
+**Image credits:** © envato.com, unsplash.com
