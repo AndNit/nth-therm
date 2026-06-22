@@ -21,6 +21,13 @@ related_industries:
     url: "/branchen/werkzeug-maschinenbau/"
   - name: "Luft- und Raumfahrt"
     url: "/branchen/luft-und-raumfahrt/"
+related_products:
+  - name: "Herdwagenofen IWO"
+    url: "/industrieoefen/herdwagenoefen-iwo/"
+  - name: "Herdwagenofen IWF (schwere Lasten)"
+    url: "/industrieoefen/herdwagenoefen-iwf/"
+  - name: "Kammerofen ICO (Umluft)"
+    url: "/industrieoefen/kammeroefen-ico/"
 ---
 
 ## Vorwärmen – Thermische Vorbereitung für Schweißen, Schmieden und Beschichten

@@ -4,6 +4,11 @@ description: "Complete service portfolio for industrial furnaces: maintenance & 
 translationKey: "services"
 weight: 50
 intro: "Your industrial furnace is a critical asset: downtime costs money, process deviations cost quality. NTH Therm supports you across the full lifecycle of your system: from commissioning through to modernisation."
+faqs:
+  - q: "Does NTH Therm also service furnaces from other manufacturers?"
+    a: "Yes. Our services – maintenance, DGUV-3 inspection, modernisation, commissioning and spare parts – are available for third-party systems too, regardless of the original manufacturer."
+  - q: "What services does NTH Therm offer?"
+    a: "Maintenance contracts with DGUV-3 inspection, modernisation and retrofit, commissioning and training, remote PLC support, and spare-parts supply across the full system lifecycle."
 ---
 
 ## Service Across the Full System Lifecycle

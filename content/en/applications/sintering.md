@@ -25,6 +25,13 @@ related_industries:
     url: "/en/industries/research-development/"
   - name: "Electronics & E-Mobility"
     url: "/en/industries/electronics-emobility/"
+related_products:
+  - name: "Chamber Furnaces ICF (to 1300 °C)"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Tube Furnaces TH1"
+    url: "/en/industrial-furnaces/tube-furnaces-th1/"
+  - name: "Table-Top Furnaces IBF"
+    url: "/en/industrial-furnaces/table-top-furnaces-ibf/"
 ---
 
 ## Sintering – Consolidating Powder Materials and Ceramics into Solid Components

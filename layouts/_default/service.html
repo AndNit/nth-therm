@@ -52,6 +52,24 @@
           </ul>
         </div>
         {{ end }}
+
+        {{/* All product categories we service */}}
+        <div class="sidebar-card">
+          <h3>{{ if eq $lang "de" }}Betreubare Anlagen{{ else }}Systems We Service{{ end }}</h3>
+          <ul style="font-size:.88rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ if eq $lang "de" }}
+            <li><a href="{{ "/industrieoefen/" | relURL }}" style="color:var(--col-red);">Industrieöfen</a></li>
+            <li><a href="{{ "/pyrolyseoefen/" | relURL }}" style="color:var(--col-red);">Pyrolyseöfen</a></li>
+            <li><a href="{{ "/umweltsimulation/" | relURL }}" style="color:var(--col-red);">Klimaprüfkammern</a></li>
+            <li><a href="{{ "/trocknungssysteme/" | relURL }}" style="color:var(--col-red);">Trocknungssysteme</a></li>
+            {{ else }}
+            <li><a href="{{ "/en/industrial-furnaces/" | relURL }}" style="color:var(--col-red);">Industrial Furnaces</a></li>
+            <li><a href="{{ "/en/pyrolysis-furnaces/" | relURL }}" style="color:var(--col-red);">Pyrolysis Furnaces</a></li>
+            <li><a href="{{ "/en/climatic-chambers/" | relURL }}" style="color:var(--col-red);">Climatic Chambers</a></li>
+            <li><a href="{{ "/en/heat-drying-systems/" | relURL }}" style="color:var(--col-red);">Drying Systems</a></li>
+            {{ end }}
+          </ul>
+        </div>
       </aside>
     </div>
   </div>

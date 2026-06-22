@@ -21,6 +21,13 @@ related_industries:
     url: "/en/industries/tool-mechanical-engineering/"
   - name: "Aerospace"
     url: "/en/industries/aerospace/"
+related_products:
+  - name: "Bogie Hearth IWO"
+    url: "/en/industrial-furnaces/bogie-hearth-iwo/"
+  - name: "Bogie Hearth IWF (heavy loads)"
+    url: "/en/industrial-furnaces/bogie-hearth-iwf/"
+  - name: "Chamber Furnaces ICO (forced air)"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
 ---
 
 ## Preheating – Thermal Preparation for Welding, Forging and Coating

@@ -16,8 +16,6 @@ faqs:
     a: "Temperaturgleichmäßigkeits-Protokoll (TUS), Thermoelementkalibrierprotokoll, SPS-Quelldaten und Datensicherung, Rezeptdokumentation, CE-Konformitätserklärung, DGUV-3-Erstprüfprotokoll, Bedienungsanleitung und Schaltpläne."
   - q: "Kann ich die Schulung auch für meine Wartungsabteilung buchen?"
     a: "Ja, wir bieten separate Wartungs- und Serviceschulungen für technisches Personal an: Steuerungsarchitektur, SPS-Diagnose, Fehlerbehebung, präventive Instandhaltung und Sicherheitsvorschriften."
-  - q: "Kalibrieren Sie auch für CQI-9 und AMS2750?"
-    a: "Ja. Für Kunden aus der Automotive-Zuliefererkette (CQI-9) und der Luft- und Raumfahrt (AMS2750 / NADCAP) führen wir Systemgenauigkeitsprüfungen (SAT) und Temperaturverteilungsmessungen (TUS) durch und dokumentieren die Ergebnisse prüfungsfertig."
 cta:
   headline: "Inbetriebnahme anfragen"
   text: "Ob Neu- oder Fremdanlage: Wir begleiten die Inbetriebnahme und schulen Ihr Team bis zur produktionsreifen Anlage."
@@ -26,7 +24,7 @@ cta:
 related_services:
   - name: "Wartung & DGUV-3"
     url: "/services/wartung/"
-  - name: "Fernwartung & Ersatzteile"
+  - name: "Remote-Unterstützung & Ersatzteile"
     url: "/services/fernwartung-ersatzteile/"
 ---
 

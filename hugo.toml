@@ -2,7 +2,9 @@ baseURL = "https://nth-therm.com/"
 title = "NTH Therm – Industrieöfen nach Maß | German Engineering"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
-enableRobotsTXT = true
+# robots.txt is served as a curated static file (static/robots.txt) so we can
+# add the Sitemap directive + AI-crawler rules that Hugo's generator omits.
+enableRobotsTXT = false
 enableGitInfo = false
 summaryLength = 70
 paginate = 10
@@ -29,15 +31,30 @@ paginate = 10
   mobile = "+49 1523 3626998"
   email = "info@nth-therm.com"
   address = "Lerchenweg 11, 76761 Rülzheim"
+  # Granular NAP for schema.org PostalAddress (single source of truth)
+  streetAddress = "Lerchenweg 11"
+  addressLocality = "Rülzheim"
+  postalCode = "76761"
+  addressRegion = "Rheinland-Pfalz"
+  addressCountry = "DE"
   companyName = "NTH Therm GmbH"
   hrb = "HRB 32913, Amtsgericht Landau (Pfalz)"
   vatId = "DE335186159"
   taxNumber = "41/650/20464"
   googleMapsEmbed = "https://maps.google.com/?q=Lerchenweg+11+76761+Rulzheim"
   formspreeEndpoint = "https://formspree.io/f/YOUR_FORM_ID"
+  bookingUrl = "https://cal.com/nth-therm"
   enableSchema = true
   enableHreflang = true
   cookieBannerEnabled = true
+  foundingDate = "2020"
+  # Social share image (1200×630). TODO: replace placeholder — see backlog/seo-assets-todo.md
+  ogImage = "images/og-default.jpg"
+  # Social/authoritative profile URLs emitted as schema.org sameAs (GEO trust signal).
+  # TODO: replace placeholders with the company's real profiles.
+  socialProfiles = [
+    "https://www.linkedin.com/company/nth-therm",
+  ]
 
 [languages]
   [languages.de]
@@ -120,6 +137,19 @@ paginate = 10
       enUrl = "/en/contact/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "LLMS"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
+
+# Plain-text llms.txt discovery feed (https://llmstxt.org) for generative engines.
+[mediaTypes]
+  [mediaTypes."text/llms"]
+    suffixes = ["txt"]
+
+[outputFormats]
+  [outputFormats.LLMS]
+    mediaType = "text/llms"
+    baseName = "llms"
+    isPlainText = true
+    rel = "alternate"
+    notAlternative = true

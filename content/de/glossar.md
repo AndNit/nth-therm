@@ -1,0 +1,53 @@
+---
+title: "Glossar Wärmebehandlung & Industrieöfen | NTH Therm"
+description: "Glossar der Wärmebehandlung: Anlassen, Härten, Glühen, Sintern, Karburieren, TUS, SAT, CQI-9, AMS2750 und DGUV-3 – klar definiert von NTH Therm."
+translationKey: "glossary"
+layout: "glossary"
+weight: 95
+schema:
+  type: "DefinedTermSet"
+intro: "Zentrale Begriffe der industriellen Wärmebehandlung und der Ofentechnik – präzise und verständlich erklärt. Dieses Glossar bündelt die wichtigsten Verfahren, Normen und Fachbegriffe rund um Industrieöfen."
+glossary:
+  - term: "Anlassen"
+    definition: "Anlassen ist das Wiedererwärmen eines zuvor gehärteten Werkstücks auf eine Temperatur unterhalb der Umwandlungstemperatur (typisch 150–700 °C), um Sprödigkeit und Eigenspannungen zu reduzieren und die Zähigkeit gezielt einzustellen. Es ist der zweite Schritt nach dem Härten."
+  - term: "Härten"
+    definition: "Härten bezeichnet das Erwärmen von Stahl auf Austenitisierungstemperatur mit anschließendem schnellem Abschrecken, um ein hartes Martensitgefüge zu erzeugen. Ziel ist eine höhere Härte und Verschleißfestigkeit."
+  - term: "Glühen"
+    definition: "Glühen ist eine Wärmebehandlung zum Einstellen eines weichen, spannungsarmen Gefügezustands. Je nach Ziel unterscheidet man u. a. Weichglühen, Normalglühen, Spannungsarmglühen und Rekristallisationsglühen."
+  - term: "Sintern"
+    definition: "Sintern ist das Verdichten und Verbinden von Pulverpresslingen (Metall oder Keramik) bei Temperaturen unterhalb des Schmelzpunkts. Durch Diffusionsvorgänge entsteht ein fester, belastbarer Werkstoffverbund."
+  - term: "Karburieren (Aufkohlen)"
+    definition: "Karburieren ist das Anreichern der Randschicht eines Stahlbauteils mit Kohlenstoff bei 880–1000 °C in kohlenstoffabgebender Atmosphäre. Nach dem Abschrecken entsteht eine harte, verschleißfeste Oberfläche bei zähem Kern."
+  - term: "Abschrecken"
+    definition: "Abschrecken ist das schnelle Abkühlen eines erwärmten Werkstücks in Luft, Öl, Wasser oder Polymerlösung, um ein hartes Gefüge einzufrieren. Das Abschreckmedium bestimmt Abkühlgeschwindigkeit und Verzug."
+  - term: "Trocknen"
+    definition: "Trocknen ist der thermische Entzug von Feuchtigkeit oder Lösungsmitteln aus einem Material durch kontrollierte Wärmezufuhr und Luftumwälzung, meist im Niedertemperaturbereich bis etwa 300 °C."
+  - term: "Vorwärmen"
+    definition: "Vorwärmen ist das gezielte Erwärmen von Bauteilen vor einem nachgelagerten Prozess (z. B. Schweißen, Umformen oder Beschichten), um thermische Spannungen und Rissbildung zu vermeiden."
+  - term: "Temperaturgleichmäßigkeit (TUS)"
+    definition: "Der Temperature Uniformity Survey (TUS) ist die genormte Vermessung der Temperaturverteilung im Nutzraum eines Ofens. Er weist nach, dass die Ist-Temperatur an allen Messpunkten innerhalb der zulässigen Toleranz liegt."
+  - term: "System Accuracy Test (SAT)"
+    definition: "Der System Accuracy Test (SAT) vergleicht die Anzeige des betrieblichen Temperatur-Mess- und Regelsystems mit einem rückführbaren Referenzsystem. Er ist Bestandteil der Pyrometrie-Normen wie AMS2750 und CQI-9."
+  - term: "CQI-9"
+    definition: "CQI-9 ist der von der AIAG herausgegebene Standard zur Bewertung von Wärmebehandlungsprozessen in der Automobil-Zulieferkette. Er definiert Anforderungen an Prozesssteuerung, Pyrometrie (TUS/SAT) und Dokumentation."
+  - term: "AMS2750"
+    definition: "AMS2750 ist die in der Luft- und Raumfahrt maßgebliche Pyrometrie-Norm. Sie regelt Temperaturmessung, Kalibrierung, Prüfgeräte sowie TUS und SAT für Wärmebehandlungsanlagen."
+  - term: "DGUV-3-Prüfung"
+    definition: "Die DGUV-Vorschrift-3-Prüfung (früher BGV A3) ist die in Deutschland vorgeschriebene wiederkehrende Prüfung ortsfester elektrischer Anlagen und Betriebsmittel nach DIN VDE 0100-600, in der Regel jährlich."
+  - term: "Schutzgasatmosphäre"
+    definition: "Eine Schutzgas- oder Inertgasatmosphäre (z. B. Stickstoff, Argon, Wasserstoff oder Formiergas) verhindert während der Wärmebehandlung Oxidation und Entkohlung der Werkstückoberfläche."
+  - term: "Vakuumofen"
+    definition: "Ein Vakuumofen führt die Wärmebehandlung unter reduziertem Druck durch. Das Vakuum verhindert Oxidation, ermöglicht blanke Oberflächen und ist für reaktive Werkstoffe sowie Hochtemperaturprozesse geeignet."
+faqs:
+  - q: "Was ist der Unterschied zwischen Härten und Anlassen?"
+    a: "Härten erzeugt durch Erwärmen und schnelles Abschrecken ein hartes, aber sprödes Gefüge. Anlassen ist der anschließende zweite Schritt: erneutes Erwärmen unterhalb der Umwandlungstemperatur, um Sprödigkeit abzubauen und die gewünschte Zähigkeit einzustellen."
+  - q: "Was bedeuten TUS und SAT bei der Wärmebehandlung?"
+    a: "Der TUS (Temperature Uniformity Survey) misst die Temperaturverteilung im Ofennutzraum, der SAT (System Accuracy Test) prüft die Genauigkeit des Mess- und Regelsystems. Beide sind Pflichtbestandteile von Pyrometrie-Normen wie AMS2750 und CQI-9."
+cta:
+  headline: "Fragen zu einem Verfahren oder Begriff?"
+  text: "Unsere Ingenieure beraten Sie persönlich zur passenden Wärmebehandlung und zum optimalen Ofentyp."
+  button: "Beratung anfragen"
+  url: "/kontakt/"
+---
+
+Die industrielle Wärmebehandlung umfasst eine Vielzahl von Verfahren, Normen und Fachbegriffen. Dieses Glossar erklärt die zentralen Begriffe rund um Industrieöfen, Wärmebehandlungsprozesse und die zugehörige Qualitätssicherung – kompakt und für die Praxis verständlich.

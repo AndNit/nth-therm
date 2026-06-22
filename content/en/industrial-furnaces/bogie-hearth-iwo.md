@@ -33,7 +33,7 @@ faqs:
     a: "Through forced air circulation we achieve temperature uniformity of < ±5 °C within the usable chamber volume."
 cta:
   headline: "Request a Quote for the IWO Bogie Hearth Furnace"
-  text: "Share your requirements with us, and we will provide you with an individual quotation within 48 hours."
+  text: "Share your requirements with us, and we will provide you with an individual quotation promptly."
   button: "Request a Quotation"
   url: "/contact/?product=bogie-hearth-iwo"
 related_applications:

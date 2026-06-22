@@ -5,7 +5,7 @@
   <div class="container">
     <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
     <p style="color:rgba(255,255,255,.7);margin-top:.75em;font-size:1.05rem;">
-      {{ if eq $lang "de" }}Sprechen Sie uns direkt an – persönlich, unkompliziert, verbindlich.{{ else }}Get in touch directly – personal, straightforward, committed.{{ end }}
+      {{ if eq $lang "de" }}Sprechen Sie uns direkt an. Persönlich, unkompliziert, verbindlich.{{ else }}Get in touch directly. Personal, straightforward, committed.{{ end }}
     </p>
   </div>
 </div>
@@ -17,7 +17,7 @@
     <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;background:var(--col-primary,#1a3a5c);color:#fff;border-radius:.75rem;padding:1.5rem 2rem;">
       <div style="flex:1;min-width:200px;">
         <strong style="font-size:1.1rem;">{{ if eq $lang "de" }}Erstgespräch direkt online buchen{{ else }}Book an Initial Consultation Online{{ end }}</strong>
-        <p style="margin:.25rem 0 0;opacity:.85;font-size:.95rem;">{{ if eq $lang "de" }}Wählen Sie einfach einen freien Termin in unserem Kalender – ohne Wartezeit.{{ else }}Simply pick an available slot in our calendar – no waiting.{{ end }}</p>
+        <p style="margin:.25rem 0 0;opacity:.85;font-size:.95rem;">{{ if eq $lang "de" }}Wählen Sie einfach einen freien Termin in unserem Kalender.{{ else }}Simply pick an available slot in our calendar.{{ end }}</p>
       </div>
       <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn--outline-white" style="white-space:nowrap;">
         {{ if eq $lang "de" }}Termin auswählen →{{ else }}Choose a Time Slot →{{ end }}
@@ -72,7 +72,7 @@
       <div class="contact-form-section">
         <div class="contact-form-section__header">
           <h2>{{ if eq $lang "de" }}Anfrage stellen{{ else }}Submit an Enquiry{{ end }}</h2>
-          <p>{{ if eq $lang "de" }}Beschreiben Sie kurz Ihr Projekt oder Ihre Anforderungen – wir melden uns innerhalb von 24 Stunden mit einem konkreten Vorschlag.{{ else }}Briefly describe your project or requirements – we will respond within 24 hours with a concrete proposal.{{ end }}</p>
+          <p>{{ if eq $lang "de" }}Teilen Sie uns Ihr Anliegen mit. Wir freuen uns auf Ihre Nachricht.{{ else }}Tell us what's on your mind. We look forward to hearing from you.{{ end }}</p>
         </div>
         {{ partial "contact-form.html" . }}
       </div>

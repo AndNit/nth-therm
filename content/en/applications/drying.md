@@ -21,6 +21,13 @@ related_industries:
     url: "/en/industries/electronics-emobility/"
   - name: "Automotive"
     url: "/en/industries/automotive/"
+related_products:
+  - name: "Drying Systems (Drymatic)"
+    url: "/en/heat-drying-systems/"
+  - name: "Chamber Furnaces ICO (forced air)"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
+  - name: "Conveyor Furnaces"
+    url: "/en/industrial-furnaces/conveyor-furnaces/"
 ---
 
 ## Drying – Precision Moisture Removal for Coatings, Ceramics and Composites

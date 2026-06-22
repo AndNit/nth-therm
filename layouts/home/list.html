@@ -5,7 +5,7 @@
 {{/* ── HERO ─────────────────────────────────────────────── */}}
 <section class="hero">
   <div class="container">
-    <p class="hero__eyebrow">{{ if eq $lang "de" }}German Engineering · Seit 2020{{ else }}German Engineering · Since 2020{{ end }}</p>
+    <p class="hero__eyebrow">{{ if eq $lang "de" }}Ihr Thermoprozess. Unser Handwerk.{{ else }}Your Thermal Process. Our Craft.{{ end }}</p>
     <h1 class="hero__headline">{{ $p.hero.headline }}</h1>
     <p class="hero__subline">{{ $p.hero.subline }}</p>
     <div class="hero__actions">
@@ -16,7 +16,7 @@
       <div class="hero__trust-item"><strong>11+</strong> {{ if eq $lang "de" }}Ofentypen{{ else }}Furnace types{{ end }}</div>
       <div class="hero__trust-item"><strong>50–1300 °C</strong> {{ if eq $lang "de" }}Temperaturbereich{{ else }}Temperature range{{ end }}</div>
       <div class="hero__trust-item"><strong>{{ if eq $lang "de" }}Persönliche Beratung{{ else }}Personal Consultation{{ end }}</strong></div>
-      <div class="hero__trust-item"><strong>{{ if eq $lang "de" }}48h Angebot{{ else }}48h quote{{ end }}</strong></div>
+      <div class="hero__trust-item"><strong>{{ if eq $lang "de" }}24/7 Erreichbarkeit{{ else }}24/7 Availability{{ end }}</strong></div>
     </div>
   </div>
 </section>
@@ -61,7 +61,7 @@
     <div class="section__header">
       <p class="eyebrow">{{ if eq $lang "de" }}Unser Prozess{{ else }}Our Process{{ end }}</p>
       <h2>{{ if eq $lang "de" }}In 6 Schritten zum Ofen nach Maß{{ else }}6 Steps to Your Custom Furnace{{ end }}</h2>
-      <p>{{ if eq $lang "de" }}Von der ersten Anfrage bis zur schlüsselfertigen Anlage – transparent, persönlich, termingerecht.{{ else }}From first enquiry to turnkey installation – transparent, personal, on time.{{ end }}</p>
+      <p>{{ if eq $lang "de" }}Von der ersten Anfrage bis zur schlüsselfertigen Anlage: transparent, persönlich, termingerecht.{{ else }}From first enquiry to turnkey installation: transparent, personal, on time.{{ end }}</p>
     </div>
     <div class="steps-grid">
       {{ range $p.steps }}
@@ -87,7 +87,7 @@
       <a href="{{ .slug | relURL }}" class="product-card">
         <div class="product-card__img">
           {{ if .image }}
-          <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+          {{ partial "responsive-image.html" (dict "src" .image "alt" .name "sizes" "(max-width: 700px) 100vw, 380px") }}
           {{ else }}
           <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a1a1a,#2c2c2c);display:flex;align-items:center;justify-content:center;">
             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" stroke="rgba(230,48,18,.4)" stroke-width="1.5">
@@ -121,7 +121,7 @@
   <div class="container">
     <div class="cta-banner">
       <div>
-        <h2>{{ if eq $lang "de" }}Ihr nächster Industrieofen – maßgefertigt für Sie{{ else }}Your Next Industrial Furnace – Custom-Built for You{{ end }}</h2>
+        <h2>{{ if eq $lang "de" }}Ihr nächster Industrieofen: maßgefertigt für Sie{{ else }}Your Next Industrial Furnace: Custom-Built for You{{ end }}</h2>
         <p>{{ if eq $lang "de" }}Individuelles Angebot · Lieferzeit ab 10 Wochen · Persönliche Beratung durch unsere Ingenieure{{ else }}Individual quotation · Delivery from 10 weeks · Personal advice from our engineers{{ end }}</p>
       </div>
       <a href="{{ if eq $lang "de" }}{{ "/kontakt/" | relURL }}{{ else }}{{ "/en/contact/" | relURL }}{{ end }}" class="btn btn--secondary btn--lg">

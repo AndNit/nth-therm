@@ -51,6 +51,8 @@ related_products:
     url: "/industrieoefen/laboroefen-ibf/"
   - name: "Kammerofen ICF"
     url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Klimaprüfkammern (ACS)"
+    url: "/umweltsimulation/"
 ---
 
 ## Rohrofen TH1 – Präzision für Labor und Produktion

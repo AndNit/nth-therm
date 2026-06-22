@@ -7,6 +7,13 @@ schema:
   type: "ProductGroup"
 weight: 10
 intro: "From a single bespoke unit to fully automated series production, we build the right industrial furnace for your application. All furnaces are engineered in Europe and built to measure."
+faqs:
+  - q: "What industrial furnaces does NTH Therm build?"
+    a: "NTH Therm builds bogie-hearth furnaces, chamber furnaces, tube furnaces, bell-type furnaces, conveyor furnaces, carburising and quenching furnaces, and laboratory furnaces – all custom-built for temperatures up to 1300 °C."
+  - q: "Does NTH Therm build custom industrial furnaces?"
+    a: "Yes. Every furnace is engineered in Europe and dimensioned precisely to your process requirements, part sizes and production cycle – from a single unit to a fully automated series line."
+  - q: "What temperature range do NTH Therm furnaces cover?"
+    a: "The portfolio spans 50 °C to 1300 °C, depending on furnace type and application such as tempering, hardening, annealing, sintering or carburising."
 cta_banner:
   headline: "Not sure yet which furnace you need?"
   text: "No problem. Our engineers clarify your requirements personally and recommend the right furnace type, without obligation and with no lead time."

@@ -1,0 +1,33 @@
+{{- /* llms.txt — curated, plain-text site map for generative engines (https://llmstxt.org).
+       Grouped by section, one bullet per page with its meta description. */ -}}
+{{- $lang := .Site.Language.Lang -}}
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+{{ if eq $lang "de" -}}
+NTH Therm GmbH ist Hersteller maßgefertigter Industrieöfen, Klimaprüfkammern, Trocknungssysteme und Pyrolyseöfen aus Rülzheim, Deutschland. Temperaturbereich bis 1300 °C. Diese Datei listet die wichtigsten Inhalte für KI-Systeme.
+{{- else -}}
+NTH Therm GmbH is a manufacturer of custom industrial furnaces, climatic test chambers, heat drying systems and pyrolysis furnaces based in Rülzheim, Germany. Temperature range up to 1300 °C. This file lists key content for AI systems.
+{{- end }}
+{{ range $section := .Site.Sections }}
+## {{ $section.Title }}
+{{ with $section.Params.description }}
+> {{ . }}
+{{ end }}
+{{- range $section.Pages }}
+- [{{ .Title | replaceRE `\s*\|.*$` "" }}]({{ .Permalink }}){{ with .Params.description }}: {{ . }}{{ end }}
+{{- end }}
+{{ end }}
+{{- $rootPages := where (where .Site.RegularPages "Section" "") "Params.noindex" "!=" true -}}
+{{ with $rootPages }}
+## {{ if eq $lang "de" }}Weitere Inhalte{{ else }}More Content{{ end }}
+{{ range . }}
+- [{{ .Title | replaceRE `\s*\|.*$` "" }}]({{ .Permalink }}){{ with .Params.description }}: {{ . }}{{ end }}
+{{- end }}
+{{ end }}
+## {{ if eq $lang "de" }}Kontakt{{ else }}Contact{{ end }}
+
+- {{ .Site.Params.companyName }}, {{ .Site.Params.address }}
+- {{ if eq $lang "de" }}Telefon{{ else }}Phone{{ end }}: {{ .Site.Params.phone }}
+- E-Mail: {{ .Site.Params.email }}

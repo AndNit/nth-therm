@@ -1,0 +1,19 @@
+{{- /* Returns an absolute URL to a social/share-safe JPEG for a page image.
+       Used by both baseof.html (og:image, twitter:image) and schema.html
+       (Product image). Since content images now live in assets/, resolve them
+       and emit a published 1200px JPEG (WebP isn't reliably rendered by social
+       scrapers). Falls back to the given default / raw absURL.
+       Params: img (front-matter image path, may be empty), default (site ogImage). */ -}}
+{{- $url := "" -}}
+{{- $path := .img -}}
+{{- if $path -}}
+  {{- $a := resources.Get (strings.TrimPrefix "/" $path) -}}
+  {{- if $a -}}
+    {{- $url = ($a.Resize "1200x jpg q82").Permalink -}}
+  {{- else -}}
+    {{- $url = $path | absURL -}}
+  {{- end -}}
+{{- else if .default -}}
+  {{- $url = .default | absURL -}}
+{{- end -}}
+{{- return $url -}}

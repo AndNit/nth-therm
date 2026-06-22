@@ -23,6 +23,13 @@ related_industries:
     url: "/en/industries/aerospace/"
   - name: "Energy & Advanced Materials"
     url: "/en/industries/energy-advanced-materials/"
+related_products:
+  - name: "Chamber Furnaces ICF (to 1300 °C)"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Bell-Type Furnaces"
+    url: "/en/industrial-furnaces/bell-type-furnaces/"
+  - name: "Bogie Hearth IWO"
+    url: "/en/industrial-furnaces/bogie-hearth-iwo/"
 ---
 
 ## Annealing – Microstructure Improvement and Stress Relief for Better Workability

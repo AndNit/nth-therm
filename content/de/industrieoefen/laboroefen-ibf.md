@@ -47,6 +47,8 @@ related_products:
     url: "/industrieoefen/kammeroefen-icf/"
   - name: "Multifunktionaler Kammerofen IRF"
     url: "/industrieoefen/multifunktionskammerofen-irf/"
+  - name: "Klimaprüfkammern (ACS)"
+    url: "/umweltsimulation/"
 ---
 
 ## Laborofen IBF – Kompakte Tischlösung für Labor und Kleinserien

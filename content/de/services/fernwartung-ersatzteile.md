@@ -1,28 +1,26 @@
 ---
-title: "SPS-Fernwartung & Ersatzteilversorgung für Industrieöfen | NTH Therm"
+title: "SPS-Remote-Unterstützung & Ersatzteilversorgung für Industrieöfen | NTH Therm"
 description: "Schnelle Entstörung durch SPS-Ferndiagnose, gesicherter VPN-Zugang, Ersatzteilbevorratung für NTH Therm und Fremdanlagen. 4-Stunden-Reaktionszeit. NTH Therm GmbH."
 translationKey: "remote-spare-parts"
 layout: "service"
 weight: 40
 schema:
   type: "Service"
-  name: "SPS-Fernwartung und Ersatzteilversorgung"
+  name: "SPS-Remote-Unterstützung und Ersatzteilversorgung"
 faqs:
-  - q: "Wie funktioniert die SPS-Fernwartung technisch?"
+  - q: "Wie funktioniert die SPS-Remote-Unterstützung technisch?"
     a: "Wir greifen über eine gesicherte VPN-Verbindung (Siemens Sinema Remote Connect oder gleichwertig) auf die SPS der Anlage zu. Voraussetzung ist ein Internetzugang am Aufstellort (LAN oder Mobilfunk-Router). Die Verbindung wird ausschließlich auf Anforderung des Kunden aufgebaut. Ein dauerhafter Fernzugriff ohne Kundenfreigabe findet nicht statt."
-  - q: "Was kann per Fernwartung behoben werden, was nicht?"
+  - q: "Was kann per Remote-Unterstützung behoben werden, was nicht?"
     a: "Remote behebbar: Steuerungsfehler, falsche Parametereinstellungen, Rezeptfehler, Sensorausfälle (Diagnose und Handanweisung), Softwareprobleme, Firmware-Updates. Nicht remote behebbar: mechanische Defekte, Heizelement- oder Thermoelement-Ausfall, physische Beschädigungen. Für diese Fälle koordinieren wir nach der Remote-Diagnose einen Vor-Ort-Einsatz."
   - q: "Welche Ersatzteile bevorraten Sie?"
     a: "Für NTH Therm Anlagen halten wir ein rollendes Lager der meistgefragten Verschleißteile: Thermoelemente (Typ K, N, S), Halbleiterrelais, Leistungsschütze, Sicherheitsrelais, Lichtgitter, Drucktransmitter und ausgewählte Heizelement-Typen. Für Fremdanlagen beschaffen wir Teile über unser Lieferantennetzwerk."
   - q: "Wie schnell werden Ersatzteile geliefert?"
     a: "Lagerteile werden in der Regel am nächsten Werktag versendet (Expresslieferung auf Anfrage). Fremdbedarfsteile innerhalb von 2–5 Werktagen, Sonderteile (Sonderheizungen, SiC-Elemente, kundenspezifische Dichtungen) nach Absprache, typisch innerhalb von 2–4 Wochen."
-  - q: "Kann ich auch Anlagen ohne bestehenden Wartungsvertrag per Fernwartung entstören lassen?"
-    a: "Ja, Fernwartung ist auch ohne Wartungsvertrag als Einzelleistung verfügbar. Wartungsvertragskunden werden jedoch priorisiert und zahlen reduzierte Stundensätze."
 cta:
-  headline: "Fernwartung einrichten"
-  text: "Richten Sie jetzt Ihren Fernwartungszugang ein, damit wir im Störungsfall innerhalb von Minuten reagieren können."
-  button: "Fernwartung anfragen"
-  url: "/kontakt/?service=fernwartung"
+  headline: "Remote-Unterstützung einrichten"
+  text: "Richten Sie jetzt Ihren Remote-Unterstützungszugang ein, damit wir im Störungsfall innerhalb von Minuten reagieren können."
+  button: "Remote-Unterstützung anfragen"
+  url: "/kontakt/?service=remote-support"
 related_services:
   - name: "Wartung & DGUV-3"
     url: "/services/wartung/"
@@ -30,13 +28,13 @@ related_services:
     url: "/services/inbetriebnahme/"
 ---
 
-## SPS-Fernwartung & Ersatzteilversorgung – Maximale Verfügbarkeit Ihrer Anlage
+## SPS-Remote-Unterstützung & Ersatzteilversorgung – Maximale Verfügbarkeit Ihrer Anlage
 
-Die schnellste Entstörung ist die, die keine Anreise erfordert. Mit **SPS-Fernwartung** über gesicherten VPN-Zugang können unsere Techniker die Steuerung Ihrer Anlage direkt analysieren und in vielen Fällen ohne Vor-Ort-Einsatz beheben: oft innerhalb von Minuten statt Stunden.
+Die schnellste Entstörung ist die, die keine Anreise erfordert. Mit **SPS-Remote-Unterstützung** über gesicherten VPN-Zugang können unsere Techniker die Steuerung Ihrer Anlage direkt analysieren und in vielen Fällen ohne Vor-Ort-Einsatz beheben: oft innerhalb von Minuten statt Stunden.
 
 Kombiniert mit einer **strukturierten Ersatzteilbevorratung** (Lagerteile ab Lager, Fremdteile über unser europäisches Lieferantennetzwerk) halten wir Ihre Standzeiten minimal.
 
-### SPS-Fernwartung im Detail
+### SPS-Remote-Unterstützung im Detail
 
 **Was NTH Therm per Remote-Diagnose leistet:**
 - Auslesen und Analysieren des kompletten SPS-Fehlerspeichers
@@ -55,14 +53,14 @@ Kombiniert mit einer **strukturierten Ersatzteilbevorratung** (Lagerteile ab Lag
 
 **Technische Voraussetzungen:**
 - Internetzugang am Aufstellort (min. 2 Mbit/s, LAN oder Mobilfunk-Router)
-- Fernwartungsrouter (wird bei Erstinbetriebnahme installiert oder nachgerüstet)
+- Remote-Unterstützungsrouter (wird bei Erstinbetriebnahme installiert oder nachgerüstet)
 - Kunden-Freigabe je Sitzung (kein Dauerzugriff)
 
 ### Anlagenüberwachung mit OEE-Software
 
 Für Kunden mit höchsten Verfügbarkeitsanforderungen bieten wir die Integration von **Evocon OEE-Software** an: kontinuierliches Monitoring von Anlagenverfügbarkeit, Chargenzeiten und Prozessparametern, mit Alarmierung bei Abweichungen noch bevor ein Stillstand eintritt. Auswertungen laufen im Browser, ohne lokale Installation.
 
-Die Kombination aus Evocon-Monitoring und NTH Therm Fernwartung schafft eine **vorausschauende Wartungsarchitektur**: Abweichungen werden erkannt, bevor sie zu Ausfällen werden.
+Die Kombination aus Evocon-Monitoring und NTH Therm Remote-Unterstützung schafft eine **vorausschauende Wartungsarchitektur**: Abweichungen werden erkannt, bevor sie zu Ausfällen werden.
 
 ### Ersatzteilversorgung
 

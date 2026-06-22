@@ -21,6 +21,11 @@ related_industries:
     url: "/en/industries/automotive/"
   - name: "Tool Making & Mechanical Engineering"
     url: "/en/industries/tool-mechanical-engineering/"
+related_products:
+  - name: "Carburizing Furnaces"
+    url: "/en/industrial-furnaces/carburizing-furnaces/"
+  - name: "Quenching Furnaces"
+    url: "/en/industrial-furnaces/quenching-furnaces/"
 ---
 
 ## Carburising – Case Hardening for Maximum Wear Resistance with a Tough Core

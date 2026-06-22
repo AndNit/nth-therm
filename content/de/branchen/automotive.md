@@ -90,5 +90,5 @@ Produktionsstillstand in der Automobillieferkette verursacht schnell fünfstelli
 - **Reaktionszeit bei Produktionsstillstand: ≤ 4 Stunden**
 - Präventive Wartung nach definierten Intervallen
 - Ersatzteilbevorratung für kritische Verschleißteile
-- SPS-Fernwartung für schnelle Ersthilfe ohne Anfahrt
+- Remote-Unterstützung für schnelle Ersthilfe ohne Anfahrt
 - Lückenlose CQI-9-konforme Wartungsdokumentation

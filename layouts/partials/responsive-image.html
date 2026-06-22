@@ -1,0 +1,39 @@
+{{- /* ─────────────────────────────────────────────────────────────
+       Responsive image partial.
+       Params (dict):
+         src           – path as stored in front matter, e.g. "/images/foo.jpg"
+         alt           – alt text (required for a11y)
+         class         – optional CSS class
+         loading       – "lazy" (default) or "eager"
+         fetchpriority – optional, e.g. "high" for LCP images
+         sizes         – optional sizes attr (default: responsive)
+       Resolves the file from assets/ and emits a WebP srcset with explicit
+       width/height (CLS-safe). Falls back to a plain <img> for any path that
+       isn't an asset (e.g. logos kept in static/).
+   ───────────────────────────────────────────────────────────────── */ -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $fp := .fetchpriority -}}
+{{- $sizes := .sizes | default "(max-width: 700px) 100vw, 380px" -}}
+{{- $path := strings.TrimPrefix "/" $src -}}
+{{- $img := resources.Get $path -}}
+{{- if and $img (in (slice "image/jpeg" "image/png" "image/webp") $img.MediaType.Type) -}}
+  {{- $widths := slice 400 800 1200 -}}
+  {{- $srcset := slice -}}
+  {{- range $w := $widths -}}
+    {{- if le $w $img.Width -}}
+      {{- $r := $img.Resize (printf "%dx webp q80" $w) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink $r.Width) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $fallback := $img.Resize (printf "%dx webp q80" (cond (gt $img.Width 1200) 1200 $img.Width)) -}}
+  <img src="{{ $fallback.RelPermalink }}"
+       {{ with $srcset }}srcset="{{ delimit . ", " }}" sizes="{{ $sizes }}"{{ end }}
+       width="{{ $fallback.Width }}" height="{{ $fallback.Height }}"
+       alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }}
+       loading="{{ $loading }}"{{ if eq $loading "eager" }} decoding="async"{{ end }}{{ with $fp }} fetchpriority="{{ . }}"{{ end }}>
+{{- else -}}
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}"{{ with $fp }} fetchpriority="{{ . }}"{{ end }}>
+{{- end -}}

@@ -25,6 +25,13 @@ related_industries:
     url: "/branchen/werkzeug-maschinenbau/"
   - name: "Luft- und Raumfahrt"
     url: "/branchen/luft-und-raumfahrt/"
+related_products:
+  - name: "Kammerofen ICO (Umluft)"
+    url: "/industrieoefen/kammeroefen-ico/"
+  - name: "Herdwagenofen IWO"
+    url: "/industrieoefen/herdwagenoefen-iwo/"
+  - name: "Durchlaufofen"
+    url: "/industrieoefen/durchlaufoefen/"
 ---
 
 ## Anlassen – Zähigkeit und Maßhaltigkeit durch präzise Wärmebehandlung

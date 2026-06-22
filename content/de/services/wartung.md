@@ -1,6 +1,6 @@
 ---
 title: "Industrieofen-Wartung & DGUV-3 Prüfung | NTH Therm Service"
-description: "Strukturierte Wartungsverträge für Industrieöfen: DGUV-3-Prüfung, Temperaturkalibrierung, SPS-Fernwartung, 4-Stunden-Reaktionszeit. Eigene und fremde Anlagen. NTH Therm GmbH."
+description: "Strukturierte Wartungsverträge für Industrieöfen: DGUV-3-Prüfung, Temperaturkalibrierung, SPS-Remote-Unterstützung, 4-Stunden-Reaktionszeit. Eigene und fremde Anlagen. NTH Therm GmbH."
 translationKey: "maintenance"
 layout: "service"
 weight: 10
@@ -15,11 +15,9 @@ faqs:
   - q: "Wie unterscheidet sich ein Wartungsvertrag von Einzeleinsätzen?"
     a: "Mit einem Wartungsvertrag sichern Sie sich feste Jahrespreise, Priorität bei der Terminvergabe, reduzierte Stundensätze für Zwischeneinsätze und aktive Erinnerung an Prüftermine. Einzeleinsätze unterliegen der aktuellen Auslastung und werden zu Standardstundensätzen abgerechnet."
   - q: "Was passiert bei einem Notfall außerhalb der Geschäftszeiten?"
-    a: "Wir reagieren in der Regel innerhalb von 4 Stunden: telefonisch, remote oder mit Vor-Ort-Einsatz. Wartungsvertragskunden werden priorisiert behandelt."
+    a: "Wir sind 24/7 erreichbar und reagieren in der Regel innerhalb von 4 Stunden: telefonisch, remote oder mit Vor-Ort-Einsatz. Wartungsvertragskunden werden priorisiert behandelt."
   - q: "Können auch Öfen anderer Hersteller gewartet werden?"
     a: "Ja, wir warten und inspizieren markenunabhängig. Senden Sie uns vorab die technischen Unterlagen und Schaltpläne. Für Fremdanlagen ohne Schaltplanunterlagen führen wir zunächst eine kostenpflichtige Bestandsaufnahme durch."
-  - q: "Wie hängt Wartung mit der Prozessqualität zusammen?"
-    a: "Direkt. Ein Kammerofen, dessen Thermoelement um 8 °C driftet, produziert bei einer Anlassbehandlung systematisch zu weiche oder zu harte Bauteile, ohne dass dies im laufenden Betrieb auffällt. Karburierungsöfen mit nachlassender Sauerstoffsonde verlieren die C-Potenzial-Präzision und erzeugen Ausschuss. Regelmäßige Kalibrierung schützt Ihre Produktqualität."
 cta:
   headline: "Wartungsvertrag anfragen"
   text: "Präventive Wartung spart im Schnitt 60 % der Notfallreparaturkosten. Schützen Sie Ihre Anlage und Ihre Prozessqualität."
@@ -30,7 +28,7 @@ related_services:
     url: "/services/modernisierung/"
   - name: "Inbetriebnahme"
     url: "/services/inbetriebnahme/"
-  - name: "Fernwartung & Ersatzteile"
+  - name: "Remote-Unterstützung & Ersatzteile"
     url: "/services/fernwartung-ersatzteile/"
 ---
 
@@ -44,9 +42,8 @@ NTH Therm bietet strukturierte Wartungsverträge für alle Ofentypen (**eigene A
 
 **Thermische Inspektion:**
 - Temperaturgleichmäßigkeitsmessung im Nutzraum (mehrpunktig)
-- Kalibrierung / Überprüfung aller Thermoelemente und Temperaturfühler
+- Überprüfung aller Thermoelemente und Temperaturfühler
 - Prüfung von Heizelementen und Heizregistern auf Leistungsabfall
-- Brennerinspektion und -einstellung (bei gasbeheizten Anlagen)
 - Überprüfung von Dichtungen, Kompensatoren und Atmosphärenzuführungen
 
 **Elektrische und sicherheitstechnische Prüfung (DGUV-3 nach DIN VDE 0100-600):**
@@ -72,14 +69,12 @@ NTH Therm bietet strukturierte Wartungsverträge für alle Ofentypen (**eigene A
 |----------|-----------|
 | DGUV-3-Prüfung (vollständig) | Jährlich |
 | Temperaturgleichmäßigkeitsmessung (mehrpunktig) | Jährlich |
-| Thermoelement-Kalibrierung | Jährlich |
 | Heizelementprüfung | Jährlich |
-| Brennerwartung (gasbeheizte Öfen) | Jährlich |
 | Mechanische Inspektion | Jährlich |
 | SPS-Datensicherung | Jährlich |
 | Lichtgitterprüfung | Jährlich |
 | Atmosphärensensorik (Karburierung, Schutzgas) | Halbjährlich |
-| SPS-Fernwartung | Auf Abruf |
+| SPS-Remote-Unterstützung | Auf Abruf |
 | Ersatzteil-Bevorratung | Laufend |
 | Schulung Bedienpersonal | Bei Bedarf |
 
@@ -89,15 +84,15 @@ Karburierungs-, Schutzgas- und Atmosphärenöfen erfordern eine erhöhte Wartung
 
 Für diese Anlagen empfehlen wir **halbjährliche Inspektionen**, insbesondere wenn sie für sicherheitsrelevante Wärmebehandlungen nach CQI-9, AMS2750 oder vergleichbaren Standards eingesetzt werden.
 
-### SPS-Fernwartung und Remote-Diagnose
+### SPS-Remote-Unterstützung und Remote-Diagnose
 
-Für NTH Therm Anlagen bieten wir **SPS-Fernwartung über gesicherte VPN-Verbindung**. Damit können wir:
+Für NTH Therm Anlagen bieten wir **SPS-Remote-Unterstützung über gesicherte VPN-Verbindung**. Damit können wir:
 - Steuerungsprogramme aus der Ferne diagnostizieren und anpassen
 - Fehlerspeicher auslesen und Ursachen lokalisieren, bevor ein Techniker anreist
 - Rezeptanpassungen und Parameteroptimierungen remote durchführen
 - Softwareupdates einspielen
 
-Die Fernwartung verkürzt die durchschnittliche Zeit bis zur Fehlerdiagnose auf **unter 60 Minuten**, unabhängig vom Standort der Anlage in Europa.
+Die Remote-Unterstützung verkürzt die durchschnittliche Zeit bis zur Fehlerdiagnose auf **unter 60 Minuten**, unabhängig vom Standort der Anlage in Europa.
 
 ### Wartung von Fremdanlagen
 

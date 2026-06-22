@@ -49,17 +49,21 @@
           </ul>
         </li>
 
-        <li><a href="{{ if eq $lang "de" }}{{ "/pyrolyseoefen/" | relURL }}{{ else }}{{ "/en/pyrolysis-furnaces/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/pyrolyseoefen") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") }}is-active{{ end }}">
-          {{ if eq $lang "de" }}Pyrolyseöfen{{ else }}Pyrolysis Furnaces{{ end }}
-        </a></li>
-
-        <li><a href="{{ if eq $lang "de" }}{{ "/umweltsimulation/" | relURL }}{{ else }}{{ "/en/climatic-chambers/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/umweltsimulation") (hasPrefix .RelPermalink "/en/climatic-chambers") }}is-active{{ end }}">
-          {{ if eq $lang "de" }}Umweltsimulation{{ else }}Climatic Chambers{{ end }}
-        </a></li>
-
-        <li><a href="{{ if eq $lang "de" }}{{ "/trocknungssysteme/" | relURL }}{{ else }}{{ "/en/heat-drying-systems/" | relURL }}{{ end }}" class="{{ if or (hasPrefix .RelPermalink "/trocknungssysteme") (hasPrefix .RelPermalink "/en/heat-drying-systems") }}is-active{{ end }}">
-          {{ if eq $lang "de" }}Trocknungssysteme{{ else }}Drying Systems{{ end }}
-        </a></li>
+        {{/* Anlagen & Systeme – bundles Pyrolyseöfen + Umweltsimulation */}}
+        <li class="has-dropdown">
+          <a href="#" class="{{ if or (hasPrefix .RelPermalink "/pyrolyseoefen") (hasPrefix .RelPermalink "/umweltsimulation") (hasPrefix .RelPermalink "/en/pyrolysis-furnaces") (hasPrefix .RelPermalink "/en/climatic-chambers") }}is-active{{ end }}">
+            {{ if eq $lang "de" }}Anlagen & Systeme{{ else }}Special Systems{{ end }}
+          </a>
+          <ul class="dropdown">
+            {{ if eq $lang "de" }}
+            <li><a href="{{ "/pyrolyseoefen/" | relURL }}">Pyrolyseöfen</a></li>
+            <li><a href="{{ "/umweltsimulation/" | relURL }}">Umweltsimulation</a></li>
+            {{ else }}
+            <li><a href="{{ "/en/pyrolysis-furnaces/" | relURL }}">Pyrolysis Furnaces</a></li>
+            <li><a href="{{ "/en/climatic-chambers/" | relURL }}">Climatic Chambers</a></li>
+            {{ end }}
+          </ul>
+        </li>
 
         <li class="has-dropdown">
           <a href="{{ if eq $lang "de" }}{{ "/anwendungen/" | relURL }}{{ else }}{{ "/en/applications/" | relURL }}{{ end }}" class="{{ if hasPrefix .RelPermalink "/anwendungen" }}is-active{{ else if hasPrefix .RelPermalink "/en/applications" }}is-active{{ end }}">
@@ -122,12 +126,14 @@
             <li><a href="{{ "/services/wartung/" | relURL }}">Wartung &amp; DGUV-3-Prüfung</a></li>
             <li><a href="{{ "/services/modernisierung/" | relURL }}">Aufarbeitung &amp; Modernisierung</a></li>
             <li><a href="{{ "/services/inbetriebnahme/" | relURL }}">Inbetriebnahme &amp; Schulung</a></li>
-            <li><a href="{{ "/services/fernwartung-ersatzteile/" | relURL }}">SPS-Fernwartung &amp; Ersatzteile</a></li>
+            <li><a href="{{ "/services/fernwartung-ersatzteile/" | relURL }}">Remote-Unterstützung &amp; Ersatzteile</a></li>
+            <li class="dropdown__cta dropdown__cta--highlight"><a href="{{ "/kontakt/?service=ersatzteile" | relURL }}">➜ Ersatzteile anfragen</a></li>
             {{ else }}
             <li><a href="{{ "/en/services/maintenance/" | relURL }}">Maintenance &amp; DGUV-3 Inspection</a></li>
             <li><a href="{{ "/en/services/refurbishment/" | relURL }}">Refurbishment &amp; Modernisation</a></li>
             <li><a href="{{ "/en/services/commissioning/" | relURL }}">Commissioning &amp; Training</a></li>
-            <li><a href="{{ "/en/services/remote-spare-parts/" | relURL }}">Remote Maintenance &amp; Spare Parts</a></li>
+            <li><a href="{{ "/en/services/remote-spare-parts/" | relURL }}">Remote Support &amp; Spare Parts</a></li>
+            <li class="dropdown__cta dropdown__cta--highlight"><a href="{{ "/en/contact/?service=spare-parts" | relURL }}">➜ Request Spare Parts</a></li>
             {{ end }}
           </ul>
         </li>

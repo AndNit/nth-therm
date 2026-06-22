@@ -51,6 +51,8 @@ related_products:
     url: "/en/industrial-furnaces/table-top-furnaces-ibf/"
   - name: "Chamber Furnace ICF"
     url: "/en/industrial-furnaces/chamber-furnaces-icf/"
+  - name: "Climatic Chambers (ACS)"
+    url: "/en/climatic-chambers/"
 ---
 
 ## Tube Furnace TH1 – Precision for Lab and Production

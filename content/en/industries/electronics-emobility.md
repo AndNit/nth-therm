@@ -12,6 +12,8 @@ products:
     url: "/en/industrial-furnaces/table-top-furnaces-ibf/"
   - name: "Drying Systems (Drymatic)"
     url: "/en/heat-drying-systems/"
+  - name: "Pyrolysis Furnaces"
+    url: "/en/pyrolysis-furnaces/"
 applications:
   - name: "Drying"
     url: "/en/applications/drying/"

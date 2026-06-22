@@ -7,7 +7,7 @@ translationKey: "home"
 schema:
   type: "Organization"
 hero:
-  headline: "Industrial Furnaces. Tailored Precisely to Your Products."
+  headline: "Industrial Furnaces. Precisely Tailored to Your Production."
   subline: "NTH Therm designs and manufactures custom industrial furnaces up to 1300 °C, integrated into your process, German Engineering, with hands-on personal service."
   cta_primary: "Schedule a Consultation"
   cta_secondary: "Explore Products"
@@ -69,15 +69,13 @@ products_teaser:
     teaser: "Fully automatic, high throughput, for series and mass production."
 faqs:
   - q: "How much does an industrial furnace from NTH Therm cost?"
-    a: "Since every system is custom-built, costs vary depending on size, temperature range, degree of automation and accessories. Request your individual quotation now: we typically respond within 48 hours."
+    a: "Since every system is custom-built, costs vary depending on size, temperature range, degree of automation and accessories. Request your individual quotation now and we will get back to you promptly."
   - q: "What is the delivery time?"
     a: "Delivery time depends on complexity and scope. Standard systems are typically delivered in 10–16 weeks; special systems by arrangement. We provide a binding delivery date with every offer."
   - q: "Do you also offer maintenance and repair services?"
-    a: "Yes, we offer comprehensive services: scheduled maintenance, DGUV-3 inspections, spare-parts stocking, remote PLC maintenance, operator training and retrofitting of older systems."
+    a: "Yes, we offer comprehensive services: scheduled maintenance, DGUV-3 inspections, spare-parts stocking, remote support, operator training and retrofitting of older systems."
   - q: "What temperature ranges do your furnaces cover?"
     a: "Our industrial furnaces cover temperature ranges from 50 °C to 1300 °C. Depending on the application (tempering, hardening, carburising, sintering, etc.) we recommend the most suitable furnace type."
-  - q: "Can you also service furnaces from other manufacturers?"
-    a: "Yes. Our service team inspects and maintains industrial furnaces from other manufacturers."
 partners:
   - name: "Angelantoni Test Technologies (ATT/ACS)"
     description: "World leader in environmental test chambers since 1952"

@@ -3,7 +3,7 @@
 
 <div class="page-hero">
   <div class="container">
-    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Persönliche Beratung · Antwort in 48 h{{ else }}Personal consultation · Reply within 48 h{{ end }}</p>
+    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Persönliche Beratung · 24/7 Erreichbarkeit{{ else }}Personal Consultation · 24/7 Available{{ end }}</p>
     <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
   </div>
 </div>
@@ -14,7 +14,7 @@
       <div class="contact-form-section">
         <div class="contact-form-section__header">
           <h2>{{ if eq $lang "de" }}Individuelle Anfrage stellen{{ else }}Submit Your Project Enquiry{{ end }}</h2>
-          <p>{{ if eq $lang "de" }}Als Spezialist für maßgefertigte Industrieöfen entwickeln wir gemeinsam mit Ihnen die passende Lösung – ob Neubau, Modernisierung oder Sonderanlage. Beschreiben Sie kurz Ihr Projekt und Ihre Anforderungen. Wir melden uns innerhalb von 48 Stunden mit einem konkreten Vorschlag und persönlicher Beratung.{{ else }}As specialists in custom-built industrial furnaces, we develop the right solution together with you – whether it is a new installation, a retrofit or a bespoke system. Briefly describe your project and requirements. We will respond within 48 hours with a concrete proposal and personal consultation.{{ end }}</p>
+          <p>{{ if eq $lang "de" }}Als Spezialist für maßgefertigte Industrieöfen entwickeln wir gemeinsam mit Ihnen die passende Lösung, ob Neubau, Modernisierung oder Sonderanlage. Beschreiben Sie kurz Ihr Projekt und Ihre Anforderungen. Wir beraten Sie persönlich und melden uns schnellstmöglich bei Ihnen.{{ else }}As specialists in custom-built industrial furnaces, we develop the right solution together with you, whether it is a new installation, a retrofit or a bespoke system. Briefly describe your project and requirements. We will get back to you as soon as possible with personal advice.{{ end }}</p>
         </div>
         {{ partial "contact-form.html" . }}
       </div>
@@ -27,7 +27,7 @@
         <div class="sidebar-card">
           <h3>{{ if eq $lang "de" }}Das erwartet Sie{{ else }}What to expect{{ end }}</h3>
           <ul style="font-size:.9rem;color:var(--col-mid);padding-left:1.2em;list-style:disc;">
-            <li>{{ if eq $lang "de" }}Antwort in 24–48 Stunden{{ else }}Reply within 24–48 hours{{ end }}</li>
+            <li>{{ if eq $lang "de" }}Schnelle Rückmeldung{{ else }}Prompt reply{{ end }}</li>
             <li>{{ if eq $lang "de" }}Unverbindliches Angebot{{ else }}Non-binding quotation{{ end }}</li>
             <li>{{ if eq $lang "de" }}Persönliche Beratung{{ else }}Personal consultation{{ end }}</li>
             <li>{{ if eq $lang "de" }}CAD auf Anfrage{{ else }}CAD drawing on request{{ end }}</li>

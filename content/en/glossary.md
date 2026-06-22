@@ -1,0 +1,53 @@
+---
+title: "Heat Treatment & Industrial Furnace Glossary | NTH Therm"
+description: "Heat treatment glossary: tempering, hardening, annealing, sintering, carburising, TUS, SAT, CQI-9, AMS2750 and DGUV-3 – clearly defined by NTH Therm."
+translationKey: "glossary"
+layout: "glossary"
+weight: 95
+schema:
+  type: "DefinedTermSet"
+intro: "Key terms of industrial heat treatment and furnace technology – defined precisely and clearly. This glossary brings together the most important processes, standards and technical terms around industrial furnaces."
+glossary:
+  - term: "Tempering"
+    definition: "Tempering is the reheating of a previously hardened workpiece to a temperature below the transformation point (typically 150–700 °C) to reduce brittleness and residual stress and to set the desired toughness. It is the second step after hardening."
+  - term: "Hardening"
+    definition: "Hardening is the heating of steel to austenitising temperature followed by rapid quenching to form a hard martensitic structure. The goal is increased hardness and wear resistance."
+  - term: "Annealing"
+    definition: "Annealing is a heat treatment used to obtain a soft, low-stress material condition. Depending on the objective, variants include soft annealing, normalising, stress-relief annealing and recrystallisation annealing."
+  - term: "Sintering"
+    definition: "Sintering is the compaction and bonding of pressed powder compacts (metal or ceramic) at temperatures below the melting point. Diffusion processes create a solid, load-bearing material bond."
+  - term: "Carburising"
+    definition: "Carburising enriches the surface layer of a steel component with carbon at 880–1000 °C in a carbon-donating atmosphere. After quenching, this produces a hard, wear-resistant surface with a tough core."
+  - term: "Quenching"
+    definition: "Quenching is the rapid cooling of a heated workpiece in air, oil, water or polymer solution to freeze in a hard structure. The quenching medium determines the cooling rate and distortion."
+  - term: "Drying"
+    definition: "Drying is the thermal removal of moisture or solvents from a material through controlled heat input and air circulation, usually in the low-temperature range up to about 300 °C."
+  - term: "Preheating"
+    definition: "Preheating is the deliberate warming of components before a downstream process (e.g. welding, forming or coating) to avoid thermal stress and cracking."
+  - term: "Temperature Uniformity Survey (TUS)"
+    definition: "The Temperature Uniformity Survey (TUS) is the standardised measurement of the temperature distribution within a furnace's working zone. It proves that the actual temperature at all measuring points lies within the permitted tolerance."
+  - term: "System Accuracy Test (SAT)"
+    definition: "The System Accuracy Test (SAT) compares the reading of the in-service temperature measurement and control system against a traceable reference system. It is part of pyrometry standards such as AMS2750 and CQI-9."
+  - term: "CQI-9"
+    definition: "CQI-9 is the standard issued by AIAG for assessing heat treatment processes in the automotive supply chain. It defines requirements for process control, pyrometry (TUS/SAT) and documentation."
+  - term: "AMS2750"
+    definition: "AMS2750 is the pyrometry standard prevailing in aerospace. It governs temperature measurement, calibration, test equipment, and TUS and SAT for heat treatment equipment."
+  - term: "DGUV-3 Inspection"
+    definition: "The DGUV Regulation 3 inspection (formerly BGV A3) is the recurring inspection of fixed electrical installations and equipment required in Germany under DIN VDE 0100-600, generally on an annual basis."
+  - term: "Protective Gas Atmosphere"
+    definition: "A protective or inert gas atmosphere (e.g. nitrogen, argon, hydrogen or forming gas) prevents oxidation and decarburisation of the workpiece surface during heat treatment."
+  - term: "Vacuum Furnace"
+    definition: "A vacuum furnace carries out heat treatment under reduced pressure. The vacuum prevents oxidation, enables bright surfaces and is suitable for reactive materials and high-temperature processes."
+faqs:
+  - q: "What is the difference between hardening and tempering?"
+    a: "Hardening creates a hard but brittle structure through heating and rapid quenching. Tempering is the subsequent second step: reheating below the transformation temperature to reduce brittleness and set the desired toughness."
+  - q: "What do TUS and SAT mean in heat treatment?"
+    a: "The TUS (Temperature Uniformity Survey) measures the temperature distribution in the furnace working zone; the SAT (System Accuracy Test) checks the accuracy of the measurement and control system. Both are mandatory parts of pyrometry standards such as AMS2750 and CQI-9."
+cta:
+  headline: "Questions about a process or term?"
+  text: "Our engineers will advise you personally on the right heat treatment and the optimal furnace type."
+  button: "Request advice"
+  url: "/en/contact/"
+---
+
+Industrial heat treatment encompasses a wide range of processes, standards and technical terms. This glossary explains the central concepts around industrial furnaces, heat treatment processes and the associated quality assurance – concise and practical.

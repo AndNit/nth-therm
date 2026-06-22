@@ -25,6 +25,13 @@ related_industries:
     url: "/branchen/forschung-entwicklung/"
   - name: "Elektronik & E-Mobilität"
     url: "/branchen/elektronik-emobilitaet/"
+related_products:
+  - name: "Kammerofen ICF (bis 1300 °C)"
+    url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Rohrofen TH1"
+    url: "/industrieoefen/rohroefen-th1/"
+  - name: "Laborofen IBF"
+    url: "/industrieoefen/laboroefen-ibf/"
 ---
 
 ## Sintern – Pulverwerkstoffe und Keramiken zu stabilen Bauteilen verdichten

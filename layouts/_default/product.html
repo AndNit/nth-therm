@@ -32,7 +32,7 @@
       </div>
       {{ with $p.image }}
       <div class="page-hero__image">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+        {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "loading" "eager" "fetchpriority" "high" "sizes" "(max-width: 980px) 100vw, 520px") }}
       </div>
       {{ end }}
     </div>

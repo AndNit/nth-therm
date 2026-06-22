@@ -25,6 +25,13 @@ related_industries:
     url: "/en/industries/tool-mechanical-engineering/"
   - name: "Aerospace"
     url: "/en/industries/aerospace/"
+related_products:
+  - name: "Chamber Furnaces ICO (forced air)"
+    url: "/en/industrial-furnaces/chamber-furnaces-ico/"
+  - name: "Bogie Hearth IWO"
+    url: "/en/industrial-furnaces/bogie-hearth-iwo/"
+  - name: "Conveyor Furnaces"
+    url: "/en/industrial-furnaces/conveyor-furnaces/"
 ---
 
 ## Tempering – Toughness and Dimensional Stability through Precision Heat Treatment

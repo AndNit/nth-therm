@@ -5,40 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  {{/* ── Shared SEO/social variables ── */}}
+  {{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Params.companyName) -}}
+  {{- $desc := or .Params.description .Site.Params.description -}}
+  {{- $ogImage := partial "social-image.html" (dict "img" .Params.image "default" .Site.Params.ogImage) -}}
+  {{- $ogLocale := cond (eq .Site.Language.Lang "de") "de_DE" "en_GB" -}}
+
   {{/* ── Title ── */}}
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.companyName }}{{ end }}</title>
+  <title>{{ $title }}</title>
 
   {{/* ── Meta description ── */}}
-  {{ with .Params.description }}<meta name="description" content="{{ . }}">
-  {{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+  <meta name="description" content="{{ $desc }}">
 
-  {{/* ── Noindex for legal pages ── */}}
-  {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  {{/* ── Robots ── */}}
+  {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">
+  {{ else }}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">{{ end }}
 
   {{/* ── Canonical ── */}}
   <link rel="canonical" href="{{ .Permalink }}">
 
-  {{/* ── hreflang ── */}}
+  {{/* ── hreflang: self + each translation once, x-default = default-language version of THIS page ── */}}
+  <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
+  {{- $xdefault := .Permalink -}}
   {{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
+  {{- if eq .Site.Language.Lang "de" }}{{ $xdefault = .Permalink }}{{ end -}}
   {{ end }}
-  <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
-  <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}">
+  <link rel="alternate" hreflang="x-default" href="{{ $xdefault }}">
 
   {{/* ── Open Graph ── */}}
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $desc }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ .Site.Params.companyName }}">
-  <meta property="og:locale" content="{{ .Site.Language.Lang }}_{{ upper .Site.Language.Lang }}">
+  <meta property="og:locale" content="{{ $ogLocale }}">
+  {{ range .Translations }}<meta property="og:locale:alternate" content="{{ cond (eq .Site.Language.Lang "de") "de_DE" "en_GB" }}">
+  {{ end -}}
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:image:alt" content="{{ $title }}">
+
+  {{/* ── Twitter Card ── */}}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
+
+  {{/* ── Theme / PWA ── */}}
+  <meta name="theme-color" content="#e63012">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+  <link rel="apple-touch-icon" href="{{ "images/nth-therm-logo.png" | relURL }}">
 
   {{/* ── Structured Data ── */}}
   {{ partial "schema.html" . }}
 
-  {{/* ── Preconnect ── */}}
+  {{/* ── Resource hints ── */}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://formspree.io">
+  {{/* Product hero (LCP) is loaded eager + fetchpriority=high via the
+       responsive-image partial in product/single.html — no preload needed. */}}
 
   {{/* ── Fonts (loaded after consent) ── */}}
   <noscript>
@@ -47,8 +73,8 @@
 
   {{/* ── Styles ── */}}
   {{- $css := resources.Get "css/main.css" | css.PostCSS -}}
-  {{- if hugo.IsProduction }}{{ $css = $css | minify }}{{ end -}}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{- if hugo.IsProduction }}{{ $css = $css | minify | fingerprint }}{{ end -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}"{{ with $css.Data.Integrity }} integrity="{{ . }}"{{ end }}>
   <link rel="stylesheet" href="{{ "css/animations.css" | relURL }}">
 
   {{/* ── Favicon ── */}}

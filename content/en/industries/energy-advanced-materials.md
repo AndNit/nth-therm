@@ -14,6 +14,8 @@ products:
     url: "/en/industrial-furnaces/table-top-furnaces-ibf/"
   - name: "Pyrolysis Furnaces"
     url: "/en/pyrolysis-furnaces/"
+  - name: "Climatic Chambers (ACS)"
+    url: "/en/climatic-chambers/"
 applications:
   - name: "Sintering"
     url: "/en/applications/sintering/"

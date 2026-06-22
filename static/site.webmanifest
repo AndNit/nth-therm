@@ -1,0 +1,22 @@
+{
+  "name": "NTH Therm GmbH — Industrieöfen nach Maß",
+  "short_name": "NTH Therm",
+  "description": "Hersteller maßgefertigter Industrieöfen, Klimaprüfkammern und Trocknungssysteme. German Engineering bis 1300 °C.",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#e63012",
+  "background_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/nth-therm-logo.png",
+      "sizes": "288x135",
+      "type": "image/png"
+    }
+  ]
+}

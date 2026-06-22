@@ -1,9 +1,14 @@
 ---
 title: "Service für Industrieöfen | Wartung, Modernisierung, Inbetriebnahme | NTH Therm"
-description: "Vollständiges Service-Portfolio für Industrieöfen: Wartung & DGUV-3, Modernisierung, Inbetriebnahme & Schulung, SPS-Fernwartung und Ersatzteilversorgung – für NTH Therm und Fremdanlagen."
+description: "Vollständiges Service-Portfolio für Industrieöfen: Wartung & DGUV-3, Modernisierung, Inbetriebnahme & Schulung, SPS-Remote-Unterstützung und Ersatzteilversorgung – für NTH Therm und Fremdanlagen."
 translationKey: "services"
 weight: 50
 intro: "Ihr Industrieofen ist eine kritische Anlage: Ausfälle kosten Geld, Prozessabweichungen kosten Qualität. NTH Therm begleitet Sie über den gesamten Lebenszyklus Ihrer Anlage: von der Inbetriebnahme bis zur Modernisierung."
+faqs:
+  - q: "Wartet NTH Therm auch Öfen anderer Hersteller?"
+    a: "Ja. Unser Service – Wartung, DGUV-3-Prüfung, Modernisierung, Inbetriebnahme und Ersatzteile – steht herstellerunabhängig auch für Fremdanlagen offen."
+  - q: "Welche Serviceleistungen bietet NTH Therm?"
+    a: "Wartungsverträge mit DGUV-3-Prüfung, Modernisierung und Retrofit, Inbetriebnahme und Schulung, SPS-Remote-Unterstützung sowie Ersatzteilversorgung über den gesamten Anlagenlebenszyklus."
 ---
 
 ## Service über den gesamten Anlagen-Lebenszyklus
@@ -21,7 +26,7 @@ Neue SPS (Siemens S7-1500), Touch-HMI, Sicherheitstechnik, Isolierung, Heizungss
 **Inbetriebnahme & Schulung**
 Strukturierte Inbetriebnahme mit Temperaturqualifizierung (TUS/SAT), Rezeptprogrammierung und CE-Abnahme. Schulungen für Bediener und Wartungspersonal, auf Wunsch auch für CQI-9 und AMS2750.
 
-**SPS-Fernwartung & Ersatzteilversorgung**
+**SPS-Remote-Unterstützung & Ersatzteilversorgung**
 Gesicherter VPN-Fernzugriff für schnelle Diagnose und Entstörung. Ersatzteilbevorratung für NTH Therm und Fremdanlagen. Optional: OEE-Monitoring mit Evocon für vorausschauende Wartung.
 
 ### Leistungsversprechen

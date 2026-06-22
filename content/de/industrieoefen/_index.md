@@ -7,6 +7,13 @@ schema:
   type: "ProductGroup"
 weight: 10
 intro: "Vom Einzelaggregat bis zur vollautomatischen Serienfertigung fertigen wir den passenden Industrieofen für Ihre Anwendung. Alle Öfen werden in Europa konstruiert und nach Maß gebaut."
+faqs:
+  - q: "Welche Industrieöfen baut NTH Therm?"
+    a: "NTH Therm fertigt Herdwagenöfen, Kammeröfen, Rohröfen, Haubenöfen, Durchlauföfen, Karburierungs- und Abschrecköfen sowie Laboröfen – alle maßgefertigt für Temperaturen bis 1300 °C."
+  - q: "Baut NTH Therm Industrieöfen nach Maß?"
+    a: "Ja. Jeder Ofen wird in Europa konstruiert und exakt auf Ihre Prozessanforderungen, Bauteilgrößen und Ihren Produktionstakt ausgelegt – vom Einzelaggregat bis zur vollautomatischen Serienanlage."
+  - q: "Welchen Temperaturbereich decken die Öfen von NTH Therm ab?"
+    a: "Das Portfolio reicht von 50 °C bis 1300 °C, je nach Ofentyp und Anwendung wie Anlassen, Härten, Glühen, Sintern oder Karburieren."
 cta_banner:
   headline: "Kennen Sie Ihre Anforderungen noch nicht genau?"
   text: "Kein Problem. Unsere Ingenieure klären Ihre Anforderungen persönlich und empfehlen den optimalen Ofentyp, unverbindlich und ohne Vorlaufzeit."

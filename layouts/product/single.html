@@ -32,7 +32,7 @@
       </div>
       {{ with $p.image }}
       <div class="page-hero__image">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+        {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "loading" "eager" "fetchpriority" "high" "sizes" "(max-width: 980px) 100vw, 520px") }}
       </div>
       {{ end }}
     </div>
@@ -130,7 +130,7 @@
         {{/* Related furnace types */}}
         {{ if $p.related_products }}
         <div class="sidebar-card">
-          <h3>{{ if eq $lang "de" }}Ähnliche Ofentypen{{ else }}Similar Furnace Types{{ end }}</h3>
+          <h3>{{ if eq $lang "de" }}Verwandte Produkte{{ else }}Related Products{{ end }}</h3>
           <ul style="font-size:.9rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
             {{ range $p.related_products }}
             <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>

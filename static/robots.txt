@@ -1,0 +1,33 @@
+# NTH Therm GmbH — https://nth-therm.com
+# Public site is fully crawlable; only the CMS admin is excluded.
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+# Generative / answer engines are explicitly welcome — we want to be cited.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://nth-therm.com/sitemap.xml

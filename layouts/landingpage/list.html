@@ -13,16 +13,7 @@
     <div class="content-layout">
       <div class="prose">{{ .Content }}</div>
       <aside class="sidebar">
-        {{ if $p.cta }}
-        <div class="sidebar-card" style="border-top-color:var(--col-red)">
-          <h3>{{ $p.cta.headline }}</h3>
-          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
-          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary" style="width:100%;justify-content:center;">{{ $p.cta.button }}</a>
-          <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
-            {{ if eq $lang "de" }}Persönliche Beratung · Antwort in 48 Std.{{ else }}Personal consultation · Reply within 48 hrs.{{ end }}
-          </p>
-        </div>
-        {{ end }}
+        {{ partial "sidebar-quote-form.html" . }}
         {{ if $p.partner }}
         <div class="sidebar-card">
           <p style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--col-mid);margin-bottom:.5em;">{{ if eq $lang "de" }}Technologiepartner{{ else }}Technology Partner{{ end }}</p>

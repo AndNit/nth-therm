@@ -56,21 +56,35 @@
     X-XSS-Protection      = "1; mode=block"
     Referrer-Policy       = "strict-origin-when-cross-origin"
     Permissions-Policy    = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    # JSON-LD is emitted as inline <script>, and templates use inline style="" attrs,
+    # so script-src/style-src need 'unsafe-inline'. fonts.* = Google Fonts (consent-loaded),
+    # formspree.io = contact form POST. TODO: tighten with hashes/nonces (see backlog).
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; manifest-src 'self'"
 
+# CMS admin: keep out of the index. Decap CMS + Netlify Identity need a looser CSP
+# (git gateway, GitHub API, CDN), so override the strict /* policy here.
 [[headers]]
-  for = "/static/admin/*"
+  for = "/admin/*"
   [headers.values]
     X-Robots-Tag = "noindex"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' https: data:; connect-src 'self' https:; img-src 'self' https: data: blob:"
 
+# Fingerprinted CSS + static JS are content-addressed/stable → cache hard.
 [[headers]]
-  for = "/static/css/*"
+  for = "/css/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/static/js/*"
+  for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
 
 # Netlify Identity – enable for Decap CMS
 [context.production]

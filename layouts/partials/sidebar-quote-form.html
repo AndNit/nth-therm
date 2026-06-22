@@ -19,7 +19,7 @@
       {{ if eq $lang "de" }}Angebot anfordern{{ else }}Request a Quote{{ end }}
     </button>
     <p style="margin-top:.75em;font-size:.8rem;color:var(--col-mid);">
-      {{ if eq $lang "de" }}Persönliche Beratung · Antwort in 48 Std.{{ else }}Personal consultation · Reply within 48 hrs.{{ end }}
+      {{ if eq $lang "de" }}Persönliche Beratung · 24/7 Erreichbarkeit{{ else }}Personal Consultation · 24/7 Available.{{ end }}
     </p>
   </div>
 
@@ -44,11 +44,19 @@
         <label for="sq-msg">{{ if eq $lang "de" }}Nachricht *{{ else }}Message *{{ end }}</label>
         <textarea id="sq-msg" name="message" required rows="3" placeholder="{{ if eq $lang "de" }}Ihre Anforderungen...{{ else }}Your requirements...{{ end }}"></textarea>
       </div>
-      <div class="form-field form-field--checkbox" style="margin-bottom:.5rem;">
-        <input type="checkbox" id="sq-privacy" name="privacy" required>
-        <label for="sq-privacy">
-          {{ if eq $lang "de" }}<a href="{{ "/datenschutz/" | relURL }}" target="_blank">Datenschutz</a> gelesen &amp; akzeptiert{{ else }}<a href="{{ "/en/privacy/" | relURL }}" target="_blank">Privacy Policy</a> read &amp; accepted{{ end }}
-        </label>
+      <div class="consent-group" style="margin-bottom:.5rem;">
+        <div class="form-field form-field--checkbox">
+          <input type="checkbox" id="sq-privacy" name="privacy" required>
+          <label for="sq-privacy">
+            {{ if eq $lang "de" }}Ich habe die <a href="{{ "/datenschutz/" | relURL }}" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.{{ else }}I have read the <a href="{{ "/en/privacy/" | relURL }}" target="_blank">Privacy Policy</a> and consent to the processing of my data.{{ end }}
+          </label>
+        </div>
+        <div class="form-field form-field--checkbox">
+          <input type="checkbox" id="sq-communication" name="communication_consent" required>
+          <label for="sq-communication">
+            {{ if eq $lang "de" }}Ich bin damit einverstanden, dass NTH Therm GmbH mich zur Bearbeitung meiner Anfrage kontaktiert.{{ else }}I agree that NTH Therm GmbH may contact me to process my enquiry.{{ end }}
+          </label>
+        </div>
       </div>
       <button type="submit" class="btn btn--primary sq-submit" style="width:100%;justify-content:center;">
         {{ if eq $lang "de" }}Anfrage absenden{{ else }}Submit Enquiry{{ end }}
@@ -57,14 +65,14 @@
         {{ if eq $lang "de" }}Abbrechen{{ else }}Cancel{{ end }}
       </button>
       <div class="sq-success" hidden style="margin-top:.75rem;padding:.65rem;background:#e8f5e9;border-left:3px solid #4caf50;border-radius:4px;font-size:.85rem;">
-        {{ if eq $lang "de" }}✓ Danke! Wir melden uns innerhalb von 48 Std.{{ else }}✓ Thank you! We'll reply within 48 hrs.{{ end }}
+        {{ if eq $lang "de" }}✓ Danke! Wir melden uns innerhalb von 24 Stunden bei Ihnen.{{ else }}✓ Thank you! We'll reply within 24 hours.{{ end }}
       </div>
       <div class="sq-error" hidden style="margin-top:.75rem;padding:.65rem;background:#fce4ec;border-left:3px solid var(--col-red);border-radius:4px;font-size:.85rem;">
-        {{ if eq $lang "de" }}⚠ Fehler – bitte schreiben: info@nth-therm.com{{ else }}⚠ Error – write to: info@nth-therm.com{{ end }}
+        {{ if eq $lang "de" }}⚠ Fehler. Bitte schreiben Sie uns: info@nth-therm.com{{ else }}⚠ Error. Please write to: info@nth-therm.com{{ end }}
       </div>
     </form>
     <p style="margin-top:.6rem;font-size:.8rem;color:var(--col-mid);">
-      {{ if eq $lang "de" }}Persönliche Beratung · Antwort in 48 Std.{{ else }}Personal consultation · Reply within 48 hrs.{{ end }}
+      {{ if eq $lang "de" }}Persönliche Beratung · 24/7 Erreichbarkeit{{ else }}Personal Consultation · 24/7 Available.{{ end }}
     </p>
   </div>
 

@@ -14,6 +14,8 @@ products:
     url: "/industrieoefen/laboroefen-ibf/"
   - name: "Pyrolyseöfen"
     url: "/pyrolyseoefen/"
+  - name: "Klimaprüfkammern (ACS)"
+    url: "/umweltsimulation/"
 applications:
   - name: "Sintern"
     url: "/anwendungen/sintern/"
@@ -36,7 +38,7 @@ cta:
 related_services:
   - name: "Inbetriebnahme"
     url: "/services/inbetriebnahme/"
-  - name: "Fernwartung & Ersatzteile"
+  - name: "Remote-Unterstützung & Ersatzteile"
     url: "/services/fernwartung-ersatzteile/"
 ---
 

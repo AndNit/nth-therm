@@ -2,7 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: static/images
+# Uploads land in assets/ so Hugo can generate responsive WebP variants;
+# public_folder keeps the served URL as /images/*. Logos remain in static/images.
+media_folder: assets/images
 public_folder: /images
 
 locale: de

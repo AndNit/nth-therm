@@ -21,6 +21,13 @@ related_industries:
     url: "/branchen/elektronik-emobilitaet/"
   - name: "Automobilindustrie"
     url: "/branchen/automotive/"
+related_products:
+  - name: "Trocknungssysteme (Drymatic)"
+    url: "/trocknungssysteme/"
+  - name: "Kammerofen ICO (Umluft)"
+    url: "/industrieoefen/kammeroefen-ico/"
+  - name: "Durchlaufofen"
+    url: "/industrieoefen/durchlaufoefen/"
 ---
 
 ## Trocknen – Feuchtigkeitsentzug mit Präzision für Beschichtung, Keramik und Verbundwerkstoffe

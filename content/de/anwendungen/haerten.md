@@ -23,6 +23,13 @@ related_industries:
     url: "/branchen/werkzeug-maschinenbau/"
   - name: "Luft- und Raumfahrt"
     url: "/branchen/luft-und-raumfahrt/"
+related_products:
+  - name: "Abschreckofen"
+    url: "/industrieoefen/abschreckoefen/"
+  - name: "Karburierungsofen"
+    url: "/industrieoefen/karburierungsoefen/"
+  - name: "Kammerofen ICF (bis 1300 °C)"
+    url: "/industrieoefen/kammeroefen-icf/"
 ---
 
 ## Härten – Maximale Oberflächenhärte durch gezieltes Austenitisieren und Abschrecken

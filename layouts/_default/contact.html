@@ -5,7 +5,7 @@
   <div class="container">
     <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
     <p style="color:rgba(255,255,255,.7);margin-top:.75em;font-size:1.05rem;">
-      {{ if eq $lang "de" }}Sprechen Sie uns direkt an – persönlich, unkompliziert, verbindlich.{{ else }}Get in touch directly – personal, straightforward, committed.{{ end }}
+      {{ if eq $lang "de" }}Sprechen Sie uns direkt an. Persönlich, unkompliziert, verbindlich.{{ else }}Get in touch directly. Personal, straightforward, committed.{{ end }}
     </p>
   </div>
 </div>
@@ -55,7 +55,7 @@
       <div class="contact-form-section">
         <div class="contact-form-section__header">
           <h2>{{ if eq $lang "de" }}Anfrage stellen{{ else }}Submit an Enquiry{{ end }}</h2>
-          <p>{{ if eq $lang "de" }}Beschreiben Sie kurz Ihr Projekt oder Ihre Anforderungen – wir melden uns innerhalb von 24 Stunden mit einem konkreten Vorschlag.{{ else }}Briefly describe your project or requirements – we will respond within 24 hours with a concrete proposal.{{ end }}</p>
+          <p>{{ if eq $lang "de" }}Teilen Sie uns Ihr Anliegen mit. Wir freuen uns auf Ihre Nachricht.{{ else }}Tell us what's on your mind. We look forward to hearing from you.{{ end }}</p>
         </div>
         {{ partial "contact-form.html" . }}
       </div>

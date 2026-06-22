@@ -1,0 +1,27 @@
+{{- /* Machine-readable content index — RAG/GEO ingestion + WebSite SearchAction target.
+       One entry per regular page in the current language. */ -}}
+{{- $pages := slice -}}
+{{- range (where .Site.RegularPages "Kind" "page") -}}
+  {{- $entry := dict
+      "title"       (.Title | replaceRE `\s*\|.*$` "")
+      "url"         .Permalink
+      "description" .Params.description
+      "section"     .Section
+      "type"        (or .Params.schema.type "WebPage")
+      "lang"        .Site.Language.Lang
+  -}}
+  {{- with .Params.specs }}{{ $entry = merge $entry (dict "specs" .) }}{{ end -}}
+  {{- with .Params.applications }}{{ $entry = merge $entry (dict "applications" .) }}{{ end -}}
+  {{- with .Params.faqs }}{{ $entry = merge $entry (dict "faqs" .) }}{{ end -}}
+  {{- $pages = $pages | append $entry -}}
+{{- end -}}
+{{- $out := dict
+    "site"        .Site.Title
+    "language"    .Site.Language.Lang
+    "url"         .Site.BaseURL
+    "description" .Site.Params.description
+    "generated"   (now.Format "2006-01-02")
+    "count"       (len $pages)
+    "pages"       $pages
+-}}
+{{- $out | jsonify (dict "indent" "  ") -}}

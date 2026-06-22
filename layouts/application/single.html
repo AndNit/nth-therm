@@ -32,13 +32,20 @@
         {{ end }}
       </div>
       <aside class="sidebar">
-        {{ if $p.cta }}
+        {{ partial "sidebar-quote-form.html" . }}
+
+        {{/* Furnaces/systems suited for this process */}}
+        {{ if $p.related_products }}
         <div class="sidebar-card">
-          <h3>{{ $p.cta.headline }}</h3>
-          {{ with $p.cta.text }}<p>{{ . }}</p>{{ end }}
-          <a href="{{ $p.cta.url | relURL }}" class="btn btn--primary">{{ $p.cta.button }}</a>
+          <h3>{{ if eq $lang "de" }}Passende Ofentypen{{ else }}Suitable Furnace Types{{ end }}</h3>
+          <ul style="font-size:.9rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.45em;">
+            {{ range $p.related_products }}
+            <li><a href="{{ .url | relURL }}" style="color:var(--col-red);">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
         </div>
         {{ end }}
+
         <div class="sidebar-card">
           <h3>{{ if eq $lang "de" }}Schnell erreichbar{{ else }}Quick Contact{{ end }}</h3>
           <a href="tel:+4972729310989" class="btn btn--outline btn--sm" style="width:100%;justify-content:center;margin-bottom:.5em;">+49 7272 9310989</a>

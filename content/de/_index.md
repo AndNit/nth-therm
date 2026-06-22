@@ -7,7 +7,7 @@ translationKey: "home"
 schema:
   type: "Organization"
 hero:
-  headline: "Industrieöfen. Exakt auf Ihre Produkte angepaßt"
+  headline: "Industrieöfen. Exakt für Ihre Produktion angepasst"
   subline: "NTH Therm entwickelt und baut maßgefertigte Industrieöfen bis 1300 °C, integriert in Ihre Fertigung. German Engineering mit persönlichem Service."
   cta_primary: "Jetzt Beratung vereinbaren"
   cta_secondary: "Produkte entdecken"
@@ -21,8 +21,8 @@ usps:
     title: "Erprobte Qualität"
     text: "Leichte Bedienbarkeit, hohe Betriebssicherheit durch intelligente Automatisierung und energieeffizienter Betrieb. Serie für Serie."
   - icon: "service"
-    title: "Ausgezeichneter Service"
-    text: "Von der Planung bis zur Übergabe und darüber hinaus: Persönliche Ansprechpartner, Schulungen und schnelle Wartungsreaktionszeiten."
+    title: "Persönlicher Ansprechpartner"
+    text: "Von der Planung bis zur Übergabe und darüber hinaus: persönliche Betreuung, Wartung, Schulung und schnelle Reaktionszeiten."
 steps:
   - number: "01"
     title: "Anforderungen klären"
@@ -69,15 +69,13 @@ products_teaser:
     teaser: "Vollautomatisch, hoher Durchsatz, für Serien- und Massenfertigung."
 faqs:
   - q: "Was kostet ein Industrieofen von NTH Therm?"
-    a: "Da jede Anlage individuell gefertigt wird, variieren die Kosten je nach Größe, Temperaturbereich, Automatisierungsgrad und Zubehör. Fordern Sie jetzt Ihr individuelles Angebot an. Wir antworten in der Regel innerhalb von 48 Stunden."
+    a: "Da jede Anlage individuell gefertigt wird, variieren die Kosten je nach Größe, Temperaturbereich, Automatisierungsgrad und Zubehör. Fordern Sie jetzt Ihr individuelles Angebot an. Wir melden uns zeitnah bei Ihnen."
   - q: "Wie lange dauert die Lieferzeit?"
     a: "Die Lieferzeit hängt von Komplexität und Umfang ab. Standardanlagen liefern wir typischerweise in 10–16 Wochen, Sonderanlagen nach Absprache. Bereits bei der Angebotserstellung nennen wir Ihnen einen verbindlichen Termin."
   - q: "Bieten Sie auch Wartung und Reparatur an?"
-    a: "Ja. Wir bieten umfassende Serviceleistungen: regelmäßige Wartung, DGUV-3-Prüfungen, Ersatzteilbevorratung, SPS-Fernwartung, Personalschulungen und Modernisierung älterer Anlagen."
+    a: "Ja. Wir bieten umfassende Serviceleistungen: regelmäßige Wartung, DGUV-3-Prüfungen, Ersatzteilbevorratung, Remote-Unterstützung, Personalschulungen und Modernisierung älterer Anlagen."
   - q: "In welchen Temperaturbereichen fertigen Sie Industrieöfen?"
     a: "Unsere Industrieöfen decken Temperaturbereiche von 50 °C bis 1300 °C ab. Je nach Anwendung (Anlassen, Härten, Karburieren, Sintern etc.) empfehlen wir den geeigneten Ofentyp."
-  - q: "Können auch fremde Anlagen gewartet werden?"
-    a: "Ja. Unser Service-Team inspiziert und wartet auch Industrieöfen anderer Hersteller."
 partners:
   - name: "Angelantoni Test Technologies (ATT/ACS)"
     description: "Weltmarktführer für Klimaprüfkammern seit 1952"

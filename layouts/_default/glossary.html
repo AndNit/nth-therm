@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $lang := .Site.Language.Lang }}
+
+{{/* ── PAGE HERO ────────────────────────────────────────── */}}
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ .Site.Home.RelPermalink }}">{{ if eq $lang "de" }}Startseite{{ else }}Home{{ end }}</a>
+      <span class="breadcrumb__sep" aria-hidden="true">›</span>
+      <span aria-current="page">{{ .Title | replaceRE `\s*\|.*$` "" }}</span>
+    </nav>
+    <div class="page-hero__inner">
+      <div class="page-hero__text">
+        <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Glossar{{ else }}Glossary{{ end }}</p>
+        <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
+        {{ with $p.intro }}<p class="page-hero__lead">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* ── GLOSSARY TERMS ───────────────────────────────────── */}}
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      {{ .Content }}
+
+      {{/* Quick jump index */}}
+      {{ with $p.glossary }}
+      <nav class="glossary-index" aria-label="{{ if eq $lang "de" }}Begriffe{{ else }}Terms{{ end }}">
+        {{ range . }}<a href="#{{ .term | anchorize }}">{{ .term }}</a>{{ end }}
+      </nav>
+
+      <dl class="glossary-list">
+        {{ range . }}
+        <div class="glossary-list__item" id="{{ .term | anchorize }}">
+          <dt>{{ .term }}</dt>
+          <dd>{{ .definition }}</dd>
+        </div>
+        {{ end }}
+      </dl>
+      {{ end }}
+
+      {{/* FAQs */}}
+      {{ with $p.faqs }}
+      <h2>{{ if eq $lang "de" }}Häufige Fragen{{ else }}Frequently Asked Questions{{ end }}</h2>
+      <div class="faq-list">
+        {{ range . }}
+        <details class="faq-item">
+          <summary>{{ .q }}</summary>
+          <div class="faq-item__answer"><p>{{ .a }}</p></div>
+        </details>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    {{/* CTA */}}
+    {{ with $p.cta }}
+    <div class="cta-banner" style="margin-top:3rem;">
+      <div>
+        <h2>{{ .headline }}</h2>
+        {{ with .text }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <a href="{{ .url | relURL }}" class="btn btn--secondary btn--lg">{{ .button }}</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

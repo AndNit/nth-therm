@@ -47,6 +47,8 @@ related_products:
     url: "/en/industrial-furnaces/chamber-furnaces-icf/"
   - name: "Multi-Door Furnace IRF"
     url: "/en/industrial-furnaces/multi-door-furnace-irf/"
+  - name: "Climatic Chambers (ACS)"
+    url: "/en/climatic-chambers/"
 ---
 
 ## Table-Top Furnace IBF – Compact Bench Solution for Lab and Small Batches

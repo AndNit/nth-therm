@@ -33,7 +33,7 @@ faqs:
     a: "Durch die forcierte Luftumwälzung erreichen wir eine Temperaturgleichmäßigkeit von < ±5 °C innerhalb der nutzbaren Kammer."
 cta:
   headline: "Herdwagenofen IWO anfragen"
-  text: "Teilen Sie uns Ihre Anforderungen mit, und wir erstellen Ihnen innerhalb von 48 Stunden ein individuelles Angebot."
+  text: "Teilen Sie uns Ihre Anforderungen mit, und wir erstellen Ihnen schnell ein individuelles Angebot."
   button: "Jetzt Angebot anfordern"
   url: "/kontakt/?produkt=herdwagenofen-iwo"
 related_applications:

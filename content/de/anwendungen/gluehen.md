@@ -23,6 +23,13 @@ related_industries:
     url: "/branchen/luft-und-raumfahrt/"
   - name: "Energie & neue Materialien"
     url: "/branchen/energie-neue-materialien/"
+related_products:
+  - name: "Kammerofen ICF (bis 1300 °C)"
+    url: "/industrieoefen/kammeroefen-icf/"
+  - name: "Haubenofen"
+    url: "/industrieoefen/haubenoefen/"
+  - name: "Herdwagenofen IWO"
+    url: "/industrieoefen/herdwagenoefen-iwo/"
 ---
 
 ## Glühen – Gefügeverbesserung und Eigenspannungsabbau für bessere Verarbeitbarkeit

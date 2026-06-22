@@ -310,7 +310,7 @@ strong { font-weight: 600; }
 
 /* ── Steps / Process ────────────────────────────────────── */
 .steps-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: grid; grid-template-columns: repeat(3, 1fr);
   gap: var(--space-md); counter-reset: none;
 }
 .step-card { position: relative; padding: var(--space-md); }
@@ -683,6 +683,7 @@ strong { font-weight: 600; }
   .contact-card__map iframe { flex: none; height: 240px; }
   .contact-card__info { padding: 1.25rem 1.5rem; }
   .contact-form-section { padding: 1.25rem 1.5rem; }
+  .steps-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 480px) {
@@ -690,6 +691,10 @@ strong { font-weight: 600; }
   .steps-grid { grid-template-columns: 1fr; }
   .step-card + .step-card::before { display: none; }
   .usp-grid { grid-template-columns: 1fr; }
+  .cinfo-field-pair { grid-template-columns: 1fr; }
+  .cinfo-row input,
+  .cinfo-row select,
+  .cinfo-row textarea { padding: .85em 1em; font-size: 1rem; }
 }
 
 /* ── Contact Page ───────────────────────────────────────── */
@@ -823,7 +828,7 @@ strong { font-weight: 600; }
   flex-direction: column;
 }
 .contact-form-section__header {
-  margin-bottom: var(--space-lg);
+  margin-bottom: .75rem;
 }
 .contact-form-section__header h2 {
   font-family: var(--font-display);
@@ -836,6 +841,22 @@ strong { font-weight: 600; }
 }
 .contact-form-section__header p { color: var(--col-mid); font-size: .9rem; }
 .contact-form-section .contact-form { max-width: none; }
+
+/* Form rows: single-column grid so label (row 1) sits above input (row 2) */
+.contact-form-section .cinfo-row,
+.project-form-section .cinfo-row {
+  grid-template-columns: 1fr;
+  gap: .45rem;
+  padding: .7rem 0;
+}
+
+/* Form labels: larger and darker than the info-panel variant for legibility */
+.contact-form-section .cinfo-row__label,
+.project-form-section .cinfo-row__label {
+  font-size: .75rem;
+  color: var(--col-slate);
+  margin-bottom: 0;
+}
 
 /* Inputs/textareas inside cinfo-row (contact & project-form sections) */
 .cinfo-row input,
@@ -850,20 +871,61 @@ strong { font-weight: 600; }
   color: var(--col-graphite);
   font-size: .95rem;
   transition: border-color var(--transition);
-  margin-top: .35rem;
+  box-sizing: border-box;
 }
 .cinfo-row input:focus,
 .cinfo-row select:focus,
-.cinfo-row textarea:focus { border-color: var(--col-red); outline: none; }
+.cinfo-row textarea:focus { border-color: var(--col-red); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--col-red) 12%, transparent); }
 .cinfo-row textarea { min-height: 120px; resize: vertical; }
 .cinfo-row input.is-invalid,
+.cinfo-row select.is-invalid,
 .cinfo-row textarea.is-invalid { border-color: var(--col-red); }
+
+/* Side-by-side field pairs (name, date+time) */
 .cinfo-field-pair { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.cinfo-field-pair input,
+.cinfo-field-pair select { margin-top: 0; }
 
 /* ── Print ──────────────────────────────────────────────── */
 @media print {
   .site-header, .cookie-banner, .site-footer { display: none; }
 }
+
+/* ── Glossary ───────────────────────────────────────────── */
+.glossary-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.glossary-index a {
+  font-size: .85rem;
+  padding: .25em .7em;
+  border: 1px solid var(--col-border, #ddd);
+  border-radius: 999px;
+  color: var(--col-graphite, #2c2c2c);
+  text-decoration: none;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.glossary-index a:hover {
+  background: var(--col-red, #e63012);
+  border-color: var(--col-red, #e63012);
+  color: #fff;
+}
+.glossary-list { margin: 0; }
+.glossary-list__item {
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--col-border, #eee);
+  scroll-margin-top: 6rem;
+}
+.glossary-list__item dt {
+  font-family: var(--font-head, inherit);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--col-graphite, #1a1a1a);
+  margin-bottom: .35rem;
+}
+.glossary-list__item dd { margin: 0; line-height: 1.6; }
 
 /* ── Tailwind utilities ─────────────────────────────────── */
 /* Preflight (reset) is disabled above — only utility classes are emitted. */

@@ -7,45 +7,63 @@
   <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
   <div class="cinfo-row">
-    <svg class="cinfo-row__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-    <div>
-      <strong class="cinfo-row__label">{{ if eq $lang "de" }}Name *{{ else }}Name *{{ end }}</strong>
-      <div class="cinfo-field-pair">
-        <input type="text" id="f-firstname" name="firstname" required placeholder="{{ if eq $lang "de" }}Vorname{{ else }}First name{{ end }}">
-        <input type="text" id="f-lastname" name="lastname" required placeholder="{{ if eq $lang "de" }}Nachname{{ else }}Last name{{ end }}">
-      </div>
+    <strong class="cinfo-row__label">{{ if eq $lang "de" }}Name *{{ else }}Name *{{ end }}</strong>
+    <div class="cinfo-field-pair">
+      <input type="text" id="f-firstname" name="firstname" required placeholder="{{ if eq $lang "de" }}Vorname{{ else }}First name{{ end }}">
+      <input type="text" id="f-lastname" name="lastname" required placeholder="{{ if eq $lang "de" }}Nachname{{ else }}Last name{{ end }}">
     </div>
   </div>
 
   <div class="cinfo-row">
-    <svg class="cinfo-row__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-    <div>
-      <strong class="cinfo-row__label">{{ if eq $lang "de" }}E-Mail *{{ else }}Email *{{ end }}</strong>
-      <input type="email" id="f-email" name="email" required placeholder="name@firma.de">
-    </div>
+    <strong class="cinfo-row__label">{{ if eq $lang "de" }}E-Mail *{{ else }}Email *{{ end }}</strong>
+    <input type="email" id="f-email" name="email" required placeholder="name@firma.de">
   </div>
 
   <div class="cinfo-row">
-    <svg class="cinfo-row__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-    <div>
-      <strong class="cinfo-row__label">{{ if eq $lang "de" }}Unternehmen{{ else }}Company{{ end }}</strong>
-      <input type="text" id="f-company" name="company" placeholder="{{ if eq $lang "de" }}Muster GmbH{{ else }}Acme Ltd{{ end }}">
-    </div>
+    <strong class="cinfo-row__label">{{ if eq $lang "de" }}Telefon{{ else }}Phone{{ end }}</strong>
+    <input type="tel" id="f-phone" name="phone" placeholder="+49 ...">
   </div>
 
   <div class="cinfo-row">
-    <svg class="cinfo-row__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.44 2 2 0 0 1 3.55 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.51a16 16 0 0 0 6.29 6.29l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-    <div>
-      <strong class="cinfo-row__label">{{ if eq $lang "de" }}Telefon{{ else }}Phone{{ end }}</strong>
-      <input type="tel" id="f-phone" name="phone" placeholder="+49 ...">
-    </div>
+    <strong class="cinfo-row__label">{{ if eq $lang "de" }}Thema der Anfrage *{{ else }}Subject *{{ end }}</strong>
+    <select id="f-subject" name="subject" required>
+      <option value="" disabled selected>{{ if eq $lang "de" }}Bitte wählen…{{ else }}Please select…{{ end }}</option>
+      {{ if eq $lang "de" }}
+      <option value="Neubau Industrieofen">Neubau Industrieofen</option>
+      <option value="Ersatzteilanfrage">Ersatzteilanfrage</option>
+      <option value="Wartung &amp; Service">Wartung &amp; Service</option>
+      <option value="Modernisierung">Modernisierung</option>
+      <option value="Remote-Unterstützung">Remote-Unterstützung</option>
+      <option value="Terminanfrage">Terminanfrage / Erstgespräch</option>
+      <option value="Sonstiges">Sonstiges</option>
+      {{ else }}
+      <option value="New Industrial Furnace">New Industrial Furnace</option>
+      <option value="Spare Parts Request">Spare Parts Request</option>
+      <option value="Maintenance &amp; Service">Maintenance &amp; Service</option>
+      <option value="Modernisation">Modernisation</option>
+      <option value="Remote Support">Remote Support</option>
+      <option value="Appointment Request">Appointment / Initial Consultation</option>
+      <option value="Other">Other</option>
+      {{ end }}
+    </select>
   </div>
 
   <div class="cinfo-row">
-    <svg class="cinfo-row__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-    <div>
-      <strong class="cinfo-row__label">{{ if eq $lang "de" }}Ihre Nachricht *{{ else }}Your Message *{{ end }}</strong>
-      <textarea id="f-message" name="message" required placeholder="{{ if eq $lang "de" }}Beschreiben Sie kurz Ihre Anforderungen: Ofentyp, Temperatur, Chargengröße, Lieferwunsch...{{ else }}Please describe your requirements briefly: furnace type, temperature, batch size, delivery...{{ end }}"></textarea>
+    <strong class="cinfo-row__label">{{ if eq $lang "de" }}Wunschtermin &amp; Rückrufzeit{{ else }}Preferred Date &amp; Callback Time{{ end }}</strong>
+    <div class="cinfo-field-pair">
+      <input type="date" id="f-date" name="preferred_date" min="{{ now.Format "2006-01-02" }}">
+      <select id="f-calltime" name="preferred_calltime">
+        <option value="" selected>{{ if eq $lang "de" }}Uhrzeit (optional){{ else }}Time (optional){{ end }}</option>
+        {{ if eq $lang "de" }}
+        <option value="Morgens 8–11 Uhr">Morgens (8–11 Uhr)</option>
+        <option value="Mittags 11–14 Uhr">Mittags (11–14 Uhr)</option>
+        <option value="Nachmittags 14–17 Uhr">Nachmittags (14–17 Uhr)</option>
+        {{ else }}
+        <option value="Morning 8–11 am">Morning (8–11 am)</option>
+        <option value="Midday 11 am–2 pm">Midday (11 am–2 pm)</option>
+        <option value="Afternoon 2–5 pm">Afternoon (2–5 pm)</option>
+        {{ end }}
+      </select>
     </div>
   </div>
 

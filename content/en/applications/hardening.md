@@ -23,6 +23,13 @@ related_industries:
     url: "/en/industries/tool-mechanical-engineering/"
   - name: "Aerospace"
     url: "/en/industries/aerospace/"
+related_products:
+  - name: "Quenching Furnaces"
+    url: "/en/industrial-furnaces/quenching-furnaces/"
+  - name: "Carburizing Furnaces"
+    url: "/en/industrial-furnaces/carburizing-furnaces/"
+  - name: "Chamber Furnaces ICF (to 1300 °C)"
+    url: "/en/industrial-furnaces/chamber-furnaces-icf/"
 ---
 
 ## Hardening – Maximum Surface Hardness through Austenitising and Quenching

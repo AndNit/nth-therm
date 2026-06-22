@@ -21,6 +21,11 @@ related_industries:
     url: "/branchen/automotive/"
   - name: "Werkzeug- & Maschinenbau"
     url: "/branchen/werkzeug-maschinenbau/"
+related_products:
+  - name: "Karburierungsofen"
+    url: "/industrieoefen/karburierungsoefen/"
+  - name: "Abschreckofen"
+    url: "/industrieoefen/abschreckoefen/"
 ---
 
 ## Karburieren – Randschichthärtung für maximale Verschleißfestigkeit bei zähem Kern

@@ -16,10 +16,6 @@ faqs:
     a: "Ja. Ein einfacher Kammerofen kann durch eine Atmosphärensteuerung mit N₂/H₂-Zufuhr und Sauerstoffsonde zu einem Schutzgasglühofen erweitert werden. Ein bestehender Härteofen kann durch Integration eines C-Potenzialreglers für die Karburierung ertüchtigt werden. Wir prüfen das Modernisierungspotenzial Ihrer Anlage im Rahmen unserer Erstanalyse."
   - q: "Wie lange dauert ein Modernisierungsprojekt?"
     a: "Einfache Steuerungsmodernisierungen (neue SPS + HMI) dauern typischerweise 4–8 Wochen. Umfassendere Projekte mit Isolierungserneuerung, neuem Heizungssystem und Integration neuer Funktionen (Atmosphäre, mehrstufige Zonierung) können 12–20 Wochen in Anspruch nehmen, abhängig von Auftragsvolumen und Materialverfügbarkeit."
-  - q: "Modernisieren Sie auch Öfen anderer Hersteller?"
-    a: "Ja, wir sind markenunabhängig. Wir haben Öfen von Nabertherm, Linn, Thermconcept, Heraeus, Carbolite und diversen internationalen Herstellern modernisiert. Voraussetzung: Vorlage der technischen Unterlagen oder kostenpflichtige Aufnahme des Ist-Zustands."
-  - q: "Was passiert mit der DGUV-3-Konformität nach der Modernisierung?"
-    a: "Nach jeder Modernisierung führen wir eine vollständige DGUV-3-Prüfung nach DIN VDE 0100-600 durch und stellen ein neues Prüfprotokoll aus. Die Anlage ist danach vollständig normenkonform, inkl. CE-Dokumentation bei wesentlichen Änderungen."
 cta:
   headline: "Modernisierungspotenzial prüfen lassen"
   text: "Schicken Sie uns die technischen Daten Ihrer Anlage, und wir prüfen, welches Potenzial eine Modernisierung bietet."
@@ -42,7 +38,7 @@ NTH Therm modernisiert Industrieöfen **aller Hersteller und Typen** auf aktuell
 
 | Signal | Was es bedeutet |
 |--------|-----------------|
-| Veraltete SPS (S5, ältere S7-300) | Ersatzteilversorgung endet; Sicherheitsrisiko; kein Fernwartungszugang |
+| Veraltete SPS (S5, ältere S7-300) | Ersatzteilversorgung endet; Sicherheitsrisiko; kein Remote-Unterstützungszugang |
 | Kein Touch-HMI / kein Datalogging | Fehlende Nachweisbarkeit für ISO / IATF / CQI-9 Audits |
 | Hoher Energieverbrauch | Veraltete Regelungsstrategie, schlechte Isolierung, Überhitzung |
 | Sicherheitstechnik veraltet | Nicht EN ISO 13849-konform; DGUV-3 nicht bestanden |
@@ -56,7 +52,7 @@ NTH Therm modernisiert Industrieöfen **aller Hersteller und Typen** auf aktuell
 - Touch-HMI mit intuitivem Benutzerinterface (Siemens, Weintek oder gleichwertig)
 - Rezeptverwaltung mit unbegrenzten Programmpositionen
 - Datenaufzeichnung und -export (USB, Netzwerk, Cloud-fähig)
-- Fernwartungszugang via gesichertem VPN
+- Remote-Unterstützungszugang via gesichertem VPN
 - Optional: OEE-Integration (Evocon oder gleichwertig) für Anlagenverfügbarkeits-Tracking
 
 **Sicherheitstechnik:**
@@ -88,7 +84,7 @@ NTH Therm modernisiert Industrieöfen **aller Hersteller und Typen** auf aktuell
 - **Audit-Konformität** für ISO 9001, IATF 16949, CQI-9, AMS2750, NADCAP
 - **Neue Prozessfähigkeiten** ohne Neukauf (z. B. Schutzgasfähigkeit nachrüsten)
 - **Weniger Störungen** durch neue Komponenten im Verschleißbereich
-- **Remote-Diagnose** durch integrierten Fernwartungszugang
+- **Remote-Diagnose** durch integrierten Remote-Unterstützungszugang
 
 ### Prozesserweiternde Modernisierungen
 

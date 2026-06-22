@@ -12,6 +12,8 @@ products:
     url: "/industrieoefen/laboroefen-ibf/"
   - name: "Trocknungssysteme (Drymatic)"
     url: "/trocknungssysteme/"
+  - name: "Pyrolyseöfen"
+    url: "/pyrolyseoefen/"
 applications:
   - name: "Trocknen"
     url: "/anwendungen/trocknen/"
@@ -32,7 +34,7 @@ cta:
 related_services:
   - name: "Inbetriebnahme"
     url: "/services/inbetriebnahme/"
-  - name: "Fernwartung & Ersatzteile"
+  - name: "Remote-Unterstützung & Ersatzteile"
     url: "/services/fernwartung-ersatzteile/"
 ---
 

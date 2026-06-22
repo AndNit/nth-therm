@@ -16,6 +16,8 @@ products:
     url: "/en/industrial-furnaces/chamber-furnaces-icf/"
   - name: "Climatic Chambers (ACS)"
     url: "/en/climatic-chambers/"
+  - name: "Pyrolysis Furnaces"
+    url: "/en/pyrolysis-furnaces/"
 applications:
   - name: "Sintering"
     url: "/en/applications/sintering/"
