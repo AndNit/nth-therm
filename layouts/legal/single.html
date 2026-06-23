@@ -1,10 +1,23 @@
 {{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+
+<div class="page-hero page-hero--compact">
+  <div class="container">
+    <p class="page-hero__eyebrow">{{ if eq $lang "de" }}Rechtliches{{ else }}Legal{{ end }}</p>
+    <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
+  </div>
+</div>
+
 <section class="section">
   <div class="container">
-    <div class="prose" style="max-width:760px;">
-      <h1>{{ .Title | replaceRE `\s*\|.*$` "" }}</h1>
-      {{ .Content }}
+    <div class="legal-layout">
+      <div class="legal-toc">
+        <p class="legal-toc__title">{{ if eq $lang "de" }}Inhalt{{ else }}Contents{{ end }}</p>
+        {{ .TableOfContents }}
+      </div>
+      <div class="prose">{{ .Content }}</div>
     </div>
   </div>
 </section>
+
 {{ end }}

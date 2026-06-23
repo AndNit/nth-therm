@@ -6,8 +6,6 @@ layout: "legal"
 noindex: true
 ---
 
-## Impressum
-
 **NTH Therm GmbH**
 Lerchenweg 11
 76761 Rülzheim

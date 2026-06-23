@@ -6,8 +6,6 @@ layout: "legal"
 noindex: true
 ---
 
-## General Terms and Conditions of NTH Therm GmbH
-
 Applicable to business transactions with companies, legal entities under public law and special funds under public law
 
 ---

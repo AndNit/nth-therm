@@ -6,8 +6,6 @@ layout: "legal"
 noindex: true
 ---
 
-## Allgemeine Geschäftsbedingungen der NTH Therm GmbH
-
 Anwendbar im Geschäftsverkehr mit Unternehmen, juristischen Personen des öffentlichen Rechts und öffentlich-rechtlichen Sondervermögen
 
 ---

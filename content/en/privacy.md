@@ -6,8 +6,6 @@ layout: "legal"
 noindex: true
 ---
 
-## Privacy Policy
-
 ### Introduction
 
 With the following privacy policy we would like to inform you about the types of your personal data (hereinafter also referred to as "data") we process, for what purposes and to what extent. The privacy policy applies to all personal data processing carried out by us, both in the context of providing our services and in particular on our websites, in mobile applications and within external online presences, such as our social media profiles (hereinafter collectively referred to as the "online offer").
